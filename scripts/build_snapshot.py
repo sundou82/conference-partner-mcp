@@ -40,13 +40,21 @@ TODAY = dt.date.today()
 #: number keeps the job runnable without a secret.
 BUDGET = 200 if os.environ.get("HUIBAN_API_KEY") else 45
 
+# A dataset may issue several queries whose results are merged and de-duplicated by
+# id — the rank catalogues need one query per rank value, because search filters on a
+# single rank at a time. `max_pages` is the cap across all of them.
+#
+# The /rankings/{ccf,core,qualis} endpoints are deliberately NOT used for the
+# catalogues: they list only venues with a call currently open — 68 rows for CCF,
+# when a search for ccf_rank=A alone returns 57. That is a useful list, but it is not
+# "every CCF-ranked venue", so it is published separately as open-calls-by-rank.
 DATASETS = [
     {
         "slug": "upcoming-deadlines",
         "title": "Upcoming submission deadlines",
-        "note": "Conferences whose submission deadline has not passed, soonest first.",
+        "note": "Every conference whose submission deadline has not passed, soonest first.",
         "path": "/api/conferences",
-        "params": {"submission_date_start": TODAY.isoformat()},
+        "queries": [{"submission_date_start": TODAY.isoformat()}],
         "key": "conferences",
         "sort": lambda r: (r.get("submission_date") or "", r.get("short_name") or ""),
         "max_pages": 10,
@@ -54,56 +62,66 @@ DATASETS = [
     {
         "slug": "ccf-conferences",
         "title": "CCF-ranked conferences",
-        "note": "The CCF catalogue as carried on the site, with CORE and QUALIS alongside.",
-        "path": "/api/conferences/rankings/ccf",
-        "params": {},
+        "note": "Every conference carrying a CCF rank, whether or not a call is open. "
+                "CORE and QUALIS ranks are on the same row where the venue has them.",
+        "path": "/api/conferences",
+        "queries": [{"ccf_rank": rank} for rank in ("A", "B", "C")],
         "key": "conferences",
-        "max_pages": 7,
+        "sort": lambda r: (r.get("ccf_rank") or "", r.get("short_name") or ""),
+        "max_pages": 8,
     },
     {
         "slug": "core-conferences",
         "title": "CORE-ranked conferences",
-        "note": "The CORE catalogue as carried on the site.",
-        "path": "/api/conferences/rankings/core",
-        "params": {},
+        "note": "Every conference carrying a CORE rank, whether or not a call is open.",
+        "path": "/api/conferences",
+        "queries": [{"core_rank": rank} for rank in ("A*", "A", "B", "C")],
         "key": "conferences",
-        "max_pages": 7,
+        "sort": lambda r: (r.get("core_rank") or "", r.get("short_name") or ""),
+        "max_pages": 9,
     },
     {
-        "slug": "qualis-conferences",
-        "title": "QUALIS-ranked conferences",
-        "note": "The QUALIS catalogue as carried on the site.",
-        "path": "/api/conferences/rankings/qualis",
-        "params": {},
+        "slug": "open-calls-by-rank",
+        "title": "Ranked conferences with a call open now",
+        "note": "The subset of the catalogues you can still submit to today — CCF, CORE "
+                "and QUALIS lists merged.",
+        "path": "/api/conferences/rankings/ccf",
+        "queries": [{}],
+        "extra_paths": ["/api/conferences/rankings/core",
+                        "/api/conferences/rankings/qualis"],
         "key": "conferences",
-        "max_pages": 7,
+        "sort": lambda r: (r.get("submission_date") or "", r.get("short_name") or ""),
+        "max_pages": 5,
     },
     {
         "slug": "ccf-journals",
         "title": "CCF-ranked journals",
-        "note": "Journals in the CCF catalogue, with impact factor and publisher.",
-        "path": "/api/journals/rankings/ccf",
-        "params": {},
+        "note": "Journals in the CCF catalogue, with impact factor, publisher and ISSN.",
+        "path": "/api/journals",
+        "queries": [{"ccf_rank": rank} for rank in ("A", "B", "C")],
         "key": "journals",
-        "max_pages": 4,
+        "sort": lambda r: (r.get("ccf_rank") or "", r.get("short_name") or ""),
+        "max_pages": 5,
     },
     {
         "slug": "journal-special-issues",
         "title": "Journals with an open special-issue call",
         "note": "Journals currently carrying a special-issue call for papers.",
         "path": "/api/journals/rankings/cfp",
-        "params": {},
+        "queries": [{}],
         "key": "journals",
         "max_pages": 3,
     },
     {
         "slug": "top-impact-factor-journals",
-        "title": "Journals by impact factor",
-        "note": "Highest reported impact factor first. Figures are as published by the "
+        "title": "Top journals by impact factor",
+        "note": "The 300 highest reported impact factors. Figures are as published by the "
                 "journal and may lag the latest JCR.",
         "path": "/api/journals/rankings/highest_if",
-        "params": {},
+        "queries": [{}],
         "key": "journals",
+        # Intentionally the top N rather than the whole table — not a truncation.
+        "capped": True,
         "max_pages": 3,
     },
 ]
@@ -132,24 +150,36 @@ class Budget:
 
 
 def fetch(dataset, budget):
-    """Page through one dataset. Returns (rows, complete)."""
-    rows = []
-    for page in range(1, dataset["max_pages"] + 1):
-        if not budget.spend():
-            return rows, False
+    """Run every query of a dataset, merge by id. Returns (rows, complete).
 
-        data = huiban.get(dataset["path"],
-                          {**dataset["params"], "page": page, "per_page": 100})
-        rows.extend(data[dataset["key"]])
+    complete is False when a page cap or the request budget cut a query short, so
+    the caller can say so rather than presenting a partial list as the whole thing.
+    """
+    key = dataset["key"]
+    paths = [dataset["path"]] + dataset.get("extra_paths", [])
+    by_id, pages_left, complete = {}, dataset["max_pages"], True
 
-        pagination = data["pagination"]
-        if "total_pages" in pagination:
-            if page >= pagination["total_pages"]:
-                return rows, True
-        elif not pagination.get("has_more"):
-            return rows, True
+    for path in paths:
+        for query in dataset["queries"]:
+            page = 1
+            while True:
+                if pages_left <= 0 or not budget.spend():
+                    return list(by_id.values()), False
+                pages_left -= 1
 
-    return rows, False
+                data = huiban.get(path, {**query, "page": page, "per_page": 100})
+                for row in data[key]:
+                    by_id[row["id"]] = row
+
+                pagination = data["pagination"]
+                exhausted = (page >= pagination["total_pages"]
+                             if "total_pages" in pagination
+                             else not pagination.get("has_more"))
+                if exhausted:
+                    break
+                page += 1
+
+    return list(by_id.values()), complete
 
 
 def write_dataset(dataset, rows, generated_at):
@@ -274,8 +304,9 @@ def main():
         results = {}
         for dataset in DATASETS:
             rows, complete = fetch(dataset, budget)
-            if not complete:
-                # Never let a cap pass silently as full coverage.
+            if not complete and not dataset.get("capped"):
+                # Never let an accidental cap pass silently as full coverage.
+                # A dataset declared "capped" is a top-N by design, not a shortfall.
                 budget.truncated.append(dataset["slug"])
                 print(f"  ! {dataset['slug']}: truncated at {len(rows)} rows "
                       f"(page cap {dataset['max_pages']} or request budget)")

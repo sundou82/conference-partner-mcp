@@ -176,7 +176,8 @@ See [`examples/README.md`](examples/README.md).
 | | |
 |---|---|
 | [`upcoming-deadlines`](data/upcoming-deadlines.csv) | every conference whose deadline has not passed |
-| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) · [`qualis-conferences`](data/qualis-conferences.csv) | the three tier catalogues |
+| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) | the tier catalogues — all three ranks are columns on every row |
+| [`open-calls-by-rank`](data/open-calls-by-rank.csv) | the ranked venues you can still submit to today |
 | [`ccf-journals`](data/ccf-journals.csv) · [`top-impact-factor-journals`](data/top-impact-factor-journals.csv) | journals by tier and by impact factor |
 | [`journal-special-issues`](data/journal-special-issues.csv) | journals with an open special-issue call |
 
