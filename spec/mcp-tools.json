@@ -160,7 +160,7 @@
     },
     {
       "name": "list_conferences",
-      "description": "Browse conference lists and rankings (open CFPs, tier lists, popularity, most competitive, etc.), paginated. No keyword filtering — use search_conferences for that.",
+      "description": "Browse conference lists and rankings (open CFPs, ranked venues with a call open now, popularity, most competitive, etc.), paginated. No keyword filtering — use search_conferences for that.",
       "annotations": {
         "readOnlyHint": true
       },
@@ -183,7 +183,7 @@
               "past",
               "trending"
             ],
-            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=tier lists; most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
+            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=venues in that tier whose submission deadline has not passed (for the whole tier catalogue use search_conferences with ccf_rank / core_rank / qualis_rank); most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
           },
           "page": {
             "type": "integer",

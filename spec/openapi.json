@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Conference Partner API",
-    "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology.",
-    "version": "1.6.0",
+    "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
+    "version": "2.0.0",
     "contact": {
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/",
@@ -109,8 +109,8 @@
         "description": "Conference row. Responses never include the external website; use detail_page (the canonical Conference Partner page).",
         "properties": {
           "id": {
-            "type": "string",
-            "example": "1234"
+            "type": "integer",
+            "example": 1234
           },
           "short_name": {
             "type": "string",
@@ -173,8 +173,8 @@
         "description": "Public researcher profile. Contact details (email) are never included. List fields are truncated; the matching *_count field carries the untruncated total.",
         "properties": {
           "id": {
-            "type": "string",
-            "example": "42"
+            "type": "integer",
+            "example": 42
           },
           "name": {
             "type": "string"
@@ -238,7 +238,8 @@
         "description": "Journal row. Responses never include the external website; use detail_page.",
         "properties": {
           "id": {
-            "type": "string"
+            "type": "integer",
+            "example": 379
           },
           "short_name": {
             "type": "string",
@@ -559,7 +560,7 @@
                 "trending"
               ]
             },
-            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=tier lists; most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
+            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=venues in that tier whose submission deadline has not passed (for the whole tier catalogue, search GET /api/conferences with ccf_rank / core_rank / qualis_rank instead); most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
           },
           {
             "name": "page",
@@ -966,7 +967,7 @@
     }
   },
   "externalDocs": {
-    "description": "LLM-oriented site description",
-    "url": "https://www.myhuiban.com/llms.txt"
+    "description": "Companion repository: client examples, MCP client configuration and a daily snapshot of the no-credential datasets",
+    "url": "https://github.com/sundou82/conference-partner-mcp"
   }
 }
