@@ -131,7 +131,8 @@ CONFERENCE_COLUMNS = ["id", "short_name", "full_name", "submission_date",
                       "ccf_rank", "core_rank", "qualis_rank", "is_extended",
                       "acceptance_rate", "years", "clicked", "updated_at", "detail_page"]
 JOURNAL_COLUMNS = ["id", "short_name", "full_name", "impact_factor", "publisher",
-                   "issn", "ccf_rank", "clicked", "updated_at", "detail_page"]
+                   "issn", "ccf_rank", "special_issue", "clicked", "updated_at",
+                   "detail_page"]
 
 
 class Budget:
