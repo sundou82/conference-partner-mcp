@@ -106,7 +106,7 @@ factor and publisher distributions.
 
 ```json
 {
-  "id": "411",
+  "id": 411,
   "short_name": "ACL",
   "full_name": "Annual Meeting of the Association for Computational Linguistics",
   "submission_date": null,
@@ -124,8 +124,11 @@ factor and publisher distributions.
 
 Notes that bite if you assume otherwise:
 
-- `id` is a **string** in list rows.
+- `id` is an **integer**, and matches the `id` the detail endpoints and MCP detail
+  tools expect — the output of a search feeds straight into a lookup.
 - Date fields are `null` when unannounced, and `""` is used for an absent rank.
+- `impact_factor` is `null` when a journal has none on record — that is "unknown",
+  not "zero". Do not coerce it to 0 before sorting or filtering.
 - `is_extended` marks a deadline that has been pushed back at least once.
 - Responses link to `detail_page` — the canonical Conference Partner page — and not to the
   venue's own website. Attribution therefore always resolves to a page that shows where

@@ -61,8 +61,9 @@ each in an anonymous and a with-key variant. Walkthrough:
 
 - **Search and ranking lists paginate differently.** Search returns `total_pages`;
   ranking lists return `has_more` and no total. The clients here handle both.
-- **`id` is a string** in list rows.
-- Absent dates are `null`; absent ranks are `""`.
+- **`id` is an integer**, in list rows and detail alike.
+- Absent dates are `null`; absent ranks are `""`; an unrecorded `impact_factor` is
+  `null` (unknown), never `0`.
 - **Send a real `User-Agent`.** The stock `Python-urllib/3.x` is turned away at the edge.
 - Errors are JSON, and the `message` on a 401 / 402 / 429 says what to do next — surface
   it rather than swallowing it.
