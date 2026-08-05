@@ -121,6 +121,18 @@ queries such as "AI conferences with a deadline in the next 90 days" are the poi
 Ranking lists cover open CFPs, the three tier lists, popularity, lowest acceptance rate,
 trending, upcoming/past — and for journals, special-issue CFPs and highest impact factor.
 
+### Prompts
+
+The MCP server also ships **prompts** — ready-made tasks your client offers as one-click
+starting points, so you are not left staring at a list of tool names:
+
+| Prompt | What it does |
+|---|---|
+| `upcoming_deadlines` | deadlines you can still submit to, by field and tier |
+| `where_to_submit` | give it a paper topic, get ranked venues whose calls are open |
+| `venue_snapshot` | everything on record for one conference or journal |
+| `open_special_issues` | journals currently running a special-issue call |
+
 Full machine-readable definitions, refreshed from production by CI:
 [`spec/openapi.json`](spec/openapi.json) and [`spec/mcp-tools.json`](spec/mcp-tools.json).
 
