@@ -38,7 +38,7 @@ TODAY = dt.date.today()
 #: Total request budget. The anonymous tier allows 50/day per IP; with
 #: HUIBAN_API_KEY set the account tier allows 200. Staying under the smaller
 #: number keeps the job runnable without a secret.
-BUDGET = 200 if os.environ.get("HUIBAN_API_KEY") else 45
+BUDGET = 200 if os.environ.get("HUIBAN_API_KEY") else 48
 
 # A dataset may issue several queries whose results are merged and de-duplicated by
 # id — the rank catalogues need one query per rank value, because search filters on a
@@ -78,7 +78,7 @@ DATASETS = [
         "queries": [{"core_rank": rank} for rank in ("A*", "A", "B", "C")],
         "key": "conferences",
         "sort": lambda r: (r.get("core_rank") or "", r.get("short_name") or ""),
-        "max_pages": 9,
+        "max_pages": 13,
     },
     {
         "slug": "open-calls-by-rank",
