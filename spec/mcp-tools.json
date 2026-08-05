@@ -1,0 +1,316 @@
+{
+  "tools": [
+    {
+      "name": "search_conferences",
+      "description": "Search academic conferences. Every parameter is optional — combine any of keyword, CCF/CORE/QUALIS rank, research field and submission/conference date ranges. Filter-only queries work fine (e.g. field=ai plus a submission-deadline window, no keyword). Returns a paginated list.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Keyword, matched against short/full name"
+          },
+          "ccf_rank": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ],
+            "description": "CCF rank"
+          },
+          "core_rank": {
+            "type": "string",
+            "enum": [
+              "A*",
+              "A",
+              "B",
+              "C"
+            ],
+            "description": "CORE rank"
+          },
+          "qualis_rank": {
+            "type": "string",
+            "description": "QUALIS rank"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "ai",
+              "vision",
+              "nlp",
+              "data",
+              "network",
+              "security",
+              "se",
+              "systems",
+              "theory",
+              "hci",
+              "graphics",
+              "bio",
+              "robotics",
+              "web"
+            ],
+            "description": "Research field (one of 14 computer-science areas, e.g. ai, security, systems)"
+          },
+          "submission_date_start": {
+            "type": "string",
+            "description": "Submission deadline from (YYYY-MM-DD)"
+          },
+          "submission_date_end": {
+            "type": "string",
+            "description": "Submission deadline until (YYYY-MM-DD)"
+          },
+          "conference_date_start": {
+            "type": "string",
+            "description": "Conference date from (YYYY-MM-DD)"
+          },
+          "conference_date_end": {
+            "type": "string",
+            "description": "Conference date until (YYYY-MM-DD)"
+          },
+          "updated_since": {
+            "type": "string",
+            "description": "Incremental sync: only venues changed on/after this date (YYYY-MM-DD). Day granularity. Use the updated_at field of the results as your next checkpoint."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 1,
+            "description": "Page number, 1-based"
+          },
+          "per_page": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 10,
+            "description": "Items per page, max 100"
+          }
+        }
+      }
+    },
+    {
+      "name": "search_journals",
+      "description": "Search academic journals. Every parameter is optional — combine any of keyword, CCF rank, research field and ISSN. Returns a paginated list.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Keyword, matched against short/full name"
+          },
+          "ccf_rank": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C"
+            ],
+            "description": "CCF rank"
+          },
+          "issn": {
+            "type": "string",
+            "description": "ISSN (fuzzy match)"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "ai",
+              "vision",
+              "nlp",
+              "data",
+              "network",
+              "security",
+              "se",
+              "systems",
+              "theory",
+              "hci",
+              "graphics",
+              "bio",
+              "robotics",
+              "web"
+            ],
+            "description": "Research field (one of 14 computer-science areas, e.g. ai, security, systems)"
+          },
+          "updated_since": {
+            "type": "string",
+            "description": "Incremental sync: only venues changed on/after this date (YYYY-MM-DD). Day granularity. Use the updated_at field of the results as your next checkpoint."
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 1,
+            "description": "Page number, 1-based"
+          },
+          "per_page": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 10,
+            "description": "Items per page, max 100"
+          }
+        }
+      }
+    },
+    {
+      "name": "list_conferences",
+      "description": "Browse conference lists and rankings (open CFPs, tier lists, popularity, most competitive, etc.), paginated. No keyword filtering — use search_conferences for that.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "ranking": {
+            "type": "string",
+            "enum": [
+              "cfp",
+              "past_cfp",
+              "ccf",
+              "core",
+              "qualis",
+              "most_viewed",
+              "most_tracked",
+              "most_attended",
+              "most_competitive",
+              "upcoming",
+              "past",
+              "trending"
+            ],
+            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=tier lists; most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 1,
+            "description": "Page number, 1-based"
+          },
+          "per_page": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20,
+            "description": "Items per page, max 100"
+          }
+        },
+        "required": [
+          "ranking"
+        ]
+      }
+    },
+    {
+      "name": "list_journals",
+      "description": "Browse journal lists and rankings (special-issue CFPs, CCF, highest impact factor, popularity, all), paginated. No keyword filtering — use search_journals for that.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "ranking": {
+            "type": "string",
+            "enum": [
+              "cfp",
+              "ccf",
+              "highest_if",
+              "most_viewed",
+              "most_tracked",
+              "all"
+            ],
+            "description": "cfp=special-issue calls for papers; ccf=CCF list; highest_if=highest impact factor; most_viewed/most_tracked=popularity; all=all journals"
+          },
+          "page": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 1,
+            "description": "Page number, 1-based"
+          },
+          "per_page": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100,
+            "default": 20,
+            "description": "Items per page, max 100"
+          }
+        },
+        "required": [
+          "ranking"
+        ]
+      }
+    },
+    {
+      "name": "get_conference",
+      "description": "Get full details of a conference by id: basics, CFP text, acceptance-rate history, edition history, structured ratings and comments, related conferences/journals. REQUIRES CREDENTIALS: Authorization: Bearer <credential> (free API key from https://www.myhuiban.com/account/api-keys, or a JWT from POST /api/login). responses link to the Conference Partner detail_page, not the venue's external website.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Conference id"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      }
+    },
+    {
+      "name": "get_journal",
+      "description": "Get full details of a journal by id: basics, CFP text, special issues, structured ratings and comments, related journals/conferences. REQUIRES CREDENTIALS: Authorization: Bearer <credential> (free API key from https://www.myhuiban.com/account/api-keys, or a JWT from POST /api/login). responses link to the Conference Partner detail_page, not the venue's external website.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Journal id"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      }
+    },
+    {
+      "name": "get_researcher",
+      "description": "Get a researcher's public profile by id: name, institution, auto-generated research-interest summary, CV, tracked/attended conferences and tracked journals. REQUIRES CREDENTIALS: Authorization: Bearer <credential> (free API key from https://www.myhuiban.com/account/api-keys, or a JWT from POST /api/login). Never includes contact details; by id only — there is no researcher search or enumeration.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Researcher (user) id"
+          }
+        },
+        "required": [
+          "id"
+        ]
+      }
+    },
+    {
+      "name": "get_statistics",
+      "description": "Site-level public statistics: conference/journal totals, upcoming deadlines by month, conference country distribution, journal impact-factor and publisher distributions.",
+      "annotations": {
+        "readOnlyHint": true
+      },
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  ]
+}

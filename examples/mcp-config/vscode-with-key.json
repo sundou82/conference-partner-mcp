@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "huiban-key",
+      "description": "Conference Partner API key (hb_...)",
+      "password": true
+    }
+  ],
+  "servers": {
+    "conference-partner": {
+      "type": "http",
+      "url": "https://www.myhuiban.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:huiban-key}"
+      }
+    }
+  }
+}

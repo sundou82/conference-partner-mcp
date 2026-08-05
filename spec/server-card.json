@@ -1,0 +1,13 @@
+{
+  "name": "com.myhuiban.www/conference-partner",
+  "title": "Conference Partner",
+  "description": "Academic conference & journal CFP deadlines, CCF/ICORE/QUALIS rankings, acceptance rates.",
+  "version": "1.7.0",
+  "websiteUrl": "https://www.myhuiban.com/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.myhuiban.com/mcp"
+    }
+  ]
+}

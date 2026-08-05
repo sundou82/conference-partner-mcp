@@ -1,0 +1,5 @@
+# Normalise to LF in the repository. Without this, a CRLF checkout of
+# quickstart.sh fails on Linux with "bad interpreter: /usr/bin/env bash^M".
+* text=auto eol=lf
+*.png binary
+*.jpg binary
