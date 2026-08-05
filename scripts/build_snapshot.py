@@ -131,8 +131,13 @@ CONFERENCE_COLUMNS = ["id", "short_name", "full_name", "submission_date",
                       "ccf_rank", "core_rank", "qualis_rank", "is_extended",
                       "acceptance_rate", "years", "clicked", "updated_at", "detail_page"]
 JOURNAL_COLUMNS = ["id", "short_name", "full_name", "impact_factor", "publisher",
-                   "issn", "ccf_rank", "special_issue", "clicked", "updated_at",
-                   "detail_page"]
+                   "issn", "ccf_rank", "special_issue_title",
+                   "special_issue_deadline", "clicked", "updated_at", "detail_page"]
+
+#: Nested objects flattened for CSV only — JSON keeps the original shape.
+#: {source key: {sub key: csv column}}
+FLATTEN = {"special_issue": {"title": "special_issue_title",
+                             "submission_date": "special_issue_deadline"}}
 
 
 class Budget:
@@ -183,10 +188,25 @@ def fetch(dataset, budget):
     return list(by_id.values()), complete
 
 
+def flatten(row):
+    """CSV view of a row: nested objects become scalar columns.
+
+    Without this a dict lands in the cell as its Python repr, which no
+    spreadsheet or `csv` reader can do anything with.
+    """
+    flat = {k: v for k, v in row.items() if k not in FLATTEN}
+    for source, mapping in FLATTEN.items():
+        nested = row.get(source) or {}
+        for sub, column in mapping.items():
+            flat[column] = nested.get(sub, "")
+    return flat
+
+
 def write_dataset(dataset, rows, generated_at):
     slug, key = dataset["slug"], dataset["key"]
     columns = CONFERENCE_COLUMNS if key == "conferences" else JOURNAL_COLUMNS
-    present = [c for c in columns if any(c in row for row in rows)]
+    flat_rows = [flatten(row) for row in rows]
+    present = [c for c in columns if any(row.get(c) not in (None, "") for row in flat_rows)]
 
     payload = {
         "title": dataset["title"],
@@ -204,7 +224,7 @@ def write_dataset(dataset, rows, generated_at):
     with (DATA / f"{slug}.csv").open("w", newline="", encoding="utf-8") as handle:
         writer = csv.DictWriter(handle, fieldnames=present, extrasaction="ignore")
         writer.writeheader()
-        for row in rows:
+        for row in flat_rows:
             writer.writerow({c: row.get(c, "") for c in present})
 
 
