@@ -239,4 +239,6 @@ The **data served by the API is not covered by that license**. It is free to use
 including commercially, with attribution: cite the canonical venue URL and
 "Conference Partner (myhuiban.com)". If your claim is about a ranking value itself, cite
 the ranking body — Conference Partner reproduces those lists, it does not define them.
-See [`docs/data.md`](docs/data.md).
+Bulk use should start from `data/` rather than a crawl of your own, and dataset licensing
+or model training needs a conversation first. See [`docs/data.md`](docs/data.md) and the
+[terms on the site](https://www.myhuiban.com/developers).

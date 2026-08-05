@@ -71,6 +71,12 @@ is what every API response returns as `detail_page`) plus the name
 If the claim you are making is about a *ranking value itself* — "X is CCF-A" — cite CCF,
 CORE or QUALIS. Conference Partner reproduces those lists; it does not define them.
 
+Two limits, matching the
+[terms on the site](https://www.myhuiban.com/developers): keep crawls to one request per
+second or slower, and if you need the dataset in bulk take `data/` here rather than
+scraping your own copy. For anything wider — dataset licensing, model training —
+ask first at `admin@myhuiban.com`.
+
 The MIT license on this repository covers the code and configuration in it, not the data
 served by the API.
 
