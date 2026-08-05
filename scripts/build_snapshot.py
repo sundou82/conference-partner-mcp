@@ -35,10 +35,12 @@ import huiban  # noqa: E402
 
 TODAY = dt.date.today()
 
+HAS_KEY = bool(os.environ.get("HUIBAN_API_KEY"))
+
 #: Total request budget. The anonymous tier allows 50/day per IP; with
 #: HUIBAN_API_KEY set the account tier allows 200. Staying under the smaller
 #: number keeps the job runnable without a secret.
-BUDGET = 200 if os.environ.get("HUIBAN_API_KEY") else 48
+BUDGET = 200 if HAS_KEY else 48
 
 # A dataset may issue several queries whose results are merged and de-duplicated by
 # id — the rank catalogues need one query per rank value, because search filters on a
@@ -79,6 +81,22 @@ DATASETS = [
         "key": "conferences",
         "sort": lambda r: (r.get("core_rank") or "", r.get("short_name") or ""),
         "max_pages": 13,
+    },
+    {
+        "slug": "qualis-conferences",
+        "title": "QUALIS-ranked conferences",
+        "note": "Every conference carrying a QUALIS rank (A1 through B5), whether or not a "
+                "call is open.",
+        "path": "/api/conferences",
+        "queries": [{"qualis_rank": rank}
+                    for rank in ("A1", "A2", "B1", "B2", "B3", "B4", "B5")],
+        "key": "conferences",
+        "sort": lambda r: (r.get("qualis_rank") or "", r.get("short_name") or ""),
+        # 7 tiers = 7 separate paginations, ~10 requests for ~705 rows. That does not fit
+        # beside the rest inside the 50/day anonymous budget, so it is key-gated rather
+        # than left to starve whichever dataset happens to come last.
+        "needs_key": True,
+        "max_pages": 12,
     },
     {
         "slug": "open-calls-by-rank",
@@ -247,7 +265,7 @@ def deadline_table(rows, days):
     return upcoming, "\n".join(lines)
 
 
-def write_index(results, budget, generated_at, stats):
+def write_index(results, budget, generated_at, stats, skipped):
     deadlines = results["upcoming-deadlines"]
     shown, table = deadline_table(deadlines, 90)
 
@@ -270,11 +288,24 @@ def write_index(results, budget, generated_at, stats):
     ]
     for dataset in DATASETS:
         slug = dataset["slug"]
+        if slug in skipped:
+            lines.append(f"| **{dataset['title']}**<br><sub>{dataset['note']}</sub> "
+                         f"| _not built_ | — | — |")
+            continue
         rows = results[slug]
         partial = " ⚠️ partial" if slug in budget.truncated else ""
         lines.append(f"| **{dataset['title']}**<br><sub>{dataset['note']}</sub> "
                      f"| {len(rows)}{partial} | [{slug}.json]({slug}.json) "
                      f"| [{slug}.csv]({slug}.csv) |")
+
+    if skipped:
+        lines += [
+            "",
+            "> Datasets marked _not built_ need more requests than the anonymous daily budget "
+            "(50 per IP) leaves for them. Set a `HUIBAN_API_KEY` repository secret — a free key "
+            "from [/account/api-keys](https://www.myhuiban.com/account/api-keys) — and the next "
+            "run picks them up.",
+        ]
 
     lines += [
         "",
@@ -322,8 +353,15 @@ def main():
         budget.spend()
         stats = huiban.get("/api/statistics")
 
-        results = {}
+        results, skipped = {}, set()
         for dataset in DATASETS:
+            if dataset.get("needs_key") and not HAS_KEY:
+                # Say so out loud: a quietly missing dataset reads as "we don't have
+                # that data", which is a different and wrong message.
+                skipped.add(dataset["slug"])
+                print(f"  - {dataset['slug']:<28} skipped (needs HUIBAN_API_KEY)")
+                continue
+
             rows, complete = fetch(dataset, budget)
             if not complete and not dataset.get("capped"):
                 # Never let an accidental cap pass silently as full coverage.
@@ -343,13 +381,15 @@ def main():
     # this a stale export lingers forever, still linked and still looking current.
     expected = {"README.md"}
     for dataset in DATASETS:
+        if dataset["slug"] in skipped:
+            continue  # never built this run — let the pruner drop any older copy
         expected |= {f"{dataset['slug']}.json", f"{dataset['slug']}.csv"}
     for path in sorted(DATA.iterdir()):
         if path.name not in expected:
             path.unlink()
             print(f"  - removed stale {path.name}")
 
-    write_index(results, budget, generated_at, stats)
+    write_index(results, budget, generated_at, stats, skipped)
 
     print(f"\n{budget.used}/{budget.total} requests used; "
           f"quota remaining today: {huiban.quota_remaining}")

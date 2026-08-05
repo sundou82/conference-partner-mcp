@@ -36,6 +36,10 @@ deadlines, the CCF / CORE / QUALIS conference catalogues, CCF journals, open
 special-issue calls, and journals by impact factor. Each dataset is published as JSON and
 CSV, with a browsable Markdown index.
 
+CI commits only when something changed, so `git log -- data/` is a deadline-change log and
+[`data.atom`](https://github.com/sundou82/conference-partner-mcp/commits/main/data.atom)
+is a feed of it.
+
 **What is in it is exactly what the anonymous tier already serves** — deadline searches
 and ranking lists, the same rows anyone can fetch without credentials and the same rows
 the website and sitemap publish. Exporting them costs nothing that is not already public.

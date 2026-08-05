@@ -1,5 +1,9 @@
 # Conference Partner — MCP server & REST API
 
+[![Data snapshot](https://github.com/sundou82/conference-partner-mcp/actions/workflows/snapshot.yml/badge.svg)](https://github.com/sundou82/conference-partner-mcp/actions/workflows/snapshot.yml)
+[![API spec](https://github.com/sundou82/conference-partner-mcp/actions/workflows/sync-spec.yml/badge.svg)](https://github.com/sundou82/conference-partner-mcp/actions/workflows/sync-spec.yml)
+[![MCP registry](https://img.shields.io/badge/MCP%20registry-com.myhuiban.www%2Fconference--partner-blue)](https://registry.modelcontextprotocol.io)
+
 Academic **conference and journal** data for AI agents and scripts: CFP deadlines,
 CCF / CORE / QUALIS rankings, acceptance-rate history, edition history, journal impact
 factors and special issues — served by [Conference Partner](https://www.myhuiban.com)
@@ -176,7 +180,7 @@ See [`examples/README.md`](examples/README.md).
 | | |
 |---|---|
 | [`upcoming-deadlines`](data/upcoming-deadlines.csv) | every conference whose deadline has not passed |
-| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) | the tier catalogues — all three ranks are columns on every row |
+| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) · [`qualis-conferences`](data/qualis-conferences.csv) | the tier catalogues — all three ranks are columns on every row |
 | [`open-calls-by-rank`](data/open-calls-by-rank.csv) | the ranked venues you can still submit to today |
 | [`ccf-journals`](data/ccf-journals.csv) · [`top-impact-factor-journals`](data/top-impact-factor-journals.csv) | journals by tier and by impact factor |
 | [`journal-special-issues`](data/journal-special-issues.csv) | journals with an open special-issue call |
@@ -190,6 +194,26 @@ stays behind the API, where a free key reaches it.
 
 A file is stale the moment a deadline is extended, which in submission season is daily.
 Use it to browse, diff or bulk-load; call the API when it has to be right.
+
+### Subscribe to deadline changes, for free
+
+CI commits `data/` once a day and only when something actually changed, so the commit
+history of that directory **is** a change feed. GitHub publishes it as Atom, no account
+needed:
+
+```
+https://github.com/sundou82/conference-partner-mcp/commits/main/data.atom
+```
+
+Point a feed reader at it, or diff two commits to see exactly which deadlines moved:
+
+```bash
+git log --oneline -- data/
+git diff HEAD~1 HEAD -- data/upcoming-deadlines.csv
+```
+
+Watching the repo on GitHub (*Watch → Custom → Releases*, or all activity) gets you the
+same signal as email.
 
 ---
 
