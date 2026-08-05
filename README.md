@@ -167,11 +167,28 @@ bash examples/curl/quickstart.sh
 
 See [`examples/README.md`](examples/README.md).
 
-> [!NOTE]
-> There is deliberately **no bundled dataset** in this repo. `export_deadlines.py`
-> generates a snapshot for you from the live API instead, so what you get is current on
-> the day you run it rather than as stale as the last commit. Rationale in
-> [`docs/data.md`](docs/data.md).
+---
+
+## Download the data
+
+[**`data/`**](data/) carries a snapshot refreshed daily by CI, as JSON and CSV:
+
+| | |
+|---|---|
+| [`upcoming-deadlines`](data/upcoming-deadlines.csv) | every conference whose deadline has not passed |
+| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) · [`qualis-conferences`](data/qualis-conferences.csv) | the three tier catalogues |
+| [`ccf-journals`](data/ccf-journals.csv) · [`top-impact-factor-journals`](data/top-impact-factor-journals.csv) | journals by tier and by impact factor |
+| [`journal-special-issues`](data/journal-special-issues.csv) | journals with an open special-issue call |
+
+[`data/README.md`](data/README.md) renders the next 90 days as a table you can read in
+the browser.
+
+The snapshot covers exactly what the **anonymous tier already serves** — nothing in it is
+gated. Per-venue detail (CFP full text, acceptance-rate history, edition history, ratings)
+stays behind the API, where a free key reaches it.
+
+A file is stale the moment a deadline is extended, which in submission season is daily.
+Use it to browse, diff or bulk-load; call the API when it has to be right.
 
 ---
 

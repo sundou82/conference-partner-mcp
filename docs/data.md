@@ -29,24 +29,36 @@ appears to have opened, but nothing is written from a scrape without review. Ran
 reproduced from CCF, CORE and QUALIS — Conference Partner is not the authority for those
 values and does not compute a ranking of its own.
 
-## Why there is no dataset file in this repository
+## The snapshot in `data/`
 
-The obvious thing to put in a repo like this is a `deadlines.json` refreshed nightly by
-CI. It is deliberately absent.
+[`data/`](../data/) holds a downloadable copy, refreshed daily by CI: upcoming submission
+deadlines, the CCF / CORE / QUALIS conference catalogues, CCF journals, open
+special-issue calls, and journals by impact factor. Each dataset is published as JSON and
+CSV, with a browsable Markdown index.
 
-A committed snapshot is stale between commits and silently wrong at the moment it matters
-most — deadline season, when extensions land daily. Worse, it teaches consumers to depend
-on a file that is a copy of the thing that is actually maintained, and every bug report
-then starts with "which commit was your data from".
+**What is in it is exactly what the anonymous tier already serves** — deadline searches
+and ranking lists, the same rows anyone can fetch without credentials and the same rows
+the website and sitemap publish. Exporting them costs nothing that is not already public.
 
-So instead of shipping a snapshot,
-[`../examples/python/export_deadlines.py`](../examples/python/export_deadlines.py)
-*generates* one for you from the live API, in JSON, CSV and Markdown. Run it in your own
-CI on whatever cadence you need; what you get is current as of the run. Anonymous access
-covers it — no key required.
+**What is not in it**, and should not be added: per-venue detail — CFP full text,
+acceptance-rate history, edition history, ratings and comments, and the organiser's own
+website URL. Those need a free credential by design. The scope rule lives in a comment at
+the top of [`../scripts/build_snapshot.py`](../scripts/build_snapshot.py); a dataset may
+only be added there if its endpoint is on the server's anonymous whitelist.
 
-If you want a continuously-updated mirror rather than periodic snapshots, use
-`updated_since` — see [Incremental sync](rest-api.md#incremental-sync).
+### Prefer the API when it has to be right
+
+A snapshot is stale the moment a deadline is extended, which in submission season is
+daily. The files in `data/` are a convenience for browsing, diffing and bulk loading —
+not a substitute for asking. For anything time-sensitive, call the API; it needs no key
+for exactly this data.
+
+Two ways to stay current:
+
+- [`../examples/python/export_deadlines.py`](../examples/python/export_deadlines.py)
+  generates a snapshot in your own filters and cadence.
+- `updated_since` gives you a diff instead of a re-crawl — see
+  [Incremental sync](rest-api.md#incremental-sync).
 
 ## Using the data
 

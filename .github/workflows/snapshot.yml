@@ -1,0 +1,54 @@
+name: Refresh data snapshot
+
+# Rebuilds data/ from the live API. Only anonymous-tier endpoints are read — see the
+# scope note at the top of scripts/build_snapshot.py before adding a dataset.
+#
+# Runs anonymously (50 requests/day per IP) unless the HUIBAN_API_KEY secret is set,
+# which raises the budget to the account tier (200/day) and removes the page caps'
+# bite. The job aborts without touching data/ if the API refuses a request, so a
+# quota-exhausted run cannot commit a half-empty snapshot.
+
+on:
+  schedule:
+    - cron: '35 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build snapshot
+        env:
+          HUIBAN_API_KEY: ${{ secrets.HUIBAN_API_KEY }}
+        run: python3 scripts/build_snapshot.py
+
+      - name: Verify before committing
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, sys
+          data = pathlib.Path('data')
+          deadlines = json.loads((data / 'upcoming-deadlines.json').read_text('utf-8'))
+          # An empty or near-empty headline file means something went wrong upstream;
+          # keep yesterday's snapshot rather than commit a regression.
+          if deadlines['count'] < 50:
+              sys.exit(f"only {deadlines['count']} upcoming deadlines, refusing to commit")
+          print(f"{deadlines['count']} upcoming deadlines")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # `git diff` alone would miss the first run, when data/ is untracked.
+          git add -A data/
+          if git diff --cached --quiet; then
+            echo "snapshot unchanged"
+            exit 0
+          fi
+          git commit -m "chore(data): refresh snapshot $(date -u +%Y-%m-%d)"
+          git push
