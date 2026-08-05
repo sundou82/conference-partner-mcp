@@ -51,4 +51,12 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): refresh snapshot $(date -u +%Y-%m-%d)"
-          git push
+          # The other daily job commits to the same branch. Rebase and retry rather
+          # than losing a run's work to whoever pushed first.
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "push rejected (attempt $attempt), rebasing onto origin/main"
+            git pull --rebase origin main
+          done
+          echo "still could not push after 3 attempts"
+          exit 1
