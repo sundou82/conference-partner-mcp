@@ -1,0 +1,27 @@
+name: Deadline watch (self-test)
+
+# 我们自己吃自己的狗粮：这个 action 是给别人用的，所以它必须先在真实 workflow 里跑通。
+# 同时这个 issue 本身也是 repo 的一块活招牌——访客能直接看到输出长什么样。
+on:
+  schedule:
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: watch
+        uses: ./actions/deadline-watch
+        with:
+          days: 60
+          ranked-only: 'true'
+          issue-title: 'Upcoming deadlines at ranked venues (live demo)'
+          # 自家 CI 用自家密钥，避免与 runner 共享 IP 的匿名额度打架；
+          # 该前缀已列进生产的 INTERNAL_API_KEY_PREFIXES，不会被算成用户接入。
+          api-key: ${{ secrets.HUIBAN_API_KEY }}
+      - run: echo "count=${{ steps.watch.outputs.count }} soonest=${{ steps.watch.outputs.soonest }}"

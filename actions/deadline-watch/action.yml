@@ -1,0 +1,97 @@
+name: 'Conference Deadline Watch'
+description: 'Keep an always-current issue listing the paper deadlines you can still submit to, filtered by research field and ranking tier.'
+author: 'Conference Partner'
+
+branding:
+  icon: 'calendar'
+  color: 'blue'
+
+inputs:
+  field:
+    description: >-
+      Research field slug. One of: ai, vision, nlp, data, network, security, se,
+      systems, theory, hci, graphics, bio, robotics, web. Omit for all fields.
+    required: false
+    default: ''
+  ccf:
+    description: 'Keep only this CCF rank (A, B or C). Omit for any.'
+    required: false
+    default: ''
+  core:
+    description: 'Keep only this CORE rank (A*, A, B or C). Omit for any.'
+    required: false
+    default: ''
+  days:
+    description: 'How far ahead to look, in days.'
+    required: false
+    default: '90'
+  ranked-only:
+    description: 'Drop venues that carry no ranking at all.'
+    required: false
+    default: 'false'
+  issue-title:
+    description: >-
+      Title of the issue to keep updated. The action edits the existing open
+      issue with this title, and only creates one if none exists — so it never
+      accumulates duplicates.
+    required: false
+    default: 'Upcoming paper deadlines'
+  labels:
+    description: 'Comma-separated labels applied when the issue is first created.'
+    required: false
+    default: ''
+  api-key:
+    description: >-
+      Optional Conference Partner API key (hb_...). Not required — this action
+      only reads endpoints that are open to anonymous callers. Supply one if you
+      run it very frequently and hit the anonymous per-IP daily limit.
+    required: false
+    default: ''
+  github-token:
+    description: 'Token used to create and edit the issue. Needs issues: write.'
+    required: false
+    default: ${{ github.token }}
+
+outputs:
+  count:
+    description: 'How many deadlines are in the window.'
+    value: ${{ steps.build.outputs.count }}
+  soonest:
+    description: 'The nearest deadline date, or empty if there are none.'
+    value: ${{ steps.build.outputs.soonest }}
+
+runs:
+  using: 'composite'
+  steps:
+    - id: build
+      shell: bash
+      env:
+        HUIBAN_FIELD: ${{ inputs.field }}
+        HUIBAN_CCF: ${{ inputs.ccf }}
+        HUIBAN_CORE: ${{ inputs.core }}
+        HUIBAN_DAYS: ${{ inputs.days }}
+        HUIBAN_RANKED_ONLY: ${{ inputs.ranked-only }}
+        HUIBAN_API_KEY: ${{ inputs.api-key }}
+      run: python3 "${{ github.action_path }}/deadline_watch.py"
+
+    # gh 已预装在 GitHub 托管的 runner 上。用「先搜后改」而不是每次新建：
+    # 这个 issue 是一块常驻看板，不是通知流——每天新开一个会把仓库淹掉。
+    - shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.github-token }}
+        TITLE: ${{ inputs.issue-title }}
+        LABELS: ${{ inputs.labels }}
+      run: |
+        set -euo pipefail
+        existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+          --search "$TITLE in:title" --json number,title \
+          --jq ".[] | select(.title == \"$TITLE\") | .number" | head -1)
+
+        if [ -n "$existing" ]; then
+          gh issue edit "$existing" --repo "$GITHUB_REPOSITORY" --body-file deadline-watch-body.md
+          echo "updated issue #$existing"
+        else
+          args=(--repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file deadline-watch-body.md)
+          [ -n "$LABELS" ] && args+=(--label "$LABELS")
+          gh issue create "${args[@]}"
+        fi
