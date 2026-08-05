@@ -339,6 +339,16 @@ def main():
     except huiban.ApiError as error:
         sys.exit(f"aborting, data/ left untouched: {error}")
 
+    # Drop files from datasets that have since been renamed or removed. Without
+    # this a stale export lingers forever, still linked and still looking current.
+    expected = {"README.md"}
+    for dataset in DATASETS:
+        expected |= {f"{dataset['slug']}.json", f"{dataset['slug']}.csv"}
+    for path in sorted(DATA.iterdir()):
+        if path.name not in expected:
+            path.unlink()
+            print(f"  - removed stale {path.name}")
+
     write_index(results, budget, generated_at, stats)
 
     print(f"\n{budget.used}/{budget.total} requests used; "
