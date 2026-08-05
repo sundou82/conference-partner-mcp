@@ -183,6 +183,20 @@ bash examples/curl/quickstart.sh
 
 See [`examples/README.md`](examples/README.md).
 
+### Watch deadlines from your own repo
+
+[`actions/deadline-watch`](actions/deadline-watch/) is a GitHub Action that keeps one
+issue up to date with the deadlines you can still submit to — no API key, nothing to
+host. [Issue #1](https://github.com/sundou82/conference-partner-mcp/issues/1) is this
+repo running it on a schedule, so you can see the output before adopting it.
+
+```yaml
+- uses: sundou82/conference-partner-mcp/actions/deadline-watch@main
+  with:
+    field: security
+    days: 120
+```
+
 ---
 
 ## Download the data

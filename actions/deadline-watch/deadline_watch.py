@@ -104,14 +104,18 @@ def main():
     scope = FIELD_NAMES.get(field, "all fields")
     tiers = " · ".join(x for x in (f"CCF {ccf}" if ccf else "", f"CORE {core}" if core else "") if x)
 
+    filters = " · ".join(x for x in (scope, tiers, "ranked only" if ranked_only else "") if x)
     lines = [
-        f"**{len(rows)}** submission deadlines in the next **{days}** days — {scope}"
-        + (f" — {tiers}" if tiers else ""),
+        f"**{len(rows)}** submission deadlines in the next **{days}** days — {filters}",
         "",
     ]
     if rows:
-        lines += ["| Deadline | Left | Conference | CCF | CORE | Held | Location |",
-                  "|---|---|---|---|---|---|---|"]
+        # QUALIS gets its own column rather than being implied: `ranked-only` keeps
+        # QUALIS-only venues, and showing them with "-" under both CCF and CORE made
+        # the filter look broken. Carrying all three side by side is also the thing
+        # this dataset does that deadline lists generally do not.
+        lines += ["| Deadline | Left | Conference | CCF | CORE | QUALIS | Held | Location |",
+                  "|---|---|---|---|---|---|---|---|"]
         for r in rows:
             deadline = dt.date.fromisoformat(r["submission_date"])
             left = (deadline - today).days
@@ -120,8 +124,9 @@ def main():
             lines.append(
                 f"| {r['submission_date']}{extended} | {left}d "
                 f"| [{name}]({r['detail_page']}) | {r.get('ccf_rank') or '-'} "
-                f"| {r.get('core_rank') or '-'} | {r.get('conference_date') or '-'} "
-                f"| {r.get('location') or '-'} |")
+                f"| {r.get('core_rank') or '-'} | {r.get('qualis_rank') or '-'} "
+                f"| {r.get('conference_date') or '-'} "
+                f"| {(r.get('location') or '-').strip()} |")
     elif before_ranks:
         # Distinguish "no data" from "your filter removed it all" — the obvious
         # first config (field: ai + ccf: A) really does return nothing, because
