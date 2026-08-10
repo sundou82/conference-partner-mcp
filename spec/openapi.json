@@ -3,7 +3,7 @@
   "info": {
     "title": "Conference Partner API",
     "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "contact": {
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/",
@@ -12,7 +12,7 @@
   },
   "servers": [
     {
-      "url": "https://neuhaus-cn.biooart.com",
+      "url": "https://www.myhuiban.com",
       "description": "Current environment"
     },
     {
@@ -428,10 +428,17 @@
                 "graphics",
                 "bio",
                 "robotics",
-                "web"
+                "web",
+                "ee",
+                "energy",
+                "materials",
+                "civil",
+                "education",
+                "management",
+                "math"
               ]
             },
-            "description": "Research field (14 computer-science areas, auto-tagged from venue full names)."
+            "description": "Research field (21 areas: computer science plus adjacent engineering and science disciplines, auto-tagged from venue full names)."
           },
           {
             "name": "submission_date_start",
@@ -712,10 +719,17 @@
                 "graphics",
                 "bio",
                 "robotics",
-                "web"
+                "web",
+                "ee",
+                "energy",
+                "materials",
+                "civil",
+                "education",
+                "management",
+                "math"
               ]
             },
-            "description": "Research field (14 computer-science areas, auto-tagged from venue full names)."
+            "description": "Research field (21 areas: computer science plus adjacent engineering and science disciplines, auto-tagged from venue full names)."
           },
           {
             "name": "updated_since",

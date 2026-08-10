@@ -52,9 +52,16 @@
               "graphics",
               "bio",
               "robotics",
-              "web"
+              "web",
+              "ee",
+              "energy",
+              "materials",
+              "civil",
+              "education",
+              "management",
+              "math"
             ],
-            "description": "Research field (one of 14 computer-science areas, e.g. ai, security, systems)"
+            "description": "Research field (e.g. ai, security, systems, ee, energy) - see the field enum for the full list"
           },
           "submission_date_start": {
             "type": "string",
@@ -134,9 +141,16 @@
               "graphics",
               "bio",
               "robotics",
-              "web"
+              "web",
+              "ee",
+              "energy",
+              "materials",
+              "civil",
+              "education",
+              "management",
+              "math"
             ],
-            "description": "Research field (one of 14 computer-science areas, e.g. ai, security, systems)"
+            "description": "Research field (e.g. ai, security, systems, ee, energy) - see the field enum for the full list"
           },
           "updated_since": {
             "type": "string",
