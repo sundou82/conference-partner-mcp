@@ -14,12 +14,18 @@ import datetime as dt
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
 
 BASE = os.environ.get("HUIBAN_BASE_URL", "https://www.myhuiban.com")
 UA = "conference-deadline-watch/1.0 (+https://github.com/sundou82/conference-partner-mcp)"
+
+# Worth trying again. The API is behind Cloudflare, so a momentary origin stall
+# arrives as 520-524 rather than a plain 5xx. This action runs in someone else's
+# scheduled workflow, where a two-second hiccup should not turn into a red run.
+TRANSIENT = {500, 502, 503, 504, 520, 521, 522, 523, 524}
 
 FIELD_NAMES = {
     "ai": "AI & Machine Learning", "vision": "Computer Vision", "nlp": "NLP & Speech",
@@ -29,6 +35,24 @@ FIELD_NAMES = {
     "graphics": "Graphics & Multimedia", "bio": "Bioinformatics & Health",
     "robotics": "Robotics & Control", "web": "Information Systems & Web",
 }
+
+
+def open_with_retry(request, attempts=3):
+    """urlopen, retrying only the errors that clear up by themselves.
+
+    401/402/429 are not retried: they will not heal, and their message is the
+    useful part. HTTPError subclasses URLError, so the narrower clause is first.
+    """
+    for attempt in range(1, attempts + 1):
+        try:
+            return urllib.request.urlopen(request, timeout=30)
+        except urllib.error.HTTPError as error:
+            if error.code not in TRANSIENT or attempt == attempts:
+                raise
+        except urllib.error.URLError:            # connection reset, DNS, timeout
+            if attempt == attempts:
+                raise
+        time.sleep(2 ** attempt)
 
 
 def get(params):
@@ -42,7 +66,7 @@ def get(params):
         request.add_header("Authorization", f"Bearer {key}")
 
     try:
-        with urllib.request.urlopen(request, timeout=30) as response:
+        with open_with_retry(request) as response:
             return json.loads(response.read())["data"]
     except urllib.error.HTTPError as error:
         payload = json.loads(error.read() or b"{}")

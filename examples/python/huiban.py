@@ -8,12 +8,18 @@ Get a key at https://www.myhuiban.com/account/api-keys
 import json
 import os
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
 
 BASE = os.environ.get("HUIBAN_BASE_URL", "https://www.myhuiban.com")
 UA = "conference-partner-example/1.0 (+https://github.com/sundou82/conference-partner-mcp)"
+
+#: Worth trying again. The API is behind Cloudflare, so a momentary origin stall
+#: arrives as 520-524 rather than a plain 5xx. 401/402/429 are deliberately absent:
+#: they will not heal on their own, and their message says what to do instead.
+TRANSIENT = {500, 502, 503, 504, 520, 521, 522, 523, 524}
 
 FIELDS = ["ai", "vision", "nlp", "data", "network", "security", "se",
           "systems", "theory", "hci", "graphics", "bio", "robotics", "web"]
@@ -24,6 +30,23 @@ quota_remaining = None
 
 class ApiError(RuntimeError):
     pass
+
+
+def _open(request, attempts=3):
+    """urlopen, retrying the errors that clear up by themselves.
+
+    HTTPError subclasses URLError, so the narrower clause has to come first.
+    """
+    for attempt in range(1, attempts + 1):
+        try:
+            return urllib.request.urlopen(request, timeout=30)
+        except urllib.error.HTTPError as error:
+            if error.code not in TRANSIENT or attempt == attempts:
+                raise
+        except urllib.error.URLError:            # connection reset, DNS, timeout
+            if attempt == attempts:
+                raise
+        time.sleep(2 ** attempt)
 
 
 def get(path, params=None):
@@ -49,7 +72,7 @@ def get(path, params=None):
         request.add_header("Authorization", f"Bearer {key}")
 
     try:
-        with urllib.request.urlopen(request, timeout=30) as response:
+        with _open(request) as response:
             quota_remaining = response.headers.get("X-Quota-Remaining")
             body = json.loads(response.read())
     except urllib.error.HTTPError as error:

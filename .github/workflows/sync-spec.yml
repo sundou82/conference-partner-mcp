@@ -20,14 +20,21 @@ jobs:
 
       - name: Fetch
         run: |
-          curl -sSf --retry 3 --retry-delay 5 -o raw-openapi.json \
+          # --retry-all-errors is load-bearing, not belt-and-braces: curl's own
+          # "transient error" set is 408/429/500/502/503/504, and the API sits
+          # behind Cloudflare, which reports a momentary origin stall as 520.
+          # Without this flag --retry never fires on the one code we actually
+          # see, and a two-second hiccup fails the whole day's sync.
+          # The cost is that a real 404 is also retried three times before it
+          # fails — 15 wasted seconds on a run that was doomed anyway.
+          curl -sSf --retry 3 --retry-delay 5 --retry-all-errors -o raw-openapi.json \
             -H 'Accept: application/json' \
             https://www.myhuiban.com/api/openapi.json
-          curl -sSf --retry 3 --retry-delay 5 -o raw-tools.json \
+          curl -sSf --retry 3 --retry-delay 5 --retry-all-errors -o raw-tools.json \
             -H 'Content-Type: application/json' \
             -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' \
             https://www.myhuiban.com/mcp
-          curl -sSf --retry 3 --retry-delay 5 -o raw-card.json \
+          curl -sSf --retry 3 --retry-delay 5 --retry-all-errors -o raw-card.json \
             https://www.myhuiban.com/.well-known/mcp/server-card.json
 
       - name: Normalise and verify
