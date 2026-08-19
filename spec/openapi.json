@@ -3,7 +3,7 @@
   "info": {
     "title": "Conference Partner API",
     "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "contact": {
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/",
@@ -290,6 +290,15 @@
       },
       "QuotaExhausted": {
         "description": "Account daily quota exhausted (shared across REST API and MCP); retry after the daily reset, or email admin@myhuiban.com for a higher limit",
+        "headers": {
+          "Retry-After": {
+            "description": "Seconds until the daily quota resets (midnight UTC). Wait this long before retrying; retrying sooner just burns more rejected requests.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
         "content": {
           "application/json": {
             "schema": {
@@ -299,7 +308,16 @@
         }
       },
       "RateLimited": {
-        "description": "Too many requests: either the per-minute rate limit, or the anonymous per-source-IP daily quota (register a free account to raise it). Check X-RateLimit-* / X-Quota-* response headers to tell them apart.",
+        "description": "Too many requests: either the per-minute rate limit, or the anonymous per-source-IP daily quota (register a free account to raise it). Check X-RateLimit-* / X-Quota-* response headers to tell them apart. When it is the daily quota, Retry-After says how long until it resets — wait that long rather than retrying immediately. Scheduled pollers should also use updated_since to fetch only what changed.",
+        "headers": {
+          "Retry-After": {
+            "description": "Seconds until the daily quota resets (midnight UTC). Wait this long before retrying; retrying sooner just burns more rejected requests.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
         "content": {
           "application/json": {
             "schema": {
@@ -946,7 +964,7 @@
       "get": {
         "operationId": "getStatistics",
         "summary": "Site-level public statistics",
-        "description": "Conference/journal totals, upcoming deadlines by month, conference country distribution, journal impact-factor and publisher distributions — same as the MCP get_statistics tool.",
+        "description": "Conference/journal totals, conferences with an open call for papers, upcoming deadlines by month, open CFPs broken down by CCF / ICORE / QUALIS tier, conference country and research-field distributions, journal impact-factor, CCF-tier, publisher and research-field distributions — same as the MCP get_statistics tool. Research-field keys are the same slugs the search endpoints accept in their field parameter.",
         "tags": [
           "Statistics"
         ],
@@ -961,7 +979,7 @@
         ],
         "responses": {
           "200": {
-            "description": "data.conferences_total / journals_total / conference_deadline_by_month / conference_country_distribution / journal_impact_factor_distribution / journal_publisher_distribution",
+            "description": "data.conferences_total / journals_total / conferences_with_open_cfp / conference_deadline_by_month / conference_open_cfp_by_ccf_rank / conference_open_cfp_by_core_rank / conference_open_cfp_by_qualis_rank / conference_country_distribution / conference_field_distribution / journal_impact_factor_distribution / journal_ccf_rank_distribution / journal_publisher_distribution / journal_field_distribution",
             "content": {
               "application/json": {
                 "schema": {

@@ -317,7 +317,7 @@
     },
     {
       "name": "get_statistics",
-      "description": "Site-level public statistics: conference/journal totals, upcoming deadlines by month, conference country distribution, journal impact-factor and publisher distributions.",
+      "description": "Site-level public statistics: conference/journal totals, how many conferences have an open call for papers, upcoming deadlines by month, open CFPs by CCF / ICORE / QUALIS tier, conference country and research-field distributions, journal impact-factor, CCF-tier, publisher and research-field distributions. Research-field keys are the same slugs the search tools accept in their field parameter.",
       "annotations": {
         "readOnlyHint": true
       },
