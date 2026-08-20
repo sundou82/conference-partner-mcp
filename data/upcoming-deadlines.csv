@@ -1,10 +1,8 @@
 id,short_name,full_name,submission_date,notification_date,conference_date,location,ccf_rank,core_rank,qualis_rank,is_extended,updated_at,detail_page
-1996,BDCAT,"IEEE/ACM International Conference on Big Data Computing, Applications and Technologies",2026-08-19,2026-09-30,2026-12-01,"Florianopolis, Brazil",,C,,False,2026-07-15,https://www.myhuiban.com/conference/1996
-293,NDSS,Annual Network & Distributed System Security Symposium,2026-08-19,2026-11-04,2027-03-22,"Seoul, South Korea",A,A*,A1,False,2026-04-29,https://www.myhuiban.com/conference/293
-443,UCC,IEEE/ACM International Conference on Utility and Cloud Computing,2026-08-19,2026-09-30,2026-12-01,"Florianopolis, Brazil",,,,False,2026-07-15,https://www.myhuiban.com/conference/443
 4883,ASIG,Asia Symposium on Image and Graphics,2026-08-20,2026-09-20,2026-12-04,"Kyoto, Japan",,,,True,2026-07-31,https://www.myhuiban.com/conference/4883
 4647,CAIT',International Conference on Computers and Artificial Intelligence Technology,2026-08-20,2026-09-10,2026-11-13,"Guiyang, China",,,,True,2026-08-18,https://www.myhuiban.com/conference/4647
 5480,CCISC,"International Conference on Computer Communication, Information System and Cybersecurity",2026-08-20,2026-09-10,2026-09-18,"Wuxi, China",,,,True,2026-07-21,https://www.myhuiban.com/conference/5480
+5509,CCSS,International Conference on Cybersecurity Systems,2026-08-20,2026-08-30,2026-10-27,"Paris, France",,,,True,2026-08-19,https://www.myhuiban.com/conference/5509
 2816,CEECT,International Conference on Electrical Engineering and Control Technologies,2026-08-20,2026-09-20,2026-12-17,"Bangkok, Thailand",,,,False,2026-07-23,https://www.myhuiban.com/conference/2816
 2231,CSAE,International Conference on Computer Science and Application Engineering,2026-08-20,,2026-10-17,"Shanghai, China",,,,False,2026-07-06,https://www.myhuiban.com/conference/2231
 5064,CSAIA,International Conference on Computer Science and Artificial Intelligence Applications,2026-08-20,2026-10-20,2026-12-07,Online,,,,False,2026-07-30,https://www.myhuiban.com/conference/5064
@@ -25,6 +23,8 @@ id,short_name,full_name,submission_date,notification_date,conference_date,locati
 4998,MLPR,International Conference on Machine Learning and Pattern Recognition,2026-08-20,2026-09-20,2026-12-04,"Kyoto, Japan",,,,True,2026-07-31,https://www.myhuiban.com/conference/4998
 1769,MSN,"International Conference on Mobility, Sensing and Networking",2026-08-20,2026-10-16,2026-12-18,"Ningbo, China",C,,,False,2026-04-24,https://www.myhuiban.com/conference/1769
 2341,NAOME,International Conference on Naval Architecture and Ocean & Marine Engineering,2026-08-20,2026-09-01,2026-09-18,"Guangzhou, China",,,,True,2026-01-27,https://www.myhuiban.com/conference/2341
+4908,RTNS,International Conference on Real-Time Networks and Systems,2026-08-20,2026-09-28,2026-11-04,"Toulouse, France",,,,False,2026-08-19,https://www.myhuiban.com/conference/4908
+4703,FLLM,International Symposium on Foundation and Large Language Models,2026-08-21,2026-10-01,2026-11-17,"Barcelona, Spain",,,,True,2026-08-19,https://www.myhuiban.com/conference/4703
 3582,IEEE BigData,IEEE International Conference on Big Data,2026-08-21,2026-10-24,2026-12-14,"Phoenix, Arizona, USA",C,B,,False,2026-05-12,https://www.myhuiban.com/conference/3582
 5120,IWCEAA,International Workshop on Control Engineering and Advanced Algorithms,2026-08-21,2026-09-21,2026-11-06,"Xi an, China",,,,False,2026-07-30,https://www.myhuiban.com/conference/5120
 1363,ACITY,International Conference on Advances in Computing and Information technology,2026-08-22,2026-10-24,2026-11-27,"Zurich, Switzerland",,,,True,2026-08-17,https://www.myhuiban.com/conference/1363
@@ -177,7 +177,9 @@ id,short_name,full_name,submission_date,notification_date,conference_date,locati
 2809,ICSCA,International Conference on Software and Computer Applications,2026-09-10,2026-10-10,2027-01-22,"Putrajaya, Malaysia",,,,False,2026-04-30,https://www.myhuiban.com/conference/2809
 5260,ISDDC',International Conference on Intelligent Systems & Data-driven Computing,2026-09-10,,2026-11-20,"Lucknow, India",,,,False,2025-11-19,https://www.myhuiban.com/conference/5260
 67,ITAIC,Joint International Information Technology and Artificial Intelligence Conference,2026-09-10,2026-09-20,2026-12-04,"Chongqing, China",,,,False,2026-07-12,https://www.myhuiban.com/conference/67
+5837,ITFT,International Symposium on Intelligent Technology for Future Transportation,2026-09-10,2026-09-24,2026-10-20,"Glasgow, UK",,,,True,2026-08-20,https://www.myhuiban.com/conference/5837
 2034,KST,International Conference on Knowledge and Smart Technology,2026-09-10,2026-10-10,2027-03-17,"Tokyo, Japan",,,,False,2026-07-14,https://www.myhuiban.com/conference/2034
+1662,MCSoC,International Symposium on Embedded Multicore/Many-core Systems-on-Chip,2026-09-10,2026-10-31,2026-12-14,"Shanghai, China",,,,False,2026-08-19,https://www.myhuiban.com/conference/1662
 5256,Mechatronika,International Conference on Mechatronics,2026-09-10,2026-09-30,2026-12-02,"Prague, Czech Republic",,,,False,2026-07-12,https://www.myhuiban.com/conference/5256
 3024,NLPIR,International Conference on Natural Language Processing and Information Retrieval,2026-09-10,2026-10-10,2026-12-11,"Nara, Japan",,,,True,2026-08-17,https://www.myhuiban.com/conference/3024
 303,NSDI,USENIX Symposium on Networked Systems Design and Implementation,2026-09-10,2026-12-08,2027-05-11,"Providence, Rhode Island, USA",A,,A1,False,2026-07-04,https://www.myhuiban.com/conference/303
@@ -264,6 +266,7 @@ id,short_name,full_name,submission_date,notification_date,conference_date,locati
 557,ISPD,International Symposium on Physical Design,2026-09-21,2026-11-05,2027-03-31,"Taipei, Taiwan",C,,A2,False,2026-07-06,https://www.myhuiban.com/conference/557
 1922,SANER,"IEEE International Conference on Software Analysis, Evolution, and Reengineering",2026-09-21,2026-12-01,2027-03-09,"Richmond, Virginia, USA",B,A,,False,2026-05-16,https://www.myhuiban.com/conference/1922
 2111,ICVISP,"International Conference on Vision, Image and Signal Processing",2026-09-23,2026-10-23,2026-12-11,"Haikou, China",,,,True,2026-05-27,https://www.myhuiban.com/conference/2111
+5865,CMICA,"International Conference on​Computational Methods, Intelligent Control and Aerospace",2026-09-25,2026-10-30,2026-11-27,"Harbin, China",,,,False,2026-08-19,https://www.myhuiban.com/conference/5865
 2166,CSNT,International Conference on Communication Systems and Network Technologies,2026-09-25,,2027-03-12,"Khajuraho, Gwalior, India",,,,False,2026-07-14,https://www.myhuiban.com/conference/2166
 271,Eurographics,Annual Conference of the European Association for Computer Graphics,2026-09-25,2026-12-18,2027-05-10,"Lucca, Italy",B,,A2,False,2026-07-04,https://www.myhuiban.com/conference/271
 5228,ICBMC,International Conference on Building Materials and Construction,2026-09-25,2026-10-25,2027-02-18,"Hong Kong, China",,,,False,2026-08-07,https://www.myhuiban.com/conference/5228
@@ -289,6 +292,7 @@ Robotics, Automation and Intelligent Control",2026-09-25,2026-10-30,2026-11-27,"
 5616,ACIIDS,Asian Conference on Intelligent Information and Database Systems,2026-09-30,,2027-04-05,"Bali, Indonesia",,B,,False,2026-06-25,https://www.myhuiban.com/conference/5616
 3995,AI2A,"International Conference on Artificial Intelligence, Automation and Algorithms",2026-09-30,2026-09-30,2026-10-23,"Wuxi, China",,,,True,2026-05-14,https://www.myhuiban.com/conference/3995
 5505,AIBDCC,"International Conference on Artificial Intelligence, Big Data and Cloud Computing",2026-09-30,2026-10-10,2026-10-30,"Chengdu, China",,,,True,2026-05-11,https://www.myhuiban.com/conference/5505
+5785,AIEI,IEEE International Conference on AI Engineering and Innovations,2026-09-30,2026-10-30,2027-01-21,"Bengaluru, India",,,,False,2026-07-13,https://www.myhuiban.com/conference/5785
 1407,BigComp,International Conference on Big Data and Smart Computing,2026-09-30,2026-11-30,2027-01-25,"Fukuoka, Japan",,,,False,2026-07-13,https://www.myhuiban.com/conference/1407
 4338,CCNML,"International Conference on Communications, Networking and Machine Learning",2026-09-30,2026-09-30,2026-10-23,"Wuxi, China",,,,True,2026-05-14,https://www.myhuiban.com/conference/4338
 5558,ICAIRS,International Conference on Artificial Intelligence and Robotic Systems,2026-09-30,2026-10-10,2026-10-23,"Tianjin, China",,,,True,2026-06-04,https://www.myhuiban.com/conference/5558
@@ -632,6 +636,7 @@ Fundamentals of Software Engineering",2026-10-19,2026-12-18,2027-05-24,"Enschede
 3908,CCAI,International Conference on Computer Communication and Artificial Intelligence,2027-01-10,2027-02-10,2027-05-21,"Shanghai, China",,,,False,2026-07-21,https://www.myhuiban.com/conference/3908
 4499,CVIPPR,"Asia Conference on Computer Vision, Image Processing and Pattern Recognition",2027-01-10,2027-01-15,2027-04-16,"Xi an, China",,,,False,2026-07-28,https://www.myhuiban.com/conference/4499
 1860,ICOWC,International Conference on Optical Wireless Communications,2027-01-10,2027-02-10,2027-05-21,"Shenzhen, China",,,,False,2026-07-21,https://www.myhuiban.com/conference/1860
+4774,SEAI,IEEE International Conference on Software Engineering and Artificial Intelligence,2027-01-10,2027-02-10,2027-06-18,"Quanzhou, China",,,,False,2026-08-19,https://www.myhuiban.com/conference/4774
 5392,SECA,International Conference on Software Engineering and Computer Applications,2027-01-10,2027-02-10,2027-03-26,"Changsha, China",,,,False,2026-08-10,https://www.myhuiban.com/conference/5392
 4054,CISCE,"International Conference on Communications, Information System and Computer Engineering",2027-01-11,2027-02-11,2027-03-26,"Guangzhou, China",,,,False,2026-07-29,https://www.myhuiban.com/conference/4054
 5030,DIPCA,International Conference on Digital Image Processing and Computer Applications,2027-01-11,2027-02-09,2027-03-26,"Urumqi, China",,,,False,2026-08-11,https://www.myhuiban.com/conference/5030
