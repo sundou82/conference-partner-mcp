@@ -1,6 +1,6 @@
 # Data snapshot
 
-Generated **2026-08-22T05:57:24+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
+Generated **2026-08-23T05:58:33+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
 
 Every file here comes from the API's **anonymous tier** — the same rows anyone can fetch without credentials. Per-venue detail (CFP full text, acceptance-rate history, edition history, ratings, the organiser's own website URL) is not included; it needs a free credential and lives behind the API. See [../docs/data.md](../docs/data.md).
 
@@ -8,7 +8,7 @@ Every file here comes from the API's **anonymous tier** — the same rows anyone
 
 | Dataset | Rows | JSON | CSV |
 |---|---|---|---|
-| **Upcoming submission deadlines**<br><sub>Every conference whose submission deadline has not passed, soonest first.</sub> | 695 | [upcoming-deadlines.json](upcoming-deadlines.json) | [upcoming-deadlines.csv](upcoming-deadlines.csv) |
+| **Upcoming submission deadlines**<br><sub>Every conference whose submission deadline has not passed, soonest first.</sub> | 666 | [upcoming-deadlines.json](upcoming-deadlines.json) | [upcoming-deadlines.csv](upcoming-deadlines.csv) |
 | **CCF-ranked conferences**<br><sub>Every conference carrying a CCF rank, whether or not a call is open. CORE and QUALIS ranks are on the same row where the venue has them.</sub> | 388 | [ccf-conferences.json](ccf-conferences.json) | [ccf-conferences.csv](ccf-conferences.csv) |
 | **CORE-ranked conferences**<br><sub>Every conference carrying a CORE rank, whether or not a call is open.</sub> | 734 | [core-conferences.json](core-conferences.json) | [core-conferences.csv](core-conferences.csv) |
 | **QUALIS-ranked conferences**<br><sub>Every conference carrying a QUALIS rank (A1 through B5), whether or not a call is open.</sub> | 705 | [qualis-conferences.json](qualis-conferences.json) | [qualis-conferences.csv](qualis-conferences.csv) |
@@ -29,39 +29,10 @@ curl "https://www.myhuiban.com/api/conferences?field=ai&submission_date_start=$(
 
 Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](../docs/rest-api.md#incremental-sync).
 
-## Deadlines in the next 90 days (527)
+## Deadlines in the next 90 days (498)
 
 | Deadline | Conference | CCF | CORE | QUALIS | Held | Location |
 |---|---|---|---|---|---|---|
-| 2026-08-22 *(extended)* | [ACITY](https://www.myhuiban.com/conference/1363) | - | - | - | 2026-11-27 | Zurich, Switzerland |
-| 2026-08-22 | [ACOIT](https://www.myhuiban.com/conference/4857) | - | - | - | 2027-01-07 | Karnataka, India |
-| 2026-08-22 *(extended)* | [AI'](https://www.myhuiban.com/conference/3462) | - | - | - | 2026-12-26 | Dubai, UAE |
-| 2026-08-22 | [AIDD](https://www.myhuiban.com/conference/5861) | - | - | - | 2026-10-30 | Online |
-| 2026-08-22 | [BCYIoT](https://www.myhuiban.com/conference/4640) | - | - | - | 2026-10-30 | Online |
-| 2026-08-22 | [BIBE](https://www.myhuiban.com/conference/485) | - | C | B1 | 2026-11-27 | Shanghai, China |
-| 2026-08-22 | [BIGML](https://www.myhuiban.com/conference/3535) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 *(extended)* | [BMLI](https://www.myhuiban.com/conference/3914) | - | - | - | 2026-09-26 | Toronto, Ontario, Canada |
-| 2026-08-22 *(extended)* | [CAIML](https://www.myhuiban.com/conference/3548) | - | - | - | 2026-10-24 | Vienna, Austria |
-| 2026-08-22 | [CCSIT](https://www.myhuiban.com/conference/1108) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 *(extended)* | [CSEITT](https://www.myhuiban.com/conference/5835) | - | - | - | 2026-08-27 | Online |
-| 2026-08-22 *(extended)* | [DSPP](https://www.myhuiban.com/conference/4546) | - | - | - | 2026-10-16 | Nanjing, China |
-| 2026-08-22 | [EDIT](https://www.myhuiban.com/conference/4635) | - | - | - | 2026-10-30 | Online |
-| 2026-08-22 *(extended)* | [IBCOM](https://www.myhuiban.com/conference/3911) | - | - | - | 2026-09-19 | Copenhagen, Denmark |
-| 2026-08-22 *(extended)* | [ICAIT'](https://www.myhuiban.com/conference/3550) | - | - | - | 2026-10-24 | Vienna, Austria |
-| 2026-08-22 | [ICCTIT](https://www.myhuiban.com/conference/4902) | - | - | - | 2026-11-06 | Beijing, China |
-| 2026-08-22 *(extended)* | [ITCAU](https://www.myhuiban.com/conference/5838) | - | - | - | 2026-11-14 | Melbourne, Australia |
-| 2026-08-22 | [ITE'](https://www.myhuiban.com/conference/3537) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 | [IWMEN](https://www.myhuiban.com/conference/5858) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 *(extended)* | [IoTE](https://www.myhuiban.com/conference/3883) | - | - | - | 2026-11-27 | Zurich, Switzerland |
-| 2026-08-22 *(extended)* | [MLTEC](https://www.myhuiban.com/conference/4070) | - | - | - | 2026-12-19 | Sydney, Australia |
-| 2026-08-22 | [NLAII](https://www.myhuiban.com/conference/5859) | - | - | - | 2026-10-30 | Online |
-| 2026-08-22 *(extended)* | [NLCA](https://www.myhuiban.com/conference/3947) | - | - | - | 2026-10-24 | Vienna, Austria |
-| 2026-08-22 | [NLPCL](https://www.myhuiban.com/conference/3538) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 *(extended)* | [NLPSIG](https://www.myhuiban.com/conference/4634) | - | - | - | 2026-09-29 | Online |
-| 2026-08-22 | [PDCTA](https://www.myhuiban.com/conference/1364) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 | [SIPP](https://www.myhuiban.com/conference/1324) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 | [SOEN](https://www.myhuiban.com/conference/2995) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-22 | [VISCOM](https://www.myhuiban.com/conference/5860) | - | - | - | 2026-10-30 | Online |
 | 2026-08-23 *(extended)* | [ICFMCE](https://www.myhuiban.com/conference/2116) | - | - | - | 2026-09-20 | Antalya, Turkiye |
 | 2026-08-24 | [VR](https://www.myhuiban.com/conference/550) | A | A* | A2 | 2027-02-27 | Melbourne, Australia |
 | 2026-08-25 | [ACMMT](https://www.myhuiban.com/conference/5862) | - | - | - | 2026-11-05 | Bangkok, Thailand |
