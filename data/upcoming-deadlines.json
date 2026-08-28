@@ -2,8 +2,8 @@
   "title": "Upcoming submission deadlines",
   "note": "Every conference whose submission deadline has not passed, soonest first.",
   "source": "https://www.myhuiban.com/api/conferences",
-  "generated_at": "2026-08-27T16:46:32+00:00",
-  "count": 676,
+  "generated_at": "2026-08-28T17:40:52+00:00",
+  "count": 692,
   "attribution": "Conference Partner (myhuiban.com). Ranking values are reproduced from CCF / CORE / QUALIS; cite those bodies for the rankings.",
   "conferences": [
     {
@@ -37,19 +37,19 @@
       "detail_page": "https://www.myhuiban.com/conference/5129"
     },
     {
-      "id": 714,
-      "short_name": "ICISC",
-      "full_name": "International Conference on Information Security and Cryptology",
+      "id": 1782,
+      "short_name": "ICDCIT",
+      "full_name": "International Conference on Distributed Computing and Intelligent Technology",
       "submission_date": "2026-08-28",
-      "notification_date": "2026-10-26",
-      "conference_date": "2026-11-18",
-      "location": "Seoul, Korea",
+      "notification_date": "2026-10-12",
+      "conference_date": "2027-01-08",
+      "location": "Bhubaneswar, India",
       "ccf_rank": "",
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": false,
-      "updated_at": "2026-07-19",
-      "detail_page": "https://www.myhuiban.com/conference/714"
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/1782"
     },
     {
       "id": 5838,
@@ -140,6 +140,21 @@
       "is_extended": true,
       "updated_at": "2026-08-24",
       "detail_page": "https://www.myhuiban.com/conference/3861"
+    },
+    {
+      "id": 4643,
+      "short_name": "CSSE'",
+      "full_name": "International Conference on Computer Science and Software Engineering",
+      "submission_date": "2026-08-29",
+      "notification_date": "2026-09-21",
+      "conference_date": "2026-09-29",
+      "location": "Online",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/4643"
     },
     {
       "id": 3911,
@@ -725,21 +740,6 @@
       "is_extended": false,
       "updated_at": "2026-07-28",
       "detail_page": "https://www.myhuiban.com/conference/5847"
-    },
-    {
-      "id": 4881,
-      "short_name": "NCIC",
-      "full_name": "International Conference on Networks, Communications and Intelligent Computing",
-      "submission_date": "2026-08-31",
-      "notification_date": "2026-09-06",
-      "conference_date": "2026-09-18",
-      "location": "Baotou, China",
-      "ccf_rank": "",
-      "core_rank": "",
-      "qualis_rank": "",
-      "is_extended": true,
-      "updated_at": "2026-08-18",
-      "detail_page": "https://www.myhuiban.com/conference/4881"
     },
     {
       "id": 5859,
@@ -1462,6 +1462,36 @@
       "detail_page": "https://www.myhuiban.com/conference/5119"
     },
     {
+      "id": 1356,
+      "short_name": "IVCNZ",
+      "full_name": "International Conference on Image and Vision Computing New Zealand",
+      "submission_date": "2026-09-07",
+      "notification_date": "2026-10-05",
+      "conference_date": "2026-11-18",
+      "location": "Ōtepoti | Dunedin, New Zealand",
+      "ccf_rank": "",
+      "core_rank": "C",
+      "qualis_rank": "B4",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/1356"
+    },
+    {
+      "id": 1894,
+      "short_name": "PEMWN",
+      "full_name": "International Conference on Performance Evaluation and Modeling in Wired and Wireless Networks",
+      "submission_date": "2026-09-07",
+      "notification_date": "2026-09-10",
+      "conference_date": "2026-11-03",
+      "location": "Montreal, Quebec, Canada",
+      "ccf_rank": "",
+      "core_rank": "C",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/1894"
+    },
+    {
       "id": 322,
       "short_name": "ASPLOS",
       "full_name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
@@ -1597,6 +1627,21 @@
       "detail_page": "https://www.myhuiban.com/conference/5843"
     },
     {
+      "id": 5548,
+      "short_name": "DTISO",
+      "full_name": "International Conference on Digital Transformation and Intelligent SOciety",
+      "submission_date": "2026-09-10",
+      "notification_date": "2026-09-25",
+      "conference_date": "2026-11-17",
+      "location": "Barcelona, Spain",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/5548"
+    },
+    {
       "id": 5844,
       "short_name": "FICN",
       "full_name": "International Conference on Future and Intelligent Communication and Networking",
@@ -1730,6 +1775,21 @@
       "is_extended": false,
       "updated_at": "2026-04-30",
       "detail_page": "https://www.myhuiban.com/conference/2809"
+    },
+    {
+      "id": 688,
+      "short_name": "ICSPS",
+      "full_name": "International Conference on Signal Processing Systems",
+      "submission_date": "2026-09-10",
+      "notification_date": "2026-09-30",
+      "conference_date": "2026-10-23",
+      "location": "Xiamen, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/688"
     },
     {
       "id": 5260,
@@ -1912,6 +1972,21 @@
       "detail_page": "https://www.myhuiban.com/conference/5592"
     },
     {
+      "id": 1996,
+      "short_name": "BDCAT",
+      "full_name": "IEEE/ACM International Conference on Big Data Computing, Applications and Technologies",
+      "submission_date": "2026-09-11",
+      "notification_date": "2026-10-10",
+      "conference_date": "2026-12-01",
+      "location": "Florianopolis, Brazil",
+      "ccf_rank": "",
+      "core_rank": "C",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/1996"
+    },
+    {
       "id": 5545,
       "short_name": "EECCT",
       "full_name": "International Conference on Electronic Engineering, Communications and Computer Technology",
@@ -1925,6 +2000,21 @@
       "is_extended": false,
       "updated_at": "2026-05-19",
       "detail_page": "https://www.myhuiban.com/conference/5545"
+    },
+    {
+      "id": 714,
+      "short_name": "ICISC",
+      "full_name": "International Conference on Information Security and Cryptology",
+      "submission_date": "2026-09-11",
+      "notification_date": "2026-10-26",
+      "conference_date": "2026-11-18",
+      "location": "Seoul, Korea",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/714"
     },
     {
       "id": 5581,
@@ -1955,6 +2045,21 @@
       "is_extended": false,
       "updated_at": "2026-07-05",
       "detail_page": "https://www.myhuiban.com/conference/5724"
+    },
+    {
+      "id": 443,
+      "short_name": "UCC",
+      "full_name": "IEEE/ACM International Conference on Utility and Cloud Computing",
+      "submission_date": "2026-09-11",
+      "notification_date": "2026-10-10",
+      "conference_date": "2026-12-01",
+      "location": "Florianopolis, Brazil",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/443"
     },
     {
       "id": 2343,
@@ -2270,6 +2375,21 @@
       "is_extended": false,
       "updated_at": "2026-07-20",
       "detail_page": "https://www.myhuiban.com/conference/2566"
+    },
+    {
+      "id": 5868,
+      "short_name": "ICARCE",
+      "full_name": "International Conference on Automation, Robotics and Computer Engineering",
+      "submission_date": "2026-09-15",
+      "notification_date": "2026-09-29",
+      "conference_date": "2026-12-16",
+      "location": "Wuhan, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/5868"
     },
     {
       "id": 5863,
@@ -2615,6 +2735,21 @@
       "is_extended": false,
       "updated_at": "2026-07-11",
       "detail_page": "https://www.myhuiban.com/conference/1553"
+    },
+    {
+      "id": 4881,
+      "short_name": "NCIC",
+      "full_name": "International Conference on Networks, Communications and Intelligent Computing",
+      "submission_date": "2026-09-16",
+      "notification_date": "2026-10-09",
+      "conference_date": "2026-10-16",
+      "location": "Baotou, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/4881"
     },
     {
       "id": 217,
@@ -3322,6 +3457,21 @@
       "detail_page": "https://www.myhuiban.com/conference/5855"
     },
     {
+      "id": 1000,
+      "short_name": "WALCOM",
+      "full_name": "International Conference and Workshops on Algorithms and Computation",
+      "submission_date": "2026-09-21",
+      "notification_date": "2026-11-09",
+      "conference_date": "2027-03-24",
+      "location": "Taipei, Taiwan",
+      "ccf_rank": "",
+      "core_rank": "B",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/1000"
+    },
+    {
       "id": 3921,
       "short_name": "IEEE-RICAI",
       "full_name": "International Conference on Robotics, Intelligent Control and Artificial Intelligence",
@@ -3845,6 +3995,21 @@
       "is_extended": false,
       "updated_at": "2026-07-23",
       "detail_page": "https://www.myhuiban.com/conference/2975"
+    },
+    {
+      "id": 2033,
+      "short_name": "ICNSC",
+      "full_name": "IEEE International Conference on Networking, Sensing and Control",
+      "submission_date": "2026-09-30",
+      "notification_date": "2026-10-30",
+      "conference_date": "2026-11-27",
+      "location": "Chongqing, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/2033"
     },
     {
       "id": 5204,
@@ -5765,6 +5930,36 @@
       "is_extended": false,
       "updated_at": "2026-08-09",
       "detail_page": "https://www.myhuiban.com/conference/5210"
+    },
+    {
+      "id": 4872,
+      "short_name": "ICCR",
+      "full_name": "International Conference on Control and Robotics",
+      "submission_date": "2026-10-25",
+      "notification_date": "2026-11-15",
+      "conference_date": "2026-12-11",
+      "location": "Tokyo, Japan",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/4872"
+    },
+    {
+      "id": 2756,
+      "short_name": "ICVIP",
+      "full_name": "International Conference on Video and Image Processing",
+      "submission_date": "2026-10-25",
+      "notification_date": "2026-11-15",
+      "conference_date": "2026-12-11",
+      "location": "Shanghai, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": true,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/2756"
     },
     {
       "id": 5718,
@@ -8722,6 +8917,21 @@
       "detail_page": "https://www.myhuiban.com/conference/4971"
     },
     {
+      "id": 4242,
+      "short_name": "ICCCAS",
+      "full_name": "International Conference on Communications, Circuits and Systems",
+      "submission_date": "2027-01-01",
+      "notification_date": "2027-02-01",
+      "conference_date": "2027-05-21",
+      "location": "Chengdu, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/4242"
+    },
+    {
       "id": 4169,
       "short_name": "ICCCR",
       "full_name": "International Conference on Computer, Control and Robotics",
@@ -9832,6 +10042,21 @@
       "detail_page": "https://www.myhuiban.com/conference/5384"
     },
     {
+      "id": 5869,
+      "short_name": "DEON",
+      "full_name": "International Conference on Deontic Logic and Normative Systems",
+      "submission_date": "2027-03-05",
+      "notification_date": "2027-05-06",
+      "conference_date": "2027-06-29",
+      "location": "Hangzhou, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/5869"
+    },
+    {
       "id": 5535,
       "short_name": "ICARII",
       "full_name": "International Conference on Artificial Intelligence, Robotics and Intelligent Interaction",
@@ -10085,6 +10310,21 @@
       "is_extended": false,
       "updated_at": "2026-08-06",
       "detail_page": "https://www.myhuiban.com/conference/5345"
+    },
+    {
+      "id": 5870,
+      "short_name": "PSCE",
+      "full_name": "International Conference on Power Systems and Control Engineering",
+      "submission_date": "2027-04-15",
+      "notification_date": "2027-05-15",
+      "conference_date": "2027-08-18",
+      "location": "Hong Kong, China",
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "",
+      "is_extended": false,
+      "updated_at": "2026-08-28",
+      "detail_page": "https://www.myhuiban.com/conference/5870"
     },
     {
       "id": 5443,
