@@ -1,6 +1,6 @@
 # Data snapshot
 
-Generated **2026-08-28T17:40:52+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
+Generated **2026-08-29T11:46:17+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
 
 Every file here comes from the API's **anonymous tier** — the same rows anyone can fetch without credentials. Per-venue detail (CFP full text, acceptance-rate history, edition history, ratings, the organiser's own website URL) is not included; it needs a free credential and lives behind the API. See [../docs/data.md](../docs/data.md).
 
@@ -8,7 +8,7 @@ Every file here comes from the API's **anonymous tier** — the same rows anyone
 
 | Dataset | Rows | JSON | CSV |
 |---|---|---|---|
-| **Upcoming submission deadlines**<br><sub>Every conference whose submission deadline has not passed, soonest first.</sub> | 692 | [upcoming-deadlines.json](upcoming-deadlines.json) | [upcoming-deadlines.csv](upcoming-deadlines.csv) |
+| **Upcoming submission deadlines**<br><sub>Every conference whose submission deadline has not passed, soonest first.</sub> | 685 | [upcoming-deadlines.json](upcoming-deadlines.json) | [upcoming-deadlines.csv](upcoming-deadlines.csv) |
 | **CCF-ranked conferences**<br><sub>Every conference carrying a CCF rank, whether or not a call is open. CORE and QUALIS ranks are on the same row where the venue has them.</sub> | 388 | [ccf-conferences.json](ccf-conferences.json) | [ccf-conferences.csv](ccf-conferences.csv) |
 | **CORE-ranked conferences**<br><sub>Every conference carrying a CORE rank, whether or not a call is open.</sub> | 734 | [core-conferences.json](core-conferences.json) | [core-conferences.csv](core-conferences.csv) |
 | **QUALIS-ranked conferences**<br><sub>Every conference carrying a QUALIS rank (A1 through B5), whether or not a call is open.</sub> | 705 | [qualis-conferences.json](qualis-conferences.json) | [qualis-conferences.csv](qualis-conferences.csv) |
@@ -29,17 +29,10 @@ curl "https://www.myhuiban.com/api/conferences?field=ai&submission_date_start=$(
 
 Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](../docs/rest-api.md#incremental-sync).
 
-## Deadlines in the next 90 days (526)
+## Deadlines in the next 90 days (523)
 
 | Deadline | Conference | CCF | CORE | QUALIS | Held | Location |
 |---|---|---|---|---|---|---|
-| 2026-08-28 | [3DV](https://www.myhuiban.com/conference/1438) | C | - | - | 2027-04-06 | Vancouver, British Columbia, Canada |
-| 2026-08-28 | [BDNNDL](https://www.myhuiban.com/conference/5129) | - | - | - | 2026-09-11 | Changji, China |
-| 2026-08-28 | [ICDCIT](https://www.myhuiban.com/conference/1782) | - | - | - | 2027-01-08 | Bhubaneswar, India |
-| 2026-08-28 *(extended)* | [ITCAU](https://www.myhuiban.com/conference/5838) | - | - | - | 2026-11-14 | Melbourne, Australia |
-| 2026-08-28 | [ITSSC](https://www.myhuiban.com/conference/5544) | - | - | - | 2026-08-30 | Chongqing, China |
-| 2026-08-28 *(extended)* | [IWMEN](https://www.myhuiban.com/conference/5858) | - | - | - | 2026-11-21 | London, UK |
-| 2026-08-28 | [WACV](https://www.myhuiban.com/conference/517) | - | A | B1 | 2027-01-04 | Buena Vista, Florida, USA |
 | 2026-08-29 *(extended)* | [CAIML](https://www.myhuiban.com/conference/3548) | - | - | - | 2026-10-24 | Vienna, Austria |
 | 2026-08-29 *(extended)* | [CLSB](https://www.myhuiban.com/conference/3861) | - | - | - | 2026-10-17 | Sydney, Australia |
 | 2026-08-29 | [CSSE'](https://www.myhuiban.com/conference/4643) | - | - | - | 2026-09-29 | Online |
@@ -559,6 +552,10 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-11-25 | [ICIEA'](https://www.myhuiban.com/conference/3446) | - | - | - | 2027-04-18 | Bangkok, Thailand |
 | 2026-11-25 | [ISMSI](https://www.myhuiban.com/conference/2909) | - | - | - | 2027-04-23 | Ho Chi Minh City, Vietnam |
 | 2026-11-26 | [ICMLAS](https://www.myhuiban.com/conference/5810) | - | - | - | 2027-02-25 | Bangkok, Thailand |
+| 2026-11-27 | [AIFC](https://www.myhuiban.com/conference/5552) | - | - | - | 2026-12-11 | Guangzhou, China |
+| 2026-11-27 | [BDAIEM](https://www.myhuiban.com/conference/5734) | - | - | - | 2026-12-11 | Ningbo, China |
+| 2026-11-27 *(extended)* | [CMAAE](https://www.myhuiban.com/conference/3265) | - | - | - | 2026-12-25 | Shanghai, China |
+| 2026-11-27 | [ECCST](https://www.myhuiban.com/conference/4680) | - | - | - | 2026-12-11 | Xi an, China |
 
 ---
 
