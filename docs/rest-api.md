@@ -118,6 +118,22 @@ factor and publisher distributions.
   "qualis_rank": "A1",
   "is_extended": false,
   "updated_at": "2026-07-05",
+  "cp_index": {
+    "score": 93.56,
+    "rank": 19,
+    "percentile": 99.68,
+    "confidence": 1,
+    "factors": {
+      "recognition": 100,
+      "selectivity": 88.91,
+      "longevity": 100,
+      "community": 80.28,
+      "openness": 85
+    },
+    "algorithm": "1.1",
+    "computed": "2026-08-31",
+    "method": "https://www.myhuiban.com/ranking"
+  },
   "detail_page": "https://www.myhuiban.com/conference/411"
 }
 ```
@@ -130,6 +146,13 @@ Notes that bite if you assume otherwise:
 - `impact_factor` is `null` when a journal has none on record — that is "unknown",
   not "zero". Do not coerce it to 0 before sorting or filtering.
 - `is_extended` marks a deadline that has been pushed back at least once.
+- `cp_index` is an **object, or `null`** when the venue has not been scored — not a bare
+  number. `score` is 0–100 and only means something next to `confidence`: an input we do
+  not have scores as a neutral 50, so most venues land in the 40s and a low score is
+  usually thin evidence rather than a poor venue. `rank` is the position across all
+  scored conferences, `algorithm` is the version that produced the value (it changes only
+  when the method does), and `method` links to how it is computed. Do not compare scores
+  across `algorithm` versions.
 - Responses link to `detail_page` — the canonical Conference Partner page — and not to the
   venue's own website. Attribution therefore always resolves to a page that shows where
   the data came from. The official website URL is part of the planned paid tier.

@@ -5,8 +5,10 @@
 [![MCP registry](https://img.shields.io/badge/MCP%20registry-com.myhuiban.www%2Fconference--partner-blue)](https://registry.modelcontextprotocol.io)
 
 Academic **conference and journal** data for AI agents and scripts: CFP deadlines,
-CCF / CORE / QUALIS rankings, acceptance-rate history, edition history, journal impact
-factors and special issues — served by [Conference Partner](https://www.myhuiban.com)
+CCF / CORE / QUALIS rankings, the **Conference Partner Index (CP-I)** — a 0–100 score we
+compute for every conference, including the majority that carry no external rank —
+acceptance-rate history, edition history, journal impact factors and special issues —
+served by [Conference Partner](https://www.myhuiban.com)
 (会伴), a conference tracker that has been maintained since 2013.
 
 Two surfaces over one dataset:
@@ -114,8 +116,8 @@ Eight read-only tools, each with a REST twin returning the same payload.
 | `get_researcher` | `GET /api/researchers/{id}` | free account |
 
 Search accepts any combination of keyword, `ccf_rank` (A/B/C), `core_rank` (A\*/A/B/C),
-`qualis_rank`, `field` (14 CS areas), submission/conference date ranges and
-`updated_since` for incremental sync. **Every parameter is optional** — filter-only
+`qualis_rank`, `field` (research areas, CS and beyond), submission/conference date
+ranges and `updated_since` for incremental sync. **Every parameter is optional** — filter-only
 queries such as "AI conferences with a deadline in the next 90 days" are the point.
 
 Ranking lists cover open CFPs, the three tier lists, popularity, lowest acceptance rate,
@@ -206,7 +208,7 @@ repo running it on a schedule, so you can see the output before adopting it.
 | | |
 |---|---|
 | [`upcoming-deadlines`](data/upcoming-deadlines.csv) | every conference whose deadline has not passed |
-| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) · [`qualis-conferences`](data/qualis-conferences.csv) | the tier catalogues — all three ranks are columns on every row |
+| [`ccf-conferences`](data/ccf-conferences.csv) · [`core-conferences`](data/core-conferences.csv) · [`qualis-conferences`](data/qualis-conferences.csv) | the tier catalogues — all three ranks are columns on every row, alongside CP-I |
 | [`open-calls-by-rank`](data/open-calls-by-rank.csv) | the ranked venues you can still submit to today |
 | [`ccf-journals`](data/ccf-journals.csv) · [`top-impact-factor-journals`](data/top-impact-factor-journals.csv) | journals by tier and by impact factor |
 | [`journal-special-issues`](data/journal-special-issues.csv) | journals with an open special-issue call |
@@ -249,6 +251,12 @@ Deadline lists are easy to find. These are the parts that are hard to reproduce:
 
 - **Three ranking systems in one row** — CCF, CORE and QUALIS on the same venue, so
   "CCF-A that is also CORE-A\*" is one query rather than a join across three sources.
+- **A score for the venues those three leave blank** — CCF, CORE and QUALIS between them
+  cover about a fifth of the catalogue; for everything else the rank columns are empty.
+  `cp_index` is our own 0–100 index over academic recognition, selectivity, longevity,
+  community and how much a venue publishes about itself, so the long tail is comparable
+  too. Every value ships with a `confidence` and a link to the method — a low score on a
+  thinly documented venue means we know little about it, not that it is weak.
 - **Acceptance-rate history** and **edition history** — how a venue's selectivity and
   location moved across editions, back to 2013.
 - **Journals as first-class entities** — impact factor, publisher, ISSN, and
@@ -287,8 +295,11 @@ the "report" link on the venue page, and for anything else email `admin@myhuiban
 
 The **data served by the API is not covered by that license**. It is free to use,
 including commercially, with attribution: cite the canonical venue URL and
-"Conference Partner (myhuiban.com)". If your claim is about a ranking value itself, cite
-the ranking body — Conference Partner reproduces those lists, it does not define them.
+"Conference Partner (myhuiban.com)". If your claim is about a CCF, CORE or QUALIS value
+itself, cite that body — Conference Partner reproduces those lists, it does not define
+them. `cp_index` is the exception: it is ours, so cite
+[myhuiban.com/ranking](https://www.myhuiban.com/ranking) and the `algorithm` version the
+row carries.
 Bulk use should start from `data/` rather than a crawl of your own, and dataset licensing
 or model training needs a conversation first. See [`docs/data.md`](docs/data.md) and the
 [terms on the site](https://www.myhuiban.com/developers).

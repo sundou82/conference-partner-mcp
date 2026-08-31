@@ -146,7 +146,8 @@ DATASETS = [
 
 CONFERENCE_COLUMNS = ["id", "short_name", "full_name", "submission_date",
                       "notification_date", "conference_date", "location",
-                      "ccf_rank", "core_rank", "qualis_rank", "is_extended",
+                      "ccf_rank", "core_rank", "qualis_rank",
+                      "cp_index", "cp_index_rank", "cp_index_confidence", "is_extended",
                       "acceptance_rate", "years", "clicked", "updated_at", "detail_page"]
 JOURNAL_COLUMNS = ["id", "short_name", "full_name", "impact_factor", "publisher",
                    "issn", "ccf_rank", "special_issue_title",
@@ -154,8 +155,17 @@ JOURNAL_COLUMNS = ["id", "short_name", "full_name", "impact_factor", "publisher"
 
 #: Nested objects flattened for CSV only — JSON keeps the original shape.
 #: {source key: {sub key: csv column}}
+#:
+#: cp_index contributes three columns rather than one on purpose. The score alone is a
+#: number out of 100 with no scale attached: an unknown input counts as a neutral 50, so a
+#: middling score usually means a thinly documented venue rather than a weak one. Shipping
+#: `rank` and `confidence` beside it keeps that readable in a spreadsheet, where nobody is
+#: going to open the method page. The per-factor breakdown stays in the JSON only.
 FLATTEN = {"special_issue": {"title": "special_issue_title",
-                             "submission_date": "special_issue_deadline"}}
+                             "submission_date": "special_issue_deadline"},
+           "cp_index": {"score": "cp_index",
+                        "rank": "cp_index_rank",
+                        "confidence": "cp_index_confidence"}}
 
 
 class Budget:
@@ -232,8 +242,11 @@ def write_dataset(dataset, rows, generated_at):
         "source": f"https://www.myhuiban.com{dataset['path']}",
         "generated_at": generated_at,
         "count": len(rows),
-        "attribution": "Conference Partner (myhuiban.com). Ranking values are reproduced "
-                       "from CCF / CORE / QUALIS; cite those bodies for the rankings.",
+        "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values "
+                       "are reproduced as published; cite those bodies for them. cp_index "
+                       "is computed by Conference Partner - cite "
+                       "https://www.myhuiban.com/ranking and the algorithm version on the "
+                       "row, and keep the score with its rank or confidence.",
         key: rows,
     }
     (DATA / f"{slug}.json").write_text(
