@@ -2,8 +2,8 @@
   "openapi": "3.0.3",
   "info": {
     "title": "Conference Partner API",
-    "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). The unit is the distinct query: repeating a request already made the same day (same path, same parameters) does not consume quota again. Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Send a descriptive User-Agent on every request (e.g. \"my-lab-deadline-bot/1.0 (+https://example.edu/contact)\"): the site is behind Cloudflare, whose Browser Integrity Check rejects a few unattended-script defaults at the edge with HTTP 403 and body \"error code: 1010\" before the request reaches the API — confirmed for Python urllib's default (Python-urllib/x.y) and Perl LWP's (libwww-perl/x.y). requests, httpx, curl, Go, Node and Bun clients send their own and are unaffected. A 403 with that body is neither an auth nor a quota error: only a real User-Agent fixes it. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
-    "version": "2.4.0",
+    "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). The unit is the distinct query: repeating a request already made the same day (same path, same parameters) does not consume quota again. Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Send a descriptive User-Agent on every request (e.g. \"my-lab-deadline-bot/1.0 (+https://example.edu/contact)\"): the site is behind Cloudflare, whose Browser Integrity Check rejects a few unattended-script defaults at the edge with HTTP 403 and body \"error code: 1010\" before the request reaches the API — confirmed for Python urllib's default (Python-urllib/x.y) and Perl LWP's (libwww-perl/x.y). requests, httpx, curl, Go, Node and Bun clients send their own and are unaffected. A 403 with that body is neither an auth nor a quota error: only a real User-Agent fixes it. Every active conference also carries cp_index, the Conference Partner Index (CP-I): our own transparent 0-100 score with its per-factor breakdown and a confidence value; the complete method is published at https://www.myhuiban.com/ranking. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
+    "version": "2.5.1",
     "contact": {
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/",
@@ -160,6 +160,85 @@
             "format": "date",
             "nullable": true,
             "description": "Date this venue was last changed; null if never edited. Use as the updated_since checkpoint."
+          },
+          "cp_index": {
+            "type": "object",
+            "nullable": true,
+            "description": "Conference Partner Index (CP-I): our own 0-100 score, computed daily for every active conference from five published factors. Null for venues we have not scored. 50 is the neutral baseline used for unknown factors, so always read score together with confidence. The organizer of a venue can raise it only by supplying data (acceptance rates, past editions, best papers) - there is no paid path. Full method: https://www.myhuiban.com/ranking",
+            "properties": {
+              "score": {
+                "type": "number",
+                "format": "float",
+                "example": 73.9,
+                "description": "0-100; 50 is the neutral baseline, not a midpoint of observed values"
+              },
+              "rank": {
+                "type": "integer",
+                "example": 294,
+                "description": "Position among all scored conferences (ties share a rank)"
+              },
+              "percentile": {
+                "type": "number",
+                "format": "float",
+                "example": 94.8
+              },
+              "confidence": {
+                "type": "number",
+                "format": "float",
+                "example": 0.8,
+                "description": "Share of the score backed by observed data rather than the neutral baseline (0.25-1.0)"
+              },
+              "factors": {
+                "type": "object",
+                "description": "Per-factor scores 0-100; null means we hold no data for that factor and it was scored at the neutral baseline",
+                "properties": {
+                  "recognition": {
+                    "type": "number",
+                    "format": "float",
+                    "nullable": true,
+                    "description": "Highest CCF / ICORE / QUALIS tier (weight 35%)"
+                  },
+                  "selectivity": {
+                    "type": "number",
+                    "format": "float",
+                    "nullable": true,
+                    "description": "Acceptance rate over recent editions (weight 20%)"
+                  },
+                  "longevity": {
+                    "type": "number",
+                    "format": "float",
+                    "nullable": true,
+                    "description": "Editions demonstrably held (weight 20%)"
+                  },
+                  "community": {
+                    "type": "number",
+                    "format": "float",
+                    "nullable": true,
+                    "description": "Followers and readers within the Conference Partner community, not global popularity (weight 10%)"
+                  },
+                  "openness": {
+                    "type": "number",
+                    "format": "float",
+                    "nullable": true,
+                    "description": "Completeness of the public record; documentation, not academic quality (weight 15%)"
+                  }
+                }
+              },
+              "algorithm": {
+                "type": "string",
+                "example": "1.1",
+                "description": "Algorithm version; scores are only comparable within one version"
+              },
+              "computed": {
+                "type": "string",
+                "format": "date"
+              },
+              "method": {
+                "type": "string",
+                "format": "uri",
+                "example": "https://www.myhuiban.com/ranking"
+              }
+            }
           },
           "detail_page": {
             "type": "string",
