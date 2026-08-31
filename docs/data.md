@@ -3,7 +3,8 @@
 ## What is in it
 
 **Conferences** — short and full name, submission / notification / conference dates,
-location, CCF / CORE / QUALIS ranks, whether the deadline has been extended, acceptance
+location, CCF / CORE / QUALIS ranks, the Conference Partner Index (`cp_index`), whether
+the deadline has been extended, acceptance
 rate history, edition history, CFP text, community ratings and comments, related venues.
 
 **Journals** — name, ISSN, publisher, impact factor, CCF rank, special-issue calls for
@@ -14,7 +15,8 @@ research-interest summary, CV, tracked and attended venues. Never contact detail
 there is deliberately no search or enumeration over researchers.
 
 Coverage is strongest in computer science, where the three ranking systems apply. Venues
-outside CS are present but carry no ranks.
+outside CS are present but carry no CCF / CORE / QUALIS rank — `cp_index` is computed for
+them all the same, which is most of why it exists.
 
 The full account of where each field comes from, how conflicts are resolved and what is
 known to be incomplete is at
@@ -25,9 +27,18 @@ before you build anything that depends on a date being right.
 
 Dates are entered and corrected by maintainers, and increasingly by organisers themselves
 through a venue-claim process on the site. Automated scans flag venues whose next edition
-appears to have opened, but nothing is written from a scrape without review. Rankings are
-reproduced from CCF, CORE and QUALIS — Conference Partner is not the authority for those
-values and does not compute a ranking of its own.
+appears to have opened, but nothing is written from a scrape without review. CCF, CORE
+and QUALIS values are reproduced as published — Conference Partner is not the authority
+for them and does not adjust them.
+
+One index is ours: the **Conference Partner Index** (`cp_index`), a 0–100 score
+recomputed nightly from academic recognition, selectivity, longevity, community and how
+much a venue publishes about itself. It exists because those three lists between them
+cover about a fifth of the catalogue and say nothing at all about the rest. Every value
+carries a `confidence` and the `algorithm` version that produced it, and a missing input
+scores as a neutral 50 rather than a zero — so a middling score on a thinly documented
+venue reflects what we do not know about it, not a verdict on it. The factors, weights
+and their limits are at [myhuiban.com/ranking](https://www.myhuiban.com/ranking).
 
 ## The snapshot in `data/`
 
@@ -74,6 +85,10 @@ is what every API response returns as `detail_page`) plus the name
 
 If the claim you are making is about a *ranking value itself* — "X is CCF-A" — cite CCF,
 CORE or QUALIS. Conference Partner reproduces those lists; it does not define them.
+`cp_index` is the exception, since it is computed here: cite
+[myhuiban.com/ranking](https://www.myhuiban.com/ranking) and the `algorithm` version on
+the row, and keep the score with its `rank` or `confidence` — a bare number out of 100
+reads as more authoritative than the method supports.
 
 Two limits, matching the
 [terms on the site](https://www.myhuiban.com/developers): keep crawls to one request per
