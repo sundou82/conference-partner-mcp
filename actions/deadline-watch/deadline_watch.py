@@ -55,6 +55,35 @@ def open_with_retry(request, attempts=3):
         time.sleep(2 ** attempt)
 
 
+def _reason(error):
+    """The server's own message, or the reason phrase when the body is not ours.
+
+    Not every error body is JSON. An edge rule, a WAF or an origin error page
+    answers in HTML or plain text, and `json.loads` then raises JSONDecodeError
+    from inside the handler — which loses the status code, the single most
+    useful thing we had. That is not hypothetical: on 2026-08-31 an over-broad
+    edge rule started answering `?page=1&per_page=100` with `410 Gone` and a
+    two-word body, and this action reported it as
+    `Expecting value: line 1 column 1 (char 0)`.
+    """
+    try:
+        body = error.read() or b""
+    except OSError:                          # connection died mid-body
+        return error.reason
+
+    try:
+        payload = json.loads(body)
+        message = payload.get("message") if isinstance(payload, dict) else None
+    except ValueError:
+        # Not our envelope. A short plain-text body ("Gone") is worth repeating;
+        # a whole HTML error page is not — the status line already says more than
+        # its first tag does.
+        text = body.decode("utf-8", "replace").strip()
+        message = text if text and "<" not in text and len(text) <= 200 else None
+
+    return message or error.reason
+
+
 def get(params):
     query = urllib.parse.urlencode({k: v for k, v in params.items() if v not in (None, "")})
     request = urllib.request.Request(f"{BASE}/api/conferences?{query}")
@@ -69,7 +98,6 @@ def get(params):
         with open_with_retry(request) as response:
             return json.loads(response.read())["data"]
     except urllib.error.HTTPError as error:
-        payload = json.loads(error.read() or b"{}")
         # 429 here means the anonymous per-IP budget is gone. Say what to do about it
         # rather than failing with a bare status code.
         hint = ""
@@ -77,8 +105,7 @@ def get(params):
             hint = ("\nThe anonymous daily limit is per source IP and GitHub runners are shared. "
                     "Pass a free api-key input to use an account quota instead: "
                     "https://www.myhuiban.com/account/api-keys")
-        sys.exit(f"Conference Partner API returned {error.code}: "
-                 f"{payload.get('message', error.reason)}{hint}")
+        sys.exit(f"Conference Partner API returned {error.code}: {_reason(error)}{hint}")
 
 
 def collect(field, days):
