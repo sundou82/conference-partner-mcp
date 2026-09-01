@@ -195,9 +195,10 @@
               "most_competitive",
               "upcoming",
               "past",
-              "trending"
+              "trending",
+              "cp_index"
             ],
-            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=venues in that tier whose submission deadline has not passed (for the whole tier catalogue use search_conferences with ccf_rank / core_rank / qualis_rank); most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
+            "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=venues in that tier whose submission deadline has not passed (for the whole tier catalogue use search_conferences with ccf_rank / core_rank / qualis_rank); cp_index=every conference ordered by the Conference Partner Index, our own 0-100 score - the only list here that covers the whole catalogue instead of the fifth of it that CCF / ICORE / QUALIS rate; each row carries cp_index with its confidence, and https://www.myhuiban.com/ranking has the method; most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
           },
           "page": {
             "type": "integer",
