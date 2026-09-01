@@ -49,6 +49,35 @@ def _open(request, attempts=3):
         time.sleep(2 ** attempt)
 
 
+def _reason(error):
+    """The server's own message, or the reason phrase when the body is not ours.
+
+    Not every error body is JSON. An edge rule, a WAF or an origin error page
+    answers in HTML or plain text, and `json.loads` then raises JSONDecodeError
+    from inside the handler — which loses the status code, the single most
+    useful thing we had. That is not hypothetical: on 2026-08-31 an over-broad
+    edge rule started answering `?page=1&per_page=100` with `410 Gone` and a
+    two-word body, and this client reported it as
+    `Expecting value: line 1 column 1 (char 0)`.
+    """
+    try:
+        body = error.read() or b""
+    except OSError:                          # connection died mid-body
+        return error.reason
+
+    try:
+        payload = json.loads(body)
+        message = payload.get("message") if isinstance(payload, dict) else None
+    except ValueError:
+        # Not our envelope. A short plain-text body ("Gone") is worth repeating;
+        # a whole HTML error page is not — the status line already says more than
+        # its first tag does.
+        text = body.decode("utf-8", "replace").strip()
+        message = text if text and "<" not in text and len(text) <= 200 else None
+
+    return message or error.reason
+
+
 def get(path, params=None):
     """GET an endpoint and return its `data` payload.
 
@@ -76,8 +105,7 @@ def get(path, params=None):
             quota_remaining = response.headers.get("X-Quota-Remaining")
             body = json.loads(response.read())
     except urllib.error.HTTPError as error:
-        payload = json.loads(error.read() or b"{}")
-        raise ApiError(f"HTTP {error.code}: {payload.get('message', error.reason)}") from None
+        raise ApiError(f"HTTP {error.code}: {_reason(error)}") from None
 
     # Validation problems come back as HTTP 200 with a non-200 code in the envelope.
     if body.get("code") != 200:
