@@ -5,7 +5,7 @@ id,short_name,full_name,submission_date,notification_date,conference_date,locati
 168,ASE,International Conference on Automated Software Engineering,2026-03-26,2026-05-25,2026-10-12,"Munich, Germany",A,A*,A1,92.33,42,1,False,2026-03-01,https://www.myhuiban.com/conference/168
 322,ASPLOS,International Conference on Architectural Support for Programming Languages and Operating Systems,2026-09-09,2026-12-21,2027-04-11,"Heraklion, Crete, Greece",A,A*,A1,96.33,8,1,False,2026-07-06,https://www.myhuiban.com/conference/322
 243,CAV,"International Conference on
-Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Netherlands",A,A*,A1,89.37,74,1,False,2026-09-08,https://www.myhuiban.com/conference/243
+Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Netherlands",A,A*,A1,89.45,73,1,False,2026-09-08,https://www.myhuiban.com/conference/243
 290,CCS,ACM Conference on Computer and Communications Security,2026-04-22,2026-07-17,2026-11-15,"The Hague, The Netherlands",A,A*,A1,92.92,28,1,False,2025-12-18,https://www.myhuiban.com/conference/290
 961,CHI,ACM Conference on Human Factors in Computing Systems,2026-09-10,2026-12-17,2027-05-10,"Pittsburgh, Pennsylvania, USA",A,A*,A1,94.14,15,1,False,2026-07-04,https://www.myhuiban.com/conference/961
 291,CRYPTO,International Cryptology Conference,2026-02-12,,2026-08-17,"Santa Barbara, California, USA",A,A*,A1,87.39,102,1,False,2025-11-28,https://www.myhuiban.com/conference/291
@@ -20,11 +20,11 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 321,HPCA,International Symposium on High-Performance Computer Architecture,2026-07-24,2026-11-06,2027-01-30,"Salt Lake City, Utah, USA",A,A*,A1,92.83,30,1,False,2026-06-11,https://www.myhuiban.com/conference/321
 332,HPDC,International ACM Symposium on High-Performance Parallel and Distributed Computing,2026-01-29,2026-03-31,2026-07-13,"Cleveland, Ohio, USA",A,A,A1,92.49,37,1,False,2025-11-21,https://www.myhuiban.com/conference/332
 109,ICCV,International Conference on Computer Vision,2025-03-07,2025-06-25,2025-10-19,"Honolulu, Hawaii, USA",A,A*,A1,89.25,80,1,False,2025-10-28,https://www.myhuiban.com/conference/109
-135,ICDE,International Conference on Data Engineering,2026-11-11,2027-02-10,2027-05-17,"Copenhagen, Denmark",A,A*,A1,97.2,4,1,False,2026-06-05,https://www.myhuiban.com/conference/135
-2350,ICLR,International Conference on Learning Representations,2026-09-18,2026-12-16,2027-04-26,"San Francisco, California, USA",A,A*,,89.23,81,1,False,2026-08-06,https://www.myhuiban.com/conference/2350
+135,ICDE,International Conference on Data Engineering,2026-11-11,2027-02-10,2027-05-17,"Copenhagen, Denmark",A,A*,A1,97.22,4,1,False,2026-06-05,https://www.myhuiban.com/conference/135
+2350,ICLR,International Conference on Learning Representations,2026-09-18,2026-12-16,2027-04-26,"San Francisco, California, USA",A,A*,,89.25,80,1,False,2026-08-06,https://www.myhuiban.com/conference/2350
 406,ICML,International Conference on Machine Learning,2026-01-23,,2026-07-06,"Seoul, South Korea",A,A*,A1,91.97,46,1,False,2025-12-13,https://www.myhuiban.com/conference/406
 160,ICSE,International Conference on Software Engineering,2026-06-23,2026-10-20,2027-04-25,"Dublin, Ireland",A,A*,A1,94.82,12,1,False,2026-03-22,https://www.myhuiban.com/conference/160
-1,INFOCOM,International Conference on Computer Communications,2026-07-24,2026-12-08,2027-05-24,"Honolulu, Hawaii, USA",A,A*,A1,97.25,3,1,False,2026-07-04,https://www.myhuiban.com/conference/1
+1,INFOCOM,International Conference on Computer Communications,2026-07-24,2026-12-08,2027-05-24,"Honolulu, Hawaii, USA",A,A*,A1,97.26,3,1,False,2026-07-04,https://www.myhuiban.com/conference/1
 319,ISCA,International Symposium on Computer Architecture,2025-11-10,2026-03-27,2026-06-27,"Raleigh, North Carolina, USA",A,A*,A1,92.57,35,1,False,2025-09-25,https://www.myhuiban.com/conference/319
 177,ISSTA,International Symposium on Software Testing and Analysis,2027-01-08,2027-06-17,2027-09-07,Singapore,A,A,A2,92.35,41,1,False,2026-09-10,https://www.myhuiban.com/conference/177
 136,KDD,ACM SIGKDD Conference on Knowledge Discovery and Data Mining,2026-07-19,2026-11-14,2027-08-09,"San Jose, California, USA",A,A*,A1,96.39,7,1,False,2026-06-24,https://www.myhuiban.com/conference/136
@@ -32,7 +32,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 320,MICRO,International Symposium on Microarchitecture,2026-03-31,2026-07-07,2026-10-31,"Athens, Greece",A,A*,A1,91.02,56,1,False,2026-02-05,https://www.myhuiban.com/conference/320
 53,MM,ACM International Conference on Multimedia,2026-04-01,2026-07-09,2026-11-10,"Rio de Janeiro, Brazil",A,A*,,92.09,43,1,False,2026-05-01,https://www.myhuiban.com/conference/53
 104,MobiCom,International Conference on Mobile Computing and Networking,2026-08-26,2026-11-19,2027-10-18,to be updated,A,A*,A1,96.1,9,1,False,2026-08-04,https://www.myhuiban.com/conference/104
-293,NDSS,Annual Network & Distributed System Security Symposium,2026-08-19,2026-11-04,2027-03-22,"Seoul, South Korea",A,A*,A1,89.33,76,1,False,2026-04-29,https://www.myhuiban.com/conference/293
+293,NDSS,Annual Network & Distributed System Security Symposium,2026-08-19,2026-11-04,2027-03-22,"Seoul, South Korea",A,A*,A1,89.34,76,1,False,2026-04-29,https://www.myhuiban.com/conference/293
 303,NSDI,USENIX Symposium on Networked Systems Design and Implementation,2026-09-10,2026-12-08,2027-05-11,"Providence, Rhode Island, USA",A,,A1,94.15,14,1,False,2026-07-04,https://www.myhuiban.com/conference/303
 3214,NeurIPS,Conference on Neural Information Processing Systems,2026-05-04,2026-09-24,2026-12-06,"Sydney, Australia",A,A*,A1,92.42,38,1,False,2026-04-10,https://www.myhuiban.com/conference/3214
 162,OOPSLA,"Object-Oriented Programming Systems, Languages and Applications",2027-04-07,2027-07-02,2027-10-10,"Prague, Czech Republic",A,A,A1,92.81,31,1,False,2026-09-10,https://www.myhuiban.com/conference/162
@@ -40,8 +40,8 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 164,PLDI,ACM SIGPLAN conference on Programming Language Design and Implementation,2026-11-12,2027-03-04,2027-06-05,"Atlanta, Georgia, USA",A,A*,A1,93.95,18,1,False,2026-09-10,https://www.myhuiban.com/conference/164
 161,POPL,ACM SIGACT-SIGPLAN Symposium on Principles of Programming Languages,2026-07-09,2026-10-05,2027-01-10,"Mexico City, Mexico",A,A*,A1,92.03,44,1,False,2026-03-22,https://www.myhuiban.com/conference/161
 325,PPoPP,ACM SIGPLAN Annual Symposium Principles and Practice of Parallel Programming,2026-08-03,2026-10-26,2027-03-20,"Salt Lake City, Utah, USA",A,B,A2,93.47,21,1,False,2026-06-11,https://www.myhuiban.com/conference/325
-328,RTSS,IEEE Real-Time Systems Symposium,2026-05-21,,2026-12-09,"Yokohama, Japan",A,A,A1,89.33,76,1,False,2026-03-07,https://www.myhuiban.com/conference/328
-289,S&P,IEEE Symposium on Security and Privacy,2026-11-10,2027-03-05,2027-05-18,"Montreal, Canada",A,A*,,98.1,1,1,False,2026-07-05,https://www.myhuiban.com/conference/289
+328,RTSS,IEEE Real-Time Systems Symposium,2026-05-21,,2026-12-09,"Yokohama, Japan",A,A,A1,89.33,77,1,False,2026-03-07,https://www.myhuiban.com/conference/328
+289,S&P,IEEE Symposium on Security and Privacy,2026-11-10,2027-03-05,2027-05-18,"Montreal, Canada",A,A*,,98.12,1,1,False,2026-07-05,https://www.myhuiban.com/conference/289
 354,SC,"International Conference for High Performance Computing, Networking, Storage, and Analysis",2026-04-01,2026-07-01,2026-11-15,"Chicago, Illinois, USA",A,A,A1,89.06,86,1,False,2026-03-30,https://www.myhuiban.com/conference/354
 301,SIGCOMM,Annual Conference of the ACM Special Interest Group on Data Communication,2026-02-06,,2026-08-17,"Denver, Colorado, USA",A,A*,A1,93.65,20,1,False,2026-02-05,https://www.myhuiban.com/conference/301
 270,SIGGRAPH,The Premier Conference & Exhibition on Computer Graphics & Interactive Techniques,2026-01-15,,2026-07-19,"Los Angeles, California, USA",A,A*,,91.62,50,1,False,2025-12-18,https://www.myhuiban.com/conference/270
@@ -50,14 +50,14 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 383,SODA,ACM-SIAM Symposium on Discrete Algorithms,2026-07-09,,2027-01-24,"Philadelphia, Pennsylvania, USA",A,A*,A1,87.62,99,1,False,2026-07-04,https://www.myhuiban.com/conference/383
 88,SOSP,ACM Symposium on Operating Systems Principles,2026-03-26,2026-07-03,2026-09-29,"Prague, Czech Republic",A,A*,A1,92.37,40,1,False,2026-03-01,https://www.myhuiban.com/conference/88
 359,STOC,ACM Symposium on Theory of Computing,2025-11-04,2026-02-01,2026-06-22,"Salt Lake City, Utah, USA",A,A*,A1,89.29,78,1,False,2025-10-11,https://www.myhuiban.com/conference/359
-137,The Web Conference,The ACM Web Conference,2026-10-18,2027-01-04,2027-05-10,"Dublin, Ireland",A,A*,A1,96.82,5,1,False,2026-09-08,https://www.myhuiban.com/conference/137
+137,The Web Conference,The ACM Web Conference,2026-10-18,2027-01-04,2027-05-10,"Dublin, Ireland",A,A*,A1,96.83,5,1,False,2026-09-08,https://www.myhuiban.com/conference/137
 276,UIST,ACM Symposium on User Interface Software and Technology,2026-03-24,,2026-11-02,"Detroit, Michigan, USA",A,A*,A1,89.78,70,1,False,2026-01-03,https://www.myhuiban.com/conference/276
 292,USENIX Security,USENIX Security Symposium,2027-01-19,,2027-08-11,"Denver, Colorado, USA",A,A*,A1,93.35,23,1,False,2026-06-03,https://www.myhuiban.com/conference/292
 46,Ubicomp,ACM International Joint Conference on Pervasive and Ubiquitous Computing,2026-05-17,2026-07-01,2026-10-13,"Shanghai, China",A,,A1,92.01,45,1,False,2026-03-05,https://www.myhuiban.com/conference/46
-134,VLDB,International Conference on Very Large Data Bases,2027-03-01,2027-04-15,2027-08-23,"Athens, Greece",A,A*,,83.19,153,0.8,False,2026-07-08,https://www.myhuiban.com/conference/134
+134,VLDB,International Conference on Very Large Data Bases,2027-03-01,2027-04-15,2027-08-23,"Athens, Greece",A,A*,,83.22,153,0.8,False,2026-07-08,https://www.myhuiban.com/conference/134
 550,VR,IEEE Conference on Virtual Reality and 3D User Interfaces,2026-08-24,2027-01-07,2027-02-27,"Melbourne, Australia",A,A*,A2,93.22,24,1,False,2026-07-04,https://www.myhuiban.com/conference/550
 70,Vis,IEEE Visualization Conference,2026-03-21,2026-07-15,2026-11-09,"Boston, Massachusetts, USA",A,A,B4,87.39,102,1,False,2026-05-11,https://www.myhuiban.com/conference/70
-412,AAMAS,International Joint Conference on Autonomous Agents and Multi-agent Systems,2026-10-01,2026-12-21,2027-05-03,"Hanoi, Vietnam",B,A,A1,90.79,58,1,False,2026-09-08,https://www.myhuiban.com/conference/412
+412,AAMAS,International Joint Conference on Autonomous Agents and Multi-agent Systems,2026-10-01,2026-12-21,2027-05-03,"Hanoi, Vietnam",B,A,A1,90.83,58,1,False,2026-09-08,https://www.myhuiban.com/conference/412
 895,ACM ISS,ACM Interactive Surfaces and Spaces Conference,2026-07-22,2026-09-10,2026-11-23,"Torino, Italy",B,,B2,67.95,369,0.8,False,2026-03-30,https://www.myhuiban.com/conference/895
 296,ACSAC,Annual Computer Security Applications Conference ,2026-05-26,2026-07-13,2026-12-07,"Los Angeles, California, USA",B,A,A1,92.95,27,1,False,2026-05-15,https://www.myhuiban.com/conference/296
 299,ASIACRYPT,International Conference on the Theory and Application of Cryptology and Information Security,2026-05-22,2026-08-14,2026-12-07,"Hong Kong, China",B,A,A1,90.9,57,1,False,2026-04-29,https://www.myhuiban.com/conference/299
@@ -77,20 +77,20 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 170,COLING,International Conference on Computational Linguistics,2026-10-12,2027-02-10,2027-05-09,"Macau, China",B,B,A1,92.67,33,1,False,2026-08-07,https://www.myhuiban.com/conference/170
 415,COLT,Annual Conference on Learning Theory,2026-02-04,2026-05-04,2026-06-29,"San Diego, California, USA",B,A*,A2,89.18,83,1,False,2025-12-24,https://www.myhuiban.com/conference/415
 258,CONCUR,International Conference on Concurrency Theory,2026-04-20,2026-06-15,2026-09-01,"Liverpool, UK",B,B,A2,82.42,162,1,False,2026-04-09,https://www.myhuiban.com/conference/258
-262,CP,International Conference on Principles and Practice of Constraint Programming,2026-02-28,2026-04-30,2026-07-20,"Lisbon, Portugal",B,A,A2,81.4,179,1,False,2025-12-26,https://www.myhuiban.com/conference/262
-297,CSF,IEEE Computer Security Foundations Symposium,2027-01-28,2027-04-05,2027-07-26,"Tokyo, Japan",B,A,,84.81,130,1,False,2026-09-08,https://www.myhuiban.com/conference/297
+262,CP,International Conference on Principles and Practice of Constraint Programming,2026-02-28,2026-04-30,2026-07-20,"Lisbon, Portugal",B,A,A2,81.4,180,1,False,2025-12-26,https://www.myhuiban.com/conference/262
+297,CSF,IEEE Computer Security Foundations Symposium,2027-01-28,2027-04-05,2027-07-26,"Tokyo, Japan",B,A,,84.85,130,1,False,2026-09-08,https://www.myhuiban.com/conference/297
 10,CoNEXT,International Conference on emerging Networking EXperiments and Technologies,2026-05-29,2026-09-11,2026-12-07,"Utrecht, The Netherlands",B,A,B1,86.15,117,1,False,2026-01-18,https://www.myhuiban.com/conference/10
 422,CogSci,Annual Meeting of the Cognitive Science Society,2026-02-02,,2026-07-22,"Rio de Janeiro, Brazil",B,B,B2,77.12,232,1,False,2025-10-15,https://www.myhuiban.com/conference/422
-158,DASFAA,International Conference on Database Systems for Advanced Applications,2026-11-22,,2027-05-28,"Shenyang, China",B,B,B1,74.34,272,0.8,False,2026-07-04,https://www.myhuiban.com/conference/158
+158,DASFAA,International Conference on Database Systems for Advanced Applications,2026-11-22,,2027-05-28,"Shenyang, China",B,B,B1,74.35,273,0.8,False,2026-07-04,https://www.myhuiban.com/conference/158
 216,DATE,"Design, Automation and Test in Europe",2026-09-07,2026-11-10,2027-03-22,"Dresden, Germany",B,A,A1,92.85,29,1,False,2026-07-05,https://www.myhuiban.com/conference/216
 617,DCC,Data Compression Conference,2026-10-02,2026-11-22,2027-03-23,"Snowbird, Utah, USA",B,B,A2,60.97,577,0.8,False,2026-07-06,https://www.myhuiban.com/conference/617
 187,DSN,International Conference on Dependable Systems and Networks,2026-11-25,2027-03-18,2027-06-22,"Berlin, Germany",B,A,A1,93.11,25,1,False,2026-07-04,https://www.myhuiban.com/conference/187
 414,ECAI,European Conference on Artificial Intelligence,2026-01-12,2026-04-29,2026-08-15,"Bremen, Germany",B,A,A2,87.69,98,1,False,2026-07-29,https://www.myhuiban.com/conference/414
 413,ECCV,European Conference on Computer Vision,2026-03-06,2026-05-09,2026-09-08,"Malmo, Sweden",B,A*,A1,88.98,87,1,False,2026-07-29,https://www.myhuiban.com/conference/413
 144,ECML-PKDD,The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases,2026-03-05,2026-05-27,2026-09-07,"Naples, Italy",B,A,A2,87.95,95,1,False,2026-07-04,https://www.myhuiban.com/conference/144
-169,ECOOP,European Conference on Object-Oriented Programming,2027-02-11,2027-04-08,2027-06-28,"Turin, Italy",B,A,A1,92.68,32,1,False,2026-07-04,https://www.myhuiban.com/conference/169
+169,ECOOP,European Conference on Object-Oriented Programming,2027-02-11,2027-04-08,2027-06-28,"Turin, Italy",B,A,A1,92.73,32,1,False,2026-07-04,https://www.myhuiban.com/conference/169
 1178,ECSCW,European Conferences on Computer-Supported Cooperative Work,2026-03-06,2026-04-24,2026-06-29,"Munich, Germany",B,B,B1,66.11,407,0.8,False,2025-07-13,https://www.myhuiban.com/conference/1178
-139,EDBT,International Conference on Extending Database Technology,2026-10-07,2026-12-05,2027-04-06,"Lille, France",B,B,A2,73.28,284,0.8,False,2026-06-03,https://www.myhuiban.com/conference/139
+139,EDBT,International Conference on Extending Database Technology,2026-10-07,2026-12-05,2027-04-06,"Lille, France",B,B,A2,73.3,284,0.8,False,2026-06-03,https://www.myhuiban.com/conference/139
 275,EGSR,Eurographics Symposium on Rendering,2026-04-09,2026-05-25,2026-07-01,"Bordeaux, France",B,,,76.45,241,1,False,2026-04-09,https://www.myhuiban.com/conference/275
 424,EMNLP,Conference on Empirical Methods in Natural Language Processing,2026-05-27,2026-08-20,2026-10-24,"Budapest, Hungary",B,A*,A1,90.74,59,1,False,2026-03-05,https://www.myhuiban.com/conference/424
 268,EMSOFT,International Conference on Embedded Software ,2026-03-23,2026-07-17,2026-10-04,"Barcelona, Spain",B,,A2,82.1,167,1,False,2025-12-29,https://www.myhuiban.com/conference/268
@@ -100,16 +100,16 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 768,ETAPS,European Joint Conferences on Theory and Practice of Software,2026-10-15,2026-12-22,2027-04-10,"Copenhagen, Denmark",B,,,60.94,579,0.8,False,2026-05-11,https://www.myhuiban.com/conference/768
 335,Euro-Par,European Conference on Parallel and Distributed Computing,2026-02-27,2026-04-30,2026-08-24,"Pisa, Italy",B,B,A2,82.55,161,1,False,2025-11-06,https://www.myhuiban.com/conference/335
 277,EuroVis,Eurographics/IEEE-VGTC Symposium on Visualization,2025-11-26,2026-03-18,2026-06-08,"Nottingham, UK",B,B,B1,75.88,248,1,False,2025-09-13,https://www.myhuiban.com/conference/277
-271,Eurographics,Annual Conference of the European Association for Computer Graphics,2026-09-25,2026-12-18,2027-05-10,"Lucca, Italy",B,,A2,89.43,73,1,False,2026-07-04,https://www.myhuiban.com/conference/271
+271,Eurographics,Annual Conference of the European Association for Computer Graphics,2026-09-25,2026-12-18,2027-05-10,"Lucca, Italy",B,,A2,89.43,74,1,False,2026-07-04,https://www.myhuiban.com/conference/271
 1494,FMCAD,Formal Methods in Computer-Aided Design,2026-05-04,2026-07-19,2026-09-14,"Graz, Austria",B,B,B1,69.36,348,0.8,False,2026-07-05,https://www.myhuiban.com/conference/1494
-336,FPGA,International Symposium on Field-Programmable Gate Arrays,2026-10-01,2026-11-24,2027-03-14,"Seaside, California, USA",B,A,A2,78.26,218,0.8,False,2026-08-06,https://www.myhuiban.com/conference/336
+336,FPGA,International Symposium on Field-Programmable Gate Arrays,2026-10-01,2026-11-24,2027-03-14,"Seaside, California, USA",B,A,A2,78.3,218,0.8,False,2026-08-06,https://www.myhuiban.com/conference/336
 585,FSE',International Conference on Fast Software Encryption,2026-12-01,2027-02-01,2027-05-24,"Maastricht, the Netherlands",B,B,A2,76.93,235,0.8,False,2026-07-06,https://www.myhuiban.com/conference/585
 880,Group,ACM International Conference on Supporting Group Work,2026-03-24,2026-06-05,2027-01-10,"St Simons Island, Georgia, USA",B,B,A2,80,198,1,False,2026-04-01,https://www.myhuiban.com/conference/880
 331,HOT CHIPS,Symposium on High Performance Chips,2026-03-29,2026-05-02,2026-08-23,"Stanford, California, USA",B,C,,68.59,355,0.8,False,2026-02-15,https://www.myhuiban.com/conference/331
 402,HSCC,International Conference on Hybrid Systems: Computation and Control,2025-11-06,2026-01-29,2026-05-11,"Saint-Malo, France",B,,,74.65,267,1,False,2025-10-22,https://www.myhuiban.com/conference/402
 341,HiPEAC,International Conference on High Performance and Embedded Architectures and Compilers,2026-06-01,,2027-01-18,"Glasgow, Scotland, UK",B,,B2,67.13,388,0.8,False,2026-05-25,https://www.myhuiban.com/conference/341
 346,HotOS,USENIX Workshop on Hot Topics in Operating Systems,,,2027-05-24,"Burghausen, Bavaria, Germany",B,A,A2,69.69,340,0.8,False,2026-07-05,https://www.myhuiban.com/conference/346
-381,ICALP,"International Colloquium on Automata, Languages and Programming",2026-09-15,2026-12-08,2027-07-05,"Krakow, Poland",B,A*,A1,91.69,48,1,False,2026-09-08,https://www.myhuiban.com/conference/381
+381,ICALP,"International Colloquium on Automata, Languages and Programming",2026-09-15,2026-12-08,2027-07-05,"Krakow, Poland",B,A*,A1,91.69,49,1,False,2026-09-08,https://www.myhuiban.com/conference/381
 417,ICAPS,International Conference on Automated Planning and Scheduling,2026-12-07,2027-02-26,2027-06-27,"Columbia, South Carolina, USA",B,A*,A2,88.96,88,1,False,2026-09-11,https://www.myhuiban.com/conference/417
 429,ICASSP,"International Conference on Acoustics, Speech and Signal Processing",2026-09-16,2027-01-13,2027-05-16,"Toronto, Ontario, Canada",B,,A1,91.16,54,1,False,2026-06-11,https://www.myhuiban.com/conference/429
 556,ICCAD,International Conference on Computer-Aided Design,2026-04-07,2026-07-11,2026-11-08,"San Jose, California, USA",B,A,A1,90.49,61,1,False,2026-02-15,https://www.myhuiban.com/conference/556
@@ -141,7 +141,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 538,ISWC,International Semantic Web Conference,2026-05-02,2026-07-16,2026-10-25,"Bari, Italy",B,A,A1,77.17,231,0.8,False,2026-04-15,https://www.myhuiban.com/conference/538
 1488,ITC,International Test Conference,2026-03-20,2026-06-19,2026-10-11,"San Antonio, Texas, USA",B,A,A1,89.07,85,1,False,2025-12-29,https://www.myhuiban.com/conference/1488
 1409,IUI,International Conference on Intelligent User Interfaces,2026-08-13,2026-11-23,2027-02-08,"Helsinki, Finland",B,A,A1,77.77,221,0.8,False,2026-07-05,https://www.myhuiban.com/conference/1409
-302,IWQoS,IEEE/ACM International Symposium on Quality of Service,2026-02-16,2026-04-30,2026-06-29,"Dubai, UAE",B,B,A2,84.42,139,1,True,2026-02-05,https://www.myhuiban.com/conference/302
+302,IWQoS,IEEE/ACM International Symposium on Quality of Service,2026-02-16,2026-04-30,2026-06-29,"Dubai, UAE",B,B,A2,84.45,139,1,True,2026-02-05,https://www.myhuiban.com/conference/302
 1852,Interspeech,Conference of the International Speech Communication Association,2026-02-25,2026-06-05,2026-09-27,"Sydney, Australia",B,A,,80.39,192,1,False,2026-07-05,https://www.myhuiban.com/conference/1852
 410,KR,International Conference on the Principles of Knowledge Representation and Reasoning,2026-02-08,2026-04-13,2026-07-20,"Lisbon, Portugal",B,A*,A2,83.77,144,1,False,2025-12-24,https://www.myhuiban.com/conference/410
 337,LCTES,"ACM SIGPLAN/SIGBED Conference on Languages, Compilers, Tools and Theory for Embedded Systems",2026-03-13,2026-05-01,2026-06-15,"Boulder, Colorado, USA",B,B,B1,80.53,189,1,True,2026-03-11,https://www.myhuiban.com/conference/337
@@ -158,7 +158,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 324,PACT,International Conference on Parallel Architectures and Compilation Techniques,2026-04-17,2026-08-05,2026-10-19,"Chicago, Illinois, USA",B,B,A2,88.19,92,1,False,2026-02-22,https://www.myhuiban.com/conference/324
 300,PKC,International Conference on Practice and Theory in Public Key Cryptography,2026-08-16,2026-11-26,2027-03-01,"Taipei, Taiwan",B,B,A2,88.72,89,1,False,2026-07-04,https://www.myhuiban.com/conference/300
 362,PODC,ACM SIGACT-SIGOPS Symposium on Principles of Distributed Computing,2026-02-11,2026-04-29,2026-07-06,"Egham, England",B,A*,A1,89.66,72,1,False,2025-11-06,https://www.myhuiban.com/conference/362
-138,PODS,ACM SIGMOD Conference on Principles of DB Systems,2026-12-03,2027-03-01,2027-06-13,"Huntington Beach, California, USA",B,A*,A1,79.43,205,0.8,False,2026-04-05,https://www.myhuiban.com/conference/138
+138,PODS,ACM SIGMOD Conference on Principles of DB Systems,2026-12-03,2027-03-01,2027-06-13,"Huntington Beach, California, USA",B,A*,A1,79.46,205,0.8,False,2026-04-05,https://www.myhuiban.com/conference/138
 1620,PPSN,International Conference on Parallel Problem Solving from Nature,2026-04-18,2026-05-27,2026-08-29,"Trento, Italy",B,A,A2,79.93,199,1,True,2026-07-05,https://www.myhuiban.com/conference/1620
 39,Pacific Graphics,Pacific Conference on Computer Graphics and Applications,2026-06-01,2026-07-31,2026-10-06,Singapore,B,,,82.57,160,1,False,2026-05-08,https://www.myhuiban.com/conference/39
 214,PerCom,International Conference on Pervasive Computing and Communications,2026-09-04,2026-12-18,2027-03-08,"Goa, India",B,A*,A2,94.46,13,1,False,2026-05-16,https://www.myhuiban.com/conference/214
@@ -199,7 +199,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 533,ADMA,International Conference on Advanced Data Mining and Applications,2026-05-29,2026-08-03,2026-11-01,"Hong Kong, China",C,C,B2,71.01,319,1,False,2026-02-26,https://www.myhuiban.com/conference/533
 4357,AFT,ACM Advances in Financial Technologies,2026-05-20,2026-07-15,2026-10-06,"London, UK",C,B,,57.15,710,0.8,False,2026-07-05,https://www.myhuiban.com/conference/4357
 1853,AISTATS,International Conference on Artificial Intelligence and Statistics,2025-09-25,2025-01-21,2026-05-02,"Tangier, Morocco",C,A,,81.99,169,1,False,2025-08-30,https://www.myhuiban.com/conference/1853
-419,ALT,International Conference on Algorithmic Learning Theory,2026-10-12,2027-01-05,2027-03-09,"Leiden, the Netherlands",C,B,B1,80.15,195,1,False,2026-08-06,https://www.myhuiban.com/conference/419
+419,ALT,International Conference on Algorithmic Learning Theory,2026-10-12,2027-01-05,2027-03-09,"Leiden, the Netherlands",C,B,B1,80.18,195,1,False,2026-08-06,https://www.myhuiban.com/conference/419
 1490,AMIA,American Medical Informatics Association Annual Symposium,2026-03-10,,2026-11-07,"Dallas, Texas, USA",C,,A2,61.19,561,0.6,False,2025-12-28,https://www.myhuiban.com/conference/1490
 344,ANCS,ACM/IEEE Symposium on Architectures for Networking and Communications Systems,2021-09-29,2021-11-15,2021-12-13,Online,C,,B1,73.65,279,1,True,2021-09-25,https://www.myhuiban.com/conference/344
 487,APBC,Asia Pacific Bioinformatics Conference,2026-06-15,2026-09-01,2026-10-21,"Hsinchu, Taiwan",C,B,,73.43,281,1,False,2026-06-04,https://www.myhuiban.com/conference/487
@@ -230,7 +230,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 747,COLLABORATECOM,"International Conference on Collaborative Computing: Networking, Applications and Worksharing",2026-05-01,2026-06-01,2026-11-14,"Hong Kong, China",C,C,B3,62.29,523,0.8,False,2026-04-24,https://www.myhuiban.com/conference/747
 179,COMPSAC,International Computer Software and Applications Conference,2026-01-31,2026-04-01,2026-07-07,"Madrid, Spain",C,B,A2,83.58,148,1,False,2025-09-13,https://www.myhuiban.com/conference/179
 442,COSIT,International Conference on Spatial Information Theory,2026-04-17,2026-05-15,2026-09-22,"York, UK",C,,B1,65.46,420,0.8,False,2026-03-02,https://www.myhuiban.com/conference/442
-1181,CSCWD,International Conference on Computer Supported Cooperative Work in Design,2025-11-30,2026-01-31,2026-05-13,"Fuzhou, China",C,C,B2,64.95,432,0.8,True,2025-10-23,https://www.myhuiban.com/conference/1181
+1181,CSCWD,International Conference on Computer Supported Cooperative Work in Design,2025-11-30,2026-01-31,2026-05-13,"Fuzhou, China",C,C,B2,64.97,432,0.8,True,2025-10-23,https://www.myhuiban.com/conference/1181
 1704,CSCloud,IEEE International Conference on Cyber Security and Cloud Computing,2026-08-01,2026-09-01,2026-12-19,"Shanghai, China",C,,,61.63,547,0.8,False,2026-03-20,https://www.myhuiban.com/conference/1704
 387,CSL,Conference on Computer Science Logic,2026-07-08,2026-10-15,2027-01-25,"Brighton, UK",C,B,B1,68.14,362,0.8,False,2026-07-08,https://www.myhuiban.com/conference/387
 588,CT-RSA,The Cryptographer's Track at RSA Conference,2024-10-15,2025-01-10,2025-04-28,"San Francisco, California, USA",C,B,,67.91,370,1,False,2024-09-15,https://www.myhuiban.com/conference/588
@@ -244,7 +244,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 4050,DFRWS USA,Digital Forensics Research Conference USA,2026-02-06,2026-04-03,2026-07-27,"Arlington, Virginia, USA",C,,,49.84,1621,0.6,False,2026-02-05,https://www.myhuiban.com/conference/4050
 963,DIMVA,International Conference on Detection of Intrusions and Malware & Vulnerability Assessment,2026-02-11,2026-04-03,2026-07-01,"Chania, Greece",C,B,B1,75.71,251,1,False,2026-02-05,https://www.myhuiban.com/conference/963
 1413,DIS,ACM Conference on Designing Interactive Systems,2027-01-11,2027-03-19,2027-06-28,"Stockholm, Sweden",C,A,A2,71.19,313,0.8,False,2026-07-08,https://www.myhuiban.com/conference/1413
-1540,DSAA,International Conference on Data Science and Advanced Analytics,2026-05-30,2026-08-10,2026-10-06,"New Delhi, India",C,B,,61.49,552,0.8,True,2026-04-15,https://www.myhuiban.com/conference/1540
+1540,DSAA,International Conference on Data Science and Advanced Analytics,2026-05-30,2026-08-10,2026-10-06,"New Delhi, India",C,B,,61.49,553,0.8,True,2026-04-15,https://www.myhuiban.com/conference/1540
 368,EAI SecureComm,EAI International Conference on Security and Privacy in Communication Networks,2027-03-01,2027-05-01,2027-10-15,"Hefei, China",C,C,B1,80.12,196,1,False,2026-09-04,https://www.myhuiban.com/conference/368
 1151,EASE,International Conference on Evaluation and Assessment in Software Engineering,,,2027-06-15,"Hanoi, Vietnam",C,A,B4,72.65,290,0.8,False,2026-07-08,https://www.myhuiban.com/conference/1151
 159,ECIR,European Conference on Information Retrieval,2026-09-21,2026-12-07,2027-03-21,"Southampton, UK",C,A,A2,80.39,192,0.8,False,2026-07-07,https://www.myhuiban.com/conference/159
@@ -289,10 +289,10 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 437,ICONIP,International Conference on Neural Information Processing,2026-05-10,2026-07-15,2026-11-23,"Melbourne, Australia",C,B,B1,79.89,200,1,False,2026-03-02,https://www.myhuiban.com/conference/437
 223,ICPADS,International Conference on Parallel and Distributed Systems,2026-06-30,2026-09-01,2026-11-22,"Tokyo, Japan",C,B,B1,80.33,194,1,False,2026-05-25,https://www.myhuiban.com/conference/223
 441,ICPR,International Conference on Pattern Recognition,2026-01-10,2026-03-31,2026-08-17,"Lyon, France",C,B,A1,86.22,116,1,True,2025-12-24,https://www.myhuiban.com/conference/441
-176,ICSA,IEEE International Conference on Software Architecture,2026-10-30,2026-12-15,2027-03-08,"Sydney, Australia",C,A,B1,78.74,215,1,False,2026-03-22,https://www.myhuiban.com/conference/176
+176,ICSA,IEEE International Conference on Software Architecture,2026-10-30,2026-12-15,2027-03-08,"Sydney, Australia",C,A,B1,78.75,215,1,False,2026-03-22,https://www.myhuiban.com/conference/176
 260,ICSR,International Conference on Software and Systems Reuse,2024-12-03,2025-01-10,2025-04-27,"Ottawa, Ontario, Canada",C,B,B1,63.76,473,0.8,True,2024-11-28,https://www.myhuiban.com/conference/260
 939,ICSSP,International Conference on Software and Systems Process,2024-03-22,2024-04-30,2024-09-04,"Munich, Germany",C,B,B5,67.57,377,1,False,2024-01-14,https://www.myhuiban.com/conference/939
-934,ICST,"International Conference on Software Testing, Verification and Validation",2026-11-02,2027-02-20,2027-05-17,"San Sebastian, Spain",C,A,B2,80.91,184,1,False,2026-07-08,https://www.myhuiban.com/conference/934
+934,ICST,"International Conference on Software Testing, Verification and Validation",2026-11-02,2027-02-20,2027-05-17,"San Sebastian, Spain",C,A,B2,80.94,184,1,False,2026-07-08,https://www.myhuiban.com/conference/934
 945,ICTAC,International Colloquium on Theoretical Aspects of Computing,2026-06-08,2026-08-10,2026-11-09,"Bariloche, Argentina",C,C,B3,71.06,317,1,False,2026-05-20,https://www.myhuiban.com/conference/945
 11,ICTAI,International Conference on Tools with Artificial Intelligence,2026-06-30,2026-09-10,2026-11-02,"Boca Raton, Florida, USA",C,B,A2,84.8,131,1,False,2026-06-04,https://www.myhuiban.com/conference/11
 124,ICWE,International Conference on Web Engineering,2024-01-26,2024-03-22,2024-06-17,"Tampere, Finland",C,B,B1,71.03,318,1,False,2024-01-14,https://www.myhuiban.com/conference/124
@@ -303,7 +303,7 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 2861,IEEE CLOUD,IEEE International Conference on Cloud Computing,2023-03-25,2023-05-08,2023-07-02,"Chicago, Illinois, USA",C,B,B2,58.09,672,0.8,False,2023-04-18,https://www.myhuiban.com/conference/2861
 4767,IEEE SSE,IEEE International Conference on Software Services Engineering,2026-03-08,2026-05-10,2026-07-13,"Sydney, Australia",C,B,,51.91,1210,0.6,False,2026-02-01,https://www.myhuiban.com/conference/4767
 3976,IFIP SEC,IFIP TC-11 International Information Security and Privacy Conference,2025-12-19,2026-02-13,2026-06-09,"Perth, Australia",C,B,,62.83,498,0.8,False,2025-07-13,https://www.myhuiban.com/conference/3976
-1497,IFIP WG 11.9,IFIP WG 11.9 International Conference on Digital Forensics,2026-10-10,2026-11-10,2027-01-07,"New Delhi, India",C,,,63.97,466,0.8,False,2026-07-21,https://www.myhuiban.com/conference/1497
+1497,IFIP WG 11.9,IFIP WG 11.9 International Conference on Digital Forensics,2026-10-10,2026-11-10,2027-01-07,"New Delhi, India",C,,,64.01,465,0.8,False,2026-07-21,https://www.myhuiban.com/conference/1497
 1171,IH&MMSEC,ACM Workshop on Information Hiding and Multimedia Security,2026-02-16,2026-04-13,2026-06-17,"Florence, Italy",C,C,,59.86,610,0.8,False,2026-02-05,https://www.myhuiban.com/conference/1171
 2096,IJCB,International Joint Conference on Biometrics,2026-04-30,2026-06-21,2026-09-01,"Rome, Italy",C,B,,58.64,645,0.8,True,2026-04-08,https://www.myhuiban.com/conference/2096
 428,IJCNN,International Joint Conference on Neural Networks,2027-01-31,2027-03-15,2027-06-14,"Cape Town, South Africa",C,B,A2,62.65,506,0.8,False,2026-07-08,https://www.myhuiban.com/conference/428
@@ -335,9 +335,9 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 404,MEMOCODE,ACM-IEEE International Symposium on Formal Methods and Models for System Design,2026-05-04,2026-07-10,2026-10-08,"Barcelona, Spain",C,C,,59.5,621,0.8,False,2026-03-31,https://www.myhuiban.com/conference/404
 374,MFCS,International Symposium on Mathematical Foundations of Computer Science,2024-04-26,2024-06-24,2024-08-26,"Bratislava, Slovakia",C,B,B1,73.31,283,1,False,2024-03-14,https://www.myhuiban.com/conference/374
 4588,MMAsia,ACM Multimedia Asia,2026-08-03,2026-10-02,2026-12-15,"Hanoi, Vietnam",C,C,,50.02,1573,0.8,False,2026-07-08,https://www.myhuiban.com/conference/4588
-620,MMM,International Conference on MultiMedia Modeling,2026-08-16,2026-10-16,2027-01-05,"Siem Reap, Cambodia",C,B,B1,69.86,338,0.8,False,2026-05-12,https://www.myhuiban.com/conference/620
+620,MMM,International Conference on MultiMedia Modeling,2026-08-16,2026-10-16,2027-01-05,"Siem Reap, Cambodia",C,B,B1,69.87,338,0.8,False,2026-05-12,https://www.myhuiban.com/conference/620
 1769,MSN,"International Conference on Mobility, Sensing and Networking",2026-08-20,2026-10-16,2026-12-18,"Ningbo, China",C,,,63.88,468,0.8,False,2026-04-24,https://www.myhuiban.com/conference/1769
-572,MSR,Working Conference on Mining Software Repositories,2026-10-20,2027-01-08,2027-04-26,"Dublin, Ireland",C,A,B1,80.41,190,1,False,2026-08-10,https://www.myhuiban.com/conference/572
+572,MSR,Working Conference on Mining Software Repositories,2026-10-20,2027-01-08,2027-04-26,"Dublin, Ireland",C,A,B1,80.45,190,1,False,2026-08-10,https://www.myhuiban.com/conference/572
 310,MSWiM,"International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",2026-06-01,2026-07-31,2026-10-26,"Paris, France",C,A,B1,84.56,137,1,False,2026-03-29,https://www.myhuiban.com/conference/310
 918,Mobiquitous,"International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",2026-05-31,2026-07-31,2026-11-16,"Beppu, Japan",C,C,B1,77.77,221,1,False,2026-04-27,https://www.myhuiban.com/conference/918
 69,NAS,"International Conference on Networking, Architecture, and Storage",2026-07-08,2026-08-15,2026-10-30,"Wuhan, China",C,,B4,63.39,483,0.8,False,2026-06-25,https://www.myhuiban.com/conference/69
@@ -383,9 +383,9 @@ Computer-Aided Verification",2027-01-20,2027-04-23,2027-07-19,"Amsterdam, the Ne
 1489,VTS,VLSI Test Symposium,2026-11-13,2027-01-29,2027-04-26,"Napa, California, USA",C,,A2,75.16,259,0.8,False,2026-09-09,https://www.myhuiban.com/conference/1489
 148,WAIM,International Conference on Web-Age Information Management,2016-01-23,2016-03-20,2016-06-03,"Nanchang, China",C,,B2,58.34,661,0.8,True,2016-07-25,https://www.myhuiban.com/conference/148
 1695,WASA,International Conference on Wireless Artificial Intelligent Computing Systems and Applications,2026-04-10,2026-05-24,2026-06-26,"Xi an, China",C,,,62.18,526,0.8,False,2025-11-28,https://www.myhuiban.com/conference/1695
-316,WCNC,IEEE Wireless Communications and Networking Conference,2026-09-15,2027-01-15,2027-04-05,"Panama City, Panama",C,B,A2,86.38,114,1,False,2026-09-08,https://www.myhuiban.com/conference/316
+316,WCNC,IEEE Wireless Communications and Networking Conference,2026-09-15,2027-01-15,2027-04-05,"Panama City, Panama",C,B,A2,86.39,114,1,False,2026-09-08,https://www.myhuiban.com/conference/316
 4051,WHC,IEEE World Haptics Conference,2025-01-31,2025-04-11,2025-07-08,"Suwon City, Korea",C,,,47.92,2073,0.8,False,2024-10-13,https://www.myhuiban.com/conference/4051
 3302,WISA,International Conference on Web Information Systems Engineering,2026-06-30,2026-07-30,2026-11-02,"Venice, Italy",C,,,62.95,494,0.8,True,2026-06-19,https://www.myhuiban.com/conference/3302
 150,WebDB,International Workshop on the Web and Databases,2018-02-09,2018-03-14,2018-06-10,"Houston, Texas, USA",C,,B1,62.76,502,0.8,False,2017-12-15,https://www.myhuiban.com/conference/150
 586,WiSec,ACM Conference on Security and Privacy in Wireless and Mobile Networks,2025-03-12,2025-04-23,2025-06-30,"Arlington, Virginia, USA",C,B,B1,77.36,229,1,False,2024-11-24,https://www.myhuiban.com/conference/586
-652,WoWMoM,"International Symposium on a World of Wireless, Mobile and Multimedia Networks",2024-11-22,2025-02-12,2025-05-27,"Fort Worth, Texas, USA",C,C,B3,74.2,276,1,False,2024-10-01,https://www.myhuiban.com/conference/652
+652,WoWMoM,"International Symposium on a World of Wireless, Mobile and Multimedia Networks",2024-11-22,2025-02-12,2025-05-27,"Fort Worth, Texas, USA",C,C,B3,74.42,272,1,False,2024-10-01,https://www.myhuiban.com/conference/652
