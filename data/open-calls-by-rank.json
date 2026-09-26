@@ -2,8 +2,8 @@
   "title": "Ranked conferences with a call open now",
   "note": "The subset of the catalogues you can still submit to today — CCF, CORE and QUALIS lists merged.",
   "source": "https://www.myhuiban.com/api/conferences/rankings/ccf",
-  "generated_at": "2026-09-25T10:31:04+00:00",
-  "count": 148,
+  "generated_at": "2026-09-26T10:12:04+00:00",
+  "count": 150,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "conferences": [
     {
@@ -19,21 +19,21 @@
       "core_rank": "A",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 20377,
+      "clicked": 20449,
       "cp_index": {
-        "score": 60.48,
-        "rank": 590,
-        "percentile": 89.64,
+        "score": 67.41,
+        "rank": 381,
+        "percentile": 93.32,
         "confidence": 0.8,
         "factors": {
           "recognition": 88,
           "selectivity": null,
-          "longevity": 66.91,
-          "community": 25.44,
-          "openness": 25
+          "longevity": 77.83,
+          "community": 27.97,
+          "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/2865"
@@ -51,21 +51,21 @@
       "core_rank": "A",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 131627,
+      "clicked": 131792,
       "cp_index": {
-        "score": 87.69,
-        "rank": 100,
-        "percentile": 98.26,
+        "score": 87.79,
+        "rank": 97,
+        "percentile": 98.31,
         "confidence": 1,
         "factors": {
           "recognition": 88,
           "selectivity": 78.91,
           "longevity": 92.47,
-          "community": 76.15,
+          "community": 77.12,
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1853"
@@ -83,11 +83,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 1161,
+      "clicked": 1179,
       "cp_index": {
         "score": 59.23,
-        "rank": 627,
-        "percentile": 88.99,
+        "rank": 628,
+        "percentile": 88.97,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -97,7 +97,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5616"
@@ -115,11 +115,11 @@
       "core_rank": "",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 39986,
+      "clicked": 39996,
       "cp_index": {
         "score": 66.74,
-        "rank": 401,
-        "percentile": 92.97,
+        "rank": 402,
+        "percentile": 92.95,
         "confidence": 1,
         "factors": {
           "recognition": 60,
@@ -129,7 +129,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/105"
@@ -147,21 +147,21 @@
       "core_rank": "C",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 231894,
+      "clicked": 231961,
       "cp_index": {
-        "score": 67.04,
-        "rank": 394,
-        "percentile": 93.09,
+        "score": 67.09,
+        "rank": 393,
+        "percentile": 93.11,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
           "selectivity": null,
           "longevity": 86.68,
-          "community": 83.51,
+          "community": 84.05,
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/190"
@@ -179,9 +179,9 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 617876,
+      "clicked": 618044,
       "cp_index": {
-        "score": 91.01,
+        "score": 91.03,
         "rank": 58,
         "percentile": 99,
         "confidence": 1,
@@ -189,11 +189,11 @@
           "recognition": 100,
           "selectivity": 88.05,
           "longevity": 88.75,
-          "community": 79.02,
+          "community": 79.22,
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/412"
@@ -211,7 +211,7 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 68698,
+      "clicked": 68736,
       "cp_index": {
         "score": 78.42,
         "rank": 219,
@@ -225,7 +225,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/336"
@@ -243,9 +243,9 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 188234,
+      "clicked": 188281,
       "cp_index": {
-        "score": 92.7,
+        "score": 92.77,
         "rank": 34,
         "percentile": 99.42,
         "confidence": 1,
@@ -253,11 +253,11 @@
           "recognition": 100,
           "selectivity": 84.87,
           "longevity": 100,
-          "community": 79.76,
+          "community": 80.48,
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/334"
@@ -275,11 +275,11 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 79159,
+      "clicked": 79205,
       "cp_index": {
         "score": 61.04,
-        "rank": 573,
-        "percentile": 89.94,
+        "rank": 575,
+        "percentile": 89.91,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -289,7 +289,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/617"
@@ -307,11 +307,11 @@
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": true,
-      "clicked": 18797,
+      "clicked": 18815,
       "cp_index": {
         "score": 46.54,
-        "rank": 2420,
-        "percentile": 57.46,
+        "rank": 2425,
+        "percentile": 57.37,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
@@ -321,7 +321,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/3436"
@@ -339,11 +339,11 @@
       "core_rank": "",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 23560,
+      "clicked": 23572,
       "cp_index": {
         "score": 60.95,
-        "rank": 580,
-        "percentile": 89.82,
+        "rank": 582,
+        "percentile": 89.78,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -353,7 +353,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1404"
@@ -371,21 +371,21 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 1905765,
+      "clicked": 1905861,
       "cp_index": {
-        "score": 91.65,
-        "rank": 52,
-        "percentile": 99.1,
+        "score": 91.66,
+        "rank": 54,
+        "percentile": 99.07,
         "confidence": 1,
         "factors": {
           "recognition": 100,
           "selectivity": 83.14,
           "longevity": 100,
-          "community": 80.21,
+          "community": 80.3,
           "openness": 80
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/87"
@@ -403,9 +403,9 @@
       "core_rank": "",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 11300532,
+      "clicked": 11300674,
       "cp_index": {
-        "score": 87.42,
+        "score": 87.43,
         "rank": 105,
         "percentile": 98.17,
         "confidence": 1,
@@ -413,11 +413,11 @@
           "recognition": 92,
           "selectivity": 67.56,
           "longevity": 88.75,
-          "community": 89.57,
+          "community": 89.65,
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/318"
@@ -435,11 +435,11 @@
       "core_rank": "",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 1006282,
+      "clicked": 1006337,
       "cp_index": {
         "score": 90,
-        "rank": 65,
-        "percentile": 98.87,
+        "rank": 66,
+        "percentile": 98.86,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -449,7 +449,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/218"
@@ -467,11 +467,11 @@
       "core_rank": "",
       "qualis_rank": "B4",
       "is_extended": false,
-      "clicked": 21626,
+      "clicked": 21635,
       "cp_index": {
         "score": 64.05,
-        "rank": 470,
-        "percentile": 91.75,
+        "rank": 471,
+        "percentile": 91.73,
         "confidence": 1,
         "factors": {
           "recognition": 54,
@@ -481,7 +481,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/932"
@@ -499,11 +499,11 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 172449,
+      "clicked": 172493,
       "cp_index": {
         "score": 73.36,
-        "rank": 283,
-        "percentile": 95.04,
+        "rank": 284,
+        "percentile": 95.02,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -513,7 +513,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/139"
@@ -531,11 +531,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 37337,
+      "clicked": 37367,
       "cp_index": {
         "score": 58.54,
-        "rank": 652,
-        "percentile": 88.55,
+        "rank": 653,
+        "percentile": 88.53,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -545,7 +545,7 @@
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1827"
@@ -563,11 +563,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 1028142,
+      "clicked": 1028165,
       "cp_index": {
         "score": 63.71,
-        "rank": 480,
-        "percentile": 91.58,
+        "rank": 481,
+        "percentile": 91.56,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -577,7 +577,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/3722"
@@ -595,7 +595,7 @@
       "core_rank": "B",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 59371,
+      "clicked": 59394,
       "cp_index": {
         "score": 75.88,
         "rank": 250,
@@ -609,7 +609,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/515"
@@ -627,11 +627,11 @@
       "core_rank": "",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 31828,
+      "clicked": 31846,
       "cp_index": {
         "score": 63.64,
-        "rank": 486,
-        "percentile": 91.47,
+        "rank": 487,
+        "percentile": 91.45,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -641,7 +641,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/608"
@@ -659,11 +659,11 @@
       "core_rank": "",
       "qualis_rank": "B4",
       "is_extended": true,
-      "clicked": 23278,
+      "clicked": 23294,
       "cp_index": {
         "score": 52.8,
-        "rank": 1088,
-        "percentile": 80.88,
+        "rank": 1090,
+        "percentile": 80.85,
         "confidence": 0.8,
         "factors": {
           "recognition": 54,
@@ -673,7 +673,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1574"
@@ -691,11 +691,11 @@
       "core_rank": "",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 40781,
+      "clicked": 40793,
       "cp_index": {
         "score": 62.35,
-        "rank": 524,
-        "percentile": 90.8,
+        "rank": 525,
+        "percentile": 90.78,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -705,7 +705,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/230"
@@ -723,11 +723,11 @@
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 42826,
+      "clicked": 42845,
       "cp_index": {
         "score": 64.12,
-        "rank": 469,
-        "percentile": 91.77,
+        "rank": 470,
+        "percentile": 91.75,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
@@ -737,7 +737,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1497"
@@ -755,9 +755,9 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 1323864,
+      "clicked": 1324037,
       "cp_index": {
-        "score": 81.26,
+        "score": 81.28,
         "rank": 182,
         "percentile": 96.82,
         "confidence": 0.8,
@@ -765,11 +765,11 @@
           "recognition": 100,
           "selectivity": null,
           "longevity": 100,
-          "community": 87.58,
+          "community": 87.76,
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/133"
@@ -787,11 +787,11 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 48370,
+      "clicked": 48396,
       "cp_index": {
         "score": 87.7,
-        "rank": 99,
-        "percentile": 98.28,
+        "rank": 100,
+        "percentile": 98.26,
         "confidence": 1,
         "factors": {
           "recognition": 92,
@@ -801,7 +801,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/389"
@@ -819,7 +819,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 107939,
+      "clicked": 107968,
       "cp_index": {
         "score": 80.37,
         "rank": 195,
@@ -833,7 +833,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/419"
@@ -851,11 +851,11 @@
       "core_rank": "B",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 227707,
+      "clicked": 227798,
       "cp_index": {
         "score": 92.75,
-        "rank": 32,
-        "percentile": 99.45,
+        "rank": 35,
+        "percentile": 99.4,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -865,7 +865,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/170"
@@ -883,21 +883,21 @@
       "core_rank": "",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 44257,
+      "clicked": 44273,
       "cp_index": {
-        "score": 61.24,
-        "rank": 563,
-        "percentile": 90.12,
+        "score": 61.34,
+        "rank": 562,
+        "percentile": 90.13,
         "confidence": 0.8,
         "factors": {
           "recognition": 60,
           "selectivity": null,
           "longevity": 90.68,
-          "community": 38.56,
+          "community": 39.56,
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/743"
@@ -915,7 +915,7 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 441795,
+      "clicked": 441871,
       "cp_index": {
         "score": 89.38,
         "rank": 76,
@@ -929,7 +929,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/426"
@@ -947,11 +947,11 @@
       "core_rank": "C",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 149566,
+      "clicked": 149623,
       "cp_index": {
         "score": 64.42,
-        "rank": 455,
-        "percentile": 92.02,
+        "rank": 456,
+        "percentile": 92,
         "confidence": 0.8,
         "factors": {
           "recognition": 100,
@@ -961,7 +961,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/340"
@@ -979,21 +979,21 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 49110,
+      "clicked": 49132,
       "cp_index": {
-        "score": 83.67,
-        "rank": 149,
-        "percentile": 97.4,
+        "score": 83.77,
+        "rank": 147,
+        "percentile": 97.43,
         "confidence": 1,
         "factors": {
           "recognition": 92,
           "selectivity": 85.07,
           "longevity": 97.24,
-          "community": 30.12,
+          "community": 31.12,
           "openness": 80
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/200"
@@ -1011,11 +1011,11 @@
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 40785,
+      "clicked": 40812,
       "cp_index": {
         "score": 61.04,
-        "rank": 573,
-        "percentile": 89.94,
+        "rank": 575,
+        "percentile": 89.91,
         "confidence": 0.8,
         "factors": {
           "recognition": 82,
@@ -1025,7 +1025,7 @@
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/768"
@@ -1043,7 +1043,7 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 43802,
+      "clicked": 43816,
       "cp_index": {
         "score": 81.46,
         "rank": 180,
@@ -1057,7 +1057,7 @@
           "openness": 80
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/202"
@@ -1075,7 +1075,7 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 52938,
+      "clicked": 52952,
       "cp_index": {
         "score": 87.16,
         "rank": 109,
@@ -1089,7 +1089,7 @@
           "openness": 80
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/203"
@@ -1107,7 +1107,7 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 681154,
+      "clicked": 681390,
       "cp_index": {
         "score": 96.91,
         "rank": 5,
@@ -1117,11 +1117,11 @@
           "recognition": 100,
           "selectivity": 91.57,
           "longevity": 97.24,
-          "community": 91.49,
+          "community": 91.54,
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/137"
@@ -1139,7 +1139,7 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 2864,
+      "clicked": 2880,
       "cp_index": {
         "score": 57.57,
         "rank": 692,
@@ -1153,7 +1153,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5211"
@@ -1171,7 +1171,7 @@
       "core_rank": "A",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 44087,
+      "clicked": 44122,
       "cp_index": {
         "score": 80.58,
         "rank": 190,
@@ -1185,7 +1185,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/572"
@@ -1203,21 +1203,21 @@
       "core_rank": "A",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 36076,
+      "clicked": 36092,
       "cp_index": {
-        "score": 67.28,
-        "rank": 384,
-        "percentile": 93.26,
+        "score": 67.4,
+        "rank": 382,
+        "percentile": 93.3,
         "confidence": 0.8,
         "factors": {
           "recognition": 88,
           "selectivity": null,
           "longevity": 84.43,
-          "community": 13.45,
+          "community": 14.61,
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/186"
@@ -1235,11 +1235,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 11047,
+      "clicked": 11061,
       "cp_index": {
         "score": 63.14,
-        "rank": 493,
-        "percentile": 91.35,
+        "rank": 494,
+        "percentile": 91.33,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -1249,7 +1249,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/4316"
@@ -1267,11 +1267,11 @@
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 46831,
+      "clicked": 46892,
       "cp_index": {
         "score": 63.65,
-        "rank": 485,
-        "percentile": 91.49,
+        "rank": 486,
+        "percentile": 91.47,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
@@ -1281,7 +1281,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/2906"
@@ -1299,7 +1299,7 @@
       "core_rank": "",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 34916,
+      "clicked": 34929,
       "cp_index": {
         "score": 68.68,
         "rank": 354,
@@ -1313,7 +1313,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/479"
@@ -1331,11 +1331,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 1326,
+      "clicked": 1342,
       "cp_index": {
         "score": 55.59,
-        "rank": 812,
-        "percentile": 85.74,
+        "rank": 813,
+        "percentile": 85.72,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -1345,7 +1345,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5718"
@@ -1363,11 +1363,11 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 58062,
+      "clicked": 58087,
       "cp_index": {
         "score": 87.42,
-        "rank": 105,
-        "percentile": 98.17,
+        "rank": 106,
+        "percentile": 98.15,
         "confidence": 1,
         "factors": {
           "recognition": 92,
@@ -1377,7 +1377,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/477"
@@ -1395,21 +1395,21 @@
       "core_rank": "",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 75649,
+      "clicked": 75687,
       "cp_index": {
-        "score": 92.67,
-        "rank": 35,
-        "percentile": 99.4,
+        "score": 92.71,
+        "rank": 38,
+        "percentile": 99.35,
         "confidence": 1,
         "factors": {
           "recognition": 100,
           "selectivity": 93.25,
           "longevity": 87.73,
-          "community": 64.74,
+          "community": 65.17,
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/61"
@@ -1427,11 +1427,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 3836,
+      "clicked": 3848,
       "cp_index": {
         "score": 51.73,
-        "rank": 1246,
-        "percentile": 78.1,
+        "rank": 1248,
+        "percentile": 78.07,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -1441,7 +1441,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5208"
@@ -1459,11 +1459,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 3970,
+      "clicked": 3981,
       "cp_index": {
         "score": 56.16,
-        "rank": 763,
-        "percentile": 86.6,
+        "rank": 764,
+        "percentile": 86.58,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -1473,7 +1473,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5209"
@@ -1491,9 +1491,9 @@
       "core_rank": "A",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 72678,
+      "clicked": 72711,
       "cp_index": {
-        "score": 78.79,
+        "score": 78.81,
         "rank": 216,
         "percentile": 96.22,
         "confidence": 1,
@@ -1501,11 +1501,11 @@
           "recognition": 88,
           "selectivity": 70.44,
           "longevity": 86.68,
-          "community": 68.18,
+          "community": 68.31,
           "openness": 65
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/176"
@@ -1523,11 +1523,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 962,
+      "clicked": 977,
       "cp_index": {
         "score": 50.8,
-        "rank": 1412,
-        "percentile": 75.18,
+        "rank": 1416,
+        "percentile": 75.11,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -1537,7 +1537,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5628"
@@ -1555,7 +1555,7 @@
       "core_rank": "B",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 24502,
+      "clicked": 24514,
       "cp_index": {
         "score": 70.56,
         "rank": 328,
@@ -1569,7 +1569,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/996"
@@ -1587,7 +1587,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 18199,
+      "clicked": 18209,
       "cp_index": {
         "score": 74.83,
         "rank": 265,
@@ -1601,7 +1601,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1598"
@@ -1619,9 +1619,9 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 4135,
+      "clicked": 4149,
       "cp_index": {
-        "score": 63.29,
+        "score": 63.41,
         "rank": 492,
         "percentile": 91.36,
         "confidence": 0.8,
@@ -1629,11 +1629,11 @@
           "recognition": 72,
           "selectivity": null,
           "longevity": 92.47,
-          "community": 13.45,
+          "community": 14.61,
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5202"
@@ -1651,11 +1651,11 @@
       "core_rank": "B",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 22988,
+      "clicked": 22997,
       "cp_index": {
         "score": 72.13,
-        "rank": 300,
-        "percentile": 94.74,
+        "rank": 301,
+        "percentile": 94.72,
         "confidence": 1,
         "factors": {
           "recognition": 72,
@@ -1665,7 +1665,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1349"
@@ -1683,11 +1683,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 15992,
+      "clicked": 16002,
       "cp_index": {
         "score": 64.25,
-        "rank": 462,
-        "percentile": 91.89,
+        "rank": 463,
+        "percentile": 91.87,
         "confidence": 1,
         "factors": {
           "recognition": 58,
@@ -1697,7 +1697,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/3416"
@@ -1715,11 +1715,11 @@
       "core_rank": "B",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 20251,
+      "clicked": 20267,
       "cp_index": {
         "score": 64,
-        "rank": 472,
-        "percentile": 91.72,
+        "rank": 473,
+        "percentile": 91.7,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -1729,7 +1729,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/503"
@@ -1747,9 +1747,9 @@
       "core_rank": "A",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 49039,
+      "clicked": 49070,
       "cp_index": {
-        "score": 81.02,
+        "score": 81.05,
         "rank": 184,
         "percentile": 96.78,
         "confidence": 1,
@@ -1757,11 +1757,11 @@
           "recognition": 88,
           "selectivity": 82.83,
           "longevity": 81.98,
-          "community": 67.63,
+          "community": 67.88,
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/934"
@@ -1779,21 +1779,21 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 25563531,
+      "clicked": 25563599,
       "cp_index": {
-        "score": 92.38,
-        "rank": 41,
-        "percentile": 99.3,
+        "score": 92.47,
+        "rank": 42,
+        "percentile": 99.28,
         "confidence": 1,
         "factors": {
           "recognition": 100,
           "selectivity": 82.53,
           "longevity": 100,
-          "community": 58.78,
+          "community": 59.61,
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/359"
@@ -1811,11 +1811,11 @@
       "core_rank": "",
       "qualis_rank": "B5",
       "is_extended": false,
-      "clicked": 26539,
+      "clicked": 26562,
       "cp_index": {
         "score": 51.3,
-        "rank": 1312,
-        "percentile": 76.94,
+        "rank": 1315,
+        "percentile": 76.89,
         "confidence": 0.8,
         "factors": {
           "recognition": 48,
@@ -1825,7 +1825,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1391"
@@ -1843,7 +1843,7 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 60082,
+      "clicked": 60104,
       "cp_index": {
         "score": 82.13,
         "rank": 170,
@@ -1857,7 +1857,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/573"
@@ -1875,11 +1875,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 32343,
+      "clicked": 32367,
       "cp_index": {
         "score": 65.33,
-        "rank": 429,
-        "percentile": 92.47,
+        "rank": 430,
+        "percentile": 92.46,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -1889,7 +1889,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1850"
@@ -1907,7 +1907,7 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 50649,
+      "clicked": 50666,
       "cp_index": {
         "score": 87.45,
         "rank": 104,
@@ -1921,7 +1921,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/349"
@@ -1939,11 +1939,11 @@
       "core_rank": "B",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 62807,
+      "clicked": 62848,
       "cp_index": {
         "score": 65.98,
-        "rank": 414,
-        "percentile": 92.74,
+        "rank": 415,
+        "percentile": 92.72,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -1953,7 +1953,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/286"
@@ -1971,24 +1971,56 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 65422,
+      "clicked": 65444,
       "cp_index": {
-        "score": 85.46,
-        "rank": 125,
-        "percentile": 97.82,
+        "score": 85.56,
+        "rank": 123,
+        "percentile": 97.85,
         "confidence": 1,
         "factors": {
           "recognition": 92,
           "selectivity": 77.59,
           "longevity": 100,
-          "community": 49.92,
+          "community": 50.92,
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/312"
+    },
+    {
+      "id": 407,
+      "short_name": "CVPR",
+      "full_name": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "submission_date": "2026-11-10",
+      "notification_date": "2027-02-25",
+      "conference_date": "2027-06-20",
+      "location": "Seattle, Washington, USA",
+      "years": 0,
+      "ccf_rank": "A",
+      "core_rank": "A*",
+      "qualis_rank": "A1",
+      "is_extended": false,
+      "clicked": 50763276,
+      "cp_index": {
+        "score": 94.23,
+        "rank": 15,
+        "percentile": 99.75,
+        "confidence": 1,
+        "factors": {
+          "recognition": 100,
+          "selectivity": 85.4,
+          "longevity": 93.33,
+          "community": 84.81,
+          "openness": 100
+        },
+        "algorithm": "1.1",
+        "computed": "2026-09-26",
+        "method": "https://www.myhuiban.com/ranking"
+      },
+      "detail_page": "https://www.myhuiban.com/conference/407"
     },
     {
       "id": 5711,
@@ -2003,11 +2035,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 873,
+      "clicked": 883,
       "cp_index": {
         "score": 47.79,
-        "rank": 2106,
-        "percentile": 62.98,
+        "rank": 2110,
+        "percentile": 62.91,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2017,7 +2049,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5711"
@@ -2035,7 +2067,7 @@
       "core_rank": "A*",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 355204,
+      "clicked": 355330,
       "cp_index": {
         "score": 98.21,
         "rank": 1,
@@ -2049,7 +2081,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/289"
@@ -2067,7 +2099,7 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 346740,
+      "clicked": 346828,
       "cp_index": {
         "score": 97.26,
         "rank": 3,
@@ -2081,7 +2113,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/135"
@@ -2099,11 +2131,11 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 258604,
+      "clicked": 258673,
       "cp_index": {
         "score": 94.05,
-        "rank": 18,
-        "percentile": 99.7,
+        "rank": 20,
+        "percentile": 99.67,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -2113,7 +2145,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/164"
@@ -2131,11 +2163,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 946,
+      "clicked": 957,
       "cp_index": {
         "score": 56.76,
-        "rank": 742,
-        "percentile": 86.97,
+        "rank": 743,
+        "percentile": 86.95,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2145,7 +2177,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5589"
@@ -2163,7 +2195,7 @@
       "core_rank": "",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 36641,
+      "clicked": 36653,
       "cp_index": {
         "score": 75.16,
         "rank": 261,
@@ -2177,7 +2209,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1489"
@@ -2195,11 +2227,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 997,
+      "clicked": 1011,
       "cp_index": {
         "score": 55.97,
-        "rank": 779,
-        "percentile": 86.32,
+        "rank": 780,
+        "percentile": 86.3,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2209,7 +2241,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5586"
@@ -2227,11 +2259,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 762,
+      "clicked": 768,
       "cp_index": {
         "score": 56.92,
-        "rank": 729,
-        "percentile": 87.2,
+        "rank": 730,
+        "percentile": 87.18,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2241,7 +2273,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5585"
@@ -2259,11 +2291,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 14283,
+      "clicked": 14299,
       "cp_index": {
         "score": 58.5,
-        "rank": 655,
-        "percentile": 88.5,
+        "rank": 657,
+        "percentile": 88.46,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2273,7 +2305,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/2911"
@@ -2291,11 +2323,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 1266,
+      "clicked": 1275,
       "cp_index": {
         "score": 59.66,
-        "rank": 616,
-        "percentile": 89.18,
+        "rank": 617,
+        "percentile": 89.17,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -2305,7 +2337,7 @@
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5600"
@@ -2323,11 +2355,11 @@
       "core_rank": "B",
       "qualis_rank": "B4",
       "is_extended": false,
-      "clicked": 26504,
+      "clicked": 26508,
       "cp_index": {
         "score": 66.24,
-        "rank": 407,
-        "percentile": 92.86,
+        "rank": 408,
+        "percentile": 92.84,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -2337,7 +2369,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/254"
@@ -2355,7 +2387,7 @@
       "core_rank": "",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 72806,
+      "clicked": 72816,
       "cp_index": {
         "score": 81.91,
         "rank": 173,
@@ -2369,7 +2401,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/182"
@@ -2387,7 +2419,7 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 16976,
+      "clicked": 16981,
       "cp_index": {
         "score": 57.33,
         "rank": 704,
@@ -2401,7 +2433,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1796"
@@ -2419,7 +2451,7 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 962,
+      "clicked": 972,
       "cp_index": {
         "score": 53.48,
         "rank": 997,
@@ -2433,7 +2465,7 @@
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5612"
@@ -2451,11 +2483,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 1019,
+      "clicked": 1037,
       "cp_index": {
         "score": 52.84,
-        "rank": 1077,
-        "percentile": 81.08,
+        "rank": 1079,
+        "percentile": 81.04,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2465,7 +2497,7 @@
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5601"
@@ -2483,11 +2515,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 21644,
+      "clicked": 21650,
       "cp_index": {
         "score": 65.68,
-        "rank": 419,
-        "percentile": 92.65,
+        "rank": 420,
+        "percentile": 92.63,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -2497,7 +2529,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/2358"
@@ -2515,11 +2547,11 @@
       "core_rank": "A",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 77081,
+      "clicked": 77108,
       "cp_index": {
         "score": 71.74,
-        "rank": 305,
-        "percentile": 94.65,
+        "rank": 306,
+        "percentile": 94.64,
         "confidence": 0.8,
         "factors": {
           "recognition": 88,
@@ -2529,7 +2561,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/897"
@@ -2547,11 +2579,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 419179,
+      "clicked": 419258,
       "cp_index": {
         "score": 72.28,
-        "rank": 298,
-        "percentile": 94.78,
+        "rank": 299,
+        "percentile": 94.76,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -2561,7 +2593,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/157"
@@ -2579,9 +2611,9 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 350738,
+      "clicked": 350824,
       "cp_index": {
-        "score": 74.4,
+        "score": 74.41,
         "rank": 273,
         "percentile": 95.22,
         "confidence": 0.8,
@@ -2589,11 +2621,11 @@
           "recognition": 82,
           "selectivity": null,
           "longevity": 94.15,
-          "community": 86.23,
+          "community": 86.34,
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/158"
@@ -2611,11 +2643,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 884,
+      "clicked": 893,
       "cp_index": {
         "score": 54.52,
-        "rank": 885,
-        "percentile": 84.45,
+        "rank": 886,
+        "percentile": 84.44,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2625,7 +2657,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5636"
@@ -2643,11 +2675,11 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 161441,
+      "clicked": 161489,
       "cp_index": {
         "score": 93.15,
-        "rank": 26,
-        "percentile": 99.56,
+        "rank": 28,
+        "percentile": 99.53,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -2657,7 +2689,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/187"
@@ -2675,11 +2707,11 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 133601,
+      "clicked": 133622,
       "cp_index": {
         "score": 93.39,
-        "rank": 23,
-        "percentile": 99.61,
+        "rank": 25,
+        "percentile": 99.58,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -2689,7 +2721,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/357"
@@ -2707,11 +2739,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 35583,
+      "clicked": 35596,
       "cp_index": {
         "score": 65.02,
-        "rank": 433,
-        "percentile": 92.4,
+        "rank": 434,
+        "percentile": 92.38,
         "confidence": 1,
         "factors": {
           "recognition": 58,
@@ -2721,7 +2753,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/908"
@@ -2739,7 +2771,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 117205,
+      "clicked": 117243,
       "cp_index": {
         "score": 82.6,
         "rank": 163,
@@ -2753,7 +2785,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/311"
@@ -2771,11 +2803,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 18100,
+      "clicked": 18130,
       "cp_index": {
         "score": 63.01,
-        "rank": 497,
-        "percentile": 91.28,
+        "rank": 498,
+        "percentile": 91.26,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -2785,7 +2817,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/2409"
@@ -2803,7 +2835,7 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 60030,
+      "clicked": 60061,
       "cp_index": {
         "score": 77.18,
         "rank": 233,
@@ -2817,7 +2849,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/585"
@@ -2835,21 +2867,21 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 854,
+      "clicked": 875,
       "cp_index": {
-        "score": 58.38,
-        "rank": 663,
-        "percentile": 88.36,
+        "score": 61.61,
+        "rank": 553,
+        "percentile": 90.29,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
           "selectivity": null,
-          "longevity": 84.43,
+          "longevity": 85.58,
           "community": 10.41,
-          "openness": 35
+          "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5599"
@@ -2867,9 +2899,9 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 4565541,
+      "clicked": 4565628,
       "cp_index": {
-        "score": 95.18,
+        "score": 95.21,
         "rank": 10,
         "percentile": 99.84,
         "confidence": 1,
@@ -2877,11 +2909,11 @@
           "recognition": 100,
           "selectivity": 94.41,
           "longevity": 94.96,
-          "community": 73.07,
+          "community": 73.37,
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/358"
@@ -2899,7 +2931,7 @@
       "core_rank": "C",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 96904,
+      "clicked": 96934,
       "cp_index": {
         "score": 80.36,
         "rank": 196,
@@ -2913,7 +2945,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/652"
@@ -2931,7 +2963,7 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 7156827,
+      "clicked": 7156897,
       "cp_index": {
         "score": 79.55,
         "rank": 205,
@@ -2945,7 +2977,7 @@
           "openness": 50
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/138"
@@ -2963,7 +2995,7 @@
       "core_rank": "A*",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 169304,
+      "clicked": 169357,
       "cp_index": {
         "score": 89.1,
         "rank": 85,
@@ -2977,7 +3009,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/417"
@@ -2995,11 +3027,11 @@
       "core_rank": "B",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 341585,
+      "clicked": 341630,
       "cp_index": {
         "score": 90.11,
-        "rank": 64,
-        "percentile": 98.89,
+        "rank": 65,
+        "percentile": 98.87,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -3009,7 +3041,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/342"
@@ -3027,7 +3059,7 @@
       "core_rank": "B",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 43257,
+      "clicked": 43266,
       "cp_index": {
         "score": 67.77,
         "rank": 373,
@@ -3041,7 +3073,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1485"
@@ -3059,11 +3091,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 20248,
+      "clicked": 20261,
       "cp_index": {
         "score": 55.89,
-        "rank": 787,
-        "percentile": 86.18,
+        "rank": 788,
+        "percentile": 86.16,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3073,7 +3105,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/785"
@@ -3091,7 +3123,7 @@
       "core_rank": "A",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 245042,
+      "clicked": 245101,
       "cp_index": {
         "score": 89.34,
         "rank": 78,
@@ -3105,7 +3137,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/367"
@@ -3123,11 +3155,11 @@
       "core_rank": "",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 36320,
+      "clicked": 36330,
       "cp_index": {
         "score": 64.43,
-        "rank": 454,
-        "percentile": 92.03,
+        "rank": 455,
+        "percentile": 92.02,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -3137,7 +3169,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/210"
@@ -3155,11 +3187,11 @@
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 31331,
+      "clicked": 31365,
       "cp_index": {
         "score": 62.51,
-        "rank": 515,
-        "percentile": 90.96,
+        "rank": 516,
+        "percentile": 90.94,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
@@ -3169,7 +3201,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1851"
@@ -3187,11 +3219,11 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 2433876,
+      "clicked": 2433927,
       "cp_index": {
         "score": 92.46,
-        "rank": 39,
-        "percentile": 99.33,
+        "rank": 43,
+        "percentile": 99.26,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -3201,7 +3233,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/177"
@@ -3219,11 +3251,11 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 339828,
+      "clicked": 339900,
       "cp_index": {
         "score": 71.23,
-        "rank": 314,
-        "percentile": 94.5,
+        "rank": 315,
+        "percentile": 94.48,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -3233,7 +3265,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1413"
@@ -3251,11 +3283,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 6108,
+      "clicked": 6127,
       "cp_index": {
         "score": 49.54,
-        "rank": 1701,
-        "percentile": 70.1,
+        "rank": 1707,
+        "percentile": 70,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3265,7 +3297,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5319"
@@ -3283,7 +3315,7 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 760486,
+      "clicked": 760527,
       "cp_index": {
         "score": 96.46,
         "rank": 6,
@@ -3297,7 +3329,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/327"
@@ -3315,11 +3347,11 @@
       "core_rank": "C",
       "qualis_rank": "B3",
       "is_extended": false,
-      "clicked": 78801,
+      "clicked": 78819,
       "cp_index": {
         "score": 60.45,
-        "rank": 591,
-        "percentile": 89.62,
+        "rank": 592,
+        "percentile": 89.61,
         "confidence": 0.8,
         "factors": {
           "recognition": 60,
@@ -3329,7 +3361,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/112"
@@ -3347,11 +3379,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 38196,
+      "clicked": 38222,
       "cp_index": {
         "score": 67.07,
-        "rank": 392,
-        "percentile": 93.12,
+        "rank": 394,
+        "percentile": 93.09,
         "confidence": 1,
         "factors": {
           "recognition": 58,
@@ -3361,7 +3393,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/2955"
@@ -3379,11 +3411,11 @@
       "core_rank": "",
       "qualis_rank": "B4",
       "is_extended": false,
-      "clicked": 34944,
+      "clicked": 34956,
       "cp_index": {
         "score": 54.18,
-        "rank": 917,
-        "percentile": 83.89,
+        "rank": 918,
+        "percentile": 83.87,
         "confidence": 0.8,
         "factors": {
           "recognition": 54,
@@ -3393,7 +3425,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/79"
@@ -3411,11 +3443,11 @@
       "core_rank": "A",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 36932,
+      "clicked": 36962,
       "cp_index": {
         "score": 71.35,
-        "rank": 312,
-        "percentile": 94.53,
+        "rank": 313,
+        "percentile": 94.51,
         "confidence": 0.8,
         "factors": {
           "recognition": 88,
@@ -3425,7 +3457,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/526"
@@ -3443,7 +3475,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 70002,
+      "clicked": 70017,
       "cp_index": {
         "score": 76.2,
         "rank": 246,
@@ -3457,7 +3489,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/913"
@@ -3475,11 +3507,11 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 368907,
+      "clicked": 369002,
       "cp_index": {
         "score": 93.37,
-        "rank": 24,
-        "percentile": 99.6,
+        "rank": 26,
+        "percentile": 99.56,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -3489,7 +3521,7 @@
           "openness": 80
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/292"
@@ -3507,7 +3539,7 @@
       "core_rank": "A*",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 56381,
+      "clicked": 56414,
       "cp_index": {
         "score": 89.52,
         "rank": 74,
@@ -3521,7 +3553,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/243"
@@ -3539,7 +3571,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 122333,
+      "clicked": 122360,
       "cp_index": {
         "score": 82.38,
         "rank": 167,
@@ -3553,7 +3585,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/360"
@@ -3571,7 +3603,7 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 130315,
+      "clicked": 130351,
       "cp_index": {
         "score": 78.96,
         "rank": 211,
@@ -3585,7 +3617,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/326"
@@ -3603,11 +3635,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 8986,
+      "clicked": 8995,
       "cp_index": {
         "score": 59.46,
-        "rank": 624,
-        "percentile": 89.04,
+        "rank": 625,
+        "percentile": 89.03,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3617,7 +3649,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/4666"
@@ -3635,7 +3667,7 @@
       "core_rank": "A",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 63980,
+      "clicked": 64023,
       "cp_index": {
         "score": 84.93,
         "rank": 133,
@@ -3649,7 +3681,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/297"
@@ -3667,11 +3699,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 966,
+      "clicked": 976,
       "cp_index": {
         "score": 56.48,
-        "rank": 754,
-        "percentile": 86.76,
+        "rank": 755,
+        "percentile": 86.74,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3681,7 +3713,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5671"
@@ -3699,7 +3731,7 @@
       "core_rank": "",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 22541,
+      "clicked": 22554,
       "cp_index": {
         "score": 53.27,
         "rank": 1024,
@@ -3713,7 +3745,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/4051"
@@ -3731,7 +3763,7 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 173096,
+      "clicked": 173129,
       "cp_index": {
         "score": 87.96,
         "rank": 95,
@@ -3745,7 +3777,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/179"
@@ -3763,11 +3795,11 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 10373400,
+      "clicked": 10373480,
       "cp_index": {
         "score": 62.66,
-        "rank": 510,
-        "percentile": 91.05,
+        "rank": 512,
+        "percentile": 91.01,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -3777,7 +3809,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/428"
@@ -3795,7 +3827,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 22082,
+      "clicked": 22089,
       "cp_index": {
         "score": 75.47,
         "rank": 257,
@@ -3809,7 +3841,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1002"
@@ -3827,11 +3859,11 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 37255,
+      "clicked": 37278,
       "cp_index": {
         "score": 67.3,
-        "rank": 383,
-        "percentile": 93.28,
+        "rank": 385,
+        "percentile": 93.25,
         "confidence": 0.8,
         "factors": {
           "recognition": 78,
@@ -3841,7 +3873,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1491"
@@ -3859,11 +3891,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 671,
+      "clicked": 681,
       "cp_index": {
         "score": 55.96,
-        "rank": 780,
-        "percentile": 86.3,
+        "rank": 781,
+        "percentile": 86.28,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3873,10 +3905,42 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5635"
+    },
+    {
+      "id": 185,
+      "short_name": "ICCS",
+      "full_name": "International Conference on Computational Science",
+      "submission_date": "2027-02-05",
+      "notification_date": "2027-04-05",
+      "conference_date": "2027-07-12",
+      "location": "Krakow, Poland",
+      "years": 27,
+      "ccf_rank": "",
+      "core_rank": "",
+      "qualis_rank": "A2",
+      "is_extended": false,
+      "clicked": 62971,
+      "cp_index": {
+        "score": 74.01,
+        "rank": 277,
+        "percentile": 95.15,
+        "confidence": 0.8,
+        "factors": {
+          "recognition": 92,
+          "selectivity": null,
+          "longevity": 89.73,
+          "community": 56.13,
+          "openness": 55
+        },
+        "algorithm": "1.1",
+        "computed": "2026-09-26",
+        "method": "https://www.myhuiban.com/ranking"
+      },
+      "detail_page": "https://www.myhuiban.com/conference/185"
     },
     {
       "id": 5626,
@@ -3891,11 +3955,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 854,
+      "clicked": 860,
       "cp_index": {
         "score": 55.2,
-        "rank": 839,
-        "percentile": 85.26,
+        "rank": 840,
+        "percentile": 85.24,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3905,7 +3969,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5626"
@@ -3923,11 +3987,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 671,
+      "clicked": 676,
       "cp_index": {
         "score": 57.02,
-        "rank": 718,
-        "percentile": 87.39,
+        "rank": 719,
+        "percentile": 87.37,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3937,7 +4001,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5670"
@@ -3955,11 +4019,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 24693,
+      "clicked": 24707,
       "cp_index": {
         "score": 67.01,
-        "rank": 396,
-        "percentile": 93.05,
+        "rank": 397,
+        "percentile": 93.04,
         "confidence": 1,
         "factors": {
           "recognition": 58,
@@ -3969,7 +4033,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/992"
@@ -3987,7 +4051,7 @@
       "core_rank": "B",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 43094,
+      "clicked": 43135,
       "cp_index": {
         "score": 75.55,
         "rank": 255,
@@ -4001,7 +4065,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1173"
@@ -4019,11 +4083,11 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 73931,
+      "clicked": 73938,
       "cp_index": {
         "score": 92.73,
-        "rank": 33,
-        "percentile": 99.44,
+        "rank": 36,
+        "percentile": 99.38,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -4033,7 +4097,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/169"
@@ -4051,7 +4115,7 @@
       "core_rank": "B",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 228134,
+      "clicked": 228200,
       "cp_index": {
         "score": 82.91,
         "rank": 158,
@@ -4065,7 +4129,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/131"
@@ -4083,11 +4147,11 @@
       "core_rank": "C",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 61854,
+      "clicked": 61869,
       "cp_index": {
         "score": 90.66,
-        "rank": 61,
-        "percentile": 98.94,
+        "rank": 62,
+        "percentile": 98.93,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -4097,7 +4161,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/365"
@@ -4115,7 +4179,7 @@
       "core_rank": "",
       "qualis_rank": "B4",
       "is_extended": false,
-      "clicked": 21019,
+      "clicked": 21023,
       "cp_index": {
         "score": 41.92,
         "rank": 4594,
@@ -4129,7 +4193,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1367"
@@ -4147,7 +4211,7 @@
       "core_rank": "A",
       "qualis_rank": "A2",
       "is_extended": false,
-      "clicked": 68056,
+      "clicked": 68081,
       "cp_index": {
         "score": 83.9,
         "rank": 146,
@@ -4161,7 +4225,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/165"
@@ -4179,11 +4243,11 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 21429,
+      "clicked": 21443,
       "cp_index": {
         "score": 62.1,
-        "rank": 535,
-        "percentile": 90.61,
+        "rank": 536,
+        "percentile": 90.59,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -4193,7 +4257,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/824"
@@ -4211,7 +4275,7 @@
       "core_rank": "C",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 113134,
+      "clicked": 113164,
       "cp_index": {
         "score": 77.9,
         "rank": 222,
@@ -4225,7 +4289,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/281"
@@ -4243,7 +4307,7 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 897,
+      "clicked": 905,
       "cp_index": {
         "score": 53.42,
         "rank": 1008,
@@ -4257,7 +4321,7 @@
           "openness": 20
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5656"
@@ -4275,7 +4339,7 @@
       "core_rank": "A",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 106947,
+      "clicked": 106971,
       "cp_index": {
         "score": 85.67,
         "rank": 122,
@@ -4289,7 +4353,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/589"
@@ -4307,7 +4371,7 @@
       "core_rank": "B",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 220988,
+      "clicked": 221037,
       "cp_index": {
         "score": 78.16,
         "rank": 220,
@@ -4321,7 +4385,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/366"
@@ -4339,7 +4403,7 @@
       "core_rank": "C",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 131203,
+      "clicked": 131235,
       "cp_index": {
         "score": 80.16,
         "rank": 198,
@@ -4353,7 +4417,7 @@
           "openness": 85
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/368"
@@ -4371,7 +4435,7 @@
       "core_rank": "A*",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 1051932,
+      "clicked": 1052009,
       "cp_index": {
         "score": 83.26,
         "rank": 155,
@@ -4385,7 +4449,7 @@
           "openness": 70
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/134"
@@ -4403,11 +4467,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 660,
+      "clicked": 665,
       "cp_index": {
         "score": 52.16,
-        "rank": 1182,
-        "percentile": 79.23,
+        "rank": 1184,
+        "percentile": 79.19,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4417,7 +4481,7 @@
           "openness": 35
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5663"
@@ -4435,11 +4499,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 22131,
+      "clicked": 22141,
       "cp_index": {
         "score": 59.22,
-        "rank": 628,
-        "percentile": 88.97,
+        "rank": 629,
+        "percentile": 88.96,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4449,7 +4513,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1861"
@@ -4467,11 +4531,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 18526,
+      "clicked": 18540,
       "cp_index": {
         "score": 56.74,
-        "rank": 745,
-        "percentile": 86.92,
+        "rank": 746,
+        "percentile": 86.9,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4481,7 +4545,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1624"
@@ -4499,11 +4563,11 @@
       "core_rank": "C",
       "qualis_rank": "B4",
       "is_extended": false,
-      "clicked": 28017,
+      "clicked": 28026,
       "cp_index": {
         "score": 58.48,
-        "rank": 656,
-        "percentile": 88.48,
+        "rank": 658,
+        "percentile": 88.45,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4513,7 +4577,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1626"
@@ -4531,11 +4595,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 17418,
+      "clicked": 17426,
       "cp_index": {
         "score": 56.22,
-        "rank": 761,
-        "percentile": 86.63,
+        "rank": 762,
+        "percentile": 86.62,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4545,7 +4609,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1625"
@@ -4563,11 +4627,11 @@
       "core_rank": "A",
       "qualis_rank": "A1",
       "is_extended": false,
-      "clicked": 100126,
+      "clicked": 100172,
       "cp_index": {
         "score": 92.89,
-        "rank": 29,
-        "percentile": 99.51,
+        "rank": 31,
+        "percentile": 99.47,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -4577,7 +4641,7 @@
           "openness": 100
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/162"
@@ -4595,11 +4659,11 @@
       "core_rank": "C",
       "qualis_rank": "B1",
       "is_extended": false,
-      "clicked": 33968,
+      "clicked": 33978,
       "cp_index": {
         "score": 67.12,
-        "rank": 389,
-        "percentile": 93.18,
+        "rank": 390,
+        "percentile": 93.16,
         "confidence": 0.8,
         "factors": {
           "recognition": 78,
@@ -4609,7 +4673,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/101"
@@ -4627,21 +4691,21 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 802,
+      "clicked": 828,
       "cp_index": {
-        "score": 54.02,
-        "rank": 936,
-        "percentile": 83.56,
+        "score": 57.21,
+        "rank": 707,
+        "percentile": 87.58,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
           "selectivity": null,
-          "longevity": 89.73,
+          "longevity": 90.68,
           "community": 5.2,
-          "openness": 35
+          "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5648"
@@ -4659,11 +4723,11 @@
       "core_rank": "C",
       "qualis_rank": "",
       "is_extended": false,
-      "clicked": 729,
+      "clicked": 736,
       "cp_index": {
         "score": 43.32,
-        "rank": 3614,
-        "percentile": 36.46,
+        "rank": 3618,
+        "percentile": 36.39,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4673,7 +4737,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5684"
@@ -4691,7 +4755,7 @@
       "core_rank": "",
       "qualis_rank": "B4",
       "is_extended": false,
-      "clicked": 24878,
+      "clicked": 24895,
       "cp_index": {
         "score": 53.92,
         "rank": 949,
@@ -4705,7 +4769,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1242"
@@ -4723,11 +4787,11 @@
       "core_rank": "C",
       "qualis_rank": "B2",
       "is_extended": false,
-      "clicked": 30855,
+      "clicked": 30863,
       "cp_index": {
         "score": 63.71,
-        "rank": 480,
-        "percentile": 91.58,
+        "rank": 481,
+        "percentile": 91.56,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -4737,7 +4801,7 @@
           "openness": 55
         },
         "algorithm": "1.1",
-        "computed": "2026-09-25",
+        "computed": "2026-09-26",
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/1042"
