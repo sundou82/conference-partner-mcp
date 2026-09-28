@@ -240,6 +240,33 @@
             ],
             "description": "cfp=special-issue calls for papers; ccf=CCF list; highest_if=highest impact factor; most_viewed/most_tracked=popularity; all=all journals"
           },
+          "field": {
+            "type": "string",
+            "enum": [
+              "ai",
+              "vision",
+              "nlp",
+              "data",
+              "network",
+              "security",
+              "se",
+              "systems",
+              "theory",
+              "hci",
+              "graphics",
+              "bio",
+              "robotics",
+              "web",
+              "ee",
+              "energy",
+              "materials",
+              "civil",
+              "education",
+              "management",
+              "math"
+            ],
+            "description": "Research field filter. Only for ranking=cfp or ranking=all (e.g. ranking=cfp with field=network = network journals with an open special issue, soonest deadline first)"
+          },
           "page": {
             "type": "integer",
             "minimum": 1,

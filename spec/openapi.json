@@ -3,7 +3,7 @@
   "info": {
     "title": "Conference Partner API",
     "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). The unit is the distinct query: repeating a request already made the same day (same path, same parameters) does not consume quota again. Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Send a descriptive User-Agent on every request (e.g. \"my-lab-deadline-bot/1.0 (+https://example.edu/contact)\"): the site is behind Cloudflare, whose Browser Integrity Check rejects a few unattended-script defaults at the edge with HTTP 403 and body \"error code: 1010\" before the request reaches the API — confirmed for Python urllib's default (Python-urllib/x.y) and Perl LWP's (libwww-perl/x.y). requests, httpx, curl, Go, Node and Bun clients send their own and are unaffected. A 403 with that body is neither an auth nor a quota error: only a real User-Agent fixes it. Every active conference also carries cp_index, the Conference Partner Index (CP-I): our own transparent 0-100 score with its per-factor breakdown and a confidence value; the complete method is published at https://www.myhuiban.com/ranking. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
-    "version": "2.6.0",
+    "version": "2.7.0",
     "contact": {
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/",
@@ -917,6 +917,38 @@
             "description": "cfp=special-issue calls for papers; ccf=CCF list; highest_if=highest impact factor; most_viewed/most_tracked=popularity; all=all journals"
           },
           {
+            "name": "field",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ai",
+                "vision",
+                "nlp",
+                "data",
+                "network",
+                "security",
+                "se",
+                "systems",
+                "theory",
+                "hci",
+                "graphics",
+                "bio",
+                "robotics",
+                "web",
+                "ee",
+                "energy",
+                "materials",
+                "civil",
+                "education",
+                "management",
+                "math"
+              ]
+            },
+            "description": "Research field filter, only for ranking=cfp or ranking=all (other rankings return body code 400). ranking=cfp&field=network = network journals with an open special issue, soonest deadline first."
+          },
+          {
             "name": "page",
             "in": "query",
             "required": false,
@@ -940,7 +972,7 @@
         ],
         "responses": {
           "200": {
-            "description": "data.ranking + data.journals[] (Journal, ranking=cfp adds special_issue) + data.pagination (count / has_more); unknown ranking returns body code 400",
+            "description": "data.ranking + data.journals[] (Journal; ranking=cfp adds special_issue {title, submission_date, id, detail_page} — one row per open special issue, so a journal can repeat) + data.pagination (count / has_more) + data.field when filtered; unknown ranking or field returns body code 400",
             "content": {
               "application/json": {
                 "schema": {
