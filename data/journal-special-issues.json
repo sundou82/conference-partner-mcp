@@ -2,112 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-09-30T11:19:46+00:00",
-  "count": 84,
+  "generated_at": "2026-10-01T11:46:41+00:00",
+  "count": 81,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 1045,
-      "short_name": "",
-      "full_name": "IEEE Transactions on Molecular, Biological, and Multi-Scale Communications",
-      "impact_factor": "2.3",
-      "publisher": "IEEE",
-      "issn": "2372-2061",
-      "ccf_rank": "",
-      "clicked": 18357,
-      "detail_page": "https://www.myhuiban.com/journal/1045",
-      "special_issue": {
-        "title": "AI-Powered Frontiers in Molecular, Biological, and Multi-Scale Communication",
-        "submission_date": "2026-10-01",
-        "id": 6039,
-        "detail_page": "https://www.myhuiban.com/journal/1045#issue-6039"
-      }
-    },
-    {
-      "id": 323,
-      "short_name": "",
-      "full_name": "EURASIP Journal on Wireless Communications and Networking",
-      "impact_factor": "1.9",
-      "publisher": "Springer",
-      "issn": "1687-1499",
-      "ccf_rank": "",
-      "clicked": 26886,
-      "detail_page": "https://www.myhuiban.com/journal/323",
-      "special_issue": {
-        "title": "2026 EuCNC & 6G Summit: 6G, Connecting Intelligence",
-        "submission_date": "2026-10-10",
-        "id": 6058,
-        "detail_page": "https://www.myhuiban.com/journal/323#issue-6058"
-      }
-    },
-    {
-      "id": 551,
-      "short_name": "",
-      "full_name": "IEEE Pervasive Computing",
-      "impact_factor": "1.8",
-      "publisher": "IEEE",
-      "issn": "1536-1268",
-      "ccf_rank": "",
-      "clicked": 29451,
-      "detail_page": "https://www.myhuiban.com/journal/551",
-      "special_issue": {
-        "title": "Revisiting Mobility",
-        "submission_date": "2026-10-01",
-        "id": 6264,
-        "detail_page": "https://www.myhuiban.com/journal/551#issue-6264"
-      }
-    },
-    {
-      "id": 1190,
-      "short_name": "",
-      "full_name": "Applied Surface Science",
-      "impact_factor": "6.9",
-      "publisher": "Elsevier",
-      "issn": "0169-4332",
-      "ccf_rank": "",
-      "clicked": 12069,
-      "detail_page": "https://www.myhuiban.com/journal/1190",
-      "special_issue": {
-        "title": "Materials Challenges in Alternative and Renewable Energy 2026 (MCARE 2026)",
-        "submission_date": "2027-01-31",
-        "id": 6297,
-        "detail_page": "https://www.myhuiban.com/journal/1190#issue-6297"
-      }
-    },
-    {
-      "id": 1237,
-      "short_name": "",
-      "full_name": "Journal of Biomechanics",
-      "impact_factor": "2.9",
-      "publisher": "Elsevier",
-      "issn": "0021-9290",
-      "ccf_rank": "",
-      "clicked": 525,
-      "detail_page": "https://www.myhuiban.com/journal/1237",
-      "special_issue": {
-        "title": "Biomechanics in Human Movement and Clinical Translation in the AI Age",
-        "submission_date": "2026-12-31",
-        "id": 6452,
-        "detail_page": "https://www.myhuiban.com/journal/1237#issue-6452"
-      }
-    },
-    {
-      "id": 1196,
-      "short_name": "",
-      "full_name": "Journal of Nuclear Materials",
-      "impact_factor": "3.3",
-      "publisher": "Elsevier",
-      "issn": "0022-3115",
-      "ccf_rank": "",
-      "clicked": 9164,
-      "detail_page": "https://www.myhuiban.com/journal/1196",
-      "special_issue": {
-        "title": "Nuclear Science User Facilities: 20 Years of Enabling Innovation in Nuclear Materials",
-        "submission_date": "2026-10-01",
-        "id": 6453,
-        "detail_page": "https://www.myhuiban.com/journal/1196#issue-6453"
-      }
-    },
     {
       "id": 1195,
       "short_name": "",
@@ -116,7 +14,7 @@
       "publisher": "Elsevier",
       "issn": "1293-2558",
       "ccf_rank": "",
-      "clicked": 9684,
+      "clicked": 9714,
       "detail_page": "https://www.myhuiban.com/journal/1195",
       "special_issue": {
         "title": "Defect-Engineered Advanced Materials for Sustainable Energy Applications",
@@ -133,7 +31,7 @@
       "publisher": "Springer",
       "issn": "2948-2992",
       "ccf_rank": "C",
-      "clicked": 30695,
+      "clicked": 30739,
       "detail_page": "https://www.myhuiban.com/journal/114",
       "special_issue": {
         "title": "Trustworthy Visual Intelligence and Adaptive Learning for Safety-Critical Systems",
@@ -150,13 +48,30 @@
       "publisher": "Elsevier",
       "issn": "0925-8388",
       "ccf_rank": "",
-      "clicked": 885,
+      "clicked": 913,
       "detail_page": "https://www.myhuiban.com/journal/1231",
       "special_issue": {
         "title": "Emerging Directions in Materials Science: Fundamental and Applied Physics of Advanced Materials Systems",
         "submission_date": "2026-10-15",
         "id": 6387,
         "detail_page": "https://www.myhuiban.com/journal/1231#issue-6387"
+      }
+    },
+    {
+      "id": 323,
+      "short_name": "",
+      "full_name": "EURASIP Journal on Wireless Communications and Networking",
+      "impact_factor": "1.9",
+      "publisher": "Springer",
+      "issn": "1687-1499",
+      "ccf_rank": "",
+      "clicked": 26916,
+      "detail_page": "https://www.myhuiban.com/journal/323",
+      "special_issue": {
+        "title": "2026 EuCNC & 6G Summit: 6G, Connecting Intelligence",
+        "submission_date": "2026-10-10",
+        "id": 6058,
+        "detail_page": "https://www.myhuiban.com/journal/323#issue-6058"
       }
     },
     {
@@ -167,7 +82,7 @@
       "publisher": "Elsevier",
       "issn": "0952-1976",
       "ccf_rank": "C",
-      "clicked": 78129,
+      "clicked": 78206,
       "detail_page": "https://www.myhuiban.com/journal/209",
       "special_issue": {
         "title": "AI‑Enabled Systems Thinking for Advanced Construction Materials in Sustainable and Resilient Infrastructure: Knowledge-Guided Reasoning, Life Cycle Management, and Cross-Disciplinary Optimization",
@@ -184,7 +99,7 @@
       "publisher": "Elsevier",
       "issn": "0921-5107",
       "ccf_rank": "",
-      "clicked": 12176,
+      "clicked": 12203,
       "detail_page": "https://www.myhuiban.com/journal/1193",
       "special_issue": {
         "title": "Energy Catalysis and Conversion Materials",
@@ -201,7 +116,7 @@
       "publisher": "Springer",
       "issn": "2041-1480",
       "ccf_rank": "",
-      "clicked": 16743,
+      "clicked": 16772,
       "detail_page": "https://www.myhuiban.com/journal/876",
       "special_issue": {
         "title": "Semantic Technologies in Healthcare and Life Sciences",
@@ -218,7 +133,7 @@
       "publisher": "Elsevier",
       "issn": "0736-5853",
       "ccf_rank": "",
-      "clicked": 27347,
+      "clicked": 27365,
       "detail_page": "https://www.myhuiban.com/journal/412",
       "special_issue": {
         "title": "Romance and the Internet",
@@ -235,7 +150,7 @@
       "publisher": "Elsevier",
       "issn": "1389-1286",
       "ccf_rank": "B",
-      "clicked": 111972,
+      "clicked": 112006,
       "detail_page": "https://www.myhuiban.com/journal/26",
       "special_issue": {
         "title": "Wireless beyond limits: AI, 6G, Quantum, and new horizons",
@@ -252,7 +167,7 @@
       "publisher": "Elsevier",
       "issn": "0097-8493",
       "ccf_rank": "C",
-      "clicked": 40703,
+      "clicked": 40741,
       "detail_page": "https://www.myhuiban.com/journal/154",
       "special_issue": {
         "title": "Highlights from EuroVA 2026",
@@ -269,7 +184,7 @@
       "publisher": "Elsevier",
       "issn": "0257-8972",
       "ccf_rank": "",
-      "clicked": 13475,
+      "clicked": 13507,
       "detail_page": "https://www.myhuiban.com/journal/1192",
       "special_issue": {
         "title": "Extremely High-Speed Laser Cladding of Advanced Coatings (VSI: EHLC of Advanced Coatings)",
@@ -286,7 +201,7 @@
       "publisher": "Elsevier",
       "issn": "0167-2738",
       "ccf_rank": "",
-      "clicked": 1125,
+      "clicked": 1148,
       "detail_page": "https://www.myhuiban.com/journal/1232",
       "special_issue": {
         "title": "Diffusion and Reactions in Solids - Honoring Paul Heitjans on the occasion of his 80th birthday",
@@ -303,7 +218,7 @@
       "publisher": "Elsevier",
       "issn": "0164-1212",
       "ccf_rank": "B",
-      "clicked": 66686,
+      "clicked": 66715,
       "detail_page": "https://www.myhuiban.com/journal/87",
       "special_issue": {
         "title": "Software Architecture in a Digital Society",
@@ -320,7 +235,7 @@
       "publisher": "Elsevier",
       "issn": "0306-4379",
       "ccf_rank": "B",
-      "clicked": 42540,
+      "clicked": 42560,
       "detail_page": "https://www.myhuiban.com/journal/116",
       "special_issue": {
         "title": "Selected papers from the 19th International Conference on Similarity Search and Applications (SISAP 2026)",
@@ -337,7 +252,7 @@
       "publisher": "MDPI",
       "issn": "0718-1876",
       "ccf_rank": "",
-      "clicked": 34777,
+      "clicked": 34813,
       "detail_page": "https://www.myhuiban.com/journal/567",
       "special_issue": {
         "title": "Digital Intimacy and Immersive Commerce: Theoretical Advances in Consumer Engagement Through Virtual and Social Technologies",
@@ -354,7 +269,7 @@
       "publisher": "Springer",
       "issn": "0941-0643",
       "ccf_rank": "C",
-      "clicked": 37916,
+      "clicked": 37938,
       "detail_page": "https://www.myhuiban.com/journal/232",
       "special_issue": {
         "title": "Machine Learning and Big Data Analytics for IoT Security and Privacy (SPIOT 2024)",
@@ -371,7 +286,7 @@
       "publisher": "IET",
       "issn": "1751-8644",
       "ccf_rank": "",
-      "clicked": 27603,
+      "clicked": 27622,
       "detail_page": "https://www.myhuiban.com/journal/609",
       "special_issue": {
         "title": "Modelling, Analysis, and Control of Competition Behaviour in Multi-Agent Systems",
@@ -388,7 +303,7 @@
       "publisher": "Elsevier",
       "issn": "0925-2312",
       "ccf_rank": "C",
-      "clicked": 165867,
+      "clicked": 165959,
       "detail_page": "https://www.myhuiban.com/journal/234",
       "special_issue": {
         "title": "Neural Dynamics in Intelligent Computing and Applications",
@@ -405,7 +320,7 @@
       "publisher": "Elsevier",
       "issn": "0267-3649",
       "ccf_rank": "C",
-      "clicked": 52308,
+      "clicked": 52346,
       "detail_page": "https://www.myhuiban.com/journal/52",
       "special_issue": {
         "title": "Legal Frameworks, Technical Challenges, and Regulatory Design for Governing General-Purpose AI Systems",
@@ -422,7 +337,7 @@
       "publisher": "Elsevier",
       "issn": "0167-6423",
       "ccf_rank": "B",
-      "clicked": 30018,
+      "clicked": 30041,
       "detail_page": "https://www.myhuiban.com/journal/89",
       "special_issue": {
         "title": "18th International Symposium on Functional and Logic Programming",
@@ -439,7 +354,7 @@
       "publisher": "Elsevier",
       "issn": "0031-3203",
       "ccf_rank": "B",
-      "clicked": 152370,
+      "clicked": 152477,
       "detail_page": "https://www.myhuiban.com/journal/198",
       "special_issue": {
         "title": "Multimodal Representation Learning Based on Vision Foundation Models",
@@ -456,7 +371,7 @@
       "publisher": "Wiley",
       "issn": "1074-5351",
       "ccf_rank": "",
-      "clicked": 17682,
+      "clicked": 17704,
       "detail_page": "https://www.myhuiban.com/journal/903",
       "special_issue": {
         "title": "UAV Assisted Intelligent Reflecting Surfaces for Next Generation V2X Communications",
@@ -473,7 +388,7 @@
       "publisher": "Springer",
       "issn": "1862-5347",
       "ccf_rank": "",
-      "clicked": 20932,
+      "clicked": 20951,
       "detail_page": "https://www.myhuiban.com/journal/438",
       "special_issue": {
         "title": "Data Science: Methods for Explainable Modelling",
@@ -490,7 +405,7 @@
       "publisher": "Springer",
       "issn": "1094-6136",
       "ccf_rank": "",
-      "clicked": 20086,
+      "clicked": 20100,
       "detail_page": "https://www.myhuiban.com/journal/513",
       "special_issue": {
         "title": "Latest Developments in Intelligent Scheduling: Theory, Models and Applications",
@@ -507,7 +422,7 @@
       "publisher": "Wiley",
       "issn": "1055-7148",
       "ccf_rank": "",
-      "clicked": 16756,
+      "clicked": 16782,
       "detail_page": "https://www.myhuiban.com/journal/886",
       "special_issue": {
         "title": "Best Papers of IEEE/IFIP NOMS 2024: \"Towards Intelligent, Reliable, and Sustainable Network and Service Management\"",
@@ -524,7 +439,7 @@
       "publisher": "IET",
       "issn": "1751-8784",
       "ccf_rank": "",
-      "clicked": 27749,
+      "clicked": 27779,
       "detail_page": "https://www.myhuiban.com/journal/617",
       "special_issue": {
         "title": "Advanced Target Detection, Tracking, and Imaging for Radar and Sonar Systems",
@@ -541,7 +456,7 @@
       "publisher": "IEEE",
       "issn": "1939-1374",
       "ccf_rank": "A",
-      "clicked": 45267,
+      "clicked": 45293,
       "detail_page": "https://www.myhuiban.com/journal/322",
       "special_issue": {
         "title": "Large Language Models in Service-Oriented Ecosystems Design: Advances and Applications",
@@ -558,7 +473,7 @@
       "publisher": "Elsevier",
       "issn": "0166-218X",
       "ccf_rank": "C",
-      "clicked": 33860,
+      "clicked": 33890,
       "detail_page": "https://www.myhuiban.com/journal/73",
       "special_issue": {
         "title": "Siberian International Conference on Graph Theory and Combinatorics",
@@ -575,7 +490,7 @@
       "publisher": "Elsevier",
       "issn": "1570-8705",
       "ccf_rank": "C",
-      "clicked": 38204,
+      "clicked": 38222,
       "detail_page": "https://www.myhuiban.com/journal/41",
       "special_issue": {
         "title": "Agent-Based Autonomous Networking for Mobile Ad Hoc Networks",
@@ -592,7 +507,7 @@
       "publisher": "Elsevier",
       "issn": "0022-0000",
       "ccf_rank": "B",
-      "clicked": 32909,
+      "clicked": 32936,
       "detail_page": "https://www.myhuiban.com/journal/65",
       "special_issue": {
         "title": "IWOCA 2026",
@@ -609,7 +524,7 @@
       "publisher": "Elsevier",
       "issn": "0885-2308",
       "ccf_rank": "C",
-      "clicked": 32946,
+      "clicked": 32969,
       "detail_page": "https://www.myhuiban.com/journal/205",
       "special_issue": {
         "title": "Acoustical Intelligence in the Wild: Advancing Acoustic Signal Understanding in Open Environments",
@@ -626,7 +541,7 @@
       "publisher": "Elsevier",
       "issn": "0167-739X",
       "ccf_rank": "C",
-      "clicked": 178000,
+      "clicked": 178069,
       "detail_page": "https://www.myhuiban.com/journal/36",
       "special_issue": {
         "title": "Advances in Quantum Computing: Methods, Algorithms, and Systems. Vol. IV",
@@ -643,7 +558,7 @@
       "publisher": "Elsevier",
       "issn": "0304-3975",
       "ccf_rank": "B",
-      "clicked": 40960,
+      "clicked": 40986,
       "detail_page": "https://www.myhuiban.com/journal/69",
       "special_issue": {
         "title": "the 32nd International Computing and Combinatorics Conference",
@@ -660,7 +575,7 @@
       "publisher": "Elsevier",
       "issn": "0030-3992",
       "ccf_rank": "",
-      "clicked": 45826,
+      "clicked": 45850,
       "detail_page": "https://www.myhuiban.com/journal/398",
       "special_issue": {
         "title": "Synergizing Artificial Intelligence with Optical Metrology and Laser Fabrication: Foundations and Applications (VSI: AI-Enhanced Photonics)",
@@ -677,7 +592,7 @@
       "publisher": "Elsevier",
       "issn": "0967-0661",
       "ccf_rank": "",
-      "clicked": 41570,
+      "clicked": 41605,
       "detail_page": "https://www.myhuiban.com/journal/359",
       "special_issue": {
         "title": "AI-Driven Control and Planning for Advanced Robotics",
@@ -694,7 +609,7 @@
       "publisher": "Elsevier",
       "issn": "1369-8001",
       "ccf_rank": "",
-      "clicked": 9442,
+      "clicked": 9471,
       "detail_page": "https://www.myhuiban.com/journal/1199",
       "special_issue": {
         "title": "Emerging Two-Dimensional Semiconductor Materials for Electronic and Optoelectronic Applications",
@@ -711,7 +626,7 @@
       "publisher": "Elsevier",
       "issn": "0888-3270",
       "ccf_rank": "",
-      "clicked": 37628,
+      "clicked": 37663,
       "detail_page": "https://www.myhuiban.com/journal/667",
       "special_issue": {
         "title": "Progress in the Inverse Finite Element Method (iFEM) for Deformation Reconstruction and Structural Health Monitoring",
@@ -728,7 +643,7 @@
       "publisher": "IEEE",
       "issn": "1540-7993",
       "ccf_rank": "",
-      "clicked": 41358,
+      "clicked": 41388,
       "detail_page": "https://www.myhuiban.com/journal/31",
       "special_issue": {
         "title": "One Decade of GDPR – Contributions to Data Protection and Future Challenges",
@@ -745,7 +660,7 @@
       "publisher": "Elsevier",
       "issn": "0032-3861",
       "ccf_rank": "",
-      "clicked": 15943,
+      "clicked": 15951,
       "detail_page": "https://www.myhuiban.com/journal/1114",
       "special_issue": {
         "title": "Polymer Science and Engineering across Ibero-Latin America",
@@ -762,7 +677,7 @@
       "publisher": "Elsevier",
       "issn": "0890-5401",
       "ccf_rank": "A",
-      "clicked": 36000,
+      "clicked": 36019,
       "detail_page": "https://www.myhuiban.com/journal/63",
       "special_issue": {
         "title": "Foundations of Information and Knowledge Systems: Selected Papers from FoIKS 2026",
@@ -779,7 +694,7 @@
       "publisher": "Springer",
       "issn": "0001-5903",
       "ccf_rank": "C",
-      "clicked": 29396,
+      "clicked": 29408,
       "detail_page": "https://www.myhuiban.com/journal/71",
       "special_issue": {
         "title": "16th International Workshop on Non-Classical Models of Automata and Applications (NCMA 2026)",
@@ -796,7 +711,7 @@
       "publisher": "Elsevier",
       "issn": "0920-5489",
       "ccf_rank": "",
-      "clicked": 25735,
+      "clicked": 25763,
       "detail_page": "https://www.myhuiban.com/journal/367",
       "special_issue": {
         "title": "Standards and Interfaces for Secure and Trustworthy Multi-Agent IoT Systems",
@@ -813,7 +728,7 @@
       "publisher": "IEEE",
       "issn": "2373-7476",
       "ccf_rank": "C",
-      "clicked": 31721,
+      "clicked": 31747,
       "detail_page": "https://www.myhuiban.com/journal/1050",
       "special_issue": {
         "title": "Cyber-Physical-Social Intelligence: State-of-the-art, Perspectives, and Challenges",
@@ -830,7 +745,7 @@
       "publisher": "Elsevier",
       "issn": "1532-0464",
       "ccf_rank": "C",
-      "clicked": 29939,
+      "clicked": 29965,
       "detail_page": "https://www.myhuiban.com/journal/703",
       "special_issue": {
         "title": "Agentic AI for Real-World Evidence Life Cycle Support - Scaling Trustworthy Evaluation of Treatment Safety and Effectiveness",
@@ -847,7 +762,7 @@
       "publisher": "Elsevier",
       "issn": "1568-4946",
       "ccf_rank": "",
-      "clicked": 47999,
+      "clicked": 48044,
       "detail_page": "https://www.myhuiban.com/journal/343",
       "special_issue": {
         "title": "Incremental Learning: Algorithms & Applications",
@@ -864,7 +779,7 @@
       "publisher": "Taylor & Francis",
       "issn": "0960-085X",
       "ccf_rank": "B",
-      "clicked": 33965,
+      "clicked": 33998,
       "detail_page": "https://www.myhuiban.com/journal/111",
       "special_issue": {
         "title": "The future of creating and distributing value in digital health ecosystems",
@@ -881,7 +796,7 @@
       "publisher": "Springer",
       "issn": "0921-0296",
       "ccf_rank": "",
-      "clicked": 23740,
+      "clicked": 23759,
       "detail_page": "https://www.myhuiban.com/journal/800",
       "special_issue": {
         "title": "AI and Soft Robotics in Agriculture: From Sensing to Harvesting and Beyond",
@@ -898,7 +813,7 @@
       "publisher": "Springer",
       "issn": "0022-3239",
       "ccf_rank": "",
-      "clicked": 26344,
+      "clicked": 26373,
       "detail_page": "https://www.myhuiban.com/journal/511",
       "special_issue": {
         "title": "SI: Nonlinear Analysis and Optimization Theory: In Honor of Professor Simeon Reich's 80th Birthday",
@@ -915,7 +830,7 @@
       "publisher": "Hindawi",
       "issn": "1026-0226",
       "ccf_rank": "",
-      "clicked": 26436,
+      "clicked": 26455,
       "detail_page": "https://www.myhuiban.com/journal/561",
       "special_issue": {
         "title": "Next-Generation Mathematical Solving: Applied Mathematics in Action",
@@ -932,7 +847,7 @@
       "publisher": "Hindawi",
       "issn": "1687-9643",
       "ccf_rank": "",
-      "clicked": 21078,
+      "clicked": 21095,
       "detail_page": "https://www.myhuiban.com/journal/641",
       "special_issue": {
         "title": "Next-Generation Mathematical Solving: Applied Mathematics in Action",
@@ -949,7 +864,7 @@
       "publisher": "Elsevier",
       "issn": "2666-5395",
       "ccf_rank": "",
-      "clicked": 1010,
+      "clicked": 1032,
       "detail_page": "https://www.myhuiban.com/journal/1229",
       "special_issue": {
         "title": "Additive Manufacturing of Concrete: Materials, Process Control and Structural Design",
@@ -966,7 +881,7 @@
       "publisher": "Elsevier",
       "issn": "1383-7621",
       "ccf_rank": "B",
-      "clicked": 55625,
+      "clicked": 55666,
       "detail_page": "https://www.myhuiban.com/journal/19",
       "special_issue": {
         "title": "Reliable Software Technologies (AEiC2027)",
@@ -983,7 +898,7 @@
       "publisher": "Elsevier",
       "issn": "2352-2208",
       "ccf_rank": "C",
-      "clicked": 20607,
+      "clicked": 20618,
       "detail_page": "https://www.myhuiban.com/journal/666",
       "special_issue": {
         "title": "Components Operationally: Reversibility and System Engineering",
@@ -1000,7 +915,7 @@
       "publisher": "Springer",
       "issn": "0938-1279",
       "ccf_rank": "",
-      "clicked": 20702,
+      "clicked": 20715,
       "detail_page": "https://www.myhuiban.com/journal/441",
       "special_issue": {
         "title": "GRÖBNER FREE METHODS AND THEIR APPLICATIONS",
@@ -1017,7 +932,7 @@
       "publisher": "Elsevier",
       "issn": "0307-904X",
       "ccf_rank": "",
-      "clicked": 30752,
+      "clicked": 30788,
       "detail_page": "https://www.myhuiban.com/journal/347",
       "special_issue": {
         "title": "Advanced Mathematical Modelling and Computational Methods for Insurance and Risk Analytics",
@@ -1034,7 +949,7 @@
       "publisher": "Hindawi",
       "issn": "2314-4904",
       "ccf_rank": "",
-      "clicked": 28686,
+      "clicked": 28705,
       "detail_page": "https://www.myhuiban.com/journal/654",
       "special_issue": {
         "title": "Micro/nanofluidics for biomedical applications",
@@ -1051,7 +966,7 @@
       "publisher": "Elsevier",
       "issn": "0893-6080",
       "ccf_rank": "B",
-      "clicked": 43791,
+      "clicked": 43824,
       "detail_page": "https://www.myhuiban.com/journal/197",
       "special_issue": {
         "title": "Neural Networks for Human-Centric Perception, Affect, and Experience",
@@ -1068,7 +983,7 @@
       "publisher": "Elsevier",
       "issn": "0165-1684",
       "ccf_rank": "C",
-      "clicked": 32173,
+      "clicked": 32209,
       "detail_page": "https://www.myhuiban.com/journal/417",
       "special_issue": {
         "title": "Beneficial Noise Processing in Multimodal Signal Processing",
@@ -1085,7 +1000,7 @@
       "publisher": "Elsevier",
       "issn": "1463-5003",
       "ccf_rank": "",
-      "clicked": 24175,
+      "clicked": 24199,
       "detail_page": "https://www.myhuiban.com/journal/400",
       "special_issue": {
         "title": "Ocean Decade_Progress in Understanding Ocean and Climate in a Changing World",
@@ -1102,7 +1017,7 @@
       "publisher": "Springer",
       "issn": "0254-5330",
       "ccf_rank": "",
-      "clicked": 28797,
+      "clicked": 28814,
       "detail_page": "https://www.myhuiban.com/journal/440",
       "special_issue": {
         "title": "Multiple Objective Programming and Goal Programming: Artificial Intelligence for Decision Making in Economic and Social Sciences",
@@ -1119,7 +1034,7 @@
       "publisher": "Elsevier",
       "issn": "2452-3100",
       "ccf_rank": "",
-      "clicked": 14328,
+      "clicked": 14338,
       "detail_page": "https://www.myhuiban.com/journal/882",
       "special_issue": {
         "title": "Current Opinion in Systems Biology",
@@ -1136,7 +1051,7 @@
       "publisher": "Springer",
       "issn": "0268-3768",
       "ccf_rank": "",
-      "clicked": 32000,
+      "clicked": 32017,
       "detail_page": "https://www.myhuiban.com/journal/487",
       "special_issue": {
         "title": "Looking for more sustainable manufacturing technologies: Shaping our future",
@@ -1153,7 +1068,7 @@
       "publisher": "Springer",
       "issn": "0925-9856",
       "ccf_rank": "B",
-      "clicked": 25100,
+      "clicked": 25116,
       "detail_page": "https://www.myhuiban.com/journal/83",
       "special_issue": {
         "title": "FMCAD 2025",
@@ -1170,7 +1085,7 @@
       "publisher": "Wiley",
       "issn": "1097-0037",
       "ccf_rank": "C",
-      "clicked": 21023,
+      "clicked": 21044,
       "detail_page": "https://www.myhuiban.com/journal/622",
       "special_issue": {
         "title": "Interdiction and Stochastic Programming on Networks in Memory of Professor R. Kevin Wood, 1955–2025",
@@ -1187,7 +1102,7 @@
       "publisher": "Taylor & Francis",
       "issn": "0163-0563",
       "ccf_rank": "",
-      "clicked": 16952,
+      "clicked": 16966,
       "detail_page": "https://www.myhuiban.com/journal/1006",
       "special_issue": {
         "title": "The 45th anniversary of Numerical Functional Analysis and Optimization",
@@ -1204,7 +1119,7 @@
       "publisher": "Elsevier",
       "issn": "0925-3467",
       "ccf_rank": "",
-      "clicked": 27934,
+      "clicked": 27952,
       "detail_page": "https://www.myhuiban.com/journal/819",
       "special_issue": {
         "title": "Optical Materials Research in Asia",
@@ -1221,7 +1136,7 @@
       "publisher": "Elsevier",
       "issn": "2211-2855",
       "ccf_rank": "",
-      "clicked": 12535,
+      "clicked": 12550,
       "detail_page": "https://www.myhuiban.com/journal/1111",
       "special_issue": {
         "title": "Celebrating 20 Years of Nanogenerators",
@@ -1238,7 +1153,7 @@
       "publisher": "Elsevier",
       "issn": "0888-613X",
       "ccf_rank": "B",
-      "clicked": 35762,
+      "clicked": 35788,
       "detail_page": "https://www.myhuiban.com/journal/190",
       "special_issue": {
         "title": "Numbers of the Future: Dealing with Uncertain Data for Quantitative Risk Analysis",
@@ -1255,7 +1170,7 @@
       "publisher": "Elsevier",
       "issn": "0143-7208",
       "ccf_rank": "",
-      "clicked": 566,
+      "clicked": 581,
       "detail_page": "https://www.myhuiban.com/journal/1233",
       "special_issue": {
         "title": "occasion of the 7th International Symposium on Aggregation-Induced Emission",
@@ -1272,7 +1187,7 @@
       "publisher": "Elsevier",
       "issn": "0169-1317",
       "ccf_rank": "",
-      "clicked": 723,
+      "clicked": 746,
       "detail_page": "https://www.myhuiban.com/journal/1234",
       "special_issue": {
         "title": "Clay-Based Materials for Emerging Applications: Multifunctional Advances across Energy, Manufacturing, Biomedical, and Environmental Fields",
@@ -1289,13 +1204,30 @@
       "publisher": "Elsevier",
       "issn": "0262-8856",
       "ccf_rank": "C",
-      "clicked": 48759,
+      "clicked": 48805,
       "detail_page": "https://www.myhuiban.com/journal/220",
       "special_issue": {
         "title": "Multimodal Vision for Medical Imaging: Resilience, Robustness, Fairness, and Interpretability",
         "submission_date": "2027-03-15",
         "id": 6427,
         "detail_page": "https://www.myhuiban.com/journal/220#issue-6427"
+      }
+    },
+    {
+      "id": 1237,
+      "short_name": "",
+      "full_name": "Journal of Biomechanics",
+      "impact_factor": "2.9",
+      "publisher": "Elsevier",
+      "issn": "0021-9290",
+      "ccf_rank": "",
+      "clicked": 560,
+      "detail_page": "https://www.myhuiban.com/journal/1237",
+      "special_issue": {
+        "title": "Biomechanics in Human Movement and Clinical Translation in the AI Age",
+        "submission_date": "2026-12-31",
+        "id": 6452,
+        "detail_page": "https://www.myhuiban.com/journal/1237#issue-6452"
       }
     },
     {
@@ -1306,7 +1238,7 @@
       "publisher": "Elsevier",
       "issn": "0096-3003",
       "ccf_rank": "",
-      "clicked": 27861,
+      "clicked": 27885,
       "detail_page": "https://www.myhuiban.com/journal/345",
       "special_issue": {
         "title": "Computational paradigms, numerical methods, and nonlinear models",
@@ -1323,13 +1255,30 @@
       "publisher": "Elsevier",
       "issn": "0743-7315",
       "ccf_rank": "B",
-      "clicked": 59167,
+      "clicked": 59193,
       "detail_page": "https://www.myhuiban.com/journal/18",
       "special_issue": {
         "title": "Federated and Distributed AI Across the Edge–Cloud Continuum",
         "submission_date": "2027-01-30",
         "id": 6398,
         "detail_page": "https://www.myhuiban.com/journal/18#issue-6398"
+      }
+    },
+    {
+      "id": 1190,
+      "short_name": "",
+      "full_name": "Applied Surface Science",
+      "impact_factor": "6.9",
+      "publisher": "Elsevier",
+      "issn": "0169-4332",
+      "ccf_rank": "",
+      "clicked": 12103,
+      "detail_page": "https://www.myhuiban.com/journal/1190",
+      "special_issue": {
+        "title": "Materials Challenges in Alternative and Renewable Energy 2026 (MCARE 2026)",
+        "submission_date": "2027-01-31",
+        "id": 6297,
+        "detail_page": "https://www.myhuiban.com/journal/1190#issue-6297"
       }
     },
     {
@@ -1340,7 +1289,7 @@
       "publisher": "Elsevier",
       "issn": "0022-0248",
       "ccf_rank": "",
-      "clicked": 742,
+      "clicked": 755,
       "detail_page": "https://www.myhuiban.com/journal/1228",
       "special_issue": {
         "title": "Proceedings of the 24th International Conference on Molecular Beam Epitaxy",
@@ -1357,7 +1306,7 @@
       "publisher": "Elsevier",
       "issn": "0169-2607",
       "ccf_rank": "",
-      "clicked": 26923,
+      "clicked": 26941,
       "detail_page": "https://www.myhuiban.com/journal/620",
       "special_issue": {
         "title": "Exploring the Frontiers of Radiomics: Unveiling Novel Insights through Advanced Techniques and Multimodal Approaches",
@@ -1374,7 +1323,7 @@
       "publisher": "Elsevier",
       "issn": "0306-4573",
       "ccf_rank": "B",
-      "clicked": 63112,
+      "clicked": 63158,
       "detail_page": "https://www.myhuiban.com/journal/113",
       "special_issue": {
         "title": "Explainable AI and Network Science for Social Systems and Collective Intelligence",
@@ -1391,7 +1340,7 @@
       "publisher": "Elsevier",
       "issn": "0747-7171",
       "ccf_rank": "B",
-      "clicked": 32763,
+      "clicked": 32777,
       "detail_page": "https://www.myhuiban.com/journal/66",
       "special_issue": {
         "title": "SCML: Symbolic Computation and Machine Learning",
@@ -1408,7 +1357,7 @@
       "publisher": "Springer",
       "issn": "0925-5001",
       "ccf_rank": "B",
-      "clicked": 16745,
+      "clicked": 16756,
       "detail_page": "https://www.myhuiban.com/journal/693",
       "special_issue": {
         "title": "Mathematical Optimization Theory and Applications: ICMOTA 2026",
@@ -1425,7 +1374,7 @@
       "publisher": "OAE Publishing",
       "issn": "2770-3541",
       "ccf_rank": "",
-      "clicked": 11888,
+      "clicked": 11916,
       "detail_page": "https://www.myhuiban.com/journal/1108",
       "special_issue": {
         "title": "From Brain-Inspired Al to Embodied Intelligence: Efficient Learning and Neuromorphic Approaches for Next-Generation Robots",
