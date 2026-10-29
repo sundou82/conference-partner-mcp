@@ -146,11 +146,11 @@ DATASETS = [
 
 CONFERENCE_COLUMNS = ["id", "short_name", "full_name", "submission_date",
                       "notification_date", "conference_date", "location",
-                      "ccf_rank", "core_rank", "qualis_rank",
+                      "ccf_rank", "core_rank", "qualis_rank", "fields",
                       "cp_index", "cp_index_rank", "cp_index_confidence", "is_extended",
                       "acceptance_rate", "years", "updated_at", "detail_page"]
 JOURNAL_COLUMNS = ["id", "short_name", "full_name", "impact_factor", "publisher",
-                   "issn", "ccf_rank", "special_issue_title",
+                   "issn", "ccf_rank", "fields", "special_issue_title",
                    "special_issue_deadline", "updated_at", "detail_page"]
 
 #: Nested objects flattened for CSV only — JSON keeps the original shape.
@@ -240,13 +240,19 @@ def fetch(dataset, budget):
     return list(by_id.values()), complete
 
 
-def flatten(row):
-    """CSV view of a row: nested objects become scalar columns.
+#: List-valued fields joined into one CSV cell. `fields` holds research-field slugs
+#: ("ai;vision"); the slugs never contain the separator, so splitting it back is exact.
+LIST_SEPARATOR = ";"
 
-    Without this a dict lands in the cell as its Python repr, which no
+
+def flatten(row):
+    """CSV view of a row: nested objects become scalar columns, lists one joined cell.
+
+    Without this a dict or list lands in the cell as its Python repr, which no
     spreadsheet or `csv` reader can do anything with.
     """
-    flat = {k: v for k, v in row.items() if k not in FLATTEN}
+    flat = {k: (LIST_SEPARATOR.join(map(str, v)) if isinstance(v, list) else v)
+            for k, v in row.items() if k not in FLATTEN}
     for source, mapping in FLATTEN.items():
         nested = row.get(source) or {}
         for sub, column in mapping.items():

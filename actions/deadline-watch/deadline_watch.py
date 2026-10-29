@@ -124,18 +124,36 @@ def get(params):
         sys.exit(f"Conference Partner API returned {error.code}: {_reason(error)}{hint}")
 
 
-def collect(field, days):
+# Valid values of the rank inputs. The server checks them too (and its 400 lists the
+# valid ones), but a typo should fail here before it spends a request.
+CCF_RANKS = ("A", "B", "C")
+CORE_RANKS = ("A*", "A", "B", "C")
+QUALIS_RANKS = ("A1", "A2", "B1", "B2", "B3", "B4", "B5")
+
+
+def parse_ranks(name, raw, valid):
+    """'a, B' -> 'A,B' — the comma list the API matches as OR. '' when unset."""
+    values = [v.strip().upper() for v in raw.split(",") if v.strip()]
+    unknown = [v for v in values if v not in valid]
+    if unknown:
+        sys.exit(f"Unknown {name} value '{', '.join(unknown)}'. Valid: {', '.join(valid)} "
+                 f"(comma-separate several to match any of them)")
+    return ",".join(dict.fromkeys(values))
+
+
+def window(field, days):
     today = dt.date.today()
-    window = {
+    return {
         "field": field,
         "submission_date_start": today.isoformat(),
         "submission_date_end": (today + dt.timedelta(days=days)).isoformat(),
-        "per_page": 100,
     }
 
+
+def collect(params):
     rows, page = [], 1
     while page <= 10:                       # guard: each page costs one request
-        data = get({**window, "page": page})
+        data = get({**params, "per_page": 100, "page": page})
         rows.extend(data["conferences"])
         if page >= data["pagination"]["total_pages"]:
             break
@@ -143,33 +161,52 @@ def collect(field, days):
     return rows
 
 
+def count(params):
+    """How many rows a query matches, for one request however many there are."""
+    return get({**params, "per_page": 1})["pagination"]["total"]
+
+
 def main():
     field = os.environ.get("HUIBAN_FIELD", "").strip()
-    ccf = os.environ.get("HUIBAN_CCF", "").strip().upper()
-    core = os.environ.get("HUIBAN_CORE", "").strip().upper()
     days = int(os.environ.get("HUIBAN_DAYS", "90") or 90)
     ranked_only = os.environ.get("HUIBAN_RANKED_ONLY", "false").lower() == "true"
 
     if field and field not in FIELD_NAMES:
         sys.exit(f"Unknown field '{field}'. Valid: {', '.join(FIELD_NAMES)}")
+    ccf = parse_ranks("ccf", os.environ.get("HUIBAN_CCF", ""), CCF_RANKS)
+    core = parse_ranks("core", os.environ.get("HUIBAN_CORE", ""), CORE_RANKS)
 
-    rows = collect(field, days)
-    before_ranks = len(rows)
+    # Rank filters run on the server: the API matches comma-separated values as OR
+    # and different parameters as AND, so only the matching rows come back. Fetching
+    # the whole window and filtering here cost one request per 100 deadlines — on a
+    # shared GitHub runner IP that is what used up the anonymous daily limit.
+    base = window(field, days)
+    tiered = {**base, "ccf_rank": ccf, "core_rank": core}
 
-    # Rank filters are applied here rather than in the query so that one fetch
-    # covers both, and so "CCF A or CORE A*" stays possible for callers later.
-    if ccf:
-        rows = [r for r in rows if (r.get("ccf_rank") or "").upper() == ccf]
-    if core:
-        rows = [r for r in rows if (r.get("core_rank") or "").upper() == core]
-    if ranked_only:
-        rows = [r for r in rows if r.get("ccf_rank") or r.get("core_rank") or r.get("qualis_rank")]
+    if ranked_only and not (ccf or core):
+        # "Carries any ranking" is an OR across three parameters, which one query
+        # cannot say. Three small queries, each a single tier list, merged by id —
+        # still far fewer requests than the unfiltered window.
+        merged = {}
+        for name, valid in (("ccf_rank", CCF_RANKS), ("core_rank", CORE_RANKS),
+                            ("qualis_rank", QUALIS_RANKS)):
+            for r in collect({**base, name: ",".join(valid)}):
+                merged[r["id"]] = r
+        rows = list(merged.values())
+    else:
+        # With ccf or core set every row is ranked already, so ranked-only adds nothing.
+        rows = collect(tiered)
+
+    rank_filtered = bool(ccf or core or ranked_only)
+    # Only asked when the answer would otherwise be an unexplained empty table.
+    before_ranks = count(base) if rank_filtered and not rows else len(rows)
 
     rows.sort(key=lambda r: (r.get("submission_date") or "", r.get("short_name") or ""))
 
     today = dt.date.today()
     scope = FIELD_NAMES.get(field, "all fields")
-    tiers = " · ".join(x for x in (f"CCF {ccf}" if ccf else "", f"CORE {core}" if core else "") if x)
+    tiers = " · ".join(x for x in (f"CCF {ccf.replace(',', '/')}" if ccf else "",
+                                   f"CORE {core.replace(',', '/')}" if core else "") if x)
 
     filters = " · ".join(x for x in (scope, tiers, "ranked only" if ranked_only else "") if x)
     lines = [

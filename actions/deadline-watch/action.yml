@@ -16,11 +16,11 @@ inputs:
     required: false
     default: ''
   ccf:
-    description: 'Keep only this CCF rank (A, B or C). Omit for any.'
+    description: 'Keep only these CCF ranks: A, B or C, or several comma-separated (A,B). Omit for any.'
     required: false
     default: ''
   core:
-    description: 'Keep only this CORE rank (A*, A, B or C). Omit for any.'
+    description: 'Keep only these CORE ranks: A*, A, B or C, or several comma-separated (A*,A). Omit for any.'
     required: false
     default: ''
   days:

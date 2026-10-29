@@ -45,7 +45,9 @@ and their limits are at [myhuiban.com/ranking](https://www.myhuiban.com/ranking)
 [`data/`](../data/) holds a downloadable copy, refreshed daily by CI: upcoming submission
 deadlines, the CCF / CORE / QUALIS conference catalogues, CCF journals, open
 special-issue calls, and journals by impact factor. Each dataset is published as JSON and
-CSV, with a browsable Markdown index.
+CSV, with a browsable Markdown index. In the CSV, nested values are flattened (`cp_index`
+becomes score, rank and confidence columns) and the `fields` list of research-field slugs
+is one cell joined with `;` (`ai;vision`).
 
 CI commits only when something changed, so `git log -- data/` is a deadline-change log and
 [`data.atom`](https://github.com/sundou82/conference-partner-mcp/commits/main/data.atom)
