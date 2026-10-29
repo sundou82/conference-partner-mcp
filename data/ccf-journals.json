@@ -2,7 +2,7 @@
   "title": "CCF-ranked journals",
   "note": "Journals in the CCF catalogue, with impact factor, publisher and ISSN.",
   "source": "https://www.myhuiban.com/api/journals",
-  "generated_at": "2026-10-29T00:37:32+00:00",
+  "generated_at": "2026-10-29T11:42:41+00:00",
   "count": 292,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
@@ -14,6 +14,9 @@
       "publisher": "Oxford University Press",
       "issn": "1367-4803",
       "ccf_rank": "A",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2025-12-28",
       "detail_page": "https://www.myhuiban.com/journal/240"
     },
@@ -25,6 +28,9 @@
       "publisher": "Springer",
       "issn": "0933-2790",
       "ccf_rank": "A",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/11"
     },
@@ -36,6 +42,9 @@
       "publisher": "Elsevier",
       "issn": "0004-3702",
       "ccf_rank": "A",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/166"
     },
@@ -47,6 +56,7 @@
       "publisher": "Elsevier",
       "issn": "0890-5401",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2026-07-14",
       "detail_page": "https://www.myhuiban.com/journal/63"
     },
@@ -58,6 +68,9 @@
       "publisher": "Springer",
       "issn": "0920-5691",
       "ccf_rank": "A",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/168"
     },
@@ -69,6 +82,9 @@
       "publisher": "Elsevier",
       "issn": "1071-5819",
       "ccf_rank": "A",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/379"
     },
@@ -80,6 +96,7 @@
       "publisher": "ACM",
       "issn": "0004-5411",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2026-01-08",
       "detail_page": "https://www.myhuiban.com/journal/58"
     },
@@ -91,6 +108,9 @@
       "publisher": "Microtome Publishing",
       "issn": "1532-4435",
       "ccf_rank": "A",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2013-10-04",
       "detail_page": "https://www.myhuiban.com/journal/169"
     },
@@ -102,6 +122,9 @@
       "publisher": "IEEE",
       "issn": "0733-8716",
       "ccf_rank": "A",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/6"
     },
@@ -113,6 +136,7 @@
       "publisher": "IEEE",
       "issn": "0018-9219",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/244"
     },
@@ -124,6 +148,9 @@
       "publisher": "Springer",
       "issn": "1674-733X",
       "ccf_rank": "A",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/247"
     },
@@ -135,6 +162,7 @@
       "publisher": "SIAM",
       "issn": "0097-5397",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/59"
     },
@@ -146,6 +174,9 @@
       "publisher": "ACM",
       "issn": "1544-3566",
       "ccf_rank": "A",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-04-11",
       "detail_page": "https://www.myhuiban.com/journal/1"
     },
@@ -157,6 +188,7 @@
       "publisher": "IEEE",
       "issn": "0018-9340",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/3"
     },
@@ -168,6 +200,10 @@
       "publisher": "IEEE",
       "issn": "0278-0070",
       "ccf_rank": "A",
+      "fields": [
+        "systems",
+        "ee"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/12"
     },
@@ -179,6 +215,10 @@
       "publisher": "IEEE",
       "issn": "1545-5971",
       "ccf_rank": "A",
+      "fields": [
+        "security",
+        "systems"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/9"
     },
@@ -190,6 +230,9 @@
       "publisher": "IEEE",
       "issn": "1556-6013",
       "ccf_rank": "A",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/10"
     },
@@ -201,6 +244,9 @@
       "publisher": "IEEE",
       "issn": "1057-7149",
       "ccf_rank": "A",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/140"
     },
@@ -212,6 +258,9 @@
       "publisher": "IEEE",
       "issn": "0018-9448",
       "ccf_rank": "A",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/62"
     },
@@ -223,6 +272,9 @@
       "publisher": "IEEE",
       "issn": "1041-4347",
       "ccf_rank": "A",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/106"
     },
@@ -234,6 +286,9 @@
       "publisher": "IEEE",
       "issn": "1536-1233",
       "ccf_rank": "A",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/7"
     },
@@ -245,6 +300,9 @@
       "publisher": "IEEE",
       "issn": "1520-9210",
       "ccf_rank": "A",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/152"
     },
@@ -256,6 +314,9 @@
       "publisher": "ACM",
       "issn": "1073-0516",
       "ccf_rank": "A",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/139"
     },
@@ -267,6 +328,9 @@
       "publisher": "ACM",
       "issn": "0734-2071",
       "ccf_rank": "A",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/2"
     },
@@ -278,6 +342,9 @@
       "publisher": "ACM",
       "issn": "0362-5915",
       "ccf_rank": "A",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/103"
     },
@@ -289,6 +356,9 @@
       "publisher": "ACM",
       "issn": "0730-0301",
       "ccf_rank": "A",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/138"
     },
@@ -300,6 +370,9 @@
       "publisher": "ACM",
       "issn": "1046-8188",
       "ccf_rank": "A",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/104"
     },
@@ -311,6 +384,9 @@
       "publisher": "IEEE/ACM",
       "issn": "1063-6692",
       "ccf_rank": "A",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/5"
     },
@@ -322,6 +398,9 @@
       "publisher": "ACM",
       "issn": "0164-0925",
       "ccf_rank": "A",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-03-04",
       "detail_page": "https://www.myhuiban.com/journal/76"
     },
@@ -333,6 +412,7 @@
       "publisher": "ACM",
       "issn": "1553-3077",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/15"
     },
@@ -344,6 +424,9 @@
       "publisher": "ACM",
       "issn": "1049-331x",
       "ccf_rank": "A",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/77"
     },
@@ -355,6 +438,10 @@
       "publisher": "IEEE",
       "issn": "0162-8828 ",
       "ccf_rank": "A",
+      "fields": [
+        "ai",
+        "vision"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/167"
     },
@@ -366,6 +453,9 @@
       "publisher": "IEEE",
       "issn": "1045-9219",
       "ccf_rank": "A",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/4"
     },
@@ -377,6 +467,9 @@
       "publisher": "IEEE",
       "issn": "1939-1374",
       "ccf_rank": "A",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/322"
     },
@@ -388,6 +481,9 @@
       "publisher": "IEEE",
       "issn": "0098-5589 ",
       "ccf_rank": "A",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2025-12-24",
       "detail_page": "https://www.myhuiban.com/journal/78"
     },
@@ -399,6 +495,9 @@
       "publisher": "IEEE",
       "issn": "1077-2626",
       "ccf_rank": "A",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/141"
     },
@@ -410,6 +509,7 @@
       "publisher": "Springer",
       "issn": "1066-8888",
       "ccf_rank": "A",
+      "fields": [],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/102"
     },
@@ -421,6 +521,9 @@
       "publisher": "Oxford University Press",
       "issn": "1477-4054",
       "ccf_rank": "B",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/701"
     },
@@ -432,6 +535,7 @@
       "publisher": "IEEE",
       "issn": "2168-2291",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/576"
     },
@@ -443,6 +547,9 @@
       "publisher": "Springer",
       "issn": "0924-1868",
       "ccf_rank": "B",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/549"
     },
@@ -454,6 +561,7 @@
       "publisher": "Oxford University Press",
       "issn": "0010-4620",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-03-03",
       "detail_page": "https://www.myhuiban.com/journal/246"
     },
@@ -465,6 +573,9 @@
       "publisher": "Public Library of Science",
       "issn": "1553-734X",
       "ccf_rank": "B",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2013-10-05",
       "detail_page": "https://www.myhuiban.com/journal/241"
     },
@@ -476,6 +587,9 @@
       "publisher": "IEEE",
       "issn": "2168-2267",
       "ccf_rank": "B",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/215"
     },
@@ -487,6 +601,9 @@
       "publisher": "Elsevier",
       "issn": "0893-6080",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-08-12",
       "detail_page": "https://www.myhuiban.com/journal/197"
     },
@@ -498,6 +615,9 @@
       "publisher": "MIT Press",
       "issn": "0899-7667",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/196"
     },
@@ -509,6 +629,9 @@
       "publisher": "Springer",
       "issn": "0885-6125",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/194"
     },
@@ -520,6 +643,7 @@
       "publisher": "Springer",
       "issn": "0168-7433",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-05-10",
       "detail_page": "https://www.myhuiban.com/journal/192"
     },
@@ -531,6 +655,9 @@
       "publisher": "MIT Press",
       "issn": "1063-6560",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/179"
     },
@@ -542,6 +669,9 @@
       "publisher": "MIT Press",
       "issn": "0891-2017",
       "ccf_rank": "B",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/177"
     },
@@ -553,6 +683,9 @@
       "publisher": "Elsevier",
       "issn": "0020-0255",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-06-30",
       "detail_page": "https://www.myhuiban.com/journal/115"
     },
@@ -564,6 +697,7 @@
       "publisher": "Springer",
       "issn": "1384-6175",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/112"
     },
@@ -575,6 +709,9 @@
       "publisher": "Wiley",
       "issn": "2047-7481",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/86"
     },
@@ -586,6 +723,9 @@
       "publisher": "Springer",
       "issn": "0925-1022",
       "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-04-10",
       "detail_page": "https://www.myhuiban.com/journal/30"
     },
@@ -597,6 +737,9 @@
       "publisher": "Elsevier",
       "issn": "0167-4048",
       "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/29"
     },
@@ -608,6 +751,9 @@
       "publisher": "Elsevier",
       "issn": "0166-5316",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2025-05-14",
       "detail_page": "https://www.myhuiban.com/journal/21"
     },
@@ -619,6 +765,10 @@
       "publisher": "Springer",
       "issn": "1387-2532",
       "ccf_rank": "B",
+      "fields": [
+        "ai",
+        "robotics"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/204"
     },
@@ -630,6 +780,7 @@
       "publisher": "Elsevier",
       "issn": "1474-0346",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/108"
     },
@@ -641,6 +792,9 @@
       "publisher": "Springer",
       "issn": "0928-8910",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/80"
     },
@@ -652,6 +806,7 @@
       "publisher": "Springer",
       "issn": "0178-4617",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-05-10",
       "detail_page": "https://www.myhuiban.com/journal/72"
     },
@@ -663,6 +818,9 @@
       "publisher": "Elsevier",
       "issn": "2666-9536",
       "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1225"
     },
@@ -674,6 +832,9 @@
       "publisher": "Elsevier",
       "issn": "0010-4485",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/142"
     },
@@ -685,6 +846,7 @@
       "publisher": "Elsevier",
       "issn": "0167-8396",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-04-10",
       "detail_page": "https://www.myhuiban.com/journal/143"
     },
@@ -696,6 +858,9 @@
       "publisher": "Springer",
       "issn": "1016-3328",
       "ccf_rank": "B",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/691"
     },
@@ -707,6 +872,9 @@
       "publisher": "Springer",
       "issn": "2524-521X",
       "ccf_rank": "B",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1224"
     },
@@ -718,6 +886,9 @@
       "publisher": "Wiley",
       "issn": "1467-8659",
       "ccf_rank": "B",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/144"
     },
@@ -729,6 +900,9 @@
       "publisher": "Elsevier",
       "issn": "1389-1286",
       "ccf_rank": "B",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-08-31",
       "detail_page": "https://www.myhuiban.com/journal/26"
     },
@@ -740,6 +914,9 @@
       "publisher": "Springer",
       "issn": "0925-9724",
       "ccf_rank": "B",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/469"
     },
@@ -751,6 +928,9 @@
       "publisher": "Elsevier",
       "issn": "1077-3142",
       "ccf_rank": "B",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/178"
     },
@@ -762,6 +942,9 @@
       "publisher": "Springer",
       "issn": "2096-0433",
       "ccf_rank": "B",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/888"
     },
@@ -773,6 +956,7 @@
       "publisher": "Elsevier",
       "issn": "0010-0277",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/175"
     },
@@ -784,6 +968,9 @@
       "publisher": "Springer",
       "issn": "2523-3246",
       "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1220"
     },
@@ -795,6 +982,9 @@
       "publisher": "Elsevier",
       "issn": "0169-023X",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/109"
     },
@@ -806,6 +996,9 @@
       "publisher": "Springer",
       "issn": "1384-5810",
       "ccf_rank": "B",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/107"
     },
@@ -817,6 +1010,9 @@
       "publisher": "Springer",
       "issn": "2364-1185",
       "ccf_rank": "B",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/1100"
     },
@@ -828,6 +1024,9 @@
       "publisher": "Taylor & Francis",
       "issn": "0960-085X",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/111"
     },
@@ -839,6 +1038,9 @@
       "publisher": "Springer",
       "issn": "1382-3256",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/81"
     },
@@ -850,6 +1052,7 @@
       "publisher": "ACM",
       "issn": "0934-5043",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-04-18",
       "detail_page": "https://www.myhuiban.com/journal/82"
     },
@@ -861,6 +1064,7 @@
       "publisher": "Springer",
       "issn": "2095-2228",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/480"
     },
@@ -872,6 +1076,9 @@
       "publisher": "Springer",
       "issn": "0925-9856",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-03-03",
       "detail_page": "https://www.myhuiban.com/journal/83"
     },
@@ -883,6 +1090,9 @@
       "publisher": "Taylor & Francis",
       "issn": "0737-0024",
       "ccf_rank": "B",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2019-05-01",
       "detail_page": "https://www.myhuiban.com/journal/699"
     },
@@ -894,6 +1104,9 @@
       "publisher": "IET",
       "issn": "1751-8806",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-04-11",
       "detail_page": "https://www.myhuiban.com/journal/84"
     },
@@ -905,6 +1118,7 @@
       "publisher": "Elsevier",
       "issn": "0888-613X",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-06-25",
       "detail_page": "https://www.myhuiban.com/journal/190"
     },
@@ -916,6 +1130,9 @@
       "publisher": "Taylor & Francis",
       "issn": "1044-7318",
       "ccf_rank": "B",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/577"
     },
@@ -927,6 +1144,7 @@
       "publisher": "INFORMS",
       "issn": "1091-9856",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-01-08",
       "detail_page": "https://www.myhuiban.com/journal/692"
     },
@@ -938,6 +1156,7 @@
       "publisher": "Elsevier",
       "issn": "0306-4573",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/113"
     },
@@ -949,6 +1168,9 @@
       "publisher": "Elsevier",
       "issn": "0306-4379",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-09-28",
       "detail_page": "https://www.myhuiban.com/journal/116"
     },
@@ -960,6 +1182,9 @@
       "publisher": "Elsevier",
       "issn": "0950-5849",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2025-07-13",
       "detail_page": "https://www.myhuiban.com/journal/94"
     },
@@ -971,6 +1196,7 @@
       "publisher": "Oxford University Press",
       "issn": "0953-5438",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2024-08-23",
       "detail_page": "https://www.myhuiban.com/journal/700"
     },
@@ -982,6 +1208,9 @@
       "publisher": "AI Access Foundation, Inc.",
       "issn": "1076-9757",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2024-08-25",
       "detail_page": "https://www.myhuiban.com/journal/191"
     },
@@ -993,6 +1222,9 @@
       "publisher": "BMJ Journals",
       "issn": "1527-974X",
       "ccf_rank": "B",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/243"
     },
@@ -1004,6 +1236,7 @@
       "publisher": "Acoustical Society of America",
       "issn": "0001-4966",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/153"
     },
@@ -1015,6 +1248,9 @@
       "publisher": "Wiley",
       "issn": "2330-1643",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/663"
     },
@@ -1026,6 +1262,9 @@
       "publisher": "IOS Press",
       "issn": "0926-227X",
       "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/33"
     },
@@ -1037,6 +1276,9 @@
       "publisher": "Elsevier",
       "issn": "0022-0000",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-06-30",
       "detail_page": "https://www.myhuiban.com/journal/65"
     },
@@ -1048,6 +1290,7 @@
       "publisher": "Springer",
       "issn": "1000-9000",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-05-10",
       "detail_page": "https://www.myhuiban.com/journal/245"
     },
@@ -1059,6 +1302,7 @@
       "publisher": "Cambridge University Press",
       "issn": "0956-7968",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-04-17",
       "detail_page": "https://www.myhuiban.com/journal/97"
     },
@@ -1070,6 +1314,7 @@
       "publisher": "Springer",
       "issn": "0925-5001",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-04-18",
       "detail_page": "https://www.myhuiban.com/journal/693"
     },
@@ -1081,6 +1326,9 @@
       "publisher": "Elsevier",
       "issn": "0743-7315",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-08-12",
       "detail_page": "https://www.myhuiban.com/journal/18"
     },
@@ -1092,6 +1340,10 @@
       "publisher": "Elsevier",
       "issn": "1383-7621",
       "ccf_rank": "B",
+      "fields": [
+        "se",
+        "systems"
+      ],
       "updated_at": "2026-08-12",
       "detail_page": "https://www.myhuiban.com/journal/19"
     },
@@ -1103,6 +1355,7 @@
       "publisher": "Elsevier",
       "issn": "0747-7171",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2025-08-10",
       "detail_page": "https://www.myhuiban.com/journal/66"
     },
@@ -1114,6 +1367,9 @@
       "publisher": "ASHA",
       "issn": "1558-9102",
       "ccf_rank": "B",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/160"
     },
@@ -1125,6 +1381,9 @@
       "publisher": "Elsevier",
       "issn": "0164-1212",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-08-12",
       "detail_page": "https://www.myhuiban.com/journal/87"
     },
@@ -1136,6 +1395,9 @@
       "publisher": "Elsevier",
       "issn": "1570-8268",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-11-28",
       "detail_page": "https://www.myhuiban.com/journal/120"
     },
@@ -1147,6 +1409,9 @@
       "publisher": "Springer",
       "issn": "0219-1377",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/121"
     },
@@ -1158,6 +1423,7 @@
       "publisher": "Cambridge University Press",
       "issn": "0960-1295",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/68"
     },
@@ -1169,6 +1435,9 @@
       "publisher": "Elsevier",
       "issn": "0167-8191",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-02-26",
       "detail_page": "https://www.myhuiban.com/journal/20"
     },
@@ -1180,6 +1449,9 @@
       "publisher": "Elsevier",
       "issn": "0031-3203",
       "ccf_rank": "B",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-12-18",
       "detail_page": "https://www.myhuiban.com/journal/198"
     },
@@ -1191,6 +1463,9 @@
       "publisher": "Springer",
       "issn": "0947-3602",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/88"
     },
@@ -1202,6 +1477,7 @@
       "publisher": "Elsevier",
       "issn": "0167-6423",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-08-31",
       "detail_page": "https://www.myhuiban.com/journal/89"
     },
@@ -1213,6 +1489,9 @@
       "publisher": "SIAM",
       "issn": "1936-4954",
       "ccf_rank": "B",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2013-10-04",
       "detail_page": "https://www.myhuiban.com/journal/151"
     },
@@ -1224,6 +1503,9 @@
       "publisher": "Wiley",
       "issn": "1097-024X",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/90"
     },
@@ -1235,6 +1517,10 @@
       "publisher": "Elsevier",
       "issn": "0167-6393",
       "ccf_rank": "B",
+      "fields": [
+        "nlp",
+        "network"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/164"
     },
@@ -1246,6 +1532,9 @@
       "publisher": "Wiley",
       "issn": "1099-1689",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-04-11",
       "detail_page": "https://www.myhuiban.com/journal/101"
     },
@@ -1257,6 +1546,9 @@
       "publisher": "Springer",
       "issn": "1619-1366",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/99"
     },
@@ -1268,6 +1560,9 @@
       "publisher": "ACM",
       "issn": "1556-4665",
       "ccf_rank": "B",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/584"
     },
@@ -1279,6 +1574,9 @@
       "publisher": "IEEE",
       "issn": "1949-3045 ",
       "ccf_rank": "B",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/181"
     },
@@ -1290,6 +1588,9 @@
       "publisher": "The Association for Computational Linguistics",
       "issn": "2307-387X",
       "ccf_rank": "B",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2023-01-26",
       "detail_page": "https://www.myhuiban.com/journal/1101"
     },
@@ -1301,6 +1602,9 @@
       "publisher": "ACM",
       "issn": "1549-6325",
       "ccf_rank": "B",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2024-08-10",
       "detail_page": "https://www.myhuiban.com/journal/60"
     },
@@ -1312,6 +1616,7 @@
       "publisher": "ACM",
       "issn": "1544-3558",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/170"
     },
@@ -1323,6 +1628,9 @@
       "publisher": "IEEE",
       "issn": "1545-5955",
       "ccf_rank": "B",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/702"
     },
@@ -1334,6 +1642,9 @@
       "publisher": "IEEE",
       "issn": "1558-7916",
       "ccf_rank": "B",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/148"
     },
@@ -1345,6 +1656,9 @@
       "publisher": "IEEE",
       "issn": "1545-5963",
       "ccf_rank": "B",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/182"
     },
@@ -1356,6 +1670,9 @@
       "publisher": "IEEE",
       "issn": "2168-7161",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/315"
     },
@@ -1367,6 +1684,9 @@
       "publisher": "IEEE",
       "issn": "0090-6778",
       "ccf_rank": "B",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/27"
     },
@@ -1378,6 +1698,9 @@
       "publisher": "Elsevier",
       "issn": "0304-3975",
       "ccf_rank": "B",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2026-08-31",
       "detail_page": "https://www.myhuiban.com/journal/69"
     },
@@ -1389,6 +1712,9 @@
       "publisher": "IEEE",
       "issn": "1051-8215",
       "ccf_rank": "B",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/149"
     },
@@ -1400,6 +1726,9 @@
       "publisher": "IEEE",
       "issn": "1089-778X",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/183"
     },
@@ -1411,6 +1740,9 @@
       "publisher": "ACM",
       "issn": "1539-9087",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/13"
     },
@@ -1422,6 +1754,9 @@
       "publisher": "IEEE",
       "issn": "1063-6706 ",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/184"
     },
@@ -1433,6 +1768,9 @@
       "publisher": "IEEE",
       "issn": "0196-2892",
       "ccf_rank": "B",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/185"
     },
@@ -1444,6 +1782,9 @@
       "publisher": "IEEE",
       "issn": "1524-9050",
       "ccf_rank": "B",
+      "fields": [
+        "civil"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/187"
     },
@@ -1455,6 +1796,9 @@
       "publisher": "ACM",
       "issn": "1556-4681",
       "ccf_rank": "B",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2025-12-28",
       "detail_page": "https://www.myhuiban.com/journal/105"
     },
@@ -1466,6 +1810,10 @@
       "publisher": "IEEE",
       "issn": "0278-0062 ",
       "ccf_rank": "B",
+      "fields": [
+        "vision",
+        "bio"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/150"
     },
@@ -1477,6 +1825,9 @@
       "publisher": "IEEE",
       "issn": "1045-9227",
       "ccf_rank": "B",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/188"
     },
@@ -1488,6 +1839,7 @@
       "publisher": "ACM",
       "issn": "1529-3785",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2024-08-10",
       "detail_page": "https://www.myhuiban.com/journal/70"
     },
@@ -1499,6 +1851,10 @@
       "publisher": "ACM",
       "issn": "1084-4309",
       "ccf_rank": "B",
+      "fields": [
+        "systems",
+        "robotics"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/593"
     },
@@ -1510,6 +1866,9 @@
       "publisher": "ACM",
       "issn": "1533-5399",
       "ccf_rank": "B",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/22"
     },
@@ -1521,6 +1880,10 @@
       "publisher": "ACM",
       "issn": "1551-6857",
       "ccf_rank": "B",
+      "fields": [
+        "network",
+        "graphics"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/595"
     },
@@ -1532,6 +1895,10 @@
       "publisher": "ACM",
       "issn": "1551-6857",
       "ccf_rank": "B",
+      "fields": [
+        "network",
+        "graphics"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/23"
     },
@@ -1543,6 +1910,9 @@
       "publisher": "ACM",
       "issn": "0098-3500",
       "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/597"
     },
@@ -1554,6 +1924,9 @@
       "publisher": "ACM",
       "issn": "2471-2566",
       "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/1087"
     },
@@ -1565,6 +1938,10 @@
       "publisher": "ACM",
       "issn": "1550-4859",
       "ccf_rank": "B",
+      "fields": [
+        "network",
+        "ee"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/24"
     },
@@ -1576,6 +1953,9 @@
       "publisher": "IEEE",
       "issn": "1552-3098",
       "ccf_rank": "B",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2026-01-02",
       "detail_page": "https://www.myhuiban.com/journal/189"
     },
@@ -1587,6 +1967,9 @@
       "publisher": "ACM",
       "issn": "1936-7406",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/14"
     },
@@ -1598,6 +1981,9 @@
       "publisher": "IEEE",
       "issn": "2168-2216",
       "ccf_rank": "B",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/612"
     },
@@ -1609,6 +1995,9 @@
       "publisher": "IEEE",
       "issn": "1063-8210",
       "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/664"
     },
@@ -1620,6 +2009,9 @@
       "publisher": "IEEE",
       "issn": "1536-1276",
       "ccf_rank": "B",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/28"
     },
@@ -1631,6 +2023,7 @@
       "publisher": "ACM",
       "issn": "1559-1131",
       "ccf_rank": "B",
+      "fields": [],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/326"
     },
@@ -1642,6 +2035,9 @@
       "publisher": "Springer",
       "issn": "1386-145X",
       "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/122"
     },
@@ -1653,6 +2049,7 @@
       "publisher": "IEEE",
       "issn": "0018-9529",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/1104"
     },
@@ -1664,6 +2061,7 @@
       "publisher": "Wiley",
       "issn": "1097-0037",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-04-09",
       "detail_page": "https://www.myhuiban.com/journal/622"
     },
@@ -1675,6 +2073,9 @@
       "publisher": "IET",
       "issn": "1751-9675",
       "ccf_rank": "C",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/618"
     },
@@ -1686,6 +2087,9 @@
       "publisher": "Wiley",
       "issn": "1468-0394",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/604"
     },
@@ -1697,6 +2101,9 @@
       "publisher": "Springer",
       "issn": "1432-4350",
       "ccf_rank": "C",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2026-03-21",
       "detail_page": "https://www.myhuiban.com/journal/547"
     },
@@ -1708,6 +2115,9 @@
       "publisher": "BioMed Central",
       "issn": "1471-2105",
       "ccf_rank": "C",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/242"
     },
@@ -1719,6 +2129,9 @@
       "publisher": "Springer",
       "issn": "1432-7643",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/237"
     },
@@ -1730,6 +2143,9 @@
       "publisher": "Elsevier",
       "issn": "0925-2312",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-09-22",
       "detail_page": "https://www.myhuiban.com/journal/234"
     },
@@ -1741,6 +2157,7 @@
       "publisher": "Springer",
       "issn": "1567-7818",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/230"
     },
@@ -1752,6 +2169,10 @@
       "publisher": "Elsevier",
       "issn": "1361-8415",
       "ccf_rank": "C",
+      "fields": [
+        "vision",
+        "bio"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/229"
     },
@@ -1763,6 +2184,9 @@
       "publisher": "Springer",
       "issn": "0932-8092",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-01-08",
       "detail_page": "https://www.myhuiban.com/journal/228"
     },
@@ -1774,6 +2198,7 @@
       "publisher": "IET",
       "issn": "1751-956X",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/216"
     },
@@ -1785,6 +2210,9 @@
       "publisher": "IEEE",
       "issn": "1545-598X",
       "ccf_rank": "C",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/212"
     },
@@ -1796,6 +2224,9 @@
       "publisher": "Elsevier",
       "issn": "0165-0114",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/211"
     },
@@ -1807,6 +2238,9 @@
       "publisher": "Taylor & Francis",
       "issn": "0196-9722",
       "ccf_rank": "C",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2013-10-05",
       "detail_page": "https://www.myhuiban.com/journal/207"
     },
@@ -1818,6 +2252,7 @@
       "publisher": "Taylor & Francis",
       "issn": "0954-0091",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/206"
     },
@@ -1829,6 +2264,9 @@
       "publisher": "Elsevier",
       "issn": "0885-2308",
       "ccf_rank": "C",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/205"
     },
@@ -1840,6 +2278,7 @@
       "publisher": "MIT Press",
       "issn": "1064-5462",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/203"
     },
@@ -1851,6 +2290,9 @@
       "publisher": "Springer",
       "issn": "0924-669X",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/201"
     },
@@ -1862,6 +2304,9 @@
       "publisher": "Springer",
       "issn": "0922-6567",
       "ccf_rank": "C",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2024-07-22",
       "detail_page": "https://www.myhuiban.com/journal/195"
     },
@@ -1873,6 +2318,9 @@
       "publisher": "Wiley",
       "issn": "1467-8640",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/176"
     },
@@ -1884,6 +2332,7 @@
       "publisher": "Springer",
       "issn": "2948-2992",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-08-22",
       "detail_page": "https://www.myhuiban.com/journal/114"
     },
@@ -1895,6 +2344,9 @@
       "publisher": "IET",
       "issn": "1751-8709",
       "ccf_rank": "C",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-04-18",
       "detail_page": "https://www.myhuiban.com/journal/54"
     },
@@ -1906,6 +2358,9 @@
       "publisher": "Springer",
       "issn": "1687-417X",
       "ccf_rank": "C",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/53"
     },
@@ -1917,6 +2372,9 @@
       "publisher": "Springer",
       "issn": "1022-0038",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/50"
     },
@@ -1928,6 +2386,9 @@
       "publisher": "IET",
       "issn": "1751-8628",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-03-04",
       "detail_page": "https://www.myhuiban.com/journal/44"
     },
@@ -1939,6 +2400,9 @@
       "publisher": "Elsevier",
       "issn": "1570-8705",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-06-18",
       "detail_page": "https://www.myhuiban.com/journal/41"
     },
@@ -1950,6 +2414,9 @@
       "publisher": "Wiley",
       "issn": "1532-0634",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-04-11",
       "detail_page": "https://www.myhuiban.com/journal/16"
     },
@@ -1961,6 +2428,7 @@
       "publisher": "ACM",
       "issn": "2769-6480",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2024-08-08",
       "detail_page": "https://www.myhuiban.com/journal/1170"
     },
@@ -1972,6 +2440,7 @@
       "publisher": "Springer",
       "issn": "0001-5903",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-08-22",
       "detail_page": "https://www.myhuiban.com/journal/71"
     },
@@ -1983,6 +2452,10 @@
       "publisher": "Elsevier",
       "issn": "0933-3657",
       "ccf_rank": "C",
+      "fields": [
+        "ai",
+        "bio"
+      ],
       "updated_at": "2025-05-03",
       "detail_page": "https://www.myhuiban.com/journal/202"
     },
@@ -1994,6 +2467,7 @@
       "publisher": "Elsevier",
       "issn": "0168-0072",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-08-22",
       "detail_page": "https://www.myhuiban.com/journal/61"
     },
@@ -2005,6 +2479,7 @@
       "publisher": "Taylor & Francis",
       "issn": "0144-929X",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/676"
     },
@@ -2016,6 +2491,9 @@
       "publisher": "Elsevier",
       "issn": "0097-8493",
       "ccf_rank": "C",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/154"
     },
@@ -2027,6 +2505,9 @@
       "publisher": "Wiley",
       "issn": "1546-427X",
       "ccf_rank": "C",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2024-08-23",
       "detail_page": "https://www.myhuiban.com/journal/155"
     },
@@ -2038,6 +2519,9 @@
       "publisher": "Elsevier",
       "issn": "0140-3664",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-06-03",
       "detail_page": "https://www.myhuiban.com/journal/42"
     },
@@ -2049,6 +2533,9 @@
       "publisher": "Springer",
       "issn": "2524-4922",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-05-10",
       "detail_page": "https://www.myhuiban.com/journal/1098"
     },
@@ -2060,6 +2547,9 @@
       "publisher": "Elsevier",
       "issn": "0925-7721",
       "ccf_rank": "C",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2026-08-22",
       "detail_page": "https://www.myhuiban.com/journal/156"
     },
@@ -2071,6 +2561,7 @@
       "publisher": "Elsevier",
       "issn": "1477-8424",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2024-08-20",
       "detail_page": "https://www.myhuiban.com/journal/92"
     },
@@ -2082,6 +2573,9 @@
       "publisher": "Elsevier",
       "issn": "0267-3649",
       "ccf_rank": "C",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2026-07-07",
       "detail_page": "https://www.myhuiban.com/journal/52"
     },
@@ -2093,6 +2587,9 @@
       "publisher": "Elsevier",
       "issn": "0166-218X",
       "ccf_rank": "C",
+      "fields": [
+        "math"
+      ],
       "updated_at": "2026-05-08",
       "detail_page": "https://www.myhuiban.com/journal/73"
     },
@@ -2104,6 +2601,9 @@
       "publisher": "Springer",
       "issn": "0178-2770",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-04-10",
       "detail_page": "https://www.myhuiban.com/journal/35"
     },
@@ -2115,6 +2615,9 @@
       "publisher": "Springer",
       "issn": "0179-5376",
       "ccf_rank": "C",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2026-08-22",
       "detail_page": "https://www.myhuiban.com/journal/157"
     },
@@ -2126,6 +2629,9 @@
       "publisher": "Springer",
       "issn": "0926-8782",
       "ccf_rank": "C",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2026-04-09",
       "detail_page": "https://www.myhuiban.com/journal/110"
     },
@@ -2137,6 +2643,9 @@
       "publisher": "Elsevier",
       "issn": "0167-9236",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/208"
     },
@@ -2148,6 +2657,9 @@
       "publisher": "Elsevier",
       "issn": "0952-1976",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-07-01",
       "detail_page": "https://www.myhuiban.com/journal/209"
     },
@@ -2159,6 +2671,9 @@
       "publisher": "Academax",
       "issn": "3069-8928",
       "ccf_rank": "C",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1226"
     },
@@ -2170,6 +2685,9 @@
       "publisher": "Elsevier",
       "issn": "0957-4174",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/210"
     },
@@ -2181,6 +2699,9 @@
       "publisher": "Elsevier",
       "issn": "0167-739X",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-08-12",
       "detail_page": "https://www.myhuiban.com/journal/36"
     },
@@ -2192,6 +2713,7 @@
       "publisher": "IOS Press",
       "issn": "0169-2968",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/74"
     },
@@ -2203,6 +2725,7 @@
       "publisher": "Elsevier",
       "issn": "1524-0703",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/145"
     },
@@ -2214,6 +2737,7 @@
       "publisher": "Elsevier",
       "issn": "2667-2952",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1221"
     },
@@ -2225,6 +2749,9 @@
       "publisher": "ACM",
       "issn": "2637-8051",
       "ccf_rank": "C",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1227"
     },
@@ -2236,6 +2763,7 @@
       "publisher": "Elsevier",
       "issn": "0378-7206",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/126"
     },
@@ -2247,6 +2775,7 @@
       "publisher": "IOS Press",
       "issn": "1088-467X",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2024-08-23",
       "detail_page": "https://www.myhuiban.com/journal/697"
     },
@@ -2258,6 +2787,9 @@
       "publisher": "IET",
       "issn": "1350-245X",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-03-03",
       "detail_page": "https://www.myhuiban.com/journal/696"
     },
@@ -2269,6 +2801,9 @@
       "publisher": "IET",
       "issn": "1751-9659",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/158"
     },
@@ -2280,6 +2815,9 @@
       "publisher": "World Scientific",
       "issn": "1469-0268",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2013-10-05",
       "detail_page": "https://www.myhuiban.com/journal/221"
     },
@@ -2291,6 +2829,9 @@
       "publisher": "World Scientific",
       "issn": "0218-8430",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2024-08-13",
       "detail_page": "https://www.myhuiban.com/journal/117"
     },
@@ -2302,6 +2843,9 @@
       "publisher": "Springer",
       "issn": "1433-2833",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/491"
     },
@@ -2313,6 +2857,9 @@
       "publisher": "Taylor & Francis",
       "issn": "1365-8816",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/129"
     },
@@ -2324,6 +2871,9 @@
       "publisher": "Inderscience",
       "issn": "1744-1765",
       "ccf_rank": "C",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2024-08-25",
       "detail_page": "https://www.myhuiban.com/journal/675"
     },
@@ -2335,6 +2885,9 @@
       "publisher": "Wiley",
       "issn": "1098-111X",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/130"
     },
@@ -2346,6 +2899,9 @@
       "publisher": "IGI Global",
       "issn": "1930-1650",
       "ccf_rank": "C",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2024-08-25",
       "detail_page": "https://www.myhuiban.com/journal/32"
     },
@@ -2357,6 +2913,9 @@
       "publisher": "IGI Global",
       "issn": "1548-0666",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/131"
     },
@@ -2368,6 +2927,9 @@
       "publisher": "World Scientific",
       "issn": "0129-0657",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-23",
       "detail_page": "https://www.myhuiban.com/journal/223"
     },
@@ -2379,6 +2941,10 @@
       "publisher": "World Scientific",
       "issn": "0218-0014",
       "ccf_rank": "C",
+      "fields": [
+        "ai",
+        "vision"
+      ],
       "updated_at": "2026-03-03",
       "detail_page": "https://www.myhuiban.com/journal/698"
     },
@@ -2390,6 +2956,10 @@
       "publisher": "World Scientific",
       "issn": "0218-1940",
       "ccf_rank": "C",
+      "fields": [
+        "ai",
+        "se"
+      ],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/85"
     },
@@ -2401,6 +2971,9 @@
       "publisher": "IGI Global",
       "issn": "1552-6283",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2024-08-23",
       "detail_page": "https://www.myhuiban.com/journal/616"
     },
@@ -2412,6 +2985,9 @@
       "publisher": "World Scientific",
       "issn": "0218-4885",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2013-10-05",
       "detail_page": "https://www.myhuiban.com/journal/225"
     },
@@ -2423,6 +2999,10 @@
       "publisher": "Elsevier",
       "issn": "0923-5965",
       "ccf_rank": "C",
+      "fields": [
+        "network",
+        "ee"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/416"
     },
@@ -2434,6 +3014,10 @@
       "publisher": "Emerald",
       "issn": "0968-5227",
       "ccf_rank": "C",
+      "fields": [
+        "security",
+        "web"
+      ],
       "updated_at": "2013-10-03",
       "detail_page": "https://www.myhuiban.com/journal/55"
     },
@@ -2445,6 +3029,7 @@
       "publisher": "Elsevier",
       "issn": "0020-0190",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-05-08",
       "detail_page": "https://www.myhuiban.com/journal/127"
     },
@@ -2456,6 +3041,9 @@
       "publisher": "Elsevier",
       "issn": "0262-8856",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-08-26",
       "detail_page": "https://www.myhuiban.com/journal/220"
     },
@@ -2467,6 +3055,9 @@
       "publisher": "Elsevier",
       "issn": "0167-9260",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/382"
     },
@@ -2478,6 +3069,9 @@
       "publisher": "IEEE",
       "issn": "2327-4662 ",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/564"
     },
@@ -2489,6 +3083,10 @@
       "publisher": "ACM",
       "issn": "2833-0528",
       "ccf_rank": "C",
+      "fields": [
+        "robotics",
+        "civil"
+      ],
       "updated_at": "2024-08-09",
       "detail_page": "https://www.myhuiban.com/journal/1173"
     },
@@ -2500,6 +3098,9 @@
       "publisher": "IEEE",
       "issn": "2168-2194",
       "ccf_rank": "C",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/662"
     },
@@ -2511,6 +3112,9 @@
       "publisher": "Elsevier",
       "issn": "1532-0464",
       "ccf_rank": "C",
+      "fields": [
+        "bio"
+      ],
       "updated_at": "2026-08-26",
       "detail_page": "https://www.myhuiban.com/journal/703"
     },
@@ -2522,6 +3126,9 @@
       "publisher": "Taylor & Francis",
       "issn": "0887-4417",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/132"
     },
@@ -2533,6 +3140,9 @@
       "publisher": "Elsevier",
       "issn": "0885-064X",
       "ccf_rank": "C",
+      "fields": [
+        "theory"
+      ],
       "updated_at": "2025-12-13",
       "detail_page": "https://www.myhuiban.com/journal/64"
     },
@@ -2544,6 +3154,9 @@
       "publisher": "IGI Global",
       "issn": "1063-8016",
       "ccf_rank": "C",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2024-08-11",
       "detail_page": "https://www.myhuiban.com/journal/118"
     },
@@ -2555,6 +3168,9 @@
       "publisher": "Taylor & Francis",
       "issn": "0952-813X",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/226"
     },
@@ -2566,6 +3182,7 @@
       "publisher": "ACM",
       "issn": "1550-4832",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/339"
     },
@@ -2577,6 +3194,7 @@
       "publisher": "Springer",
       "issn": "0923-8174",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-04-11",
       "detail_page": "https://www.myhuiban.com/journal/688"
     },
@@ -2588,6 +3206,9 @@
       "publisher": "Springer",
       "issn": "1570-7873",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/39"
     },
@@ -2599,6 +3220,7 @@
       "publisher": "Taylor & Francis",
       "issn": "1097-198X",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/677"
     },
@@ -2610,6 +3232,9 @@
       "publisher": "Springer",
       "issn": "0925-9902",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-01-08",
       "detail_page": "https://www.myhuiban.com/journal/134"
     },
@@ -2621,6 +3246,9 @@
       "publisher": "Elsevier",
       "issn": "2214-2126",
       "ccf_rank": "C",
+      "fields": [
+        "security"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/393"
     },
@@ -2632,6 +3260,7 @@
       "publisher": "Elsevier",
       "issn": "2352-2208",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-08-12",
       "detail_page": "https://www.myhuiban.com/journal/666"
     },
@@ -2643,6 +3272,7 @@
       "publisher": "Elsevier",
       "issn": "1084-8045",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2025-08-03",
       "detail_page": "https://www.myhuiban.com/journal/45"
     },
@@ -2654,6 +3284,9 @@
       "publisher": "Elsevier",
       "issn": "0963-8687",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/136"
     },
@@ -2665,6 +3298,7 @@
       "publisher": "Cambridge University Press",
       "issn": "0022-4812",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/67"
     },
@@ -2676,6 +3310,10 @@
       "publisher": "Elsevier",
       "issn": "1047-3203",
       "ccf_rank": "C",
+      "fields": [
+        "vision",
+        "network"
+      ],
       "updated_at": "2026-07-01",
       "detail_page": "https://www.myhuiban.com/journal/161"
     },
@@ -2687,6 +3325,9 @@
       "publisher": "Rinton Press",
       "issn": "1540-9589",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2024-08-25",
       "detail_page": "https://www.myhuiban.com/journal/689"
     },
@@ -2698,6 +3339,9 @@
       "publisher": "Elsevier",
       "issn": "0950-7051",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-05-26",
       "detail_page": "https://www.myhuiban.com/journal/227"
     },
@@ -2709,6 +3353,7 @@
       "publisher": "Logical Methods in Computer Science",
       "issn": "1860-5974",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": null,
       "detail_page": "https://www.myhuiban.com/journal/75"
     },
@@ -2720,6 +3365,7 @@
       "publisher": "Oxford University Press",
       "issn": "0955-792X",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-03-02",
       "detail_page": "https://www.myhuiban.com/journal/98"
     },
@@ -2731,6 +3377,7 @@
       "publisher": "Springer",
       "issn": "1383-469X",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/522"
     },
@@ -2742,6 +3389,9 @@
       "publisher": "Springer",
       "issn": "0942-4962",
       "ccf_rank": "C",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/162"
     },
@@ -2753,6 +3403,9 @@
       "publisher": "Springer",
       "issn": "1380-7501",
       "ccf_rank": "C",
+      "fields": [
+        "graphics"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/163"
     },
@@ -2764,6 +3417,9 @@
       "publisher": "Springer",
       "issn": "0941-0643",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/232"
     },
@@ -2775,6 +3431,9 @@
       "publisher": "Cambridge University Press",
       "issn": "1351-3249",
       "ccf_rank": "C",
+      "fields": [
+        "nlp"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/231"
     },
@@ -2786,6 +3445,9 @@
       "publisher": "Springer",
       "issn": "1370-4621",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/233"
     },
@@ -2797,6 +3459,9 @@
       "publisher": "Springer",
       "issn": "1433-7541",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/235"
     },
@@ -2808,6 +3473,9 @@
       "publisher": "ACM",
       "issn": "2475-1421",
       "ccf_rank": "C",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/1099"
     },
@@ -2819,6 +3487,9 @@
       "publisher": "ACM",
       "issn": "2573-0142",
       "ccf_rank": "C",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2024-08-10",
       "detail_page": "https://www.myhuiban.com/journal/1102"
     },
@@ -2830,6 +3501,9 @@
       "publisher": "Elsevier",
       "issn": "1574-1192",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/341"
     },
@@ -2841,6 +3515,9 @@
       "publisher": "Springer",
       "issn": "1936-6442",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/48"
     },
@@ -2852,6 +3529,9 @@
       "publisher": "Elsevier",
       "issn": "0167-8655",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2025-05-03",
       "detail_page": "https://www.myhuiban.com/journal/236"
     },
@@ -2863,6 +3543,9 @@
       "publisher": "Springer",
       "issn": "1617-4909",
       "ccf_rank": "C",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2024-07-18",
       "detail_page": "https://www.myhuiban.com/journal/528"
     },
@@ -2874,6 +3557,9 @@
       "publisher": "Springer",
       "issn": "0922-6443",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-04-10",
       "detail_page": "https://www.myhuiban.com/journal/534"
     },
@@ -2885,6 +3571,10 @@
       "publisher": "Hindawi",
       "issn": "1939-0122",
       "ccf_rank": "C",
+      "fields": [
+        "network",
+        "security"
+      ],
       "updated_at": "2024-08-13",
       "detail_page": "https://www.myhuiban.com/journal/623"
     },
@@ -2896,6 +3586,10 @@
       "publisher": "SIAM",
       "issn": "0895-4801",
       "ccf_rank": "C",
+      "fields": [
+        "theory",
+        "math"
+      ],
       "updated_at": "2024-08-23",
       "detail_page": "https://www.myhuiban.com/journal/694"
     },
@@ -2907,6 +3601,9 @@
       "publisher": "Elsevier",
       "issn": "0165-1684",
       "ccf_rank": "C",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2025-10-22",
       "detail_page": "https://www.myhuiban.com/journal/417"
     },
@@ -2918,6 +3615,9 @@
       "publisher": "Springer",
       "issn": "1863-2386",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/540"
     },
@@ -2929,6 +3629,9 @@
       "publisher": "IEEE",
       "issn": "1070-9908",
       "ccf_rank": "C",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/695"
     },
@@ -2940,6 +3643,9 @@
       "publisher": "Springer",
       "issn": "0963-9314",
       "ccf_rank": "C",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/100"
     },
@@ -2951,6 +3657,9 @@
       "publisher": "Springer",
       "issn": "1433-2779",
       "ccf_rank": "C",
+      "fields": [
+        "se"
+      ],
       "updated_at": "2026-05-10",
       "detail_page": "https://www.myhuiban.com/journal/95"
     },
@@ -2962,6 +3671,7 @@
       "publisher": "ACM",
       "issn": "2375-4699",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-10",
       "detail_page": "https://www.myhuiban.com/journal/586"
     },
@@ -2973,6 +3683,9 @@
       "publisher": "IEEE",
       "issn": "2332-7790",
       "ccf_rank": "C",
+      "fields": [
+        "data"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/572"
     },
@@ -2984,6 +3697,9 @@
       "publisher": "IEEE",
       "issn": "1549-8328",
       "ccf_rank": "C",
+      "fields": [
+        "ee"
+      ],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/1097"
     },
@@ -2995,6 +3711,10 @@
       "publisher": "ACM",
       "issn": "2378-962X",
       "ccf_rank": "C",
+      "fields": [
+        "security",
+        "robotics"
+      ],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/578"
     },
@@ -3006,6 +3726,7 @@
       "publisher": "IEEE",
       "issn": "2373-7476",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2025-12-26",
       "detail_page": "https://www.myhuiban.com/journal/1050"
     },
@@ -3017,6 +3738,7 @@
       "publisher": "ACM",
       "issn": "2688-3007",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2024-08-10",
       "detail_page": "https://www.myhuiban.com/journal/1182"
     },
@@ -3028,6 +3750,7 @@
       "publisher": "IEEE",
       "issn": "2475-1502",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-01-09",
       "detail_page": "https://www.myhuiban.com/journal/214"
     },
@@ -3039,6 +3762,10 @@
       "publisher": "ACM",
       "issn": "2573-9522",
       "ccf_rank": "C",
+      "fields": [
+        "hci",
+        "robotics"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/1183"
     },
@@ -3050,6 +3777,9 @@
       "publisher": "IEEE",
       "issn": "1551-3203",
       "ccf_rank": "C",
+      "fields": [
+        "robotics"
+      ],
       "updated_at": "2025-08-02",
       "detail_page": "https://www.myhuiban.com/journal/575"
     },
@@ -3061,6 +3791,9 @@
       "publisher": "ACM",
       "issn": "2160-6455",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/588"
     },
@@ -3072,6 +3805,9 @@
       "publisher": "ACM",
       "issn": "2577-6207",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/1184"
     },
@@ -3083,6 +3819,9 @@
       "publisher": "ACM",
       "issn": "2157-6904",
       "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
       "updated_at": "2025-09-26",
       "detail_page": "https://www.myhuiban.com/journal/589"
     },
@@ -3094,6 +3833,9 @@
       "publisher": "Springer",
       "issn": "0920-8542",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2026-01-04",
       "detail_page": "https://www.myhuiban.com/journal/40"
     },
@@ -3105,6 +3847,9 @@
       "publisher": "IEEE",
       "issn": "1932-4537",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2025-12-29",
       "detail_page": "https://www.myhuiban.com/journal/43"
     },
@@ -3116,6 +3861,9 @@
       "publisher": "ACM",
       "issn": "1946-6226",
       "ccf_rank": "C",
+      "fields": [
+        "education"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/591"
     },
@@ -3127,6 +3875,9 @@
       "publisher": "ACM",
       "issn": "2770-6699",
       "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
       "updated_at": "2024-08-10",
       "detail_page": "https://www.myhuiban.com/journal/1186"
     },
@@ -3138,6 +3889,7 @@
       "publisher": "Cambridge University Press",
       "issn": "1471-0684",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2026-04-17",
       "detail_page": "https://www.myhuiban.com/journal/690"
     },
@@ -3149,6 +3901,9 @@
       "publisher": "ACM",
       "issn": "2643-6817",
       "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
       "updated_at": "2025-12-30",
       "detail_page": "https://www.myhuiban.com/journal/1187"
     },
@@ -3160,6 +3915,9 @@
       "publisher": "IEEE",
       "issn": "1536-1233",
       "ccf_rank": "C",
+      "fields": [
+        "energy"
+      ],
       "updated_at": "2024-07-25",
       "detail_page": "https://www.myhuiban.com/journal/601"
     },
@@ -3171,6 +3929,9 @@
       "publisher": "Springer",
       "issn": "0178-2789",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-01-03",
       "detail_page": "https://www.myhuiban.com/journal/165"
     },
@@ -3182,6 +3943,9 @@
       "publisher": "Elsevier",
       "issn": "2543-2656",
       "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1222"
     },
@@ -3193,6 +3957,9 @@
       "publisher": "Elsevier",
       "issn": "2666-1209",
       "ccf_rank": "C",
+      "fields": [
+        "hci"
+      ],
       "updated_at": "2026-06-20",
       "detail_page": "https://www.myhuiban.com/journal/1223"
     },
@@ -3204,6 +3971,9 @@
       "publisher": "Wiley",
       "issn": "1530-8669",
       "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
       "updated_at": "2024-08-11",
       "detail_page": "https://www.myhuiban.com/journal/49"
     },
@@ -3215,6 +3985,7 @@
       "publisher": "IOS Press",
       "issn": "2405-6456",
       "ccf_rank": "C",
+      "fields": [],
       "updated_at": "2024-08-25",
       "detail_page": "https://www.myhuiban.com/journal/239"
     }
