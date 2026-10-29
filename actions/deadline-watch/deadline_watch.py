@@ -11,6 +11,7 @@ composite action passes in.
 """
 
 import datetime as dt
+import http.client
 import json
 import os
 import sys
@@ -37,19 +38,27 @@ FIELD_NAMES = {
 }
 
 
-def open_with_retry(request, attempts=3):
-    """urlopen, retrying only the errors that clear up by themselves.
+def fetch_with_retry(request, attempts=3):
+    """urlopen and read the body, retrying only the errors that clear up by themselves.
 
     401/402/429 are not retried: they will not heal, and their message is the
-    useful part. HTTPError subclasses URLError, so the narrower clause is first.
+    useful part. HTTPError subclasses URLError (an OSError), so the narrower
+    clause is first.
+
+    The body read sits inside the retry on purpose. A response can arrive with
+    its headers and then stall mid-body; the read then times out with a bare
+    TimeoutError, which is not a URLError and used to escape the retry entirely.
+    That is not hypothetical: on 2026-10-28 the snapshot job died that way on
+    /api/journals/rankings/cfp after six datasets had already come back fine.
     """
     for attempt in range(1, attempts + 1):
         try:
-            return urllib.request.urlopen(request, timeout=30)
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return response.read()
         except urllib.error.HTTPError as error:
             if error.code not in TRANSIENT or attempt == attempts:
                 raise
-        except urllib.error.URLError:            # connection reset, DNS, timeout
+        except (OSError, http.client.HTTPException):   # reset, DNS, timeout, stall mid-body
             if attempt == attempts:
                 raise
         time.sleep(2 ** attempt)
@@ -95,8 +104,7 @@ def get(params):
         request.add_header("Authorization", f"Bearer {key}")
 
     try:
-        with open_with_retry(request) as response:
-            return json.loads(response.read())["data"]
+        return json.loads(fetch_with_retry(request))["data"]
     except urllib.error.HTTPError as error:
         # 429 here means the anonymous per-IP budget is gone. Say what to do about it
         # rather than failing with a bare status code.

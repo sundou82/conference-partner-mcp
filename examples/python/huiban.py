@@ -5,6 +5,7 @@ per-IP one (50/day). Search, ranking lists and statistics work without a key.
 Get a key at https://www.myhuiban.com/account/api-keys
 """
 
+import http.client
 import json
 import os
 import sys
@@ -32,18 +33,26 @@ class ApiError(RuntimeError):
     pass
 
 
-def _open(request, attempts=3):
-    """urlopen, retrying the errors that clear up by themselves.
+def _fetch(request, attempts=3):
+    """urlopen and read the body, retrying the errors that clear up by themselves.
 
-    HTTPError subclasses URLError, so the narrower clause has to come first.
+    The body read sits inside the retry on purpose. A response can arrive with
+    its headers and then stall mid-body; the read then times out with a bare
+    TimeoutError, which is not a URLError and used to escape the retry entirely.
+    That is not hypothetical: on 2026-10-28 the snapshot job died that way on
+    /api/journals/rankings/cfp after six datasets had already come back fine.
+
+    HTTPError subclasses URLError (an OSError), so the narrower clause has to come first.
+    Returns (headers, body bytes).
     """
     for attempt in range(1, attempts + 1):
         try:
-            return urllib.request.urlopen(request, timeout=30)
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return response.headers, response.read()
         except urllib.error.HTTPError as error:
             if error.code not in TRANSIENT or attempt == attempts:
                 raise
-        except urllib.error.URLError:            # connection reset, DNS, timeout
+        except (OSError, http.client.HTTPException):   # reset, DNS, timeout, stall mid-body
             if attempt == attempts:
                 raise
         time.sleep(2 ** attempt)
@@ -101,9 +110,9 @@ def get(path, params=None):
         request.add_header("Authorization", f"Bearer {key}")
 
     try:
-        with _open(request) as response:
-            quota_remaining = response.headers.get("X-Quota-Remaining")
-            body = json.loads(response.read())
+        headers, raw = _fetch(request)
+        quota_remaining = headers.get("X-Quota-Remaining")
+        body = json.loads(raw)
     except urllib.error.HTTPError as error:
         raise ApiError(f"HTTP {error.code}: {_reason(error)}") from None
 
