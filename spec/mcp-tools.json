@@ -15,26 +15,15 @@
           },
           "ccf_rank": {
             "type": "string",
-            "enum": [
-              "A",
-              "B",
-              "C"
-            ],
-            "description": "CCF rank"
+            "description": "CCF rank: A, B or C. Comma-separate to match any of several (A,B,C = any CCF rank). Venues with no CCF rank have ccf_rank \"\" in the results"
           },
           "core_rank": {
             "type": "string",
-            "enum": [
-              "A*",
-              "A",
-              "B",
-              "C"
-            ],
-            "description": "CORE rank"
+            "description": "ICORE rank: A*, A, B or C. Comma-separate to match any of several (A*,A)"
           },
           "qualis_rank": {
             "type": "string",
-            "description": "QUALIS rank"
+            "description": "QUALIS rank: A1, A2, B1..B5. Comma-separate to match any of several (A1,A2)"
           },
           "field": {
             "type": "string",
@@ -114,12 +103,7 @@
           },
           "ccf_rank": {
             "type": "string",
-            "enum": [
-              "A",
-              "B",
-              "C"
-            ],
-            "description": "CCF rank"
+            "description": "CCF rank: A, B or C. Comma-separate to match any of several (A,B,C = any CCF rank)"
           },
           "issn": {
             "type": "string",
@@ -199,6 +183,33 @@
               "cp_index"
             ],
             "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=venues in that tier whose submission deadline has not passed (for the whole tier catalogue use search_conferences with ccf_rank / core_rank / qualis_rank); cp_index=every conference ordered by the Conference Partner Index, our own 0-100 score - the only list here that covers the whole catalogue instead of the fifth of it that CCF / ICORE / QUALIS rate; each row carries cp_index with its confidence, and https://www.myhuiban.com/ranking has the method; most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
+          },
+          "field": {
+            "type": "string",
+            "enum": [
+              "ai",
+              "vision",
+              "nlp",
+              "data",
+              "network",
+              "security",
+              "se",
+              "systems",
+              "theory",
+              "hci",
+              "graphics",
+              "bio",
+              "robotics",
+              "web",
+              "ee",
+              "energy",
+              "materials",
+              "civil",
+              "education",
+              "management",
+              "math"
+            ],
+            "description": "Research field filter. Only for ranking=cfp, past_cfp, upcoming, past or cp_index (e.g. ranking=cfp with field=ai = AI conferences still accepting papers, soonest deadline first)"
           },
           "page": {
             "type": "integer",

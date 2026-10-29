@@ -3,7 +3,7 @@
   "info": {
     "title": "Conference Partner API",
     "description": "Read-only REST API over the Conference Partner dataset: academic conferences and journals with CFPs, deadlines, locations, CCF / ICORE / QUALIS rankings, curated ranking lists and site statistics. Authentication: search, ranking-list and statistics endpoints need NO credentials — call them directly; anonymous clients share a small daily quota counted per source IP (HTTP 429 when exhausted). The unit is the distinct query: repeating a request already made the same day (same path, same parameters) does not consume quota again. Only the per-venue detail endpoints (/api/conferences/{id}, /api/journals/{id}, /api/researchers/{id}) require a free-account credential — either an API key created at https://www.myhuiban.com/account/api-keys (starts with hb_, never expires, revocable individually) or a JWT from POST /api/login; both are sent as `Authorization: Bearer <credential>` and both raise the daily quota (shared with the MCP server at POST /mcp; HTTP 402 when exhausted). An invalid, revoked or expired credential returns HTTP 401 and is never silently downgraded to the anonymous tier — omit the header entirely to use it. CORS is open on every endpoint. Responses link each venue to its canonical Conference Partner detail_page and do not expose the external website. Send a descriptive User-Agent on every request (e.g. \"my-lab-deadline-bot/1.0 (+https://example.edu/contact)\"): the site is behind Cloudflare, whose Browser Integrity Check rejects a few unattended-script defaults at the edge with HTTP 403 and body \"error code: 1010\" before the request reaches the API — confirmed for Python urllib's default (Python-urllib/x.y) and Perl LWP's (libwww-perl/x.y). requests, httpx, curl, Go, Node and Bun clients send their own and are unaffected. A 403 with that body is neither an auth nor a quota error: only a real User-Agent fixes it. Every active conference also carries cp_index, the Conference Partner Index (CP-I): our own transparent 0-100 score with its per-factor breakdown and a confidence value; the complete method is published at https://www.myhuiban.com/ranking. Developer guide: https://www.myhuiban.com/developers — ranking definitions and update cadence: https://www.myhuiban.com/methodology — LLM-oriented site description: https://www.myhuiban.com/llms.txt.",
-    "version": "2.7.0",
+    "version": "2.8.0",
     "contact": {
       "name": "Conference Partner",
       "url": "https://www.myhuiban.com/",
@@ -141,15 +141,45 @@
           },
           "ccf_rank": {
             "type": "string",
-            "description": "A / B / C, empty when unranked"
+            "description": "CCF rank A / B / C. Empty string means the venue is not on this list (not missing data). Most conferences are not CCF-rated, so long lists such as ranking=cfp are mostly empty here; to list only rated venues, filter GET /api/conferences with ccf_rank=A,B,C."
           },
           "core_rank": {
             "type": "string",
-            "description": "A* / A / B / C, empty when unranked"
+            "description": "ICORE rank A* / A / B / C. Empty string means the venue is not on this list (not missing data)."
           },
           "qualis_rank": {
             "type": "string",
-            "description": "A1..C, empty when unranked"
+            "description": "QUALIS rank A1..B5. Empty string means the venue is not on this list (not missing data)."
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "ai",
+                "vision",
+                "nlp",
+                "data",
+                "network",
+                "security",
+                "se",
+                "systems",
+                "theory",
+                "hci",
+                "graphics",
+                "bio",
+                "robotics",
+                "web",
+                "ee",
+                "energy",
+                "materials",
+                "civil",
+                "education",
+                "management",
+                "math"
+              ]
+            },
+            "description": "Research-field slugs this venue is tagged with (same values the field parameter accepts; a venue can have several). Empty array when untagged."
           },
           "is_extended": {
             "type": "boolean",
@@ -341,7 +371,37 @@
           },
           "ccf_rank": {
             "type": "string",
-            "description": "A / B / C, empty when unranked"
+            "description": "CCF rank A / B / C. Empty string means the venue is not on this list (not missing data)."
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "ai",
+                "vision",
+                "nlp",
+                "data",
+                "network",
+                "security",
+                "se",
+                "systems",
+                "theory",
+                "hci",
+                "graphics",
+                "bio",
+                "robotics",
+                "web",
+                "ee",
+                "energy",
+                "materials",
+                "civil",
+                "education",
+                "management",
+                "math"
+              ]
+            },
+            "description": "Research-field slugs this venue is tagged with (same values the field parameter accepts). Empty array when untagged."
           },
           "updated_at": {
             "type": "string",
@@ -481,29 +541,29 @@
             "required": false,
             "schema": {
               "type": "string",
-              "enum": [
-                "a",
-                "b",
-                "c"
-              ]
-            }
+              "example": "A,B"
+            },
+            "description": "CCF rank: A / B / C (case-insensitive). Comma-separate to match any of several: ccf_rank=A,B,C = every CCF-rated venue."
           },
           {
             "name": "core_rank",
             "in": "query",
             "required": false,
             "schema": {
-              "type": "string"
+              "type": "string",
+              "example": "A*,A"
             },
-            "description": "ICORE rank: A* / A / B / C (use raw value)."
+            "description": "ICORE rank: A* / A / B / C. Comma-separate to match any of several."
           },
           {
             "name": "qualis_rank",
             "in": "query",
             "required": false,
             "schema": {
-              "type": "string"
-            }
+              "type": "string",
+              "example": "A1,A2"
+            },
+            "description": "QUALIS rank: A1 / A2 / B1..B5. Comma-separate to match any of several. Different rank parameters combine with AND."
           },
           {
             "name": "field",
@@ -668,6 +728,38 @@
             "description": "cfp=open calls for papers; past_cfp=expired calls; ccf/core/qualis=venues in that tier whose submission deadline has not passed (for the whole tier catalogue, search GET /api/conferences with ccf_rank / core_rank / qualis_rank instead); cp_index=every conference we track, ordered by the Conference Partner Index (the only one of these lists that covers the whole catalogue rather than a fifth of it); most_viewed/most_tracked/most_attended=popularity; most_competitive=lowest acceptance rate; upcoming/past=by conference date; trending=most viewed in the last 30 days"
           },
           {
+            "name": "field",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "enum": [
+                "ai",
+                "vision",
+                "nlp",
+                "data",
+                "network",
+                "security",
+                "se",
+                "systems",
+                "theory",
+                "hci",
+                "graphics",
+                "bio",
+                "robotics",
+                "web",
+                "ee",
+                "energy",
+                "materials",
+                "civil",
+                "education",
+                "management",
+                "math"
+              ]
+            },
+            "description": "Research field filter, only for ranking=cfp, past_cfp, upcoming, past or cp_index (other rankings return body code 400). ranking=cfp&field=ai = AI conferences still accepting papers, soonest deadline first."
+          },
+          {
             "name": "page",
             "in": "query",
             "required": false,
@@ -782,12 +874,9 @@
             "required": false,
             "schema": {
               "type": "string",
-              "enum": [
-                "a",
-                "b",
-                "c"
-              ]
-            }
+              "example": "A,B"
+            },
+            "description": "CCF rank: A / B / C (case-insensitive). Comma-separate to match any of several."
           },
           {
             "name": "issn",
