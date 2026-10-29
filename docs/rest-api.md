@@ -43,9 +43,9 @@ All parameters optional; combine freely.
 | Parameter | Values |
 |---|---|
 | `query` | keyword, matched against short and full name |
-| `ccf_rank` | `A` `B` `C` |
-| `core_rank` | `A*` `A` `B` `C` |
-| `qualis_rank` | e.g. `A1` `A2` `B1` |
+| `ccf_rank` | `A` `B` `C` — comma-separate for any of several: `A,B,C` |
+| `core_rank` | `A*` `A` `B` `C` — e.g. `A*,A` |
+| `qualis_rank` | `A1` `A2` `B1` `B2` `B3` `B4` `B5` — e.g. `A1,A2` |
 | `field` | one of the research-field slugs below |
 | `submission_date_start` / `submission_date_end` | `YYYY-MM-DD` |
 | `conference_date_start` / `conference_date_end` | `YYYY-MM-DD` |
@@ -59,6 +59,14 @@ next 90 days in security" needs no keyword.
 curl "https://www.myhuiban.com/api/conferences?field=security&submission_date_start=2026-08-05&submission_date_end=2026-11-03&per_page=50"
 ```
 
+The three rank parameters match **any** of the comma-separated values (OR); different
+parameters combine with AND. Values are case-insensitive, and an unknown value returns
+400 with the valid ones listed. "CCF-rated AI conferences still accepting papers":
+
+```bash
+curl "https://www.myhuiban.com/api/conferences?field=ai&ccf_rank=A,B,C&submission_date_start=2026-10-29"
+```
+
 Research field slugs — computer science: `ai` `vision` `nlp` `data` `network` `security`
 `se` `systems` `theory` `hci` `graphics` `bio` `robotics` `web`; other engineering and
 science: `ee` `energy` `materials` `civil` `education` `management` `math`. The
@@ -70,12 +78,18 @@ authoritative list is the `field` enum in [`spec/openapi.json`](../spec/openapi.
 
 ### Ranking lists — `GET /api/{conferences,journals}/rankings/{ranking}`
 
-Conferences: `cfp` (open calls) · `past_cfp` · `ccf` · `core` · `qualis` ·
-`most_viewed` · `most_tracked` · `most_attended` · `most_competitive` (lowest acceptance
-rate) · `upcoming` · `past` · `trending` (most viewed in the last 30 days).
+Conferences: `cfp` (open calls) · `past_cfp` · `ccf` · `core` · `qualis` · `cp_index`
+(every conference, ordered by the Conference Partner Index) · `most_viewed` ·
+`most_tracked` · `most_attended` · `most_competitive` (lowest acceptance rate) ·
+`upcoming` · `past` · `trending` (most viewed in the last 30 days).
 
 Journals: `cfp` (special-issue calls) · `ccf` · `highest_if` · `most_viewed` ·
 `most_tracked` · `all`.
+
+`field` narrows a list to one research area on conference `cfp`, `past_cfp`, `upcoming`,
+`past` and `cp_index`, and on journal `cfp` and `all`
+(`/api/conferences/rankings/cfp?field=ai`). The other lists return 400 if you pass it,
+rather than quietly handing back the unfiltered list.
 
 Paginated with `page` / `per_page` (default 20, max 100). An unknown ranking returns 400
 with the valid values listed in the message.
@@ -106,8 +120,9 @@ never contact details, and by id only: there is no researcher search or enumerat
 
 ### Statistics — `GET /api/statistics`
 
-Totals, upcoming deadlines by month, conference country distribution, journal impact
-factor and publisher distributions.
+Totals, open-CFP count, upcoming deadlines by month, open CFPs by ranking tier, and
+country / research-field / impact-factor / CCF-tier / publisher distributions.
+Research-field keys are the same slugs `field` accepts.
 
 ## List rows
 
@@ -123,6 +138,7 @@ factor and publisher distributions.
   "ccf_rank": "A",
   "core_rank": "A*",
   "qualis_rank": "A1",
+  "fields": ["nlp"],
   "is_extended": false,
   "updated_at": "2026-07-05",
   "cp_index": {
@@ -149,7 +165,13 @@ Notes that bite if you assume otherwise:
 
 - `id` is an **integer**, and matches the `id` the detail endpoints and MCP detail
   tools expect — the output of a search feeds straight into a lookup.
-- Date fields are `null` when unannounced, and `""` is used for an absent rank.
+- Date fields are `null` when unannounced. A rank field is `""` when the venue is **not on
+  that list** — not missing data. Most conferences carry no CCF rank, so a long list such
+  as `rankings/cfp` is mostly `""` there; to get rated venues only, search with
+  `ccf_rank=A,B,C` instead of filtering a page you already fetched.
+- `fields` is an array of research-field slugs (the values `field` accepts); a venue can
+  have several, and it is `[]` when untagged. Journals carry it too. Use it to filter
+  results you already hold without another request.
 - `impact_factor` is `null` when a journal has none on record — that is "unknown",
   not "zero". Do not coerce it to 0 before sorting or filtering.
 - `is_extended` marks a deadline that has been pushed back at least once.
