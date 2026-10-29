@@ -28,6 +28,9 @@ UA = "conference-deadline-watch/1.0 (+https://github.com/sundou82/conference-par
 # scheduled workflow, where a two-second hiccup should not turn into a red run.
 TRANSIENT = {500, 502, 503, 504, 520, 521, 522, 523, 524}
 
+# Keys must match the `field` enum in spec/openapi.json; scripts/check_fields.py
+# fails CI when they drift. Checked here rather than left to the server because the
+# server's 400 for an unknown field does not list the valid ones.
 FIELD_NAMES = {
     "ai": "AI & Machine Learning", "vision": "Computer Vision", "nlp": "NLP & Speech",
     "data": "Data Mining & Databases", "network": "Networks", "security": "Security & Privacy",
@@ -35,6 +38,11 @@ FIELD_NAMES = {
     "theory": "Theory & Algorithms", "hci": "Human-Computer Interaction",
     "graphics": "Graphics & Multimedia", "bio": "Bioinformatics & Health",
     "robotics": "Robotics & Control", "web": "Information Systems & Web",
+    "ee": "Electrical & Electronic Engineering", "energy": "Energy & Environment",
+    "materials": "Materials & Mechanical Engineering",
+    "civil": "Civil Engineering & Transportation",
+    "education": "Education & Learning Technology",
+    "management": "Management & Social Sciences", "math": "Mathematics & Physical Sciences",
 }
 
 

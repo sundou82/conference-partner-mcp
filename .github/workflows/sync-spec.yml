@@ -16,7 +16,7 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Fetch
         run: |
@@ -40,6 +40,14 @@ jobs:
       - name: Normalise and verify
         run: python3 scripts/sync_spec.py
 
+      - name: Check client field lists against the spec
+        # Runs on the freshly normalised spec, before the commit, so a drift is
+        # reported the day the server changes. It does not block the commit below:
+        # the spec is still right, it is the copies in this repo that need updating.
+        run: python3 scripts/check_fields.py
+        continue-on-error: true
+        id: fields
+
       - name: Commit if changed
         run: |
           if git diff --quiet spec/; then
@@ -57,4 +65,10 @@ jobs:
             git pull --rebase origin main
           done
           echo "still could not push after 3 attempts"
+          exit 1
+
+      - name: Fail if the field lists drifted
+        if: steps.fields.outcome == 'failure'
+        run: |
+          echo "::error::client research-field lists no longer match spec/openapi.json - see the check step above"
           exit 1

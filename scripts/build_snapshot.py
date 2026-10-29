@@ -148,10 +148,10 @@ CONFERENCE_COLUMNS = ["id", "short_name", "full_name", "submission_date",
                       "notification_date", "conference_date", "location",
                       "ccf_rank", "core_rank", "qualis_rank",
                       "cp_index", "cp_index_rank", "cp_index_confidence", "is_extended",
-                      "acceptance_rate", "years", "clicked", "updated_at", "detail_page"]
+                      "acceptance_rate", "years", "updated_at", "detail_page"]
 JOURNAL_COLUMNS = ["id", "short_name", "full_name", "impact_factor", "publisher",
                    "issn", "ccf_rank", "special_issue_title",
-                   "special_issue_deadline", "clicked", "updated_at", "detail_page"]
+                   "special_issue_deadline", "updated_at", "detail_page"]
 
 #: Nested objects flattened for CSV only — JSON keeps the original shape.
 #: {source key: {sub key: csv column}}
@@ -166,6 +166,30 @@ FLATTEN = {"special_issue": {"title": "special_issue_title",
            "cp_index": {"score": "cp_index",
                         "rank": "cp_index_rank",
                         "confidence": "cp_index_confidence"}}
+
+
+#: Dropped from every row before it is written. Both change every day for reasons that say
+#: nothing about the venue, and left in they bury the real edits: on 2026-10-29 the daily
+#: commit touched ~13,000 lines, of which about a hundred were deadlines, dates or places.
+#: That made the promised change feed (the commit history of data/) unreadable.
+#:
+#: - `clicked` is a sort weight, not a traffic figure: a cumulative counter that has never
+#:   been reset and never had crawlers taken out. Published as a column it reads as page
+#:   views, which it is not off by a little but by orders of magnitude.
+#: - `cp_index.computed` is the date of the nightly recompute — it moves on every row
+#:   every day. The score, rank and confidence it produced are kept; `algorithm` says which
+#:   method made them.
+VOLATILE = {"clicked"}
+VOLATILE_NESTED = {"cp_index": {"computed"}}
+
+
+def stable(row):
+    """The row minus the fields that change daily without the venue changing."""
+    out = {k: v for k, v in row.items() if k not in VOLATILE}
+    for source, drop in VOLATILE_NESTED.items():
+        if isinstance(out.get(source), dict):
+            out[source] = {k: v for k, v in out[source].items() if k not in drop}
+    return out
 
 
 class Budget:
@@ -230,9 +254,21 @@ def flatten(row):
     return flat
 
 
+def unchanged_since(path, payload):
+    """generated_at of the file on disk when everything else in it equals payload."""
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+    stamp = previous.pop("generated_at", None)
+    current = {k: v for k, v in payload.items() if k != "generated_at"}
+    return stamp if previous == current else None
+
+
 def write_dataset(dataset, rows, generated_at):
     slug, key = dataset["slug"], dataset["key"]
     columns = CONFERENCE_COLUMNS if key == "conferences" else JOURNAL_COLUMNS
+    rows = [stable(row) for row in rows]
     flat_rows = [flatten(row) for row in rows]
     present = [c for c in columns if any(row.get(c) not in (None, "") for row in flat_rows)]
 
@@ -249,7 +285,12 @@ def write_dataset(dataset, rows, generated_at):
                        "row, and keep the score with its rank or confidence.",
         key: rows,
     }
-    (DATA / f"{slug}.json").write_text(
+    # Keep the old timestamp when nothing else moved, so a dataset that did not change
+    # does not show up in the day's commit just because the clock did. generated_at
+    # then reads as "last changed", which is the more useful thing for it to say.
+    path = DATA / f"{slug}.json"
+    payload["generated_at"] = unchanged_since(path, payload) or generated_at
+    path.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     with (DATA / f"{slug}.csv").open("w", newline="", encoding="utf-8") as handle:

@@ -9,8 +9,10 @@ branding:
 inputs:
   field:
     description: >-
-      Research field slug. One of: ai, vision, nlp, data, network, security, se,
-      systems, theory, hci, graphics, bio, robotics, web. Omit for all fields.
+      Research field slug. Computer science: ai, vision, nlp, data, network,
+      security, se, systems, theory, hci, graphics, bio, robotics, web. Other
+      engineering and science: ee, energy, materials, civil, education,
+      management, math. Omit for all fields.
     required: false
     default: ''
   ccf:
