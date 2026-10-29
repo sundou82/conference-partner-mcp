@@ -29,8 +29,8 @@ UA = "conference-deadline-watch/1.0 (+https://github.com/sundou82/conference-par
 TRANSIENT = {500, 502, 503, 504, 520, 521, 522, 523, 524}
 
 # Keys must match the `field` enum in spec/openapi.json; scripts/check_fields.py
-# fails CI when they drift. Checked here rather than left to the server because the
-# server's 400 for an unknown field does not list the valid ones.
+# fails CI when they drift. Checked here as well as on the server (whose 400 also
+# lists the valid values) so a typo fails before any request spends quota.
 FIELD_NAMES = {
     "ai": "AI & Machine Learning", "vision": "Computer Vision", "nlp": "NLP & Speech",
     "data": "Data Mining & Databases", "network": "Networks", "security": "Security & Privacy",
