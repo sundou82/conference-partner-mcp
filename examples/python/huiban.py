@@ -22,8 +22,13 @@ UA = "conference-partner-example/1.0 (+https://github.com/sundou82/conference-pa
 #: they will not heal on their own, and their message says what to do instead.
 TRANSIENT = {500, 502, 503, 504, 520, 521, 522, 523, 524}
 
+#: Research-field slugs the `field` parameter accepts — the enum in spec/openapi.json.
+#: scripts/check_fields.py fails CI when the two drift apart (they did once: this list
+#: stayed at the original 14 computer-science fields for months after the server added
+#: seven more, so `--field civil` was refused here while the API answered it fine).
 FIELDS = ["ai", "vision", "nlp", "data", "network", "security", "se",
-          "systems", "theory", "hci", "graphics", "bio", "robotics", "web"]
+          "systems", "theory", "hci", "graphics", "bio", "robotics", "web",
+          "ee", "energy", "materials", "civil", "education", "management", "math"]
 
 #: Quota headroom reported by the last response, or None if the server sent no header.
 quota_remaining = None

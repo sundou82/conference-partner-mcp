@@ -46,7 +46,7 @@ All parameters optional; combine freely.
 | `ccf_rank` | `A` `B` `C` |
 | `core_rank` | `A*` `A` `B` `C` |
 | `qualis_rank` | e.g. `A1` `A2` `B1` |
-| `field` | one of the 14 slugs below |
+| `field` | one of the research-field slugs below |
 | `submission_date_start` / `submission_date_end` | `YYYY-MM-DD` |
 | `conference_date_start` / `conference_date_end` | `YYYY-MM-DD` |
 | `updated_since` | `YYYY-MM-DD`, see [Incremental sync](#incremental-sync) |
@@ -59,8 +59,10 @@ next 90 days in security" needs no keyword.
 curl "https://www.myhuiban.com/api/conferences?field=security&submission_date_start=2026-08-05&submission_date_end=2026-11-03&per_page=50"
 ```
 
-Research field slugs: `ai` `vision` `nlp` `data` `network` `security` `se` `systems`
-`theory` `hci` `graphics` `bio` `robotics` `web`.
+Research field slugs — computer science: `ai` `vision` `nlp` `data` `network` `security`
+`se` `systems` `theory` `hci` `graphics` `bio` `robotics` `web`; other engineering and
+science: `ee` `energy` `materials` `civil` `education` `management` `math`. The
+authoritative list is the `field` enum in [`spec/openapi.json`](../spec/openapi.json).
 
 ### Search journals — `GET /api/journals`
 
@@ -78,8 +80,13 @@ Journals: `cfp` (special-issue calls) · `ccf` · `highest_if` · `most_viewed` 
 Paginated with `page` / `per_page` (default 20, max 100). An unknown ranking returns 400
 with the valid values listed in the message.
 
-Ranking rows carry a few extra fields — `years` (editions on record), `clicked` (page
-views) and, for `most_competitive`, `acceptance_rate`.
+Ranking rows carry a few extra fields — `years` (editions on record), `clicked` and, for
+`most_competitive`, `acceptance_rate`.
+
+`clicked` is the sort weight behind `most_viewed`, **not a page-view count**: a cumulative
+counter kept since 2013 that has never been reset or had crawler traffic removed, and it
+overstates real visits by orders of magnitude. Use it to order venues, never to report
+how many people looked at one. The snapshot in `data/` leaves it out for that reason.
 
 > **Pagination differs between the two families.** Search endpoints return
 > `{"total": n, "page": p, "per_page": s, "total_pages": t}`; ranking lists return

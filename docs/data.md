@@ -49,7 +49,10 @@ CSV, with a browsable Markdown index.
 
 CI commits only when something changed, so `git log -- data/` is a deadline-change log and
 [`data.atom`](https://github.com/sundou82/conference-partner-mcp/commits/main/data.atom)
-is a feed of it.
+is a feed of it. To keep that feed readable, rows leave out the two fields that move every
+day without the venue changing — `clicked` (a sort weight, not a traffic figure) and
+`cp_index.computed` (the date of the nightly recompute) — and a dataset whose content did
+not change keeps its previous `generated_at`, so it stays out of the day's commit.
 
 **What is in it is exactly what the anonymous tier already serves** — deadline searches
 and ranking lists, the same rows anyone can fetch without credentials and the same rows
