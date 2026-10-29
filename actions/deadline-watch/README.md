@@ -39,8 +39,8 @@ it stays a live board instead of turning into a notification feed.
 | Input | Default | Notes |
 |---|---|---|
 | `field` | *(all)* | `ai` `vision` `nlp` `data` `network` `security` `se` `systems` `theory` `hci` `graphics` `bio` `robotics` `web` `ee` `energy` `materials` `civil` `education` `management` `math` |
-| `ccf` | — | keep only this CCF rank: `A` `B` `C` |
-| `core` | — | keep only this CORE rank: `A*` `A` `B` `C` |
+| `ccf` | — | keep only these CCF ranks: `A` `B` `C`, or several comma-separated (`A,B`) |
+| `core` | — | keep only these CORE ranks: `A*` `A` `B` `C`, or several comma-separated (`A*,A`) |
 | `days` | `90` | how far ahead to look |
 | `ranked-only` | `false` | drop venues with no ranking at all |
 | `issue-title` | `Upcoming paper deadlines` | the issue kept in sync |
@@ -65,8 +65,10 @@ want a board that is never empty, start without `ccf`/`core` and add
 ## Rate limits
 
 The anonymous tier allows 50 requests per day **per source IP**, and GitHub's
-hosted runners share addresses with everyone else. One run costs one request per
-100 results — a weekly schedule is comfortably inside the limit; hourly is not.
+hosted runners share addresses with everyone else. Rank filters are applied by the
+API, so a run costs one request per 100 *matching* deadlines (`ranked-only` makes
+three small queries, one per ranking list) — a weekly schedule is comfortably inside
+the limit; hourly is not.
 
 If you hit `429`, create a free key at
 [myhuiban.com/account/api-keys](https://www.myhuiban.com/account/api-keys), add
