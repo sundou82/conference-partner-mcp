@@ -117,11 +117,18 @@ Eight read-only tools, each with a REST twin returning the same payload.
 
 Search accepts any combination of keyword, `ccf_rank` (A/B/C), `core_rank` (A\*/A/B/C),
 `qualis_rank`, `field` (research areas, CS and beyond), submission/conference date
-ranges and `updated_since` for incremental sync. **Every parameter is optional** — filter-only
+ranges and `updated_since` for incremental sync. Rank parameters take several
+comma-separated values matched as OR — `ccf_rank=A,B,C` is every CCF-rated venue. **Every parameter is optional** — filter-only
 queries such as "AI conferences with a deadline in the next 90 days" are the point.
 
-Ranking lists cover open CFPs, the three tier lists, popularity, lowest acceptance rate,
-trending, upcoming/past — and for journals, special-issue CFPs and highest impact factor.
+Ranking lists cover open CFPs, the three tier lists, the Conference Partner Index,
+popularity, lowest acceptance rate, trending, upcoming/past — and for journals,
+special-issue CFPs and highest impact factor. The CFP and date-ordered lists also take
+`field`.
+
+Every venue object carries `fields`, the research-field slugs it is tagged with, so
+loaded results can be narrowed further client-side. A rank field is `""` when the venue
+is not on that list, which for CCF is most conferences.
 
 ### Prompts
 

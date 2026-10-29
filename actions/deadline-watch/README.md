@@ -38,7 +38,7 @@ it stays a live board instead of turning into a notification feed.
 
 | Input | Default | Notes |
 |---|---|---|
-| `field` | *(all)* | `ai` `vision` `nlp` `data` `network` `security` `se` `systems` `theory` `hci` `graphics` `bio` `robotics` `web` |
+| `field` | *(all)* | `ai` `vision` `nlp` `data` `network` `security` `se` `systems` `theory` `hci` `graphics` `bio` `robotics` `web` `ee` `energy` `materials` `civil` `education` `management` `math` |
 | `ccf` | — | keep only this CCF rank: `A` `B` `C` |
 | `core` | — | keep only this CORE rank: `A*` `A` `B` `C` |
 | `days` | `90` | how far ahead to look |

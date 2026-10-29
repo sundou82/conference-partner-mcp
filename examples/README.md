@@ -62,8 +62,12 @@ each in an anonymous and a with-key variant. Walkthrough:
 - **Search and ranking lists paginate differently.** Search returns `total_pages`;
   ranking lists return `has_more` and no total. The clients here handle both.
 - **`id` is an integer**, in list rows and detail alike.
-- Absent dates are `null`; absent ranks are `""`; an unrecorded `impact_factor` is
-  `null` (unknown), never `0`.
+- Absent dates are `null`; a rank is `""` when the venue is not on that list (most
+  conferences have no CCF rank); an unrecorded `impact_factor` is `null` (unknown),
+  never `0`.
+- **`fields`** lists the research-field slugs a venue is tagged with (`[]` when none).
+  To narrow by tier on the server rather than page by page, pass several values:
+  `ccf_rank=A,B,C`.
 - **Send a real `User-Agent`.** The stock `Python-urllib/3.x` is turned away at the edge.
 - Errors are JSON, and the `message` on a 401 / 402 / 429 says what to do next — surface
   it rather than swallowing it.
