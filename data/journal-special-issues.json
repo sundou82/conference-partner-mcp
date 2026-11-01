@@ -2,138 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-10-31T11:09:55+00:00",
-  "count": 65,
+  "generated_at": "2026-11-01T11:59:37+00:00",
+  "count": 63,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 1199,
-      "short_name": "",
-      "full_name": "Materials Science in Semiconductor Processing",
-      "impact_factor": "4.6",
-      "publisher": "Elsevier",
-      "issn": "1369-8001",
-      "ccf_rank": "",
-      "fields": [
-        "ee",
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1199",
-      "special_issue": {
-        "title": "Emerging Two-Dimensional Semiconductor Materials for Electronic and Optoelectronic Applications",
-        "submission_date": "2027-03-31",
-        "id": 6305,
-        "detail_page": "https://www.myhuiban.com/journal/1199#issue-6305"
-      }
-    },
-    {
-      "id": 667,
-      "short_name": "",
-      "full_name": "Mechanical Systems and Signal Processing",
-      "impact_factor": "8.9",
-      "publisher": "Elsevier",
-      "issn": "0888-3270",
-      "ccf_rank": "",
-      "fields": [
-        "ee"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/667",
-      "special_issue": {
-        "title": "Progress in the Inverse Finite Element Method (iFEM) for Deformation Reconstruction and Structural Health Monitoring",
-        "submission_date": "2026-11-01",
-        "id": 6222,
-        "detail_page": "https://www.myhuiban.com/journal/667#issue-6222"
-      }
-    },
-    {
-      "id": 31,
-      "short_name": "",
-      "full_name": "IEEE Security & Privacy",
-      "impact_factor": "3.0",
-      "publisher": "IEEE",
-      "issn": "1540-7993",
-      "ccf_rank": "",
-      "fields": [
-        "security"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/31",
-      "special_issue": {
-        "title": "One Decade of GDPR – Contributions to Data Protection and Future Challenges",
-        "submission_date": "2026-12-01",
-        "id": 6271,
-        "detail_page": "https://www.myhuiban.com/journal/31#issue-6271"
-      }
-    },
-    {
-      "id": 1114,
-      "short_name": "",
-      "full_name": "Polymer",
-      "impact_factor": "5.1",
-      "publisher": "Elsevier",
-      "issn": "0032-3861",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1114",
-      "special_issue": {
-        "title": "Polymer Science and Engineering across Ibero-Latin America",
-        "submission_date": "2027-02-27",
-        "id": 6377,
-        "detail_page": "https://www.myhuiban.com/journal/1114#issue-6377"
-      }
-    },
-    {
-      "id": 63,
-      "short_name": "",
-      "full_name": "Information and Computation",
-      "impact_factor": "1.4",
-      "publisher": "Elsevier",
-      "issn": "0890-5401",
-      "ccf_rank": "A",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/63",
-      "special_issue": {
-        "title": "Foundations of Information and Knowledge Systems: Selected Papers from FoIKS 2026",
-        "submission_date": "2026-11-01",
-        "id": 6385,
-        "detail_page": "https://www.myhuiban.com/journal/63#issue-6385"
-      }
-    },
-    {
-      "id": 71,
-      "short_name": "",
-      "full_name": "Acta Informatica",
-      "impact_factor": "1.2",
-      "publisher": "Springer",
-      "issn": "0001-5903",
-      "ccf_rank": "C",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/71",
-      "special_issue": {
-        "title": "16th International Workshop on Non-Classical Models of Automata and Applications (NCMA 2026)",
-        "submission_date": "2026-12-31",
-        "id": 6421,
-        "detail_page": "https://www.myhuiban.com/journal/71#issue-6421"
-      }
-    },
-    {
-      "id": 367,
-      "short_name": "",
-      "full_name": "Computer Standards & Interfaces",
-      "impact_factor": "4.6",
-      "publisher": "Elsevier",
-      "issn": "0920-5489",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/367",
-      "special_issue": {
-        "title": "Standards and Interfaces for Secure and Trustworthy Multi-Agent IoT Systems",
-        "submission_date": "2027-04-30",
-        "id": 6457,
-        "detail_page": "https://www.myhuiban.com/journal/367#issue-6457"
-      }
-    },
     {
       "id": 36,
       "short_name": "",
@@ -528,6 +400,44 @@
       }
     },
     {
+      "id": 31,
+      "short_name": "",
+      "full_name": "IEEE Security & Privacy",
+      "impact_factor": "3.0",
+      "publisher": "IEEE",
+      "issn": "1540-7993",
+      "ccf_rank": "",
+      "fields": [
+        "security"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/31",
+      "special_issue": {
+        "title": "One Decade of GDPR – Contributions to Data Protection and Future Challenges",
+        "submission_date": "2026-12-01",
+        "id": 6271,
+        "detail_page": "https://www.myhuiban.com/journal/31#issue-6271"
+      }
+    },
+    {
+      "id": 1114,
+      "short_name": "",
+      "full_name": "Polymer",
+      "impact_factor": "5.1",
+      "publisher": "Elsevier",
+      "issn": "0032-3861",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1114",
+      "special_issue": {
+        "title": "Polymer Science and Engineering across Ibero-Latin America",
+        "submission_date": "2027-02-27",
+        "id": 6377,
+        "detail_page": "https://www.myhuiban.com/journal/1114#issue-6377"
+      }
+    },
+    {
       "id": 197,
       "short_name": "",
       "full_name": "Neural Networks",
@@ -544,6 +454,23 @@
         "submission_date": "2026-12-01",
         "id": 6400,
         "detail_page": "https://www.myhuiban.com/journal/197#issue-6400"
+      }
+    },
+    {
+      "id": 71,
+      "short_name": "",
+      "full_name": "Acta Informatica",
+      "impact_factor": "1.2",
+      "publisher": "Springer",
+      "issn": "0001-5903",
+      "ccf_rank": "C",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/71",
+      "special_issue": {
+        "title": "16th International Workshop on Non-Classical Models of Automata and Applications (NCMA 2026)",
+        "submission_date": "2026-12-31",
+        "id": 6421,
+        "detail_page": "https://www.myhuiban.com/journal/71#issue-6421"
       }
     },
     {
@@ -745,6 +672,26 @@
         "submission_date": "2026-12-31",
         "id": 6301,
         "detail_page": "https://www.myhuiban.com/journal/819#issue-6301"
+      }
+    },
+    {
+      "id": 1199,
+      "short_name": "",
+      "full_name": "Materials Science in Semiconductor Processing",
+      "impact_factor": "4.6",
+      "publisher": "Elsevier",
+      "issn": "1369-8001",
+      "ccf_rank": "",
+      "fields": [
+        "ee",
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1199",
+      "special_issue": {
+        "title": "Emerging Two-Dimensional Semiconductor Materials for Electronic and Optoelectronic Applications",
+        "submission_date": "2027-03-31",
+        "id": 6305,
+        "detail_page": "https://www.myhuiban.com/journal/1199#issue-6305"
       }
     },
     {
@@ -1088,6 +1035,23 @@
         "submission_date": "2027-04-01",
         "id": 5622,
         "detail_page": "https://www.myhuiban.com/journal/66#issue-5622"
+      }
+    },
+    {
+      "id": 367,
+      "short_name": "",
+      "full_name": "Computer Standards & Interfaces",
+      "impact_factor": "4.6",
+      "publisher": "Elsevier",
+      "issn": "0920-5489",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/367",
+      "special_issue": {
+        "title": "Standards and Interfaces for Secure and Trustworthy Multi-Agent IoT Systems",
+        "submission_date": "2027-04-30",
+        "id": 6457,
+        "detail_page": "https://www.myhuiban.com/journal/367#issue-6457"
       }
     },
     {
