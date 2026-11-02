@@ -2,7 +2,7 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-01T11:59:37+00:00",
+  "generated_at": "2026-11-02T13:48:02+00:00",
   "count": 63,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
@@ -1055,6 +1055,25 @@
       }
     },
     {
+      "id": 1108,
+      "short_name": "",
+      "full_name": "Intelligence & Robotics",
+      "impact_factor": null,
+      "publisher": "OAE Publishing",
+      "issn": "2770-3541",
+      "ccf_rank": "",
+      "fields": [
+        "robotics"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1108",
+      "special_issue": {
+        "title": "From Brain-Inspired Al to Embodied Intelligence: Efficient Learning and Neuromorphic Approaches for Next-Generation Robots",
+        "submission_date": "2027-09-15",
+        "id": 6464,
+        "detail_page": "https://www.myhuiban.com/journal/1108#issue-6464"
+      }
+    },
+    {
       "id": 886,
       "short_name": "",
       "full_name": "International Journal of Network Management",
@@ -1126,25 +1145,6 @@
         "submission_date": "2027-07-31",
         "id": 6243,
         "detail_page": "https://www.myhuiban.com/journal/693#issue-6243"
-      }
-    },
-    {
-      "id": 1108,
-      "short_name": "",
-      "full_name": "Intelligence & Robotics",
-      "impact_factor": null,
-      "publisher": "OAE Publishing",
-      "issn": "2770-3541",
-      "ccf_rank": "",
-      "fields": [
-        "robotics"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1108",
-      "special_issue": {
-        "title": "From Brain-Inspired Al to Embodied Intelligence: Efficient Learning and Neuromorphic Approaches for Next-Generation Robots",
-        "submission_date": "2027-09-15",
-        "id": 6464,
-        "detail_page": "https://www.myhuiban.com/journal/1108#issue-6464"
       }
     }
   ]
