@@ -2,8 +2,8 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-02T13:48:02+00:00",
-  "count": 63,
+  "generated_at": "2026-11-03T12:58:20+00:00",
+  "count": 65,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
     {
@@ -129,6 +129,23 @@
         "submission_date": "2027-01-31",
         "id": 6411,
         "detail_page": "https://www.myhuiban.com/journal/666#issue-6411"
+      }
+    },
+    {
+      "id": 66,
+      "short_name": "",
+      "full_name": "Journal of Symbolic Computation",
+      "impact_factor": "0.9",
+      "publisher": "Elsevier",
+      "issn": "0747-7171",
+      "ccf_rank": "B",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/66",
+      "special_issue": {
+        "title": "SCML: Symbolic Computation and Machine Learning",
+        "submission_date": "2027-04-01",
+        "id": 5622,
+        "detail_page": "https://www.myhuiban.com/journal/66#issue-5622"
       }
     },
     {
@@ -471,6 +488,25 @@
         "submission_date": "2026-12-31",
         "id": 6421,
         "detail_page": "https://www.myhuiban.com/journal/71#issue-6421"
+      }
+    },
+    {
+      "id": 87,
+      "short_name": "",
+      "full_name": "Journal of Systems and Software",
+      "impact_factor": "3.8",
+      "publisher": "Elsevier",
+      "issn": "0164-1212",
+      "ccf_rank": "B",
+      "fields": [
+        "se"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/87",
+      "special_issue": {
+        "title": "Reliable and Trustworthy Automated Software Engineering",
+        "submission_date": "2027-05-31",
+        "id": 6491,
+        "detail_page": "https://www.myhuiban.com/journal/87#issue-6491"
       }
     },
     {
@@ -820,6 +856,42 @@
       }
     },
     {
+      "id": 108,
+      "short_name": "",
+      "full_name": "Advanced Engineering Informatics",
+      "impact_factor": "11.5",
+      "publisher": "Elsevier",
+      "issn": "1474-0346",
+      "ccf_rank": "B",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/108",
+      "special_issue": {
+        "title": "AI-Enabled Smart Manufacturing with Agentic AI, and Physics-Informed Intelligence",
+        "submission_date": "2027-05-31",
+        "id": 6490,
+        "detail_page": "https://www.myhuiban.com/journal/108#issue-6490"
+      }
+    },
+    {
+      "id": 26,
+      "short_name": "",
+      "full_name": "Computer Networks",
+      "impact_factor": "4.7",
+      "publisher": "Elsevier",
+      "issn": "1389-1286",
+      "ccf_rank": "B",
+      "fields": [
+        "network"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/26",
+      "special_issue": {
+        "title": "Generative and Explainable AI for Security in Modern Networks",
+        "submission_date": "2027-02-28",
+        "id": 6484,
+        "detail_page": "https://www.myhuiban.com/journal/26#issue-6484"
+      }
+    },
+    {
       "id": 18,
       "short_name": "",
       "full_name": "Journal of Parallel and Distributed Computing",
@@ -892,44 +964,6 @@
       }
     },
     {
-      "id": 87,
-      "short_name": "",
-      "full_name": "Journal of Systems and Software",
-      "impact_factor": "3.8",
-      "publisher": "Elsevier",
-      "issn": "0164-1212",
-      "ccf_rank": "B",
-      "fields": [
-        "se"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/87",
-      "special_issue": {
-        "title": "Software Architecture in a Digital Society",
-        "submission_date": "2027-01-31",
-        "id": 6415,
-        "detail_page": "https://www.myhuiban.com/journal/87#issue-6415"
-      }
-    },
-    {
-      "id": 26,
-      "short_name": "",
-      "full_name": "Computer Networks",
-      "impact_factor": "4.7",
-      "publisher": "Elsevier",
-      "issn": "1389-1286",
-      "ccf_rank": "B",
-      "fields": [
-        "network"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/26",
-      "special_issue": {
-        "title": "Wireless beyond limits: AI, 6G, Quantum, and new horizons",
-        "submission_date": "2027-01-31",
-        "id": 6435,
-        "detail_page": "https://www.myhuiban.com/journal/26#issue-6435"
-      }
-    },
-    {
       "id": 209,
       "short_name": "",
       "full_name": "Engineering Applications of Artificial Intelligence",
@@ -946,6 +980,25 @@
         "submission_date": "2027-06-15",
         "id": 6474,
         "detail_page": "https://www.myhuiban.com/journal/209#issue-6474"
+      }
+    },
+    {
+      "id": 236,
+      "short_name": "",
+      "full_name": "Pattern Recognition Letters",
+      "impact_factor": "3.5",
+      "publisher": "Elsevier",
+      "issn": "0167-8655",
+      "ccf_rank": "C",
+      "fields": [
+        "vision"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/236",
+      "special_issue": {
+        "title": "28th International Conference on Digital Image Computing: Techniques and Applications (DICTA 2026)",
+        "submission_date": "2027-04-20",
+        "id": 6480,
+        "detail_page": "https://www.myhuiban.com/journal/236#issue-6480"
       }
     },
     {
@@ -1018,23 +1071,6 @@
         "submission_date": "2027-03-31",
         "id": 6295,
         "detail_page": "https://www.myhuiban.com/journal/113#issue-6295"
-      }
-    },
-    {
-      "id": 66,
-      "short_name": "",
-      "full_name": "Journal of Symbolic Computation",
-      "impact_factor": "1.1",
-      "publisher": "Elsevier",
-      "issn": "0747-7171",
-      "ccf_rank": "B",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/66",
-      "special_issue": {
-        "title": "SCML: Symbolic Computation and Machine Learning",
-        "submission_date": "2027-04-01",
-        "id": 5622,
-        "detail_page": "https://www.myhuiban.com/journal/66#issue-5622"
       }
     },
     {

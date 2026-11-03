@@ -2,7 +2,7 @@
   "title": "Top journals by impact factor",
   "note": "The 300 highest reported impact factors. Figures are as published by the journal and may lag the latest JCR.",
   "source": "https://www.myhuiban.com/api/journals/rankings/highest_if",
-  "generated_at": "2026-10-29T11:42:41+00:00",
+  "generated_at": "2026-11-03T12:58:20+00:00",
   "count": 297,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
@@ -385,6 +385,17 @@
       "detail_page": "https://www.myhuiban.com/journal/325"
     },
     {
+      "id": 108,
+      "short_name": "AEI",
+      "full_name": "Advanced Engineering Informatics",
+      "impact_factor": "11.5",
+      "publisher": "Elsevier",
+      "issn": "1474-0346",
+      "ccf_rank": "B",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/108"
+    },
+    {
       "id": 734,
       "short_name": "",
       "full_name": "Robotics and Computer-Integrated Manufacturing",
@@ -497,17 +508,6 @@
         "energy"
       ],
       "detail_page": "https://www.myhuiban.com/journal/1130"
-    },
-    {
-      "id": 108,
-      "short_name": "AEI",
-      "full_name": "Advanced Engineering Informatics",
-      "impact_factor": "9.9",
-      "publisher": "Elsevier",
-      "issn": "1474-0346",
-      "ccf_rank": "B",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/108"
     },
     {
       "id": 1053,
@@ -724,15 +724,17 @@
       "detail_page": "https://www.myhuiban.com/journal/188"
     },
     {
-      "id": 669,
-      "short_name": "",
-      "full_name": "Computers in Human Behavior",
+      "id": 564,
+      "short_name": "IoT-J",
+      "full_name": "IEEE Internet of Things Journal",
       "impact_factor": "8.9",
-      "publisher": "Elsevier",
-      "issn": "0747-5632",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/669"
+      "publisher": "IEEE",
+      "issn": "2327-4662 ",
+      "ccf_rank": "C",
+      "fields": [
+        "network"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/564"
     },
     {
       "id": 362,
@@ -748,17 +750,15 @@
       "detail_page": "https://www.myhuiban.com/journal/362"
     },
     {
-      "id": 564,
-      "short_name": "IoT-J",
-      "full_name": "IEEE Internet of Things Journal",
+      "id": 669,
+      "short_name": "",
+      "full_name": "Computers in Human Behavior",
       "impact_factor": "8.9",
-      "publisher": "IEEE",
-      "issn": "2327-4662 ",
-      "ccf_rank": "C",
-      "fields": [
-        "network"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/564"
+      "publisher": "Elsevier",
+      "issn": "0747-5632",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/669"
     },
     {
       "id": 106,
@@ -1055,19 +1055,6 @@
       "detail_page": "https://www.myhuiban.com/journal/343"
     },
     {
-      "id": 701,
-      "short_name": "",
-      "full_name": "Briefings in Bioinformatics",
-      "impact_factor": "7.7",
-      "publisher": "Oxford University Press",
-      "issn": "1477-4054",
-      "ccf_rank": "B",
-      "fields": [
-        "bio"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/701"
-    },
-    {
       "id": 332,
       "short_name": "JMIS",
       "full_name": "Journal of Management Information Systems",
@@ -1079,6 +1066,19 @@
         "web"
       ],
       "detail_page": "https://www.myhuiban.com/journal/332"
+    },
+    {
+      "id": 701,
+      "short_name": "",
+      "full_name": "Briefings in Bioinformatics",
+      "impact_factor": "7.7",
+      "publisher": "Oxford University Press",
+      "issn": "1477-4054",
+      "ccf_rank": "B",
+      "fields": [
+        "bio"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/701"
     },
     {
       "id": 1115,
@@ -1186,19 +1186,6 @@
       "detail_page": "https://www.myhuiban.com/journal/742"
     },
     {
-      "id": 1191,
-      "short_name": "",
-      "full_name": "Polymer Degradation and Stability",
-      "impact_factor": "7.4",
-      "publisher": "Elsevier",
-      "issn": "0141-3910",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1191"
-    },
-    {
       "id": 481,
       "short_name": "",
       "full_name": "Fuzzy Optimization and Decision Making",
@@ -1223,6 +1210,19 @@
         "materials"
       ],
       "detail_page": "https://www.myhuiban.com/journal/756"
+    },
+    {
+      "id": 1191,
+      "short_name": "",
+      "full_name": "Polymer Degradation and Stability",
+      "impact_factor": "7.4",
+      "publisher": "Elsevier",
+      "issn": "0141-3910",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1191"
     },
     {
       "id": 732,
@@ -1260,17 +1260,17 @@
       "detail_page": "https://www.myhuiban.com/journal/349"
     },
     {
-      "id": 1147,
+      "id": 807,
       "short_name": "",
-      "full_name": "IEEE Control Systems Magazine",
-      "impact_factor": "7.3",
+      "full_name": "IEEE Robotics & Automation Magazine",
+      "impact_factor": "7.2",
       "publisher": "IEEE",
-      "issn": "1066-033X",
+      "issn": "1070-9932",
       "ccf_rank": "",
       "fields": [
         "robotics"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1147"
+      "detail_page": "https://www.myhuiban.com/journal/807"
     },
     {
       "id": 1129,
@@ -1284,19 +1284,6 @@
         "energy"
       ],
       "detail_page": "https://www.myhuiban.com/journal/1129"
-    },
-    {
-      "id": 807,
-      "short_name": "",
-      "full_name": "IEEE Robotics & Automation Magazine",
-      "impact_factor": "7.2",
-      "publisher": "IEEE",
-      "issn": "1070-9932",
-      "ccf_rank": "",
-      "fields": [
-        "robotics"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/807"
     },
     {
       "id": 227,
@@ -1364,37 +1351,15 @@
       "detail_page": "https://www.myhuiban.com/journal/1042"
     },
     {
-      "id": 727,
-      "short_name": "",
-      "full_name": "Scientific Data",
-      "impact_factor": "6.9",
-      "publisher": "Springer",
-      "issn": "2052-4463",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/727"
-    },
-    {
-      "id": 1192,
-      "short_name": "",
-      "full_name": "Surface and Coatings Technology",
+      "id": 113,
+      "short_name": "IPM",
+      "full_name": "Information Processing & Management",
       "impact_factor": "6.9",
       "publisher": "Elsevier",
-      "issn": "0257-8972",
-      "ccf_rank": "",
+      "issn": "0306-4573",
+      "ccf_rank": "B",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1192"
-    },
-    {
-      "id": 1190,
-      "short_name": "",
-      "full_name": "Applied Surface Science",
-      "impact_factor": "6.9",
-      "publisher": "Elsevier",
-      "issn": "0169-4332",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1190"
+      "detail_page": "https://www.myhuiban.com/journal/113"
     },
     {
       "id": 810,
@@ -1410,28 +1375,37 @@
       "detail_page": "https://www.myhuiban.com/journal/810"
     },
     {
-      "id": 113,
-      "short_name": "IPM",
-      "full_name": "Information Processing & Management",
+      "id": 1190,
+      "short_name": "",
+      "full_name": "Applied Surface Science",
       "impact_factor": "6.9",
       "publisher": "Elsevier",
-      "issn": "0306-4573",
-      "ccf_rank": "B",
+      "issn": "0169-4332",
+      "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/113"
+      "detail_page": "https://www.myhuiban.com/journal/1190"
     },
     {
-      "id": 391,
+      "id": 1192,
       "short_name": "",
-      "full_name": "Journal of Manufacturing Processes",
-      "impact_factor": "6.8",
+      "full_name": "Surface and Coatings Technology",
+      "impact_factor": "6.9",
       "publisher": "Elsevier",
-      "issn": "1526-6125",
+      "issn": "0257-8972",
       "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/391"
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1192"
+    },
+    {
+      "id": 727,
+      "short_name": "",
+      "full_name": "Scientific Data",
+      "impact_factor": "6.9",
+      "publisher": "Springer",
+      "issn": "2052-4463",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/727"
     },
     {
       "id": 753,
@@ -1443,6 +1417,19 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/753"
+    },
+    {
+      "id": 1187,
+      "short_name": "TQC",
+      "full_name": "ACM Transactions on Quantum Computing",
+      "impact_factor": "6.8",
+      "publisher": "ACM",
+      "issn": "2643-6817",
+      "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1187"
     },
     {
       "id": 713,
@@ -1459,17 +1446,17 @@
       "detail_page": "https://www.myhuiban.com/journal/713"
     },
     {
-      "id": 1187,
-      "short_name": "TQC",
-      "full_name": "ACM Transactions on Quantum Computing",
+      "id": 391,
+      "short_name": "",
+      "full_name": "Journal of Manufacturing Processes",
       "impact_factor": "6.8",
-      "publisher": "ACM",
-      "issn": "2643-6817",
-      "ccf_rank": "C",
+      "publisher": "Elsevier",
+      "issn": "1526-6125",
+      "ccf_rank": "",
       "fields": [
-        "systems"
+        "materials"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1187"
+      "detail_page": "https://www.myhuiban.com/journal/391"
     },
     {
       "id": 208,
@@ -1522,19 +1509,6 @@
       "detail_page": "https://www.myhuiban.com/journal/1044"
     },
     {
-      "id": 589,
-      "short_name": "TIST",
-      "full_name": "ACM Transactions on Intelligent Systems and Technology",
-      "impact_factor": "6.6",
-      "publisher": "ACM",
-      "issn": "2157-6904",
-      "ccf_rank": "C",
-      "fields": [
-        "ai"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/589"
-    },
-    {
       "id": 139,
       "short_name": "TOCHI",
       "full_name": "ACM Transactions on Computer-Human Interaction",
@@ -1559,41 +1533,17 @@
       "detail_page": "https://www.myhuiban.com/journal/787"
     },
     {
-      "id": 745,
-      "short_name": "",
-      "full_name": "Computers & Industrial Engineering",
-      "impact_factor": "6.5",
-      "publisher": "Elsevier",
-      "issn": "0360-8352",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/745"
-    },
-    {
-      "id": 1225,
-      "short_name": "BCRA",
-      "full_name": "Blockchain: Research and Applications",
-      "impact_factor": "6.5",
-      "publisher": "Elsevier",
-      "issn": "2666-9536",
-      "ccf_rank": "B",
-      "fields": [
-        "security"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1225"
-    },
-    {
-      "id": 234,
-      "short_name": "",
-      "full_name": "Neurocomputing",
-      "impact_factor": "6.5",
-      "publisher": "Elsevier",
-      "issn": "0925-2312",
+      "id": 589,
+      "short_name": "TIST",
+      "full_name": "ACM Transactions on Intelligent Systems and Technology",
+      "impact_factor": "6.6",
+      "publisher": "ACM",
+      "issn": "2157-6904",
       "ccf_rank": "C",
       "fields": [
         "ai"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/234"
+      "detail_page": "https://www.myhuiban.com/journal/589"
     },
     {
       "id": 141,
@@ -1622,17 +1572,17 @@
       "detail_page": "https://www.myhuiban.com/journal/1052"
     },
     {
-      "id": 684,
+      "id": 234,
       "short_name": "",
-      "full_name": "Vehicular Communications",
+      "full_name": "Neurocomputing",
       "impact_factor": "6.5",
       "publisher": "Elsevier",
-      "issn": "2214-2096",
-      "ccf_rank": "",
+      "issn": "0925-2312",
+      "ccf_rank": "C",
       "fields": [
-        "network"
+        "ai"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/684"
+      "detail_page": "https://www.myhuiban.com/journal/234"
     },
     {
       "id": 682,
@@ -1646,15 +1596,41 @@
       "detail_page": "https://www.myhuiban.com/journal/682"
     },
     {
-      "id": 838,
+      "id": 684,
       "short_name": "",
-      "full_name": "Information Technology for Development",
-      "impact_factor": "6.4",
-      "publisher": "Taylor & Francis",
-      "issn": "0268-1102",
+      "full_name": "Vehicular Communications",
+      "impact_factor": "6.5",
+      "publisher": "Elsevier",
+      "issn": "2214-2096",
+      "ccf_rank": "",
+      "fields": [
+        "network"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/684"
+    },
+    {
+      "id": 1225,
+      "short_name": "BCRA",
+      "full_name": "Blockchain: Research and Applications",
+      "impact_factor": "6.5",
+      "publisher": "Elsevier",
+      "issn": "2666-9536",
+      "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1225"
+    },
+    {
+      "id": 745,
+      "short_name": "",
+      "full_name": "Computers & Industrial Engineering",
+      "impact_factor": "6.5",
+      "publisher": "Elsevier",
+      "issn": "0360-8352",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/838"
+      "detail_page": "https://www.myhuiban.com/journal/745"
     },
     {
       "id": 428,
@@ -1670,17 +1646,15 @@
       "detail_page": "https://www.myhuiban.com/journal/428"
     },
     {
-      "id": 822,
+      "id": 838,
       "short_name": "",
-      "full_name": "Telecommunications Policy",
+      "full_name": "Information Technology for Development",
       "impact_factor": "6.4",
-      "publisher": "Elsevier",
-      "issn": "0308-5961",
+      "publisher": "Taylor & Francis",
+      "issn": "0268-1102",
       "ccf_rank": "",
-      "fields": [
-        "network"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/822"
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/838"
     },
     {
       "id": 223,
@@ -1722,17 +1696,17 @@
       "detail_page": "https://www.myhuiban.com/journal/702"
     },
     {
-      "id": 730,
+      "id": 822,
       "short_name": "",
-      "full_name": "Information Systems Journal",
-      "impact_factor": "6.3",
-      "publisher": "Wiley",
-      "issn": "1350-1917",
+      "full_name": "Telecommunications Policy",
+      "impact_factor": "6.4",
+      "publisher": "Elsevier",
+      "issn": "0308-5961",
       "ccf_rank": "",
       "fields": [
-        "web"
+        "network"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/730"
+      "detail_page": "https://www.myhuiban.com/journal/822"
     },
     {
       "id": 371,
@@ -1784,6 +1758,19 @@
       "detail_page": "https://www.myhuiban.com/journal/1067"
     },
     {
+      "id": 730,
+      "short_name": "",
+      "full_name": "Information Systems Journal",
+      "impact_factor": "6.3",
+      "publisher": "Wiley",
+      "issn": "1350-1917",
+      "ccf_rank": "",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/730"
+    },
+    {
       "id": 77,
       "short_name": "TOSEM",
       "full_name": "ACM Transactions on Software Engineering and Methodology",
@@ -1808,18 +1795,15 @@
       "detail_page": "https://www.myhuiban.com/journal/767"
     },
     {
-      "id": 202,
-      "short_name": "AIM",
-      "full_name": "Artificial Intelligence in Medicine",
+      "id": 859,
+      "short_name": "",
+      "full_name": "BioData Mining",
       "impact_factor": "6.1",
-      "publisher": "Elsevier",
-      "issn": "0933-3657",
-      "ccf_rank": "C",
-      "fields": [
-        "ai",
-        "bio"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/202"
+      "publisher": "Springer",
+      "issn": "1756-0381",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/859"
     },
     {
       "id": 392,
@@ -1835,6 +1819,19 @@
       "detail_page": "https://www.myhuiban.com/journal/392"
     },
     {
+      "id": 180,
+      "short_name": "",
+      "full_name": "IEEE Intelligent Systems",
+      "impact_factor": "6.1",
+      "publisher": "IEEE",
+      "issn": "1541-1672",
+      "ccf_rank": "",
+      "fields": [
+        "ai"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/180"
+    },
+    {
       "id": 780,
       "short_name": "JCDE",
       "full_name": "Journal of Computational Design and Engineering",
@@ -1846,15 +1843,18 @@
       "detail_page": "https://www.myhuiban.com/journal/780"
     },
     {
-      "id": 859,
-      "short_name": "",
-      "full_name": "BioData Mining",
+      "id": 202,
+      "short_name": "AIM",
+      "full_name": "Artificial Intelligence in Medicine",
       "impact_factor": "6.1",
-      "publisher": "Springer",
-      "issn": "1756-0381",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/859"
+      "publisher": "Elsevier",
+      "issn": "0933-3657",
+      "ccf_rank": "C",
+      "fields": [
+        "ai",
+        "bio"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/202"
     },
     {
       "id": 1041,
@@ -1870,19 +1870,6 @@
       "detail_page": "https://www.myhuiban.com/journal/1041"
     },
     {
-      "id": 180,
-      "short_name": "",
-      "full_name": "IEEE Intelligent Systems",
-      "impact_factor": "6.1",
-      "publisher": "IEEE",
-      "issn": "1541-1672",
-      "ccf_rank": "",
-      "fields": [
-        "ai"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/180"
-    },
-    {
       "id": 4,
       "short_name": "TPDS",
       "full_name": "IEEE Transactions on Parallel and Distributed Systems",
@@ -1894,6 +1881,30 @@
         "systems"
       ],
       "detail_page": "https://www.myhuiban.com/journal/4"
+    },
+    {
+      "id": 115,
+      "short_name": "",
+      "full_name": "Information Sciences",
+      "impact_factor": "6.0",
+      "publisher": "Elsevier",
+      "issn": "0020-0255",
+      "ccf_rank": "B",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/115"
+    },
+    {
+      "id": 743,
+      "short_name": "",
+      "full_name": "European Journal of Operational Research",
+      "impact_factor": "6.0",
+      "publisher": "Elsevier",
+      "issn": "0377-2217",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/743"
     },
     {
       "id": 23,
@@ -1910,17 +1921,6 @@
       "detail_page": "https://www.myhuiban.com/journal/23"
     },
     {
-      "id": 743,
-      "short_name": "",
-      "full_name": "European Journal of Operational Research",
-      "impact_factor": "6.0",
-      "publisher": "Elsevier",
-      "issn": "0377-2217",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/743"
-    },
-    {
       "id": 595,
       "short_name": "TOMM",
       "full_name": "ACM Transactions on Multimedia Computing, Communications, and Applications",
@@ -1933,19 +1933,6 @@
         "graphics"
       ],
       "detail_page": "https://www.myhuiban.com/journal/595"
-    },
-    {
-      "id": 115,
-      "short_name": "",
-      "full_name": "Information Sciences",
-      "impact_factor": "6.0",
-      "publisher": "Elsevier",
-      "issn": "0020-0255",
-      "ccf_rank": "B",
-      "fields": [
-        "web"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/115"
     },
     {
       "id": 36,
@@ -1974,17 +1961,17 @@
       "detail_page": "https://www.myhuiban.com/journal/703"
     },
     {
-      "id": 729,
-      "short_name": "",
-      "full_name": "IEEE Transactions on Signal Processing",
+      "id": 322,
+      "short_name": "TSC",
+      "full_name": "IEEE Transactions on Services Computing",
       "impact_factor": "5.8",
       "publisher": "IEEE",
-      "issn": "1053-587X",
-      "ccf_rank": "",
+      "issn": "1939-1374",
+      "ccf_rank": "A",
       "fields": [
-        "ee"
+        "web"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/729"
+      "detail_page": "https://www.myhuiban.com/journal/322"
     },
     {
       "id": 1230,
@@ -2000,141 +1987,17 @@
       "detail_page": "https://www.myhuiban.com/journal/1230"
     },
     {
-      "id": 322,
-      "short_name": "TSC",
-      "full_name": "IEEE Transactions on Services Computing",
+      "id": 729,
+      "short_name": "",
+      "full_name": "IEEE Transactions on Signal Processing",
       "impact_factor": "5.8",
       "publisher": "IEEE",
-      "issn": "1939-1374",
-      "ccf_rank": "A",
-      "fields": [
-        "web"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/322"
-    },
-    {
-      "id": 892,
-      "short_name": "",
-      "full_name": "Sustainable Computing: Informatics and Systems",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "2210-5379",
-      "ccf_rank": "",
-      "fields": [
-        "energy"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/892"
-    },
-    {
-      "id": 1118,
-      "short_name": "",
-      "full_name": "Materials Research Bulletin",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "0025-5408",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1118"
-    },
-    {
-      "id": 783,
-      "short_name": "",
-      "full_name": "Journal of Medical Systems",
-      "impact_factor": "5.7",
-      "publisher": "Springer",
-      "issn": "0148-5598",
-      "ccf_rank": "",
-      "fields": [
-        "bio"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/783"
-    },
-    {
-      "id": 1138,
-      "short_name": "IEM",
-      "full_name": "IEEE Industrial Electronics Magazine",
-      "impact_factor": "5.7",
-      "publisher": "IEEE",
-      "issn": "1932-4529",
+      "issn": "1053-587X",
       "ccf_rank": "",
       "fields": [
         "ee"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1138"
-    },
-    {
-      "id": 834,
-      "short_name": "",
-      "full_name": "ReCALL",
-      "impact_factor": "5.7",
-      "publisher": "Cambridge University Press",
-      "issn": "0958-3440",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/834"
-    },
-    {
-      "id": 414,
-      "short_name": "",
-      "full_name": "Sustainable Computing",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "2210-5379",
-      "ccf_rank": "",
-      "fields": [
-        "energy"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/414"
-    },
-    {
-      "id": 748,
-      "short_name": "",
-      "full_name": "Journal of Cheminformatics",
-      "impact_factor": "5.7",
-      "publisher": "Chemistry Central",
-      "issn": "1758-2946",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/748"
-    },
-    {
-      "id": 1104,
-      "short_name": "",
-      "full_name": "IEEE Transactions on Reliability",
-      "impact_factor": "5.7",
-      "publisher": "IEEE",
-      "issn": "0018-9529",
-      "ccf_rank": "C",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1104"
-    },
-    {
-      "id": 1193,
-      "short_name": "",
-      "full_name": "Materials Science and Engineering: B",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "0921-5107",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1193"
-    },
-    {
-      "id": 348,
-      "short_name": "",
-      "full_name": "Advances in Engineering Software",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "0965-9978",
-      "ccf_rank": "",
-      "fields": [
-        "se"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/348"
+      "detail_page": "https://www.myhuiban.com/journal/729"
     },
     {
       "id": 572,
@@ -2150,28 +2013,128 @@
       "detail_page": "https://www.myhuiban.com/journal/572"
     },
     {
-      "id": 78,
-      "short_name": "TSE",
-      "full_name": "IEEE Transactions on Software Engineering",
-      "impact_factor": "5.6",
-      "publisher": "IEEE",
-      "issn": "0098-5589 ",
-      "ccf_rank": "A",
+      "id": 348,
+      "short_name": "",
+      "full_name": "Advances in Engineering Software",
+      "impact_factor": "5.7",
+      "publisher": "Elsevier",
+      "issn": "0965-9978",
+      "ccf_rank": "",
       "fields": [
         "se"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/78"
+      "detail_page": "https://www.myhuiban.com/journal/348"
     },
     {
-      "id": 1116,
+      "id": 1104,
       "short_name": "",
-      "full_name": "Ceramics International",
-      "impact_factor": "5.6",
+      "full_name": "IEEE Transactions on Reliability",
+      "impact_factor": "5.7",
+      "publisher": "IEEE",
+      "issn": "0018-9529",
+      "ccf_rank": "C",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1104"
+    },
+    {
+      "id": 1118,
+      "short_name": "",
+      "full_name": "Materials Research Bulletin",
+      "impact_factor": "5.7",
       "publisher": "Elsevier",
-      "issn": "0272-8842",
+      "issn": "0025-5408",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1118"
+    },
+    {
+      "id": 748,
+      "short_name": "",
+      "full_name": "Journal of Cheminformatics",
+      "impact_factor": "5.7",
+      "publisher": "Chemistry Central",
+      "issn": "1758-2946",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1116"
+      "detail_page": "https://www.myhuiban.com/journal/748"
+    },
+    {
+      "id": 834,
+      "short_name": "",
+      "full_name": "ReCALL",
+      "impact_factor": "5.7",
+      "publisher": "Cambridge University Press",
+      "issn": "0958-3440",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/834"
+    },
+    {
+      "id": 1138,
+      "short_name": "IEM",
+      "full_name": "IEEE Industrial Electronics Magazine",
+      "impact_factor": "5.7",
+      "publisher": "IEEE",
+      "issn": "1932-4529",
+      "ccf_rank": "",
+      "fields": [
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1138"
+    },
+    {
+      "id": 1193,
+      "short_name": "",
+      "full_name": "Materials Science and Engineering: B",
+      "impact_factor": "5.7",
+      "publisher": "Elsevier",
+      "issn": "0921-5107",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1193"
+    },
+    {
+      "id": 783,
+      "short_name": "",
+      "full_name": "Journal of Medical Systems",
+      "impact_factor": "5.7",
+      "publisher": "Springer",
+      "issn": "0148-5598",
+      "ccf_rank": "",
+      "fields": [
+        "bio"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/783"
+    },
+    {
+      "id": 414,
+      "short_name": "",
+      "full_name": "Sustainable Computing",
+      "impact_factor": "5.7",
+      "publisher": "Elsevier",
+      "issn": "2210-5379",
+      "ccf_rank": "",
+      "fields": [
+        "energy"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/414"
+    },
+    {
+      "id": 892,
+      "short_name": "",
+      "full_name": "Sustainable Computing: Informatics and Systems",
+      "impact_factor": "5.7",
+      "publisher": "Elsevier",
+      "issn": "2210-5379",
+      "ccf_rank": "",
+      "fields": [
+        "energy"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/892"
     },
     {
       "id": 1164,
@@ -2187,6 +2150,17 @@
       "detail_page": "https://www.myhuiban.com/journal/1164"
     },
     {
+      "id": 1116,
+      "short_name": "",
+      "full_name": "Ceramics International",
+      "impact_factor": "5.6",
+      "publisher": "Elsevier",
+      "issn": "0272-8842",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1116"
+    },
+    {
       "id": 788,
       "short_name": "",
       "full_name": "Information Technology & People",
@@ -2196,6 +2170,19 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/788"
+    },
+    {
+      "id": 78,
+      "short_name": "TSE",
+      "full_name": "IEEE Transactions on Software Engineering",
+      "impact_factor": "5.6",
+      "publisher": "IEEE",
+      "issn": "0098-5589 ",
+      "ccf_rank": "A",
+      "fields": [
+        "se"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/78"
     },
     {
       "id": 347,
@@ -2247,50 +2234,17 @@
       "detail_page": "https://www.myhuiban.com/journal/1183"
     },
     {
-      "id": 563,
-      "short_name": "TETC",
-      "full_name": "IEEE Transactions on Emerging Topics in Computing",
-      "impact_factor": "5.4",
-      "publisher": "IEEE",
-      "issn": "2168-6750",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/563"
-    },
-    {
-      "id": 476,
+      "id": 41,
       "short_name": "",
-      "full_name": "Education and Information Technologies",
+      "full_name": "Ad Hoc Networks",
       "impact_factor": "5.4",
-      "publisher": "Springer",
-      "issn": "1360-2357",
-      "ccf_rank": "",
+      "publisher": "Elsevier",
+      "issn": "1570-8705",
+      "ccf_rank": "C",
       "fields": [
-        "education"
+        "network"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/476"
-    },
-    {
-      "id": 752,
-      "short_name": "",
-      "full_name": "Production Planning & Control",
-      "impact_factor": "5.4",
-      "publisher": "Taylor & Francis",
-      "issn": "0953-7287",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/752"
-    },
-    {
-      "id": 324,
-      "short_name": "TETC",
-      "full_name": "IEEE Transaction on Emerging Topics in Computing",
-      "impact_factor": "5.4",
-      "publisher": "IEEE",
-      "issn": "2168-6750",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/324"
+      "detail_page": "https://www.myhuiban.com/journal/41"
     },
     {
       "id": 1126,
@@ -2306,17 +2260,39 @@
       "detail_page": "https://www.myhuiban.com/journal/1126"
     },
     {
-      "id": 29,
+      "id": 752,
       "short_name": "",
-      "full_name": "Computers & Security",
+      "full_name": "Production Planning & Control",
+      "impact_factor": "5.4",
+      "publisher": "Taylor & Francis",
+      "issn": "0953-7287",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/752"
+    },
+    {
+      "id": 744,
+      "short_name": "",
+      "full_name": "Engineering Science and Technology, an International Journal",
       "impact_factor": "5.4",
       "publisher": "Elsevier",
-      "issn": "0167-4048",
-      "ccf_rank": "B",
+      "issn": "2215-0986",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/744"
+    },
+    {
+      "id": 43,
+      "short_name": "TNSM",
+      "full_name": "IEEE Transactions on Network and Service Management",
+      "impact_factor": "5.4",
+      "publisher": "IEEE",
+      "issn": "1932-4537",
+      "ccf_rank": "C",
       "fields": [
-        "security"
+        "network"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/29"
+      "detail_page": "https://www.myhuiban.com/journal/43"
     },
     {
       "id": 1079,
@@ -2328,6 +2304,19 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/1079"
+    },
+    {
+      "id": 29,
+      "short_name": "",
+      "full_name": "Computers & Security",
+      "impact_factor": "5.4",
+      "publisher": "Elsevier",
+      "issn": "0167-4048",
+      "ccf_rank": "B",
+      "fields": [
+        "security"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/29"
     },
     {
       "id": 240,
@@ -2356,87 +2345,39 @@
       "detail_page": "https://www.myhuiban.com/journal/836"
     },
     {
-      "id": 41,
+      "id": 476,
       "short_name": "",
-      "full_name": "Ad Hoc Networks",
+      "full_name": "Education and Information Technologies",
       "impact_factor": "5.4",
-      "publisher": "Elsevier",
-      "issn": "1570-8705",
-      "ccf_rank": "C",
+      "publisher": "Springer",
+      "issn": "1360-2357",
+      "ccf_rank": "",
       "fields": [
-        "network"
+        "education"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/41"
+      "detail_page": "https://www.myhuiban.com/journal/476"
     },
     {
-      "id": 43,
-      "short_name": "TNSM",
-      "full_name": "IEEE Transactions on Network and Service Management",
+      "id": 563,
+      "short_name": "TETC",
+      "full_name": "IEEE Transactions on Emerging Topics in Computing",
       "impact_factor": "5.4",
       "publisher": "IEEE",
-      "issn": "1932-4537",
-      "ccf_rank": "C",
-      "fields": [
-        "network"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/43"
+      "issn": "2168-6750",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/563"
     },
     {
-      "id": 744,
-      "short_name": "",
-      "full_name": "Engineering Science and Technology, an International Journal",
+      "id": 324,
+      "short_name": "TETC",
+      "full_name": "IEEE Transaction on Emerging Topics in Computing",
       "impact_factor": "5.4",
-      "publisher": "Elsevier",
-      "issn": "2215-0986",
+      "publisher": "IEEE",
+      "issn": "2168-6750",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/744"
-    },
-    {
-      "id": 754,
-      "short_name": "JCIM",
-      "full_name": "Journal of Chemical Information and Modeling",
-      "impact_factor": "5.3",
-      "publisher": "American Chemical Society",
-      "issn": "1549-9596",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/754"
-    },
-    {
-      "id": 359,
-      "short_name": "",
-      "full_name": "Control Engineering Practice",
-      "impact_factor": "5.3",
-      "publisher": "Elsevier",
-      "issn": "0967-0661",
-      "ccf_rank": "",
-      "fields": [
-        "robotics"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/359"
-    },
-    {
-      "id": 380,
-      "short_name": "",
-      "full_name": "International Journal of Critical Infrastructure Protection",
-      "impact_factor": "5.3",
-      "publisher": "Elsevier",
-      "issn": "1874-5482",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/380"
-    },
-    {
-      "id": 750,
-      "short_name": "",
-      "full_name": "Mechanism and Machine Theory",
-      "impact_factor": "5.3",
-      "publisher": "Elsevier",
-      "issn": "0094-114X",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/750"
+      "detail_page": "https://www.myhuiban.com/journal/324"
     },
     {
       "id": 749,
@@ -2452,17 +2393,6 @@
       "detail_page": "https://www.myhuiban.com/journal/749"
     },
     {
-      "id": 746,
-      "short_name": "",
-      "full_name": "Integrated Computer-Aided Engineering",
-      "impact_factor": "5.3",
-      "publisher": "IOS Press",
-      "issn": "1069-2509",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/746"
-    },
-    {
       "id": 828,
       "short_name": "",
       "full_name": "Interactive Learning Environments",
@@ -2474,17 +2404,41 @@
       "detail_page": "https://www.myhuiban.com/journal/828"
     },
     {
-      "id": 1153,
-      "short_name": "J-STARS",
-      "full_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "id": 1157,
+      "short_name": "OJ-ITS",
+      "full_name": "IEEE Open Journal of Intelligent Transportation Systems",
       "impact_factor": "5.3",
       "publisher": "IEEE",
-      "issn": "1939-1404",
+      "issn": "2687-7813",
       "ccf_rank": "",
       "fields": [
-        "ee"
+        "civil"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1153"
+      "detail_page": "https://www.myhuiban.com/journal/1157"
+    },
+    {
+      "id": 380,
+      "short_name": "",
+      "full_name": "International Journal of Critical Infrastructure Protection",
+      "impact_factor": "5.3",
+      "publisher": "Elsevier",
+      "issn": "1874-5482",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/380"
+    },
+    {
+      "id": 359,
+      "short_name": "",
+      "full_name": "Control Engineering Practice",
+      "impact_factor": "5.3",
+      "publisher": "Elsevier",
+      "issn": "0967-0661",
+      "ccf_rank": "",
+      "fields": [
+        "robotics"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/359"
     },
     {
       "id": 1037,
@@ -2500,17 +2454,55 @@
       "detail_page": "https://www.myhuiban.com/journal/1037"
     },
     {
-      "id": 785,
-      "short_name": "",
-      "full_name": "Journal of Computing in Civil Engineering",
-      "impact_factor": "5.2",
-      "publisher": "ASCE",
-      "issn": "0887-3801",
+      "id": 1153,
+      "short_name": "J-STARS",
+      "full_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "impact_factor": "5.3",
+      "publisher": "IEEE",
+      "issn": "1939-1404",
       "ccf_rank": "",
       "fields": [
-        "civil"
+        "ee"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/785"
+      "detail_page": "https://www.myhuiban.com/journal/1153"
+    },
+    {
+      "id": 177,
+      "short_name": "",
+      "full_name": "Computational Linguistics",
+      "impact_factor": "5.3",
+      "publisher": "MIT Press",
+      "issn": "0891-2017",
+      "ccf_rank": "B",
+      "fields": [
+        "nlp"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/177"
+    },
+    {
+      "id": 19,
+      "short_name": "JSA",
+      "full_name": "The Journal of Systems Architecture: Embedded Software Design",
+      "impact_factor": "5.3",
+      "publisher": "Elsevier",
+      "issn": "1383-7621",
+      "ccf_rank": "B",
+      "fields": [
+        "se",
+        "systems"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/19"
+    },
+    {
+      "id": 754,
+      "short_name": "JCIM",
+      "full_name": "Journal of Chemical Information and Modeling",
+      "impact_factor": "5.3",
+      "publisher": "American Chemical Society",
+      "issn": "1549-9596",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/754"
     },
     {
       "id": 1234,
@@ -2522,6 +2514,32 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/1234"
+    },
+    {
+      "id": 678,
+      "short_name": "",
+      "full_name": "Measurement",
+      "impact_factor": "5.2",
+      "publisher": "Elsevier",
+      "issn": "0263-2241",
+      "ccf_rank": "",
+      "fields": [
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/678"
+    },
+    {
+      "id": 785,
+      "short_name": "",
+      "full_name": "Journal of Computing in Civil Engineering",
+      "impact_factor": "5.2",
+      "publisher": "ASCE",
+      "issn": "0887-3801",
+      "ccf_rank": "",
+      "fields": [
+        "civil"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/785"
     },
     {
       "id": 418,
@@ -2546,19 +2564,6 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/398"
-    },
-    {
-      "id": 678,
-      "short_name": "",
-      "full_name": "Measurement",
-      "impact_factor": "5.2",
-      "publisher": "Elsevier",
-      "issn": "0263-2241",
-      "ccf_rank": "",
-      "fields": [
-        "ee"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/678"
     },
     {
       "id": 1097,
@@ -2587,58 +2592,6 @@
       "detail_page": "https://www.myhuiban.com/journal/728"
     },
     {
-      "id": 129,
-      "short_name": "IJGIS",
-      "full_name": "International Journal of Geographical Information Science",
-      "impact_factor": "5.1",
-      "publisher": "Taylor & Francis",
-      "issn": "1365-8816",
-      "ccf_rank": "C",
-      "fields": [
-        "web"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/129"
-    },
-    {
-      "id": 1114,
-      "short_name": "",
-      "full_name": "Polymer",
-      "impact_factor": "5.1",
-      "publisher": "Elsevier",
-      "issn": "0032-3861",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1114"
-    },
-    {
-      "id": 1110,
-      "short_name": "DRM",
-      "full_name": "Diamond and Related Materials",
-      "impact_factor": "5.1",
-      "publisher": "Elsevier",
-      "issn": "0925-9635",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1110"
-    },
-    {
-      "id": 213,
-      "short_name": "",
-      "full_name": "IEEE Intelligent Transportation Systems Magazine",
-      "impact_factor": "5.1",
-      "publisher": "IEEE",
-      "issn": "1939-1390",
-      "ccf_rank": "",
-      "fields": [
-        "civil"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/213"
-    },
-    {
       "id": 824,
       "short_name": "",
       "full_name": "International Journal of Numerical Methods for Heat & Fluid Flow",
@@ -2663,6 +2616,58 @@
         "web"
       ],
       "detail_page": "https://www.myhuiban.com/journal/663"
+    },
+    {
+      "id": 1114,
+      "short_name": "",
+      "full_name": "Polymer",
+      "impact_factor": "5.1",
+      "publisher": "Elsevier",
+      "issn": "0032-3861",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1114"
+    },
+    {
+      "id": 129,
+      "short_name": "IJGIS",
+      "full_name": "International Journal of Geographical Information Science",
+      "impact_factor": "5.1",
+      "publisher": "Taylor & Francis",
+      "issn": "1365-8816",
+      "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/129"
+    },
+    {
+      "id": 213,
+      "short_name": "",
+      "full_name": "IEEE Intelligent Transportation Systems Magazine",
+      "impact_factor": "5.1",
+      "publisher": "IEEE",
+      "issn": "1939-1390",
+      "ccf_rank": "",
+      "fields": [
+        "civil"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/213"
+    },
+    {
+      "id": 1110,
+      "short_name": "DRM",
+      "full_name": "Diamond and Related Materials",
+      "impact_factor": "5.1",
+      "publisher": "Elsevier",
+      "issn": "0925-9635",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1110"
     },
     {
       "id": 379,
@@ -2691,30 +2696,28 @@
       "detail_page": "https://www.myhuiban.com/journal/1143"
     },
     {
-      "id": 220,
-      "short_name": "IVC",
-      "full_name": "Image and Vision Computing",
+      "id": 802,
+      "short_name": "",
+      "full_name": "Journal of Research on Technology in Education",
       "impact_factor": "5.0",
-      "publisher": "Elsevier",
-      "issn": "0262-8856",
-      "ccf_rank": "C",
-      "fields": [
-        "vision"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/220"
-    },
-    {
-      "id": 717,
-      "short_name": "IJRR",
-      "full_name": "International Journal of Robotics Research",
-      "impact_factor": "5.0",
-      "publisher": "SAGE",
-      "issn": "0278-3649",
+      "publisher": "Taylor & Francis",
+      "issn": "1539-1523",
       "ccf_rank": "",
       "fields": [
-        "robotics"
+        "education"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/717"
+      "detail_page": "https://www.myhuiban.com/journal/802"
+    },
+    {
+      "id": 1051,
+      "short_name": "",
+      "full_name": "IEEE Transactions on Control of Network Systems",
+      "impact_factor": "5.0",
+      "publisher": "IEEE",
+      "issn": "2372-2533",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1051"
     },
     {
       "id": 550,
@@ -2730,17 +2733,17 @@
       "detail_page": "https://www.myhuiban.com/journal/550"
     },
     {
-      "id": 802,
-      "short_name": "",
-      "full_name": "Journal of Research on Technology in Education",
+      "id": 220,
+      "short_name": "IVC",
+      "full_name": "Image and Vision Computing",
       "impact_factor": "5.0",
-      "publisher": "Taylor & Francis",
-      "issn": "1539-1523",
-      "ccf_rank": "",
+      "publisher": "Elsevier",
+      "issn": "0262-8856",
+      "ccf_rank": "C",
       "fields": [
-        "education"
+        "vision"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/802"
+      "detail_page": "https://www.myhuiban.com/journal/220"
     },
     {
       "id": 315,
@@ -2756,41 +2759,50 @@
       "detail_page": "https://www.myhuiban.com/journal/315"
     },
     {
-      "id": 1051,
-      "short_name": "",
-      "full_name": "IEEE Transactions on Control of Network Systems",
+      "id": 717,
+      "short_name": "IJRR",
+      "full_name": "International Journal of Robotics Research",
       "impact_factor": "5.0",
+      "publisher": "SAGE",
+      "issn": "0278-3649",
+      "ccf_rank": "",
+      "fields": [
+        "robotics"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/717"
+    },
+    {
+      "id": 610,
+      "short_name": "TSIPN",
+      "full_name": "IEEE Transactions on Signal and Information Processing over Networks",
+      "impact_factor": "4.9",
       "publisher": "IEEE",
-      "issn": "2372-2533",
+      "issn": "2373-776X",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1051"
+      "detail_page": "https://www.myhuiban.com/journal/610"
     },
     {
-      "id": 775,
+      "id": 477,
       "short_name": "",
-      "full_name": "Social Media + Society",
+      "full_name": "Engineering with Computers",
       "impact_factor": "4.9",
-      "publisher": "SAGE",
-      "issn": "2056-3051",
+      "publisher": "Springer",
+      "issn": "0177-0667",
       "ccf_rank": "",
-      "fields": [
-        "web"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/775"
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/477"
     },
     {
-      "id": 794,
-      "short_name": "",
-      "full_name": "International Journal of Logistics Research and Applications",
+      "id": 602,
+      "short_name": "TLT",
+      "full_name": "IEEE Transactions on Learning Technologies",
       "impact_factor": "4.9",
-      "publisher": "Taylor & Francis",
-      "issn": "1367-5567",
+      "publisher": "IEEE",
+      "issn": "1939-1382",
       "ccf_rank": "",
-      "fields": [
-        "management"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/794"
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/602"
     },
     {
       "id": 1189,
@@ -2806,34 +2818,6 @@
       "detail_page": "https://www.myhuiban.com/journal/1189"
     },
     {
-      "id": 366,
-      "short_name": "",
-      "full_name": "Computerized Medical Imaging and Graphics",
-      "impact_factor": "4.9",
-      "publisher": "Elsevier",
-      "issn": "0895-6111",
-      "ccf_rank": "",
-      "fields": [
-        "vision",
-        "graphics",
-        "bio"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/366"
-    },
-    {
-      "id": 1152,
-      "short_name": "TCAS-II",
-      "full_name": "IEEE Transactions on Circuits and Systems Part II: Express Briefs",
-      "impact_factor": "4.9",
-      "publisher": "IEEE",
-      "issn": "1549-7747",
-      "ccf_rank": "",
-      "fields": [
-        "ee"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1152"
-    },
-    {
       "id": 577,
       "short_name": "IJHCI",
       "full_name": "International Journal of Human-Computer Interaction",
@@ -2845,6 +2829,52 @@
         "hci"
       ],
       "detail_page": "https://www.myhuiban.com/journal/577"
+    },
+    {
+      "id": 1049,
+      "short_name": "TCDS",
+      "full_name": "IEEE Transactions on Cognitive and Developmental Systems",
+      "impact_factor": "4.9",
+      "publisher": "IEEE",
+      "issn": "2379-8920",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1049"
+    },
+    {
+      "id": 803,
+      "short_name": "",
+      "full_name": "Sensing and Bio-Sensing Research",
+      "impact_factor": "4.9",
+      "publisher": "Elsevier",
+      "issn": "2214-1804",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/803"
+    },
+    {
+      "id": 1050,
+      "short_name": "TCSS",
+      "full_name": "IEEE Transactions on Computational Social Systems",
+      "impact_factor": "4.9",
+      "publisher": "IEEE",
+      "issn": "2373-7476",
+      "ccf_rank": "C",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1050"
+    },
+    {
+      "id": 794,
+      "short_name": "",
+      "full_name": "International Journal of Logistics Research and Applications",
+      "impact_factor": "4.9",
+      "publisher": "Taylor & Francis",
+      "issn": "1367-5567",
+      "ccf_rank": "",
+      "fields": [
+        "management"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/794"
     },
     {
       "id": 1161,
@@ -2861,28 +2891,30 @@
       "detail_page": "https://www.myhuiban.com/journal/1161"
     },
     {
-      "id": 803,
+      "id": 775,
       "short_name": "",
-      "full_name": "Sensing and Bio-Sensing Research",
+      "full_name": "Social Media + Society",
       "impact_factor": "4.9",
-      "publisher": "Elsevier",
-      "issn": "2214-1804",
+      "publisher": "SAGE",
+      "issn": "2056-3051",
       "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/803"
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/775"
     },
     {
-      "id": 316,
-      "short_name": "",
-      "full_name": "Computers & Electrical Engineering",
+      "id": 1152,
+      "short_name": "TCAS-II",
+      "full_name": "IEEE Transactions on Circuits and Systems Part II: Express Briefs",
       "impact_factor": "4.9",
-      "publisher": "Elsevier",
-      "issn": "0045-7906",
+      "publisher": "IEEE",
+      "issn": "1549-7747",
       "ccf_rank": "",
       "fields": [
         "ee"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/316"
+      "detail_page": "https://www.myhuiban.com/journal/1152"
     },
     {
       "id": 760,
@@ -2900,72 +2932,32 @@
       "detail_page": "https://www.myhuiban.com/journal/760"
     },
     {
-      "id": 477,
+      "id": 316,
       "short_name": "",
-      "full_name": "Engineering with Computers",
+      "full_name": "Computers & Electrical Engineering",
       "impact_factor": "4.9",
-      "publisher": "Springer",
-      "issn": "0177-0667",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/477"
-    },
-    {
-      "id": 1050,
-      "short_name": "TCSS",
-      "full_name": "IEEE Transactions on Computational Social Systems",
-      "impact_factor": "4.9",
-      "publisher": "IEEE",
-      "issn": "2373-7476",
-      "ccf_rank": "C",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1050"
-    },
-    {
-      "id": 610,
-      "short_name": "TSIPN",
-      "full_name": "IEEE Transactions on Signal and Information Processing over Networks",
-      "impact_factor": "4.9",
-      "publisher": "IEEE",
-      "issn": "2373-776X",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/610"
-    },
-    {
-      "id": 1049,
-      "short_name": "TCDS",
-      "full_name": "IEEE Transactions on Cognitive and Developmental Systems",
-      "impact_factor": "4.9",
-      "publisher": "IEEE",
-      "issn": "2379-8920",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1049"
-    },
-    {
-      "id": 602,
-      "short_name": "TLT",
-      "full_name": "IEEE Transactions on Learning Technologies",
-      "impact_factor": "4.9",
-      "publisher": "IEEE",
-      "issn": "1939-1382",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/602"
-    },
-    {
-      "id": 1144,
-      "short_name": "TCI",
-      "full_name": "IEEE Transactions on Computational Imaging",
-      "impact_factor": "4.8",
-      "publisher": "IEEE",
-      "issn": "2573-0436",
+      "publisher": "Elsevier",
+      "issn": "0045-7906",
       "ccf_rank": "",
       "fields": [
-        "vision"
+        "ee"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1144"
+      "detail_page": "https://www.myhuiban.com/journal/316"
+    },
+    {
+      "id": 366,
+      "short_name": "",
+      "full_name": "Computerized Medical Imaging and Graphics",
+      "impact_factor": "4.9",
+      "publisher": "Elsevier",
+      "issn": "0895-6111",
+      "ccf_rank": "",
+      "fields": [
+        "vision",
+        "graphics",
+        "bio"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/366"
     },
     {
       "id": 620,
@@ -2981,17 +2973,15 @@
       "detail_page": "https://www.myhuiban.com/journal/620"
     },
     {
-      "id": 588,
-      "short_name": "TIIS",
-      "full_name": "ACM Transactions on Interactive Intelligent Systems",
+      "id": 378,
+      "short_name": "",
+      "full_name": "Design Studies",
       "impact_factor": "4.8",
-      "publisher": "ACM",
-      "issn": "2160-6455",
-      "ccf_rank": "C",
-      "fields": [
-        "ai"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/588"
+      "publisher": "Elsevier",
+      "issn": "0142-694X",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/378"
     },
     {
       "id": 363,
@@ -3005,15 +2995,30 @@
       "detail_page": "https://www.myhuiban.com/journal/363"
     },
     {
-      "id": 378,
-      "short_name": "",
-      "full_name": "Design Studies",
+      "id": 1144,
+      "short_name": "TCI",
+      "full_name": "IEEE Transactions on Computational Imaging",
       "impact_factor": "4.8",
-      "publisher": "Elsevier",
-      "issn": "0142-694X",
+      "publisher": "IEEE",
+      "issn": "2573-0436",
       "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/378"
+      "fields": [
+        "vision"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1144"
+    },
+    {
+      "id": 588,
+      "short_name": "TIIS",
+      "full_name": "ACM Transactions on Interactive Intelligent Systems",
+      "impact_factor": "4.8",
+      "publisher": "ACM",
+      "issn": "2160-6455",
+      "ccf_rank": "C",
+      "fields": [
+        "ai"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/588"
     },
     {
       "id": 105,
@@ -3029,28 +3034,31 @@
       "detail_page": "https://www.myhuiban.com/journal/105"
     },
     {
-      "id": 1096,
-      "short_name": "",
-      "full_name": "Telematics and Informatics Reports",
+      "id": 24,
+      "short_name": "TOSN",
+      "full_name": "ACM Transactions on Sensor Networks",
       "impact_factor": "4.7",
-      "publisher": "Elsevier",
-      "issn": "2772-5030",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1096"
+      "publisher": "ACM",
+      "issn": "1550-4859",
+      "ccf_rank": "B",
+      "fields": [
+        "network",
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/24"
     },
     {
-      "id": 403,
-      "short_name": "",
-      "full_name": "Nano Communication Networks",
+      "id": 26,
+      "short_name": "CN",
+      "full_name": "Computer Networks",
       "impact_factor": "4.7",
       "publisher": "Elsevier",
-      "issn": "1878-7789",
-      "ccf_rank": "",
+      "issn": "1389-1286",
+      "ccf_rank": "B",
       "fields": [
         "network"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/403"
+      "detail_page": "https://www.myhuiban.com/journal/26"
     },
     {
       "id": 52,
@@ -3066,18 +3074,39 @@
       "detail_page": "https://www.myhuiban.com/journal/52"
     },
     {
-      "id": 24,
-      "short_name": "TOSN",
-      "full_name": "ACM Transactions on Sensor Networks",
+      "id": 1096,
+      "short_name": "",
+      "full_name": "Telematics and Informatics Reports",
       "impact_factor": "4.7",
-      "publisher": "ACM",
-      "issn": "1550-4859",
-      "ccf_rank": "B",
+      "publisher": "Elsevier",
+      "issn": "2772-5030",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1096"
+    },
+    {
+      "id": 439,
+      "short_name": "",
+      "full_name": "AI & SOCIETY",
+      "impact_factor": "4.7",
+      "publisher": "Springer",
+      "issn": "0951-5666",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/439"
+    },
+    {
+      "id": 133,
+      "short_name": "JGIM",
+      "full_name": "Journal of Global Information Management",
+      "impact_factor": "4.700",
+      "publisher": "IGI Global",
+      "issn": "1062-7375",
+      "ccf_rank": "",
       "fields": [
-        "network",
-        "ee"
+        "web"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/24"
+      "detail_page": "https://www.myhuiban.com/journal/133"
     },
     {
       "id": 307,
@@ -3105,30 +3134,6 @@
       "detail_page": "https://www.myhuiban.com/journal/686"
     },
     {
-      "id": 26,
-      "short_name": "CN",
-      "full_name": "Computer Networks",
-      "impact_factor": "4.7",
-      "publisher": "Elsevier",
-      "issn": "1389-1286",
-      "ccf_rank": "B",
-      "fields": [
-        "network"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/26"
-    },
-    {
-      "id": 439,
-      "short_name": "",
-      "full_name": "AI & SOCIETY",
-      "impact_factor": "4.7",
-      "publisher": "Springer",
-      "issn": "0951-5666",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/439"
-    },
-    {
       "id": 762,
       "short_name": "",
       "full_name": "Information and Organization",
@@ -3140,41 +3145,41 @@
       "detail_page": "https://www.myhuiban.com/journal/762"
     },
     {
-      "id": 133,
-      "short_name": "JGIM",
-      "full_name": "Journal of Global Information Management",
-      "impact_factor": "4.700",
-      "publisher": "IGI Global",
-      "issn": "1062-7375",
-      "ccf_rank": "",
-      "fields": [
-        "web"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/133"
-    },
-    {
-      "id": 166,
-      "short_name": "AI",
-      "full_name": "Artificial Intelligence",
-      "impact_factor": "4.6",
-      "publisher": "Elsevier",
-      "issn": "0004-3702",
-      "ccf_rank": "A",
-      "fields": [
-        "ai"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/166"
-    },
-    {
-      "id": 367,
+      "id": 403,
       "short_name": "",
-      "full_name": "Computer Standards & Interfaces",
-      "impact_factor": "4.6",
+      "full_name": "Nano Communication Networks",
+      "impact_factor": "4.7",
       "publisher": "Elsevier",
-      "issn": "0920-5489",
+      "issn": "1878-7789",
       "ccf_rank": "",
+      "fields": [
+        "network"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/403"
+    },
+    {
+      "id": 1100,
+      "short_name": "DSE",
+      "full_name": "Data Science and Engineering",
+      "impact_factor": "4.6",
+      "publisher": "Springer",
+      "issn": "2364-1185",
+      "ccf_rank": "B",
+      "fields": [
+        "data"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1100"
+    },
+    {
+      "id": 480,
+      "short_name": "FCS",
+      "full_name": "Frontiers of Computer Science",
+      "impact_factor": "4.6",
+      "publisher": "Springer",
+      "issn": "2095-2228",
+      "ccf_rank": "B",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/367"
+      "detail_page": "https://www.myhuiban.com/journal/480"
     },
     {
       "id": 1119,
@@ -3202,17 +3207,74 @@
       "detail_page": "https://www.myhuiban.com/journal/1199"
     },
     {
-      "id": 1100,
-      "short_name": "DSE",
-      "full_name": "Data Science and Engineering",
+      "id": 567,
+      "short_name": "JTAER",
+      "full_name": "Journal of Theoretical and Applied Electronic Commerce Research",
       "impact_factor": "4.6",
-      "publisher": "Springer",
-      "issn": "2364-1185",
+      "publisher": "MDPI",
+      "issn": "0718-1876",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/567"
+    },
+    {
+      "id": 166,
+      "short_name": "AI",
+      "full_name": "Artificial Intelligence",
+      "impact_factor": "4.6",
+      "publisher": "Elsevier",
+      "issn": "0004-3702",
+      "ccf_rank": "A",
+      "fields": [
+        "ai"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/166"
+    },
+    {
+      "id": 243,
+      "short_name": "JAMIA",
+      "full_name": "Journal of the American Medical Informatics Association",
+      "impact_factor": "4.6",
+      "publisher": "BMJ Journals",
+      "issn": "1527-974X",
       "ccf_rank": "B",
       "fields": [
-        "data"
+        "bio"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1100"
+      "detail_page": "https://www.myhuiban.com/journal/243"
+    },
+    {
+      "id": 367,
+      "short_name": "",
+      "full_name": "Computer Standards & Interfaces",
+      "impact_factor": "4.6",
+      "publisher": "Elsevier",
+      "issn": "0920-5489",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/367"
+    },
+    {
+      "id": 319,
+      "short_name": "",
+      "full_name": "Simulation Modelling Practice and Theory",
+      "impact_factor": "4.6",
+      "publisher": "Elsevier",
+      "issn": "1569-190X",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/319"
+    },
+    {
+      "id": 759,
+      "short_name": "",
+      "full_name": "Journal of Computer Assisted Learning",
+      "impact_factor": "4.6",
+      "publisher": "Wiley",
+      "issn": "0266-4909",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/759"
     },
     {
       "id": 327,
@@ -3229,61 +3291,15 @@
       "detail_page": "https://www.myhuiban.com/journal/327"
     },
     {
-      "id": 759,
+      "id": 1198,
       "short_name": "",
-      "full_name": "Journal of Computer Assisted Learning",
-      "impact_factor": "4.6",
-      "publisher": "Wiley",
-      "issn": "0266-4909",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/759"
-    },
-    {
-      "id": 319,
-      "short_name": "",
-      "full_name": "Simulation Modelling Practice and Theory",
-      "impact_factor": "4.6",
+      "full_name": "Array",
+      "impact_factor": "4.5",
       "publisher": "Elsevier",
-      "issn": "1569-190X",
+      "issn": "2590-0056",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/319"
-    },
-    {
-      "id": 480,
-      "short_name": "FCS",
-      "full_name": "Frontiers of Computer Science",
-      "impact_factor": "4.6",
-      "publisher": "Springer",
-      "issn": "2095-2228",
-      "ccf_rank": "B",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/480"
-    },
-    {
-      "id": 567,
-      "short_name": "JTAER",
-      "full_name": "Journal of Theoretical and Applied Electronic Commerce Research",
-      "impact_factor": "4.6",
-      "publisher": "MDPI",
-      "issn": "0718-1876",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/567"
-    },
-    {
-      "id": 243,
-      "short_name": "JAMIA",
-      "full_name": "Journal of the American Medical Informatics Association",
-      "impact_factor": "4.6",
-      "publisher": "BMJ Journals",
-      "issn": "1527-974X",
-      "ccf_rank": "B",
-      "fields": [
-        "bio"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/243"
+      "detail_page": "https://www.myhuiban.com/journal/1198"
     },
     {
       "id": 1194,
@@ -3298,17 +3314,6 @@
         "materials"
       ],
       "detail_page": "https://www.myhuiban.com/journal/1194"
-    },
-    {
-      "id": 1198,
-      "short_name": "",
-      "full_name": "Array",
-      "impact_factor": "4.5",
-      "publisher": "Elsevier",
-      "issn": "2590-0056",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1198"
     },
     {
       "id": 440,
@@ -3335,52 +3340,17 @@
       "detail_page": "https://www.myhuiban.com/journal/844"
     },
     {
-      "id": 340,
-      "short_name": "ISJ",
-      "full_name": "IEEE Systems Journal",
-      "impact_factor": "4.4",
-      "publisher": "IEEE",
-      "issn": "1932-8184",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/340"
-    },
-    {
-      "id": 576,
+      "id": 408,
       "short_name": "",
-      "full_name": "IEEE Transactions on Human-Machine Systems",
-      "impact_factor": "4.4",
-      "publisher": "IEEE",
-      "issn": "2168-2291",
-      "ccf_rank": "B",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/576"
-    },
-    {
-      "id": 1222,
-      "short_name": "VI",
-      "full_name": "Visual Informatics",
+      "full_name": "Mathematics and Computers in Simulation",
       "impact_factor": "4.4",
       "publisher": "Elsevier",
-      "issn": "2543-2656",
-      "ccf_rank": "C",
-      "fields": [
-        "vision"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1222"
-    },
-    {
-      "id": 758,
-      "short_name": "",
-      "full_name": "IEEE Communications Letters",
-      "impact_factor": "4.4",
-      "publisher": "IEEE",
-      "issn": "1089-7798",
+      "issn": "0378-4754",
       "ccf_rank": "",
       "fields": [
-        "network"
+        "math"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/758"
+      "detail_page": "https://www.myhuiban.com/journal/408"
     },
     {
       "id": 212,
@@ -3396,17 +3366,28 @@
       "detail_page": "https://www.myhuiban.com/journal/212"
     },
     {
-      "id": 408,
-      "short_name": "",
-      "full_name": "Mathematics and Computers in Simulation",
+      "id": 1222,
+      "short_name": "VI",
+      "full_name": "Visual Informatics",
       "impact_factor": "4.4",
       "publisher": "Elsevier",
-      "issn": "0378-4754",
-      "ccf_rank": "",
+      "issn": "2543-2656",
+      "ccf_rank": "C",
       "fields": [
-        "math"
+        "vision"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/408"
+      "detail_page": "https://www.myhuiban.com/journal/1222"
+    },
+    {
+      "id": 340,
+      "short_name": "ISJ",
+      "full_name": "IEEE Systems Journal",
+      "impact_factor": "4.4",
+      "publisher": "IEEE",
+      "issn": "1932-8184",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/340"
     },
     {
       "id": 792,
@@ -3420,6 +3401,19 @@
       "detail_page": "https://www.myhuiban.com/journal/792"
     },
     {
+      "id": 758,
+      "short_name": "",
+      "full_name": "IEEE Communications Letters",
+      "impact_factor": "4.4",
+      "publisher": "IEEE",
+      "issn": "1089-7798",
+      "ccf_rank": "",
+      "fields": [
+        "network"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/758"
+    },
+    {
       "id": 573,
       "short_name": "IC",
       "full_name": "IEEE Internet Computing Magazine",
@@ -3431,6 +3425,17 @@
         "network"
       ],
       "detail_page": "https://www.myhuiban.com/journal/573"
+    },
+    {
+      "id": 576,
+      "short_name": "",
+      "full_name": "IEEE Transactions on Human-Machine Systems",
+      "impact_factor": "4.4",
+      "publisher": "IEEE",
+      "issn": "2168-2291",
+      "ccf_rank": "B",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/576"
     },
     {
       "id": 94,
@@ -3457,19 +3462,6 @@
       "detail_page": "https://www.myhuiban.com/journal/373"
     },
     {
-      "id": 107,
-      "short_name": "DMKD",
-      "full_name": "Data Mining and Knowledge Discovery",
-      "impact_factor": "4.3",
-      "publisher": "Springer",
-      "issn": "1384-5810",
-      "ccf_rank": "B",
-      "fields": [
-        "data"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/107"
-    },
-    {
       "id": 1235,
       "short_name": "",
       "full_name": "Vacuum",
@@ -3479,71 +3471,6 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/1235"
-    },
-    {
-      "id": 1063,
-      "short_name": "",
-      "full_name": "Nanomaterials",
-      "impact_factor": "4.3",
-      "publisher": "MDPI",
-      "issn": "2079-4991",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1063"
-    },
-    {
-      "id": 747,
-      "short_name": "",
-      "full_name": "Computers & Operations Research",
-      "impact_factor": "4.3",
-      "publisher": "Elsevier",
-      "issn": "0305-0548",
-      "ccf_rank": "",
-      "fields": [
-        "theory"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/747"
-    },
-    {
-      "id": 453,
-      "short_name": "",
-      "full_name": "Autonomous Robots",
-      "impact_factor": "4.3",
-      "publisher": "Springer",
-      "issn": "0929-5593",
-      "ccf_rank": "",
-      "fields": [
-        "robotics"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/453"
-    },
-    {
-      "id": 42,
-      "short_name": "CC",
-      "full_name": "Computer Communications",
-      "impact_factor": "4.3",
-      "publisher": "Elsevier",
-      "issn": "0140-3664",
-      "ccf_rank": "C",
-      "fields": [
-        "network"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/42"
-    },
-    {
-      "id": 1137,
-      "short_name": "OJ-IES",
-      "full_name": "IEEE Open Journal of the Industrial Electronics Society",
-      "impact_factor": "4.3",
-      "publisher": "IEEE",
-      "issn": "2644-1284",
-      "ccf_rank": "",
-      "fields": [
-        "ee"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1137"
     },
     {
       "id": 603,
@@ -3559,78 +3486,82 @@
       "detail_page": "https://www.myhuiban.com/journal/603"
     },
     {
-      "id": 132,
-      "short_name": "JCIS",
-      "full_name": "Journal of Computer Information Systems",
-      "impact_factor": "4.2",
-      "publisher": "Taylor & Francis",
-      "issn": "0887-4417",
+      "id": 42,
+      "short_name": "CC",
+      "full_name": "Computer Communications",
+      "impact_factor": "4.3",
+      "publisher": "Elsevier",
+      "issn": "0140-3664",
       "ccf_rank": "C",
       "fields": [
-        "web"
+        "network"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/132"
+      "detail_page": "https://www.myhuiban.com/journal/42"
     },
     {
-      "id": 818,
+      "id": 453,
       "short_name": "",
-      "full_name": "ICT Express",
-      "impact_factor": "4.2",
-      "publisher": "Elsevier",
-      "issn": "2405-9595",
+      "full_name": "Autonomous Robots",
+      "impact_factor": "4.3",
+      "publisher": "Springer",
+      "issn": "0929-5593",
       "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/818"
+      "fields": [
+        "robotics"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/453"
     },
     {
-      "id": 357,
+      "id": 747,
       "short_name": "",
-      "full_name": "Big Data Research",
-      "impact_factor": "4.2",
+      "full_name": "Computers & Operations Research",
+      "impact_factor": "4.3",
       "publisher": "Elsevier",
-      "issn": "2214-5796",
+      "issn": "0305-0548",
       "ccf_rank": "",
+      "fields": [
+        "theory"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/747"
+    },
+    {
+      "id": 107,
+      "short_name": "DMKD",
+      "full_name": "Data Mining and Knowledge Discovery",
+      "impact_factor": "4.3",
+      "publisher": "Springer",
+      "issn": "1384-5810",
+      "ccf_rank": "B",
       "fields": [
         "data"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/357"
+      "detail_page": "https://www.myhuiban.com/journal/107"
     },
     {
-      "id": 1150,
-      "short_name": "",
-      "full_name": "IEEE Circuits and Systems Magazine",
-      "impact_factor": "4.2",
+      "id": 1137,
+      "short_name": "OJ-IES",
+      "full_name": "IEEE Open Journal of the Industrial Electronics Society",
+      "impact_factor": "4.3",
       "publisher": "IEEE",
-      "issn": "1531-636X",
+      "issn": "2644-1284",
       "ccf_rank": "",
       "fields": [
         "ee"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/1150"
+      "detail_page": "https://www.myhuiban.com/journal/1137"
     },
     {
-      "id": 819,
+      "id": 1063,
       "short_name": "",
-      "full_name": "Optical Materials",
-      "impact_factor": "4.2",
-      "publisher": "Elsevier",
-      "issn": "0925-3467",
+      "full_name": "Nanomaterials",
+      "impact_factor": "4.3",
+      "publisher": "MDPI",
+      "issn": "2079-4991",
       "ccf_rank": "",
       "fields": [
         "materials"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/819"
-    },
-    {
-      "id": 751,
-      "short_name": "",
-      "full_name": "Journal of the Franklin Institute",
-      "impact_factor": "4.2",
-      "publisher": "Elsevier",
-      "issn": "0016-0032",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/751"
+      "detail_page": "https://www.myhuiban.com/journal/1063"
     },
     {
       "id": 820,
@@ -3646,28 +3577,78 @@
       "detail_page": "https://www.myhuiban.com/journal/820"
     },
     {
-      "id": 738,
+      "id": 751,
       "short_name": "",
-      "full_name": "Computational and Structural Biotechnology Journal",
-      "impact_factor": "4.1",
+      "full_name": "Journal of the Franklin Institute",
+      "impact_factor": "4.2",
       "publisher": "Elsevier",
-      "issn": "2001-0370",
-      "ccf_rank": "",
-      "fields": [
-        "bio"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/738"
-    },
-    {
-      "id": 369,
-      "short_name": "",
-      "full_name": "Engineering Analysis with Boundary Elements",
-      "impact_factor": "4.1",
-      "publisher": "Elsevier",
-      "issn": "0955-7997",
+      "issn": "0016-0032",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/369"
+      "detail_page": "https://www.myhuiban.com/journal/751"
+    },
+    {
+      "id": 819,
+      "short_name": "",
+      "full_name": "Optical Materials",
+      "impact_factor": "4.2",
+      "publisher": "Elsevier",
+      "issn": "0925-3467",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/819"
+    },
+    {
+      "id": 357,
+      "short_name": "",
+      "full_name": "Big Data Research",
+      "impact_factor": "4.2",
+      "publisher": "Elsevier",
+      "issn": "2214-5796",
+      "ccf_rank": "",
+      "fields": [
+        "data"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/357"
+    },
+    {
+      "id": 132,
+      "short_name": "JCIS",
+      "full_name": "Journal of Computer Information Systems",
+      "impact_factor": "4.2",
+      "publisher": "Taylor & Francis",
+      "issn": "0887-4417",
+      "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/132"
+    },
+    {
+      "id": 1150,
+      "short_name": "",
+      "full_name": "IEEE Circuits and Systems Magazine",
+      "impact_factor": "4.2",
+      "publisher": "IEEE",
+      "issn": "1531-636X",
+      "ccf_rank": "",
+      "fields": [
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1150"
+    },
+    {
+      "id": 818,
+      "short_name": "",
+      "full_name": "ICT Express",
+      "impact_factor": "4.2",
+      "publisher": "Elsevier",
+      "issn": "2405-9595",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/818"
     },
     {
       "id": 326,
@@ -3681,15 +3662,41 @@
       "detail_page": "https://www.myhuiban.com/journal/326"
     },
     {
-      "id": 733,
+      "id": 738,
       "short_name": "",
-      "full_name": "Nonlinear Analysis: Hybrid Systems",
+      "full_name": "Computational and Structural Biotechnology Journal",
       "impact_factor": "4.1",
       "publisher": "Elsevier",
-      "issn": "1751-570X",
+      "issn": "2001-0370",
+      "ccf_rank": "",
+      "fields": [
+        "bio"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/738"
+    },
+    {
+      "id": 458,
+      "short_name": "",
+      "full_name": "Cluster Computing",
+      "impact_factor": "4.1",
+      "publisher": "Springer",
+      "issn": "1386-7857",
+      "ccf_rank": "",
+      "fields": [
+        "systems"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/458"
+    },
+    {
+      "id": 369,
+      "short_name": "",
+      "full_name": "Engineering Analysis with Boundary Elements",
+      "impact_factor": "4.1",
+      "publisher": "Elsevier",
+      "issn": "0955-7997",
       "ccf_rank": "",
       "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/733"
+      "detail_page": "https://www.myhuiban.com/journal/369"
     },
     {
       "id": 789,
