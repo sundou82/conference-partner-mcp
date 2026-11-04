@@ -1,6 +1,6 @@
 # Data snapshot
 
-Generated **2026-11-03T12:58:20+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
+Generated **2026-11-04T13:13:56+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
 
 Every file here comes from the API's **anonymous tier** — the same rows anyone can fetch without credentials. Per-venue detail (CFP full text, acceptance-rate history, edition history, ratings, the organiser's own website URL) is not included; it needs a free credential and lives behind the API. See [../docs/data.md](../docs/data.md).
 
@@ -12,7 +12,7 @@ Every file here comes from the API's **anonymous tier** — the same rows anyone
 | **CCF-ranked conferences**<br><sub>Every conference carrying a CCF rank, whether or not a call is open. CORE and QUALIS ranks are on the same row where the venue has them.</sub> | 392 | [ccf-conferences.json](ccf-conferences.json) | [ccf-conferences.csv](ccf-conferences.csv) |
 | **CORE-ranked conferences**<br><sub>Every conference carrying a CORE rank, whether or not a call is open.</sub> | 796 | [core-conferences.json](core-conferences.json) | [core-conferences.csv](core-conferences.csv) |
 | **QUALIS-ranked conferences**<br><sub>Every conference carrying a QUALIS rank (A1 through B5), whether or not a call is open.</sub> | 705 | [qualis-conferences.json](qualis-conferences.json) | [qualis-conferences.csv](qualis-conferences.csv) |
-| **Ranked conferences with a call open now**<br><sub>The subset of the catalogues you can still submit to today — CCF, CORE and QUALIS lists merged.</sub> | 176 | [open-calls-by-rank.json](open-calls-by-rank.json) | [open-calls-by-rank.csv](open-calls-by-rank.csv) |
+| **Ranked conferences with a call open now**<br><sub>The subset of the catalogues you can still submit to today — CCF, CORE and QUALIS lists merged.</sub> | 175 | [open-calls-by-rank.json](open-calls-by-rank.json) | [open-calls-by-rank.csv](open-calls-by-rank.csv) |
 | **CCF-ranked journals**<br><sub>Journals in the CCF catalogue, with impact factor, publisher and ISSN.</sub> | 292 | [ccf-journals.json](ccf-journals.json) | [ccf-journals.csv](ccf-journals.csv) |
 | **Journals with an open special-issue call**<br><sub>Journals currently carrying a special-issue call for papers.</sub> | 65 | [journal-special-issues.json](journal-special-issues.json) | [journal-special-issues.csv](journal-special-issues.csv) |
 | **Top journals by impact factor**<br><sub>The 300 highest reported impact factors. Figures are as published by the journal and may lag the latest JCR.</sub> | 297 | [top-impact-factor-journals.json](top-impact-factor-journals.json) | [top-impact-factor-journals.csv](top-impact-factor-journals.csv) |
@@ -29,11 +29,10 @@ curl "https://www.myhuiban.com/api/conferences?field=ai&submission_date_start=$(
 
 Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](../docs/rest-api.md#incremental-sync).
 
-## Deadlines in the next 90 days (477)
+## Deadlines in the next 90 days (479)
 
 | Deadline | Conference | CCF | CORE | QUALIS | Held | Location |
 |---|---|---|---|---|---|---|
-| 2026-11-03 | [HNNDL](https://www.myhuiban.com/conference/5216) | - | - | - | 2027-01-22 | Qingdao, China |
 | 2026-11-04 | [CAiSE](https://www.myhuiban.com/conference/191) | B | A | A2 | 2027-06-07 | Seville, Spain |
 | 2026-11-04 | [ISoIRS](https://www.myhuiban.com/conference/3387) | - | - | - | 2027-04-16 | Shenzhen, China |
 | 2026-11-05 *(extended)* | [AIES'](https://www.myhuiban.com/conference/5881) | - | - | - | 2026-12-18 | Kunming, China |
@@ -130,6 +129,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-11-15 *(extended)* | [AI3T](https://www.myhuiban.com/conference/5896) | - | - | - | 2026-12-18 | Hefei, China |
 | 2026-11-15 | [AISC](https://www.myhuiban.com/conference/5586) | - | C | - | 2027-02-01 | Canberra, Australia |
 | 2026-11-15 *(extended)* | [AISS''](https://www.myhuiban.com/conference/5898) | - | - | - | 2026-12-18 | Hefei, China |
+| 2026-11-15 *(extended)* | [AMEM](https://www.myhuiban.com/conference/5574) | - | - | - | 2026-12-11 | Wuhan, China |
 | 2026-11-15 | [AusPDC](https://www.myhuiban.com/conference/5585) | - | C | - | 2027-02-01 | Canberra, Australia |
 | 2026-11-15 *(extended)* | [CCEI](https://www.myhuiban.com/conference/5900) | - | - | - | 2026-12-18 | Hefei, China |
 | 2026-11-15 *(extended)* | [COAC](https://www.myhuiban.com/conference/5899) | - | - | - | 2026-12-18 | Hefei, China |
@@ -510,6 +510,8 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-02-01 | [VTC](https://www.myhuiban.com/conference/609) | - | B | A1 | 2027-09-27 | Osaka, Japan |
 | 2027-02-01 | [WAW](https://www.myhuiban.com/conference/5635) | - | C | - | 2027-06-28 | Sophia Antipolis, France |
 | 2027-02-01 | [WISE'](https://www.myhuiban.com/conference/5970) | - | - | - | 2027-06-14 | Linkoping, Sweden |
+| 2027-02-02 | [AAME'](https://www.myhuiban.com/conference/4385) | - | - | - | 2027-04-02 | Nanchang, China |
+| 2027-02-02 | [SIGCOMM](https://www.myhuiban.com/conference/301) | A | A* | A1 | 2027-08-08 | Bangkok, Thailand |
 
 ---
 
