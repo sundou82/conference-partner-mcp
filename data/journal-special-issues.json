@@ -2,8 +2,8 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-03T12:58:20+00:00",
-  "count": 65,
+  "generated_at": "2026-11-05T13:27:24+00:00",
+  "count": 68,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
     {
@@ -57,6 +57,25 @@
         "submission_date": "2026-11-11",
         "id": 5818,
         "detail_page": "https://www.myhuiban.com/journal/567#issue-5818"
+      }
+    },
+    {
+      "id": 678,
+      "short_name": "",
+      "full_name": "Measurement",
+      "impact_factor": "6.1",
+      "publisher": "Elsevier",
+      "issn": "0263-2241",
+      "ccf_rank": "",
+      "fields": [
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/678",
+      "special_issue": {
+        "title": "Advances in Photomechanics: Multifield and Multiscale Measurement of Deformation and Damage",
+        "submission_date": "2027-05-31",
+        "id": 6496,
+        "detail_page": "https://www.myhuiban.com/journal/678#issue-6496"
       }
     },
     {
@@ -400,6 +419,25 @@
       }
     },
     {
+      "id": 69,
+      "short_name": "",
+      "full_name": "Theoretical Computer Science",
+      "impact_factor": "1.1",
+      "publisher": "Elsevier",
+      "issn": "0304-3975",
+      "ccf_rank": "B",
+      "fields": [
+        "theory"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/69",
+      "special_issue": {
+        "title": "Selected Extended Papers from the 30th International Conference on Implementation and Application of Automata (CIAA 2026)",
+        "submission_date": "2027-01-31",
+        "id": 6501,
+        "detail_page": "https://www.myhuiban.com/journal/69#issue-6501"
+      }
+    },
+    {
       "id": 654,
       "short_name": "",
       "full_name": "Journal of Engineering",
@@ -526,25 +564,6 @@
         "submission_date": "2026-12-15",
         "id": 6214,
         "detail_page": "https://www.myhuiban.com/journal/417#issue-6214"
-      }
-    },
-    {
-      "id": 69,
-      "short_name": "",
-      "full_name": "Theoretical Computer Science",
-      "impact_factor": "1.1",
-      "publisher": "Elsevier",
-      "issn": "0304-3975",
-      "ccf_rank": "B",
-      "fields": [
-        "theory"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/69",
-      "special_issue": {
-        "title": "the 32nd International Computing and Combinatorics Conference",
-        "submission_date": "2026-12-31",
-        "id": 6433,
-        "detail_page": "https://www.myhuiban.com/journal/69#issue-6433"
       }
     },
     {
@@ -873,6 +892,23 @@
       }
     },
     {
+      "id": 353,
+      "short_name": "",
+      "full_name": "Cognitive Systems Research",
+      "impact_factor": "2.9",
+      "publisher": "Elsevier",
+      "issn": "1389-0417",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/353",
+      "special_issue": {
+        "title": "Digital Human: From Neurons to Self",
+        "submission_date": "2027-02-19",
+        "id": 6499,
+        "detail_page": "https://www.myhuiban.com/journal/353#issue-6499"
+      }
+    },
+    {
       "id": 26,
       "short_name": "",
       "full_name": "Computer Networks",
@@ -980,6 +1016,25 @@
         "submission_date": "2027-06-15",
         "id": 6474,
         "detail_page": "https://www.myhuiban.com/journal/209#issue-6474"
+      }
+    },
+    {
+      "id": 408,
+      "short_name": "",
+      "full_name": "Mathematics and Computers in Simulation",
+      "impact_factor": "4.0",
+      "publisher": "Elsevier",
+      "issn": "0378-4754",
+      "ccf_rank": "",
+      "fields": [
+        "math"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/408",
+      "special_issue": {
+        "title": "Modelling and Computational Simulation of Electrical Systems, Energy Storage Technologies, Microgrids, Hydrogen Systems, & Optimization and Forecasting of Renewable Systems’ Operation",
+        "submission_date": "2027-01-31",
+        "id": 6495,
+        "detail_page": "https://www.myhuiban.com/journal/408#issue-6495"
       }
     },
     {
