@@ -2,29 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-05T13:27:24+00:00",
+  "generated_at": "2026-11-07T11:53:50+00:00",
   "count": 68,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 36,
-      "short_name": "",
-      "full_name": "Future Generation Computer Systems",
-      "impact_factor": "5.9",
-      "publisher": "Elsevier",
-      "issn": "0167-739X",
-      "ccf_rank": "C",
-      "fields": [
-        "systems"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/36",
-      "special_issue": {
-        "title": "Advances in Quantum Computing: Methods, Algorithms, and Systems. Vol. IV",
-        "submission_date": "2027-04-30",
-        "id": 6405,
-        "detail_page": "https://www.myhuiban.com/journal/36#issue-6405"
-      }
-    },
     {
       "id": 1050,
       "short_name": "",
@@ -906,6 +887,25 @@
         "submission_date": "2027-02-19",
         "id": 6499,
         "detail_page": "https://www.myhuiban.com/journal/353#issue-6499"
+      }
+    },
+    {
+      "id": 36,
+      "short_name": "",
+      "full_name": "Future Generation Computer Systems",
+      "impact_factor": "5.9",
+      "publisher": "Elsevier",
+      "issn": "0167-739X",
+      "ccf_rank": "C",
+      "fields": [
+        "systems"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/36",
+      "special_issue": {
+        "title": "Advances in Quantum Computing: Methods, Algorithms, and Systems. Vol. IV",
+        "submission_date": "2027-04-30",
+        "id": 6405,
+        "detail_page": "https://www.myhuiban.com/journal/36#issue-6405"
       }
     },
     {
