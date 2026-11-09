@@ -2,8 +2,8 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-07T11:53:50+00:00",
-  "count": 68,
+  "generated_at": "2026-11-09T14:16:33+00:00",
+  "count": 69,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
     {
@@ -190,7 +190,7 @@
       "id": 198,
       "short_name": "",
       "full_name": "Pattern Recognition",
-      "impact_factor": "7.6",
+      "impact_factor": "9.1",
       "publisher": "Elsevier",
       "issn": "0031-3203",
       "ccf_rank": "B",
@@ -199,10 +199,10 @@
       ],
       "detail_page": "https://www.myhuiban.com/journal/198",
       "special_issue": {
-        "title": "Multimodal Representation Learning Based on Vision Foundation Models",
+        "title": "World Modeling for Dynamic Video Understanding",
         "submission_date": "2027-03-31",
-        "id": 6337,
-        "detail_page": "https://www.myhuiban.com/journal/198#issue-6337"
+        "id": 6504,
+        "detail_page": "https://www.myhuiban.com/journal/198#issue-6504"
       }
     },
     {
@@ -526,6 +526,25 @@
         "submission_date": "2027-05-31",
         "id": 6491,
         "detail_page": "https://www.myhuiban.com/journal/87#issue-6491"
+      }
+    },
+    {
+      "id": 18,
+      "short_name": "",
+      "full_name": "Journal of Parallel and Distributed Computing",
+      "impact_factor": "3.4",
+      "publisher": "Elsevier",
+      "issn": "0743-7315",
+      "ccf_rank": "B",
+      "fields": [
+        "systems"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/18",
+      "special_issue": {
+        "title": "Federated and Distributed AI Across the Edge–Cloud Continuum",
+        "submission_date": "2027-01-30",
+        "id": 6398,
+        "detail_page": "https://www.myhuiban.com/journal/18#issue-6398"
       }
     },
     {
@@ -928,25 +947,6 @@
       }
     },
     {
-      "id": 18,
-      "short_name": "",
-      "full_name": "Journal of Parallel and Distributed Computing",
-      "impact_factor": "3.4",
-      "publisher": "Elsevier",
-      "issn": "0743-7315",
-      "ccf_rank": "B",
-      "fields": [
-        "systems"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/18",
-      "special_issue": {
-        "title": "Federated and Distributed AI Across the Edge–Cloud Continuum",
-        "submission_date": "2027-01-30",
-        "id": 6398,
-        "detail_page": "https://www.myhuiban.com/journal/18#issue-6398"
-      }
-    },
-    {
       "id": 1239,
       "short_name": "",
       "full_name": "Digital Social Sciences",
@@ -1236,6 +1236,25 @@
         "submission_date": "2027-07-31",
         "id": 6243,
         "detail_page": "https://www.myhuiban.com/journal/693#issue-6243"
+      }
+    },
+    {
+      "id": 136,
+      "short_name": "",
+      "full_name": "The Journal of Strategic Information Systems",
+      "impact_factor": "9.1",
+      "publisher": "Elsevier",
+      "issn": "0963-8687",
+      "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/136",
+      "special_issue": {
+        "title": "Digital Strategizing: Emerging Forms and Underexplored Contexts",
+        "submission_date": "2027-09-15",
+        "id": 6505,
+        "detail_page": "https://www.myhuiban.com/journal/136#issue-6505"
       }
     }
   ]

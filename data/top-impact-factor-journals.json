@@ -2,7 +2,7 @@
   "title": "Top journals by impact factor",
   "note": "The 300 highest reported impact factors. Figures are as published by the journal and may lag the latest JCR.",
   "source": "https://www.myhuiban.com/api/journals/rankings/highest_if",
-  "generated_at": "2026-11-05T13:27:24+00:00",
+  "generated_at": "2026-11-09T14:16:33+00:00",
   "count": 295,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
@@ -335,19 +335,6 @@
       "detail_page": "https://www.myhuiban.com/journal/229"
     },
     {
-      "id": 136,
-      "short_name": "JSIS",
-      "full_name": "The Journal of Strategic Information Systems",
-      "impact_factor": "11.8",
-      "publisher": "Elsevier",
-      "issn": "0963-8687",
-      "ccf_rank": "C",
-      "fields": [
-        "web"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/136"
-    },
-    {
       "id": 575,
       "short_name": "TII",
       "full_name": "IEEE Transactions on Industrial Informatics",
@@ -659,6 +646,32 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/360"
+    },
+    {
+      "id": 198,
+      "short_name": "PR",
+      "full_name": "Pattern Recognition",
+      "impact_factor": "9.1",
+      "publisher": "Elsevier",
+      "issn": "0031-3203",
+      "ccf_rank": "B",
+      "fields": [
+        "vision"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/198"
+    },
+    {
+      "id": 136,
+      "short_name": "JSIS",
+      "full_name": "The Journal of Strategic Information Systems",
+      "impact_factor": "9.1",
+      "publisher": "Elsevier",
+      "issn": "0963-8687",
+      "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/136"
     },
     {
       "id": 104,
@@ -1092,19 +1105,6 @@
         "network"
       ],
       "detail_page": "https://www.myhuiban.com/journal/1115"
-    },
-    {
-      "id": 198,
-      "short_name": "PR",
-      "full_name": "Pattern Recognition",
-      "impact_factor": "7.6",
-      "publisher": "Elsevier",
-      "issn": "0031-3203",
-      "ccf_rank": "B",
-      "fields": [
-        "vision"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/198"
     },
     {
       "id": 247,
