@@ -2,27 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-10T13:43:48+00:00",
-  "count": 68,
+  "generated_at": "2026-11-11T12:55:17+00:00",
+  "count": 70,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 567,
-      "short_name": "",
-      "full_name": "Journal of Theoretical and Applied Electronic Commerce Research",
-      "impact_factor": "4.6",
-      "publisher": "MDPI",
-      "issn": "0718-1876",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/567",
-      "special_issue": {
-        "title": "Digital Intimacy and Immersive Commerce: Theoretical Advances in Consumer Engagement Through Virtual and Social Technologies",
-        "submission_date": "2026-11-11",
-        "id": 5818,
-        "detail_page": "https://www.myhuiban.com/journal/567#issue-5818"
-      }
-    },
     {
       "id": 678,
       "short_name": "",
@@ -399,6 +382,44 @@
         "submission_date": "2027-01-31",
         "id": 6501,
         "detail_page": "https://www.myhuiban.com/journal/69#issue-6501"
+      }
+    },
+    {
+      "id": 1241,
+      "short_name": "",
+      "full_name": "Microporous and Mesoporous Materials",
+      "impact_factor": "4.5",
+      "publisher": "Elsevier",
+      "issn": "1387-1811",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1241",
+      "special_issue": {
+        "title": "Natural Zeolites Reimagined: From Natural Resources to Engineered Solutions",
+        "submission_date": "2026-12-20",
+        "id": 6508,
+        "detail_page": "https://www.myhuiban.com/journal/1241#issue-6508"
+      }
+    },
+    {
+      "id": 1218,
+      "short_name": "",
+      "full_name": "Current Applied Physics",
+      "impact_factor": "2.8",
+      "publisher": "Elsevier",
+      "issn": "1567-1739",
+      "ccf_rank": "",
+      "fields": [
+        "math"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1218",
+      "special_issue": {
+        "title": "XXXVII IUPAP Conference on Computational Physics",
+        "submission_date": "2026-11-30",
+        "id": 6510,
+        "detail_page": "https://www.myhuiban.com/journal/1218#issue-6510"
       }
     },
     {
@@ -1018,6 +1039,25 @@
         "submission_date": "2027-01-31",
         "id": 6495,
         "detail_page": "https://www.myhuiban.com/journal/408#issue-6495"
+      }
+    },
+    {
+      "id": 208,
+      "short_name": "",
+      "full_name": "Decision Support Systems",
+      "impact_factor": "7.5",
+      "publisher": "Elsevier",
+      "issn": "0167-9236",
+      "ccf_rank": "C",
+      "fields": [
+        "web"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/208",
+      "special_issue": {
+        "title": "Accountability in AI-Enabled Decision Support: Delegation, Oversight, and Decision Quality",
+        "submission_date": "2027-09-30",
+        "id": 6507,
+        "detail_page": "https://www.myhuiban.com/journal/208#issue-6507"
       }
     },
     {
