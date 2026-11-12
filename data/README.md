@@ -1,6 +1,6 @@
 # Data snapshot
 
-Generated **2026-11-11T12:55:17+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
+Generated **2026-11-12T13:57:15+00:00** from the [Conference Partner API](https://www.myhuiban.com/developers). Refreshed daily by [CI](../.github/workflows/snapshot.yml).
 
 Every file here comes from the API's **anonymous tier** — the same rows anyone can fetch without credentials. Per-venue detail (CFP full text, acceptance-rate history, edition history, ratings, the organiser's own website URL) is not included; it needs a free credential and lives behind the API. See [../docs/data.md](../docs/data.md).
 
@@ -8,16 +8,16 @@ Every file here comes from the API's **anonymous tier** — the same rows anyone
 
 | Dataset | Rows | JSON | CSV |
 |---|---|---|---|
-| **Upcoming submission deadlines**<br><sub>Every conference whose submission deadline has not passed, soonest first.</sub> | 929 | [upcoming-deadlines.json](upcoming-deadlines.json) | [upcoming-deadlines.csv](upcoming-deadlines.csv) |
+| **Upcoming submission deadlines**<br><sub>Every conference whose submission deadline has not passed, soonest first.</sub> | 943 | [upcoming-deadlines.json](upcoming-deadlines.json) | [upcoming-deadlines.csv](upcoming-deadlines.csv) |
 | **CCF-ranked conferences**<br><sub>Every conference carrying a CCF rank, whether or not a call is open. CORE and QUALIS ranks are on the same row where the venue has them.</sub> | 392 | [ccf-conferences.json](ccf-conferences.json) | [ccf-conferences.csv](ccf-conferences.csv) |
 | **CORE-ranked conferences**<br><sub>Every conference carrying a CORE rank, whether or not a call is open.</sub> | 796 | [core-conferences.json](core-conferences.json) | [core-conferences.csv](core-conferences.csv) |
 | **QUALIS-ranked conferences**<br><sub>Every conference carrying a QUALIS rank (A1 through B5), whether or not a call is open.</sub> | 705 | [qualis-conferences.json](qualis-conferences.json) | [qualis-conferences.csv](qualis-conferences.csv) |
-| **Ranked conferences with a call open now**<br><sub>The subset of the catalogues you can still submit to today — CCF, CORE and QUALIS lists merged.</sub> | 195 | [open-calls-by-rank.json](open-calls-by-rank.json) | [open-calls-by-rank.csv](open-calls-by-rank.csv) |
+| **Ranked conferences with a call open now**<br><sub>The subset of the catalogues you can still submit to today — CCF, CORE and QUALIS lists merged.</sub> | 198 | [open-calls-by-rank.json](open-calls-by-rank.json) | [open-calls-by-rank.csv](open-calls-by-rank.csv) |
 | **CCF-ranked journals**<br><sub>Journals in the CCF catalogue, with impact factor, publisher and ISSN.</sub> | 292 | [ccf-journals.json](ccf-journals.json) | [ccf-journals.csv](ccf-journals.csv) |
 | **Journals with an open special-issue call**<br><sub>Journals currently carrying a special-issue call for papers.</sub> | 70 | [journal-special-issues.json](journal-special-issues.json) | [journal-special-issues.csv](journal-special-issues.csv) |
 | **Top journals by impact factor**<br><sub>The 300 highest reported impact factors. Figures are as published by the journal and may lag the latest JCR.</sub> | 298 | [top-impact-factor-journals.json](top-impact-factor-journals.json) | [top-impact-factor-journals.csv](top-impact-factor-journals.csv) |
 
-Site totals on the day of generation: **5908** conferences, **1219** journals.
+Site totals on the day of generation: **5911** conferences, **1219** journals.
 
 ## Prefer live data
 
@@ -29,12 +29,10 @@ curl "https://www.myhuiban.com/api/conferences?field=ai&submission_date_start=$(
 
 Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](../docs/rest-api.md#incremental-sync).
 
-## Deadlines in the next 90 days (473)
+## Deadlines in the next 90 days (490)
 
 | Deadline | Conference | CCF | CORE | QUALIS | Held | Location |
 |---|---|---|---|---|---|---|
-| 2026-11-11 | [DAC](https://www.myhuiban.com/conference/549) | A | A* | A1 | 2027-07-11 | San Jose, California, USA |
-| 2026-11-11 | [ICDE](https://www.myhuiban.com/conference/135) | A | A* | A1 | 2027-05-17 | Copenhagen, Denmark |
 | 2026-11-12 | [DFDS](https://www.myhuiban.com/conference/5465) | - | - | - | 2027-03-30 | Edinburgh, UK |
 | 2026-11-12 | [ICRFCS](https://www.myhuiban.com/conference/5804) | - | - | - | 2027-02-04 | Bengaluru, India |
 | 2026-11-12 | [PLDI](https://www.myhuiban.com/conference/164) | A | A* | A1 | 2027-06-05 | Atlanta, Georgia, USA |
@@ -54,6 +52,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-11-14 *(extended)* | [CSEA'](https://www.myhuiban.com/conference/3872) | - | - | - | 2026-12-19 | Sydney, Australia |
 | 2026-11-14 *(extended)* | [CSML](https://www.myhuiban.com/conference/4486) | - | - | - | 2027-01-23 | Zurich, Switzerland |
 | 2026-11-14 | [ECETES](https://www.myhuiban.com/conference/5819) | - | - | - | 2027-03-05 | Berlin, Germany |
+| 2026-11-14 | [ICoGB](https://www.myhuiban.com/conference/3907) | - | - | - | 2027-05-14 | Harbin, China |
 | 2026-11-14 *(extended)* | [IoTE](https://www.myhuiban.com/conference/3883) | - | - | - | 2026-11-27 | Zurich, Switzerland |
 | 2026-11-14 *(extended)* | [MLTEC](https://www.myhuiban.com/conference/4070) | - | - | - | 2026-12-19 | Sydney, Australia |
 | 2026-11-14 | [NNICE](https://www.myhuiban.com/conference/4515) | - | - | - | 2027-01-29 | Dongguan, China |
@@ -171,6 +170,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-11-30 | [FAIML](https://www.myhuiban.com/conference/3031) | - | - | - | 2027-05-07 | China |
 | 2026-11-30 | [IC2IT](https://www.myhuiban.com/conference/3076) | - | - | - | 2027-05-13 | Kmutnb, Thailand |
 | 2026-11-30 | [ICAIBD](https://www.myhuiban.com/conference/2926) | - | - | - | 2027-05-28 | Chengdu, China |
+| 2026-11-30 *(extended)* | [ICAMR](https://www.myhuiban.com/conference/3396) | - | - | - | 2027-01-23 | Phuket, Thailand |
 | 2026-11-30 | [ICBBT](https://www.myhuiban.com/conference/4511) | - | - | - | 2027-05-21 | Qingdao, China |
 | 2026-11-30 *(extended)* | [ICCRD](https://www.myhuiban.com/conference/4888) | - | - | - | 2027-01-15 | Singapore |
 | 2026-11-30 | [ICITSC](https://www.myhuiban.com/conference/5848) | - | - | - | 2027-03-05 | Chengdu, China |
@@ -182,6 +182,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-11-30 | [MSIE](https://www.myhuiban.com/conference/2968) | - | - | - | 2027-04-28 | Seoul, South Korea |
 | 2026-11-30 | [SECON](https://www.myhuiban.com/conference/311) | B | B | B1 | 2027-05-05 | Lisbon, Portugal |
 | 2026-11-30 | [icABCD](https://www.myhuiban.com/conference/5941) | - | - | - | 2027-07-22 | Port Louis, Mauritius |
+| 2026-12-01 | [AICT](https://www.myhuiban.com/conference/760) | - | - | B1 | 2027-03-07 | Barcelona, Spain |
 | 2026-12-01 | [CETA](https://www.myhuiban.com/conference/4931) | - | - | - | 2027-04-16 | Ankara, Turkey |
 | 2026-12-01 | [CPAIOR](https://www.myhuiban.com/conference/2409) | - | B | - | 2027-06-01 | Toulouse, France |
 | 2026-12-01 | [FSE'](https://www.myhuiban.com/conference/585) | B | B | A2 | 2027-05-24 | Maastricht, the Netherlands |
@@ -207,6 +208,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-12-05 | [AITC](https://www.myhuiban.com/conference/3372) | - | - | - | 2027-05-07 | Lianyungang, China |
 | 2026-12-05 | [ICCCBDA](https://www.myhuiban.com/conference/3371) | - | - | - | 2027-04-23 | Chengdu, China |
 | 2026-12-05 | [ICKECS](https://www.myhuiban.com/conference/5362) | - | - | - | 2027-04-23 | Chickballapur, India |
+| 2026-12-05 *(extended)* | [ICSIE](https://www.myhuiban.com/conference/2458) | - | - | - | 2027-01-15 | Tokyo, Japan |
 | 2026-12-05 *(extended)* | [ICSIM](https://www.myhuiban.com/conference/2808) | - | - | - | 2027-01-20 | Tokyo, Japan |
 | 2026-12-05 | [ISAI'](https://www.myhuiban.com/conference/4935) | - | - | - | 2027-04-23 | Chengdu, China |
 | 2026-12-05 | [NISS'](https://www.myhuiban.com/conference/2979) | - | - | - | 2027-04-27 | Casablanca, Morocco |
@@ -281,7 +283,9 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2026-12-25 | [ICISN](https://www.myhuiban.com/conference/4152) | - | - | - | 2027-03-20 | Hai Phong, Vietnam |
 | 2026-12-26 | [CTADS](https://www.myhuiban.com/conference/5408) | - | - | - | 2027-03-12 | Nanjing, China |
 | 2026-12-26 | [ICICCS](https://www.myhuiban.com/conference/3405) | - | - | - | 2027-03-22 | Machangolhi, Maldives |
+| 2026-12-28 | [ICONS'](https://www.myhuiban.com/conference/5984) | - | - | - | 2027-04-18 | Lisbon, Portugal |
 | 2026-12-28 | [ISBDAS](https://www.myhuiban.com/conference/2910) | - | - | - | 2027-03-12 | Nanjing, China |
+| 2026-12-28 | [MMEDIA](https://www.myhuiban.com/conference/707) | - | - | B4 | 2027-04-18 | Lisbon, Portugal |
 | 2026-12-28 | [i-Society](https://www.myhuiban.com/conference/628) | - | - | - | 2027-08-23 | Cambridge, UK |
 | 2026-12-29 | [CSAIDE](https://www.myhuiban.com/conference/4339) | - | - | - | 2027-03-19 | Hangzhou, China |
 | 2026-12-30 | [DMNLP](https://www.myhuiban.com/conference/4717) | - | - | - | 2027-04-16 | Chengdu, China |
@@ -316,6 +320,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-01-09 | [ICISS'''](https://www.myhuiban.com/conference/5830) | - | - | - | 2027-04-01 | Tirunelveli, India |
 | 2027-01-09 | [IPDL](https://www.myhuiban.com/conference/4995) | - | - | - | 2027-04-23 | Xi an, China |
 | 2027-01-10 | [APDSP](https://www.myhuiban.com/conference/5161) | - | - | - | 2027-05-28 | Xining, China |
+| 2027-01-10 | [BIS](https://www.myhuiban.com/conference/237) | - | - | B2 | 2027-06-23 | Poznan, Poland |
 | 2027-01-10 | [CCAI](https://www.myhuiban.com/conference/3908) | - | - | - | 2027-05-21 | Shanghai, China |
 | 2027-01-10 | [CCGIV](https://www.myhuiban.com/conference/2617) | - | - | - | 2027-04-09 | Hangzhou, China |
 | 2027-01-10 *(extended)* | [CSECS](https://www.myhuiban.com/conference/4610) | - | - | - | 2027-04-09 | Hangzhou, China |
@@ -349,6 +354,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-01-12 | [INDIN](https://www.myhuiban.com/conference/112) | - | C | B3 | 2027-05-10 | Lisbon, Portugal |
 | 2027-01-12 | [MEMA](https://www.myhuiban.com/conference/3313) | - | - | - | 2027-03-26 | Beijing, China |
 | 2027-01-13 | [ICT4S](https://www.myhuiban.com/conference/1479) | - | - | - | 2027-06-21 | Paris, France |
+| 2027-01-14 | [ICML](https://www.myhuiban.com/conference/406) | A | A* | A1 | 2027-07-31 | Rio de Janeiro, Brazil |
 | 2027-01-14 | [IEEE RFID](https://www.myhuiban.com/conference/4735) | - | - | - | 2027-06-14 | Memphis, Tennessee, USA |
 | 2027-01-14 | [LICS](https://www.myhuiban.com/conference/167) | A | A* | A2 | 2027-06-21 | Montreal, Quebec, Canada |
 | 2027-01-14 | [MVA](https://www.myhuiban.com/conference/5886) | - | - | - | 2027-05-12 | Fukuoka, Japan |
@@ -363,6 +369,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-01-15 | [ICCCM](https://www.myhuiban.com/conference/4045) | - | - | - | 2027-07-09 | Tokyo, Japan |
 | 2027-01-15 | [ICCSS](https://www.myhuiban.com/conference/2553) | - | - | - | 2027-06-25 | Da Nang, Vietnam |
 | 2027-01-15 | [ICGCET](https://www.myhuiban.com/conference/2426) | - | - | - | 2027-04-28 | Kathmandu, Nepal |
+| 2027-01-15 | [ICIME](https://www.myhuiban.com/conference/4084) | - | - | - | 2027-07-09 | Seoul, South Korea |
 | 2027-01-15 | [ICMSSM](https://www.myhuiban.com/conference/1955) | - | - | - | 2027-04-25 | Sanya, China |
 | 2027-01-15 | [ICWSM](https://www.myhuiban.com/conference/526) | B | A | B1 | 2027-05-27 | Edinburgh, UK |
 | 2027-01-15 | [IMI](https://www.myhuiban.com/conference/5894) | - | - | - | 2027-01-29 | Xiamen, China |
@@ -420,6 +427,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-01-25 | [ICASIS](https://www.myhuiban.com/conference/4527) | - | - | - | 2027-05-21 | Kuala Lumpur, Malaysia |
 | 2027-01-25 | [ICBIP](https://www.myhuiban.com/conference/3735) | - | - | - | 2027-07-16 | Jeju Island, South Korea |
 | 2027-01-25 | [ICET](https://www.myhuiban.com/conference/3566) | - | - | - | 2027-05-14 | Chengdu, China |
+| 2027-01-25 | [MDM](https://www.myhuiban.com/conference/152) | C | B | A2 | 2027-06-28 | Hamilton, New Zealand |
 | 2027-01-26 | [PCS](https://www.myhuiban.com/conference/4666) | - | C | - | 2027-06-07 | Mexico City, Mexico |
 | 2027-01-28 | [CHIWORK](https://www.myhuiban.com/conference/5745) | - | - | - | 2027-06-22 | Aalborg, Denmark |
 | 2027-01-28 | [COORDINATION](https://www.myhuiban.com/conference/252) | - | C | - | 2027-06-14 | Augsburg, Germany |
@@ -436,6 +444,7 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-01-30 | [CCRIS](https://www.myhuiban.com/conference/3778) | - | - | - | 2027-08-20 | Wuxi, China |
 | 2027-01-30 | [CSITC](https://www.myhuiban.com/conference/5065) | - | - | - | 2027-04-28 | Dalian, China |
 | 2027-01-30 | [CVIT](https://www.myhuiban.com/conference/4830) | - | - | - | 2027-06-16 | Rome, Italy |
+| 2027-01-30 | [CVIV](https://www.myhuiban.com/conference/2966) | - | - | - | 2027-04-28 | Dalian, China |
 | 2027-01-30 | [ICECCS''](https://www.myhuiban.com/conference/5401) | - | - | - | 2027-07-23 | Chengdu, China |
 | 2027-01-30 | [ICECT](https://www.myhuiban.com/conference/3318) | - | - | - | 2027-06-25 | Seoul, South Korea |
 | 2027-01-30 | [ICEMCSI](https://www.myhuiban.com/conference/5963) | - | - | - | 2027-06-17 | Bengaluru, India |
@@ -506,6 +515,14 @@ Or mirror it incrementally with `updated_since` — see [../docs/rest-api.md](..
 | 2027-02-08 | [IWOCA](https://www.myhuiban.com/conference/992) | - | C | - | 2027-06-21 | Prague, Czech Republic |
 | 2027-02-09 | [ICSSCNA](https://www.myhuiban.com/conference/5375) | - | - | - | 2027-05-06 | Eluru, India |
 | 2027-02-09 | [Interspeech](https://www.myhuiban.com/conference/1852) | B | A | - | 2027-08-29 | Sao Paulo, Brazil |
+| 2027-02-10 | [AIR'](https://www.myhuiban.com/conference/4869) | - | - | - | 2027-06-09 | Marrakesh, Morocco |
+| 2027-02-10 | [AMLDS](https://www.myhuiban.com/conference/4821) | - | - | - | 2027-07-16 | Fukushima, Japan |
+| 2027-02-10 | [EEISS](https://www.myhuiban.com/conference/4690) | - | - | - | 2027-04-23 | Nanjing, China |
+| 2027-02-10 | [ICCSN](https://www.myhuiban.com/conference/118) | - | - | - | 2027-07-09 | Chengdu, China |
+| 2027-02-10 | [IC_ASET](https://www.myhuiban.com/conference/4215) | - | - | - | 2027-04-29 | Hammamet, Tunisia |
+| 2027-02-10 | [IQICSA](https://www.myhuiban.com/conference/5916) | - | - | - | 2027-09-24 | Pune, India |
+| 2027-02-10 | [MobileHCI](https://www.myhuiban.com/conference/1173) | B | B | A2 | 2027-09-20 | Limassol, Cyprus |
+| 2027-02-10 | [PRML](https://www.myhuiban.com/conference/4105) | - | - | - | 2027-07-29 | Phuket, Thailand |
 
 ---
 
