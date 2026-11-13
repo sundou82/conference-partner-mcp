@@ -2,29 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-11T12:55:17+00:00",
-  "count": 70,
+  "generated_at": "2026-11-13T13:23:26+00:00",
+  "count": 71,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 678,
-      "short_name": "",
-      "full_name": "Measurement",
-      "impact_factor": "6.1",
-      "publisher": "Elsevier",
-      "issn": "0263-2241",
-      "ccf_rank": "",
-      "fields": [
-        "ee"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/678",
-      "special_issue": {
-        "title": "Advances in Photomechanics: Multifield and Multiscale Measurement of Deformation and Damage",
-        "submission_date": "2027-05-31",
-        "id": 6496,
-        "detail_page": "https://www.myhuiban.com/journal/678#issue-6496"
-      }
-    },
     {
       "id": 1192,
       "short_name": "",
@@ -568,6 +549,25 @@
         "submission_date": "2026-12-15",
         "id": 6214,
         "detail_page": "https://www.myhuiban.com/journal/417#issue-6214"
+      }
+    },
+    {
+      "id": 391,
+      "short_name": "",
+      "full_name": "Journal of Manufacturing Processes",
+      "impact_factor": "7.8",
+      "publisher": "Elsevier",
+      "issn": "1526-6125",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/391",
+      "special_issue": {
+        "title": "AI for Manufacturing – From Theories to Applications",
+        "submission_date": "2026-12-15",
+        "id": 6511,
+        "detail_page": "https://www.myhuiban.com/journal/391#issue-6511"
       }
     },
     {
@@ -1242,6 +1242,25 @@
         "submission_date": "2027-05-31",
         "id": 6456,
         "detail_page": "https://www.myhuiban.com/journal/359#issue-6456"
+      }
+    },
+    {
+      "id": 678,
+      "short_name": "",
+      "full_name": "Measurement",
+      "impact_factor": "6.1",
+      "publisher": "Elsevier",
+      "issn": "0263-2241",
+      "ccf_rank": "",
+      "fields": [
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/678",
+      "special_issue": {
+        "title": "Advances in Photomechanics: Multifield and Multiscale Measurement of Deformation and Damage",
+        "submission_date": "2027-05-31",
+        "id": 6496,
+        "detail_page": "https://www.myhuiban.com/journal/678#issue-6496"
       }
     },
     {

@@ -2,8 +2,8 @@
   "title": "Top journals by impact factor",
   "note": "The 300 highest reported impact factors. Figures are as published by the journal and may lag the latest JCR.",
   "source": "https://www.myhuiban.com/api/journals/rankings/highest_if",
-  "generated_at": "2026-11-11T12:55:17+00:00",
-  "count": 298,
+  "generated_at": "2026-11-13T13:23:26+00:00",
+  "count": 299,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
     {
@@ -158,19 +158,6 @@
       "detail_page": "https://www.myhuiban.com/journal/312"
     },
     {
-      "id": 957,
-      "short_name": "",
-      "full_name": "Physics of Life Reviews",
-      "impact_factor": "14.3",
-      "publisher": "Elsevier",
-      "issn": "1571-0645",
-      "ccf_rank": "",
-      "fields": [
-        "math"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/957"
-    },
-    {
       "id": 1158,
       "short_name": "T-IV",
       "full_name": "IEEE Transactions on Intelligent Vehicles",
@@ -182,6 +169,19 @@
         "robotics"
       ],
       "detail_page": "https://www.myhuiban.com/journal/1158"
+    },
+    {
+      "id": 957,
+      "short_name": "",
+      "full_name": "Physics of Life Reviews",
+      "impact_factor": "14.3",
+      "publisher": "Elsevier",
+      "issn": "1571-0645",
+      "ccf_rank": "",
+      "fields": [
+        "math"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/957"
     },
     {
       "id": 390,
@@ -550,6 +550,17 @@
       "detail_page": "https://www.myhuiban.com/journal/313"
     },
     {
+      "id": 1197,
+      "short_name": "",
+      "full_name": "Journal of Materiomics",
+      "impact_factor": "9.6",
+      "publisher": "Elsevier",
+      "issn": "2352-8478",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1197"
+    },
+    {
       "id": 181,
       "short_name": "TAC",
       "full_name": "IEEE Transactions on Affective Computing",
@@ -561,17 +572,6 @@
         "hci"
       ],
       "detail_page": "https://www.myhuiban.com/journal/181"
-    },
-    {
-      "id": 1197,
-      "short_name": "",
-      "full_name": "Journal of Materiomics",
-      "impact_factor": "9.6",
-      "publisher": "Elsevier",
-      "issn": "2352-8478",
-      "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1197"
     },
     {
       "id": 1154,
@@ -687,17 +687,6 @@
       "detail_page": "https://www.myhuiban.com/journal/104"
     },
     {
-      "id": 1221,
-      "short_name": "HCC",
-      "full_name": "High-Confidence Computing",
-      "impact_factor": "9.0",
-      "publisher": "Elsevier",
-      "issn": "2667-2952",
-      "ccf_rank": "C",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1221"
-    },
-    {
       "id": 209,
       "short_name": "EAAI",
       "full_name": "Engineering Applications of Artificial Intelligence",
@@ -709,6 +698,17 @@
         "ai"
       ],
       "detail_page": "https://www.myhuiban.com/journal/209"
+    },
+    {
+      "id": 1221,
+      "short_name": "HCC",
+      "full_name": "High-Confidence Computing",
+      "impact_factor": "9.0",
+      "publisher": "Elsevier",
+      "issn": "2667-2952",
+      "ccf_rank": "C",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1221"
     },
     {
       "id": 1216,
@@ -1055,6 +1055,19 @@
       "detail_page": "https://www.myhuiban.com/journal/723"
     },
     {
+      "id": 391,
+      "short_name": "",
+      "full_name": "Journal of Manufacturing Processes",
+      "impact_factor": "7.8",
+      "publisher": "Elsevier",
+      "issn": "1526-6125",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/391"
+    },
+    {
       "id": 343,
       "short_name": "",
       "full_name": "Applied Soft Computing",
@@ -1147,19 +1160,6 @@
       "detail_page": "https://www.myhuiban.com/journal/210"
     },
     {
-      "id": 1134,
-      "short_name": "TIE",
-      "full_name": "IEEE Transactions on Industrial Electronics",
-      "impact_factor": "7.5",
-      "publisher": "IEEE",
-      "issn": "0278-0046",
-      "ccf_rank": "",
-      "fields": [
-        "ee"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1134"
-    },
-    {
       "id": 613,
       "short_name": "",
       "full_name": "Digital Communications and Networks",
@@ -1197,6 +1197,19 @@
         "web"
       ],
       "detail_page": "https://www.myhuiban.com/journal/208"
+    },
+    {
+      "id": 1134,
+      "short_name": "TIE",
+      "full_name": "IEEE Transactions on Industrial Electronics",
+      "impact_factor": "7.5",
+      "publisher": "IEEE",
+      "issn": "0278-0046",
+      "ccf_rank": "",
+      "fields": [
+        "ee"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1134"
     },
     {
       "id": 1191,
@@ -1251,15 +1264,17 @@
       "detail_page": "https://www.myhuiban.com/journal/732"
     },
     {
-      "id": 349,
+      "id": 1147,
       "short_name": "",
-      "full_name": "Computer Methods in Applied Mechanics and Engineering",
+      "full_name": "IEEE Control Systems Magazine",
       "impact_factor": "7.3",
-      "publisher": "Elsevier",
-      "issn": "0045-7825",
+      "publisher": "IEEE",
+      "issn": "1066-033X",
       "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/349"
+      "fields": [
+        "robotics"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1147"
     },
     {
       "id": 821,
@@ -1271,6 +1286,17 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/821"
+    },
+    {
+      "id": 349,
+      "short_name": "",
+      "full_name": "Computer Methods in Applied Mechanics and Engineering",
+      "impact_factor": "7.3",
+      "publisher": "Elsevier",
+      "issn": "0045-7825",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/349"
     },
     {
       "id": 807,
@@ -1430,19 +1456,6 @@
       "ccf_rank": "",
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/753"
-    },
-    {
-      "id": 391,
-      "short_name": "",
-      "full_name": "Journal of Manufacturing Processes",
-      "impact_factor": "6.8",
-      "publisher": "Elsevier",
-      "issn": "1526-6125",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/391"
     },
     {
       "id": 1187,
