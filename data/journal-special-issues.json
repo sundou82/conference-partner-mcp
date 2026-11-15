@@ -2,44 +2,27 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-13T13:23:26+00:00",
-  "count": 71,
+  "generated_at": "2026-11-15T12:55:38+00:00",
+  "count": 70,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
     {
-      "id": 1192,
+      "id": 1193,
       "short_name": "",
-      "full_name": "Surface and Coatings Technology",
-      "impact_factor": "6.9",
+      "full_name": "Materials Science and Engineering: B",
+      "impact_factor": "5.7",
       "publisher": "Elsevier",
-      "issn": "0257-8972",
+      "issn": "0921-5107",
       "ccf_rank": "",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/1192",
-      "special_issue": {
-        "title": "Extremely High-Speed Laser Cladding of Advanced Coatings (VSI: EHLC of Advanced Coatings)",
-        "submission_date": "2027-12-01",
-        "id": 6364,
-        "detail_page": "https://www.myhuiban.com/journal/1192#issue-6364"
-      }
-    },
-    {
-      "id": 703,
-      "short_name": "",
-      "full_name": "Journal of Biomedical Informatics",
-      "impact_factor": "5.9",
-      "publisher": "Elsevier",
-      "issn": "1532-0464",
-      "ccf_rank": "C",
       "fields": [
-        "bio"
+        "materials"
       ],
-      "detail_page": "https://www.myhuiban.com/journal/703",
+      "detail_page": "https://www.myhuiban.com/journal/1193",
       "special_issue": {
-        "title": "Agentic AI for Real-World Evidence Life Cycle Support - Scaling Trustworthy Evaluation of Treatment Safety and Effectiveness",
-        "submission_date": "2026-11-15",
-        "id": 6423,
-        "detail_page": "https://www.myhuiban.com/journal/703#issue-6423"
+        "title": "Energy Catalysis and Conversion Materials",
+        "submission_date": "2027-02-28",
+        "id": 6444,
+        "detail_page": "https://www.myhuiban.com/journal/1193#issue-6444"
       }
     },
     {
@@ -59,59 +42,6 @@
         "submission_date": "2026-12-31",
         "id": 6440,
         "detail_page": "https://www.myhuiban.com/journal/343#issue-6440"
-      }
-    },
-    {
-      "id": 666,
-      "short_name": "",
-      "full_name": "Journal of Logical and Algebraic Methods in Programming",
-      "impact_factor": "1.0",
-      "publisher": "Elsevier",
-      "issn": "2352-2208",
-      "ccf_rank": "C",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/666",
-      "special_issue": {
-        "title": "Components Operationally: Reversibility and System Engineering",
-        "submission_date": "2027-01-31",
-        "id": 6411,
-        "detail_page": "https://www.myhuiban.com/journal/666#issue-6411"
-      }
-    },
-    {
-      "id": 66,
-      "short_name": "",
-      "full_name": "Journal of Symbolic Computation",
-      "impact_factor": "0.9",
-      "publisher": "Elsevier",
-      "issn": "0747-7171",
-      "ccf_rank": "B",
-      "fields": [],
-      "detail_page": "https://www.myhuiban.com/journal/66",
-      "special_issue": {
-        "title": "SCML: Symbolic Computation and Machine Learning",
-        "submission_date": "2027-04-01",
-        "id": 5622,
-        "detail_page": "https://www.myhuiban.com/journal/66#issue-5622"
-      }
-    },
-    {
-      "id": 1193,
-      "short_name": "",
-      "full_name": "Materials Science and Engineering: B",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "0921-5107",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1193",
-      "special_issue": {
-        "title": "Energy Catalysis and Conversion Materials",
-        "submission_date": "2027-02-28",
-        "id": 6444,
-        "detail_page": "https://www.myhuiban.com/journal/1193#issue-6444"
       }
     },
     {
@@ -272,6 +202,23 @@
         "submission_date": "2027-01-25",
         "id": 6402,
         "detail_page": "https://www.myhuiban.com/journal/19#issue-6402"
+      }
+    },
+    {
+      "id": 666,
+      "short_name": "",
+      "full_name": "Journal of Logical and Algebraic Methods in Programming",
+      "impact_factor": "1.0",
+      "publisher": "Elsevier",
+      "issn": "2352-2208",
+      "ccf_rank": "C",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/666",
+      "special_issue": {
+        "title": "Components Operationally: Reversibility and System Engineering",
+        "submission_date": "2027-01-31",
+        "id": 6411,
+        "detail_page": "https://www.myhuiban.com/journal/666#issue-6411"
       }
     },
     {
@@ -932,6 +879,23 @@
       }
     },
     {
+      "id": 66,
+      "short_name": "",
+      "full_name": "Journal of Symbolic Computation",
+      "impact_factor": "0.9",
+      "publisher": "Elsevier",
+      "issn": "0747-7171",
+      "ccf_rank": "B",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/66",
+      "special_issue": {
+        "title": "SCML: Symbolic Computation and Machine Learning",
+        "submission_date": "2027-04-01",
+        "id": 5622,
+        "detail_page": "https://www.myhuiban.com/journal/66#issue-5622"
+      }
+    },
+    {
       "id": 26,
       "short_name": "",
       "full_name": "Computer Networks",
@@ -1261,6 +1225,23 @@
         "submission_date": "2027-05-31",
         "id": 6496,
         "detail_page": "https://www.myhuiban.com/journal/678#issue-6496"
+      }
+    },
+    {
+      "id": 1192,
+      "short_name": "",
+      "full_name": "Surface and Coatings Technology",
+      "impact_factor": "6.9",
+      "publisher": "Elsevier",
+      "issn": "0257-8972",
+      "ccf_rank": "",
+      "fields": [],
+      "detail_page": "https://www.myhuiban.com/journal/1192",
+      "special_issue": {
+        "title": "Extremely High-Speed Laser Cladding of Advanced Coatings (VSI: EHLC of Advanced Coatings)",
+        "submission_date": "2027-12-01",
+        "id": 6364,
+        "detail_page": "https://www.myhuiban.com/journal/1192#issue-6364"
       }
     },
     {
