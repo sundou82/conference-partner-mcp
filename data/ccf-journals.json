@@ -2,7 +2,7 @@
   "title": "CCF-ranked journals",
   "note": "Journals in the CCF catalogue, with impact factor, publisher and ISSN.",
   "source": "https://www.myhuiban.com/api/journals",
-  "generated_at": "2026-11-11T12:55:17+00:00",
+  "generated_at": "2026-11-16T13:57:08+00:00",
   "count": 292,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
@@ -3466,20 +3466,6 @@
       "detail_page": "https://www.myhuiban.com/journal/235"
     },
     {
-      "id": 1099,
-      "short_name": "PACM PL",
-      "full_name": "Proceedings of the ACM on Programming Languages",
-      "impact_factor": "2.8",
-      "publisher": "ACM",
-      "issn": "2475-1421",
-      "ccf_rank": "C",
-      "fields": [
-        "se"
-      ],
-      "updated_at": "2026-01-04",
-      "detail_page": "https://www.myhuiban.com/journal/1099"
-    },
-    {
       "id": 1102,
       "short_name": "PACMHCI",
       "full_name": "Proceedings of the ACM on Human-Computer Interaction",
@@ -3492,6 +3478,20 @@
       ],
       "updated_at": "2024-08-10",
       "detail_page": "https://www.myhuiban.com/journal/1102"
+    },
+    {
+      "id": 1099,
+      "short_name": "PACMPL",
+      "full_name": "Proceedings of the ACM on Programming Languages",
+      "impact_factor": "2.8",
+      "publisher": "ACM",
+      "issn": "2475-1421",
+      "ccf_rank": "C",
+      "fields": [
+        "se"
+      ],
+      "updated_at": "2026-01-04",
+      "detail_page": "https://www.myhuiban.com/journal/1099"
     },
     {
       "id": 341,
