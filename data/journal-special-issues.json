@@ -2,29 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-15T12:55:38+00:00",
+  "generated_at": "2026-11-18T14:30:02+00:00",
   "count": 70,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 1193,
-      "short_name": "",
-      "full_name": "Materials Science and Engineering: B",
-      "impact_factor": "5.7",
-      "publisher": "Elsevier",
-      "issn": "0921-5107",
-      "ccf_rank": "",
-      "fields": [
-        "materials"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/1193",
-      "special_issue": {
-        "title": "Energy Catalysis and Conversion Materials",
-        "submission_date": "2027-02-28",
-        "id": 6444,
-        "detail_page": "https://www.myhuiban.com/journal/1193#issue-6444"
-      }
-    },
     {
       "id": 343,
       "short_name": "",
@@ -787,6 +768,25 @@
         "submission_date": "2027-03-15",
         "id": 6427,
         "detail_page": "https://www.myhuiban.com/journal/220#issue-6427"
+      }
+    },
+    {
+      "id": 1193,
+      "short_name": "",
+      "full_name": "Materials Science and Engineering: B",
+      "impact_factor": "5.7",
+      "publisher": "Elsevier",
+      "issn": "0921-5107",
+      "ccf_rank": "",
+      "fields": [
+        "materials"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1193",
+      "special_issue": {
+        "title": "Energy Catalysis and Conversion Materials",
+        "submission_date": "2027-02-28",
+        "id": 6444,
+        "detail_page": "https://www.myhuiban.com/journal/1193#issue-6444"
       }
     },
     {
