@@ -2,8 +2,8 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-19T14:39:21+00:00",
-  "count": 76,
+  "generated_at": "2026-11-23T16:25:22+00:00",
+  "count": 77,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
     {
@@ -23,6 +23,25 @@
         "submission_date": "2026-12-31",
         "id": 6440,
         "detail_page": "https://www.myhuiban.com/journal/343#issue-6440"
+      }
+    },
+    {
+      "id": 1247,
+      "short_name": "",
+      "full_name": "Nature Communications",
+      "impact_factor": "15.7",
+      "publisher": "Nature",
+      "issn": "2041-1723",
+      "ccf_rank": "",
+      "fields": [
+        "network"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/1247",
+      "special_issue": {
+        "title": "Machine learning in brain health: clinical applications, biomarkers, and personalised treatment",
+        "submission_date": "2027-08-13",
+        "id": 6524,
+        "detail_page": "https://www.myhuiban.com/journal/1247#issue-6524"
       }
     },
     {
