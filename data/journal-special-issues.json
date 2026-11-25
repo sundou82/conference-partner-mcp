@@ -2,29 +2,10 @@
   "title": "Journals with an open special-issue call",
   "note": "Journals currently carrying a special-issue call for papers.",
   "source": "https://www.myhuiban.com/api/journals/rankings/cfp",
-  "generated_at": "2026-11-23T16:25:22+00:00",
+  "generated_at": "2026-11-25T15:59:24+00:00",
   "count": 77,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "journals": [
-    {
-      "id": 343,
-      "short_name": "",
-      "full_name": "Applied Soft Computing",
-      "impact_factor": "7.8",
-      "publisher": "Elsevier",
-      "issn": "1568-4946",
-      "ccf_rank": "",
-      "fields": [
-        "ai"
-      ],
-      "detail_page": "https://www.myhuiban.com/journal/343",
-      "special_issue": {
-        "title": "Incremental Learning: Algorithms & Applications",
-        "submission_date": "2026-12-31",
-        "id": 6440,
-        "detail_page": "https://www.myhuiban.com/journal/343#issue-6440"
-      }
-    },
     {
       "id": 1247,
       "short_name": "",
@@ -251,10 +232,10 @@
       "fields": [],
       "detail_page": "https://www.myhuiban.com/journal/89",
       "special_issue": {
-        "title": "18th International Symposium on Functional and Logic Programming",
-        "submission_date": "2026-12-01",
-        "id": 6428,
-        "detail_page": "https://www.myhuiban.com/journal/89#issue-6428"
+        "title": "Selected Software Artifacts from the Papers of DisCoTec 2026 - 21st International Federated Conference on Distributed Computing Techniques",
+        "submission_date": "2026-12-15",
+        "id": 6547,
+        "detail_page": "https://www.myhuiban.com/journal/89#issue-6547"
       }
     },
     {
@@ -809,6 +790,25 @@
       }
     },
     {
+      "id": 343,
+      "short_name": "",
+      "full_name": "Applied Soft Computing",
+      "impact_factor": "7.8",
+      "publisher": "Elsevier",
+      "issn": "1568-4946",
+      "ccf_rank": "",
+      "fields": [
+        "ai"
+      ],
+      "detail_page": "https://www.myhuiban.com/journal/343",
+      "special_issue": {
+        "title": "Incremental Learning: Algorithms & Applications",
+        "submission_date": "2026-12-31",
+        "id": 6440,
+        "detail_page": "https://www.myhuiban.com/journal/343#issue-6440"
+      }
+    },
+    {
       "id": 1193,
       "short_name": "",
       "full_name": "Materials Science and Engineering: B",
@@ -963,10 +963,10 @@
       ],
       "detail_page": "https://www.myhuiban.com/journal/36",
       "special_issue": {
-        "title": "Advances in Quantum Computing: Methods, Algorithms, and Systems. Vol. IV",
-        "submission_date": "2027-04-30",
-        "id": 6405,
-        "detail_page": "https://www.myhuiban.com/journal/36#issue-6405"
+        "title": "Advanced Networked Computing and Applications",
+        "submission_date": "2027-05-17",
+        "id": 6544,
+        "detail_page": "https://www.myhuiban.com/journal/36#issue-6544"
       }
     },
     {
@@ -1071,10 +1071,10 @@
       ],
       "detail_page": "https://www.myhuiban.com/journal/209",
       "special_issue": {
-        "title": "IoT in Disaster Management",
-        "submission_date": "2027-06-15",
-        "id": 6474,
-        "detail_page": "https://www.myhuiban.com/journal/209#issue-6474"
+        "title": "AI-Enabled Digital Twins for Sustainable Energy Systems: Batteries, Electric Vehicles, Renewable Energy, and Smart Grids",
+        "submission_date": "2027-06-30",
+        "id": 6546,
+        "detail_page": "https://www.myhuiban.com/journal/209#issue-6546"
       }
     },
     {
