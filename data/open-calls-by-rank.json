@@ -2,43 +2,10 @@
   "title": "Ranked conferences with a call open now",
   "note": "The subset of the catalogues you can still submit to today — CCF, CORE and QUALIS lists merged.",
   "source": "https://www.myhuiban.com/api/conferences/rankings/ccf",
-  "generated_at": "2026-11-26T15:42:36+00:00",
-  "count": 206,
+  "generated_at": "2026-11-27T15:31:19+00:00",
+  "count": 208,
   "attribution": "Conference Partner (myhuiban.com). CCF / CORE / QUALIS values are reproduced as published; cite those bodies for them. cp_index is computed by Conference Partner - cite https://www.myhuiban.com/ranking and the algorithm version on the row, and keep the score with its rank or confidence.",
   "conferences": [
-    {
-      "id": 357,
-      "short_name": "Mobisys",
-      "full_name": "International Conference on Mobile Systems, Applications and Services",
-      "submission_date": "2026-11-27",
-      "notification_date": "2027-03-06",
-      "conference_date": "2027-06-21",
-      "location": "Ho Chi Minh City, Vietnam",
-      "years": 25,
-      "ccf_rank": "B",
-      "core_rank": "A",
-      "qualis_rank": "A1",
-      "fields": [
-        "network"
-      ],
-      "is_extended": false,
-      "cp_index": {
-        "score": 94.23,
-        "rank": 28,
-        "percentile": 99.53,
-        "confidence": 1,
-        "factors": {
-          "recognition": 100,
-          "selectivity": 94.13,
-          "longevity": 87.73,
-          "community": 78.57,
-          "openness": 100
-        },
-        "algorithm": "1.2",
-        "method": "https://www.myhuiban.com/ranking"
-      },
-      "detail_page": "https://www.myhuiban.com/conference/357"
-    },
     {
       "id": 1726,
       "short_name": "IDA",
@@ -120,15 +87,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 83.07,
+        "score": 83.08,
         "rank": 163,
-        "percentile": 97.2,
+        "percentile": 97.21,
         "confidence": 1,
         "factors": {
           "recognition": 82,
           "selectivity": 82.4,
           "longevity": 85.58,
-          "community": 80.22,
+          "community": 80.31,
           "openness": 85
         },
         "algorithm": "1.2",
@@ -187,15 +154,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 86.4,
-        "rank": 122,
-        "percentile": 97.91,
+        "score": 86.47,
+        "rank": 123,
+        "percentile": 97.9,
         "confidence": 1,
         "factors": {
           "recognition": 92,
           "selectivity": 83.09,
           "longevity": 97.24,
-          "community": 31.36,
+          "community": 32.02,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -287,15 +254,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 91.43,
-        "rank": 62,
-        "percentile": 98.95,
+        "score": 91.46,
+        "rank": 61,
+        "percentile": 98.96,
         "confidence": 1,
         "factors": {
           "recognition": 92,
           "selectivity": 86.93,
           "longevity": 100,
-          "community": 68.43,
+          "community": 68.74,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -351,7 +318,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 95.73,
+        "score": 95.74,
         "rank": 17,
         "percentile": 99.72,
         "confidence": 1,
@@ -359,7 +326,7 @@
           "recognition": 100,
           "selectivity": 94.41,
           "longevity": 94.96,
-          "community": 78.56,
+          "community": 78.71,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -387,7 +354,7 @@
       "cp_index": {
         "score": 81.15,
         "rank": 192,
-        "percentile": 96.7,
+        "percentile": 96.71,
         "confidence": 1,
         "factors": {
           "recognition": 66,
@@ -551,8 +518,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.27,
-        "rank": 810,
-        "percentile": 86.04,
+        "rank": 811,
+        "percentile": 86.03,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -659,7 +626,7 @@
           "recognition": 88,
           "selectivity": 91.88,
           "longevity": 84.43,
-          "community": 87.13,
+          "community": 87.2,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -685,8 +652,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 55.57,
-        "rank": 879,
-        "percentile": 84.85,
+        "rank": 880,
+        "percentile": 84.84,
         "confidence": 0.8,
         "factors": {
           "recognition": 78,
@@ -912,8 +879,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.41,
-        "rank": 802,
-        "percentile": 86.18,
+        "rank": 803,
+        "percentile": 86.17,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -945,8 +912,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 54.99,
-        "rank": 930,
-        "percentile": 83.97,
+        "rank": 931,
+        "percentile": 83.96,
         "confidence": 0.8,
         "factors": {
           "recognition": 54,
@@ -977,7 +944,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 80.27,
+        "score": 80.3,
         "rank": 206,
         "percentile": 96.46,
         "confidence": 0.8,
@@ -985,7 +952,7 @@
           "recognition": 100,
           "selectivity": null,
           "longevity": 90.68,
-          "community": 88.87,
+          "community": 89.19,
           "openness": 55
         },
         "algorithm": "1.2",
@@ -1051,7 +1018,7 @@
           "recognition": 100,
           "selectivity": 96.07,
           "longevity": 97.24,
-          "community": 92.67,
+          "community": 92.72,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -1110,7 +1077,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 95.23,
+        "score": 95.25,
         "rank": 20,
         "percentile": 99.67,
         "confidence": 1,
@@ -1118,7 +1085,7 @@
           "recognition": 100,
           "selectivity": 95.98,
           "longevity": 100,
-          "community": 82.88,
+          "community": 83.06,
           "openness": 85
         },
         "algorithm": "1.2",
@@ -1143,15 +1110,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 92.95,
-        "rank": 43,
-        "percentile": 99.28,
+        "score": 93,
+        "rank": 41,
+        "percentile": 99.31,
         "confidence": 1,
         "factors": {
           "recognition": 100,
           "selectivity": 82.04,
           "longevity": 97.24,
-          "community": 70.99,
+          "community": 71.46,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -1244,7 +1211,7 @@
       "cp_index": {
         "score": 43.65,
         "rank": 3631,
-        "percentile": 37.37,
+        "percentile": 37.38,
         "confidence": 0.8,
         "factors": {
           "recognition": 54,
@@ -1308,7 +1275,7 @@
       "cp_index": {
         "score": 71.6,
         "rank": 323,
-        "percentile": 94.44,
+        "percentile": 94.45,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -1538,15 +1505,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 95.58,
-        "rank": 18,
-        "percentile": 99.71,
+        "score": 95.6,
+        "rank": 19,
+        "percentile": 99.69,
         "confidence": 1,
         "factors": {
           "recognition": 100,
           "selectivity": 84.11,
           "longevity": 100,
-          "community": 87.61,
+          "community": 87.8,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -1639,8 +1606,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 54.18,
-        "rank": 1009,
-        "percentile": 82.61,
+        "rank": 1010,
+        "percentile": 82.59,
         "confidence": 0.8,
         "factors": {
           "recognition": 54,
@@ -1671,7 +1638,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 72.82,
+        "score": 72.87,
         "rank": 300,
         "percentile": 94.84,
         "confidence": 0.8,
@@ -1679,7 +1646,7 @@
           "recognition": 88,
           "selectivity": null,
           "longevity": 92.47,
-          "community": 52.78,
+          "community": 53.27,
           "openness": 55
         },
         "algorithm": "1.2",
@@ -1834,7 +1801,7 @@
       "cp_index": {
         "score": 69.92,
         "rank": 352,
-        "percentile": 93.94,
+        "percentile": 93.95,
         "confidence": 1,
         "factors": {
           "recognition": 72,
@@ -1899,8 +1866,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 46.07,
-        "rank": 2746,
-        "percentile": 52.64,
+        "rank": 2749,
+        "percentile": 52.6,
         "confidence": 0.6,
         "factors": {
           "recognition": 58,
@@ -1963,8 +1930,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 88.27,
-        "rank": 100,
-        "percentile": 98.29,
+        "rank": 101,
+        "percentile": 98.27,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -1993,7 +1960,7 @@
       "fields": [],
       "is_extended": false,
       "cp_index": {
-        "score": 59.3,
+        "score": 59.34,
         "rank": 648,
         "percentile": 88.84,
         "confidence": 0.8,
@@ -2001,7 +1968,7 @@
           "recognition": 100,
           "selectivity": null,
           "longevity": 18.67,
-          "community": 23.21,
+          "community": 23.54,
           "openness": 55
         },
         "algorithm": "1.2",
@@ -2286,8 +2253,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.49,
-        "rank": 801,
-        "percentile": 86.2,
+        "rank": 802,
+        "percentile": 86.18,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -2445,8 +2412,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 59.29,
-        "rank": 649,
-        "percentile": 88.82,
+        "rank": 650,
+        "percentile": 88.8,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
@@ -2669,15 +2636,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 57.24,
-        "rank": 742,
-        "percentile": 87.22,
+        "score": 57.3,
+        "rank": 737,
+        "percentile": 87.3,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
           "selectivity": null,
           "longevity": 84.43,
-          "community": 18,
+          "community": 18.66,
           "openness": 55
         },
         "algorithm": "1.2",
@@ -2736,8 +2703,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 53.52,
-        "rank": 1105,
-        "percentile": 80.95,
+        "rank": 1106,
+        "percentile": 80.94,
         "confidence": 0.8,
         "factors": {
           "recognition": 66,
@@ -2870,15 +2837,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 88.35,
-        "rank": 97,
-        "percentile": 98.34,
+        "score": 88.37,
+        "rank": 98,
+        "percentile": 98.33,
         "confidence": 1,
         "factors": {
           "recognition": 92,
           "selectivity": 68.41,
           "longevity": 100,
-          "community": 74.63,
+          "community": 74.92,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -2934,7 +2901,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 75.54,
+        "score": 75.57,
         "rank": 263,
         "percentile": 95.48,
         "confidence": 0.8,
@@ -2942,7 +2909,7 @@
           "recognition": 92,
           "selectivity": null,
           "longevity": 77.83,
-          "community": 72.75,
+          "community": 73.07,
           "openness": 70
         },
         "algorithm": "1.2",
@@ -2967,7 +2934,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 63.13,
+        "score": 63.14,
         "rank": 515,
         "percentile": 91.13,
         "confidence": 0.8,
@@ -2975,7 +2942,7 @@
           "recognition": 92,
           "selectivity": null,
           "longevity": 18.67,
-          "community": 89.5,
+          "community": 89.57,
           "openness": 55
         },
         "algorithm": "1.2",
@@ -3194,7 +3161,7 @@
       "cp_index": {
         "score": 61.74,
         "rank": 567,
-        "percentile": 90.23,
+        "percentile": 90.24,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -3259,8 +3226,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 87.13,
-        "rank": 116,
-        "percentile": 98.02,
+        "rank": 117,
+        "percentile": 98,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -3290,8 +3257,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.26,
-        "rank": 811,
-        "percentile": 86.02,
+        "rank": 812,
+        "percentile": 86.01,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3304,6 +3271,39 @@
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/5635"
+    },
+    {
+      "id": 362,
+      "short_name": "PODC",
+      "full_name": "ACM Symposium on Principles of Distributed Computing",
+      "submission_date": "2027-02-02",
+      "notification_date": null,
+      "conference_date": "2027-06-21",
+      "location": "Reykjavik, Iceland",
+      "years": 46,
+      "ccf_rank": "B",
+      "core_rank": "A*",
+      "qualis_rank": "A1",
+      "fields": [
+        "systems"
+      ],
+      "is_extended": false,
+      "cp_index": {
+        "score": 92.8,
+        "rank": 48,
+        "percentile": 99.19,
+        "confidence": 1,
+        "factors": {
+          "recognition": 100,
+          "selectivity": 82.64,
+          "longevity": 100,
+          "community": 62.74,
+          "openness": 100
+        },
+        "algorithm": "1.2",
+        "method": "https://www.myhuiban.com/ranking"
+      },
+      "detail_page": "https://www.myhuiban.com/conference/362"
     },
     {
       "id": 301,
@@ -3337,6 +3337,39 @@
         "method": "https://www.myhuiban.com/ranking"
       },
       "detail_page": "https://www.myhuiban.com/conference/301"
+    },
+    {
+      "id": 470,
+      "short_name": "EC",
+      "full_name": "ACM Conference on Economics and Computation",
+      "submission_date": "2027-02-04",
+      "notification_date": "2027-05-03",
+      "conference_date": "2027-07-12",
+      "location": "Chicago, Illinois, USA",
+      "years": 28,
+      "ccf_rank": "",
+      "core_rank": "A*",
+      "qualis_rank": "A1",
+      "fields": [
+        "management"
+      ],
+      "is_extended": false,
+      "cp_index": {
+        "score": 88.73,
+        "rank": 97,
+        "percentile": 98.34,
+        "confidence": 1,
+        "factors": {
+          "recognition": 100,
+          "selectivity": 85.65,
+          "longevity": 90.68,
+          "community": 34.65,
+          "openness": 100
+        },
+        "algorithm": "1.2",
+        "method": "https://www.myhuiban.com/ranking"
+      },
+      "detail_page": "https://www.myhuiban.com/conference/470"
     },
     {
       "id": 384,
@@ -3423,7 +3456,7 @@
       "cp_index": {
         "score": 74.28,
         "rank": 283,
-        "percentile": 95.13,
+        "percentile": 95.14,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -3453,8 +3486,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 55.72,
-        "rank": 864,
-        "percentile": 85.11,
+        "rank": 865,
+        "percentile": 85.1,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3583,7 +3616,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 81.2,
+        "score": 81.23,
         "rank": 191,
         "percentile": 96.72,
         "confidence": 1,
@@ -3591,7 +3624,7 @@
           "recognition": 88,
           "selectivity": 52.82,
           "longevity": 92.47,
-          "community": 63.46,
+          "community": 63.76,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -3683,8 +3716,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 92.95,
-        "rank": 43,
-        "percentile": 99.28,
+        "rank": 44,
+        "percentile": 99.26,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -3783,7 +3816,7 @@
       "cp_index": {
         "score": 51.31,
         "rank": 1473,
-        "percentile": 74.6,
+        "percentile": 74.61,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -3847,7 +3880,7 @@
       "cp_index": {
         "score": 58.36,
         "rank": 694,
-        "percentile": 88.04,
+        "percentile": 88.05,
         "confidence": 0.8,
         "factors": {
           "recognition": 68,
@@ -3908,7 +3941,7 @@
       "is_extended": false,
       "cp_index": {
         "score": 41.92,
-        "rank": 4742,
+        "rank": 4743,
         "percentile": 18.2,
         "confidence": 0.8,
         "factors": {
@@ -4071,8 +4104,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.66,
-        "rank": 788,
-        "percentile": 86.42,
+        "rank": 789,
+        "percentile": 86.41,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4102,8 +4135,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 55.72,
-        "rank": 864,
-        "percentile": 85.11,
+        "rank": 865,
+        "percentile": 85.1,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4133,8 +4166,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.21,
-        "rank": 818,
-        "percentile": 85.9,
+        "rank": 819,
+        "percentile": 85.89,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4455,8 +4488,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 53.64,
-        "rank": 1075,
-        "percentile": 81.47,
+        "rank": 1076,
+        "percentile": 81.46,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -4554,8 +4587,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 85.75,
-        "rank": 129,
-        "percentile": 97.79,
+        "rank": 130,
+        "percentile": 97.77,
         "confidence": 1,
         "factors": {
           "recognition": 88,
@@ -4781,8 +4814,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 87.8,
-        "rank": 110,
-        "percentile": 98.12,
+        "rank": 111,
+        "percentile": 98.1,
         "confidence": 1,
         "factors": {
           "recognition": 92,
@@ -4879,8 +4912,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.18,
-        "rank": 819,
-        "percentile": 85.89,
+        "rank": 820,
+        "percentile": 85.87,
         "confidence": 0.8,
         "factors": {
           "recognition": 60,
@@ -4911,7 +4944,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 95.58,
+        "score": 95.61,
         "rank": 18,
         "percentile": 99.71,
         "confidence": 1,
@@ -4919,7 +4952,7 @@
           "recognition": 100,
           "selectivity": 91.84,
           "longevity": 100,
-          "community": 72.15,
+          "community": 72.41,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -5007,8 +5040,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 88.15,
-        "rank": 104,
-        "percentile": 98.22,
+        "rank": 105,
+        "percentile": 98.21,
         "confidence": 1,
         "factors": {
           "recognition": 92,
@@ -5039,7 +5072,7 @@
       "cp_index": {
         "score": 52.32,
         "rank": 1298,
-        "percentile": 77.62,
+        "percentile": 77.63,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -5087,6 +5120,39 @@
       "detail_page": "https://www.myhuiban.com/conference/625"
     },
     {
+      "id": 5632,
+      "short_name": "SOMET",
+      "full_name": "International Conference on Intelligent Software Methodologies, Tools, and Techniques",
+      "submission_date": "2027-03-15",
+      "notification_date": "2027-05-08",
+      "conference_date": "2027-09-08",
+      "location": "Riviera dei Fiori, Italy",
+      "years": 26,
+      "ccf_rank": "",
+      "core_rank": "C",
+      "qualis_rank": "",
+      "fields": [
+        "se"
+      ],
+      "is_extended": false,
+      "cp_index": {
+        "score": 57.13,
+        "rank": 753,
+        "percentile": 87.03,
+        "confidence": 0.8,
+        "factors": {
+          "recognition": 58,
+          "selectivity": null,
+          "longevity": 88.75,
+          "community": 8.25,
+          "openness": 55
+        },
+        "algorithm": "1.2",
+        "method": "https://www.myhuiban.com/ranking"
+      },
+      "detail_page": "https://www.myhuiban.com/conference/5632"
+    },
+    {
       "id": 154,
       "short_name": "SSDBM",
       "full_name": "International Conference on Scalable Scientific Data Management",
@@ -5105,7 +5171,7 @@
       "cp_index": {
         "score": 76.19,
         "rank": 254,
-        "percentile": 95.63,
+        "percentile": 95.64,
         "confidence": 0.8,
         "factors": {
           "recognition": 92,
@@ -5236,8 +5302,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.74,
-        "rank": 785,
-        "percentile": 86.47,
+        "rank": 786,
+        "percentile": 86.46,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -5334,8 +5400,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.22,
-        "rank": 817,
-        "percentile": 85.92,
+        "rank": 818,
+        "percentile": 85.91,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -5433,8 +5499,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 86.26,
-        "rank": 124,
-        "percentile": 97.88,
+        "rank": 125,
+        "percentile": 97.86,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -5466,7 +5532,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 92.46,
+        "score": 92.48,
         "rank": 50,
         "percentile": 99.15,
         "confidence": 1,
@@ -5474,7 +5540,7 @@
           "recognition": 100,
           "selectivity": 86.05,
           "longevity": 90.68,
-          "community": 71.14,
+          "community": 71.37,
           "openness": 100
         },
         "algorithm": "1.2",
@@ -5700,7 +5766,7 @@
       "cp_index": {
         "score": 63.64,
         "rank": 505,
-        "percentile": 91.3,
+        "percentile": 91.31,
         "confidence": 0.8,
         "factors": {
           "recognition": 72,
@@ -5797,15 +5863,15 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 88.3,
-        "rank": 99,
-        "percentile": 98.31,
+        "score": 88.31,
+        "rank": 100,
+        "percentile": 98.29,
         "confidence": 1,
         "factors": {
           "recognition": 92,
           "selectivity": 83.17,
           "longevity": 92.47,
-          "community": 82.17,
+          "community": 82.35,
           "openness": 85
         },
         "algorithm": "1.2",
@@ -5866,7 +5932,7 @@
       "cp_index": {
         "score": 58.15,
         "rank": 705,
-        "percentile": 87.85,
+        "percentile": 87.86,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6025,8 +6091,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 88.1,
-        "rank": 105,
-        "percentile": 98.21,
+        "rank": 106,
+        "percentile": 98.19,
         "confidence": 1,
         "factors": {
           "recognition": 100,
@@ -6058,8 +6124,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 53.49,
-        "rank": 1108,
-        "percentile": 80.9,
+        "rank": 1109,
+        "percentile": 80.89,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6093,8 +6159,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.81,
-        "rank": 779,
-        "percentile": 86.58,
+        "rank": 780,
+        "percentile": 86.56,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6127,7 +6193,7 @@
       "cp_index": {
         "score": 57.9,
         "rank": 716,
-        "percentile": 87.66,
+        "percentile": 87.67,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6159,8 +6225,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.61,
-        "rank": 793,
-        "percentile": 86.34,
+        "rank": 794,
+        "percentile": 86.32,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6193,8 +6259,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.03,
-        "rank": 834,
-        "percentile": 85.63,
+        "rank": 835,
+        "percentile": 85.61,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6227,7 +6293,7 @@
       "cp_index": {
         "score": 59.48,
         "rank": 643,
-        "percentile": 88.92,
+        "percentile": 88.93,
         "confidence": 0.8,
         "factors": {
           "recognition": 60,
@@ -6292,8 +6358,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 55.72,
-        "rank": 864,
-        "percentile": 85.11,
+        "rank": 865,
+        "percentile": 85.1,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6357,7 +6423,7 @@
       "cp_index": {
         "score": 59.11,
         "rank": 658,
-        "percentile": 88.66,
+        "percentile": 88.67,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6453,7 +6519,7 @@
       "is_extended": false,
       "cp_index": {
         "score": 43.49,
-        "rank": 3756,
+        "rank": 3757,
         "percentile": 35.21,
         "confidence": 0.8,
         "factors": {
@@ -6519,8 +6585,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 56.65,
-        "rank": 790,
-        "percentile": 86.39,
+        "rank": 791,
+        "percentile": 86.37,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
@@ -6552,8 +6618,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 53.92,
-        "rank": 1037,
-        "percentile": 82.13,
+        "rank": 1038,
+        "percentile": 82.11,
         "confidence": 0.8,
         "factors": {
           "recognition": 54,
@@ -6617,7 +6683,7 @@
       ],
       "is_extended": false,
       "cp_index": {
-        "score": 74.34,
+        "score": 74.35,
         "rank": 281,
         "percentile": 95.17,
         "confidence": 1,
@@ -6625,7 +6691,7 @@
           "recognition": 68,
           "selectivity": 68.95,
           "longevity": 85.58,
-          "community": 68.84,
+          "community": 68.92,
           "openness": 85
         },
         "algorithm": "1.2",
@@ -6685,8 +6751,8 @@
       "is_extended": false,
       "cp_index": {
         "score": 45.66,
-        "rank": 2862,
-        "percentile": 50.64,
+        "rank": 2865,
+        "percentile": 50.6,
         "confidence": 0.8,
         "factors": {
           "recognition": 58,
